@@ -1,0 +1,240 @@
+/* The Limerick Weekly - Newspaper Style */
+
+:root {
+    --newspaper-black: #1a1a1a;
+    --newspaper-gray: #666;
+    --newspaper-light: #f5f5f5;
+    --accent-color: #c41e3a;
+    --border-color: #ddd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    line-height: 1.6;
+    color: var(--newspaper-black);
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Masthead */
+.masthead {
+    border-bottom: 4px double var(--newspaper-black);
+    padding: 2rem 0 1rem;
+    text-align: center;
+    background: var(--newspaper-light);
+}
+
+.newspaper-title {
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    font-family: 'Georgia', serif;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.tagline {
+    font-size: 1rem;
+    color: var(--newspaper-gray);
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.issue-info {
+    font-size: 0.9rem;
+    color: var(--newspaper-gray);
+    font-family: Arial, sans-serif;
+}
+
+.divider {
+    margin: 0 0.5rem;
+}
+
+/* Navigation */
+.nav-bar {
+    background: var(--newspaper-black);
+    color: white;
+    padding: 0.75rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-bar .container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: color 0.3s;
+}
+
+.nav-bar a:hover {
+    color: var(--accent-color);
+}
+
+/* Hero Section */
+.hero {
+    padding: 3rem 0;
+    background: linear-gradient(135deg, #f5f5f5 0%, #fff 100%);
+    border-bottom: 2px solid var(--border-color);
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+
+.hero-text {
+    font-size: 1.2rem;
+    color: var(--newspaper-gray);
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    line-height: 1.8;
+}
+
+.hero-stats {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat strong {
+    font-size: 2.5rem;
+    color: var(--accent-color);
+    font-family: Arial, sans-serif;
+}
+
+.stat span {
+    font-size: 0.9rem;
+    color: var(--newspaper-gray);
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Coming Soon */
+.coming-soon {
+    padding: 3rem 0;
+}
+
+.notice {
+    background: var(--newspaper-light);
+    border: 3px solid var(--newspaper-black);
+    padding: 3rem;
+    text-align: center;
+}
+
+.notice h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.notice p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: var(--newspaper-gray);
+}
+
+.notice ul {
+    list-style: none;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.notice li {
+    padding: 0.5rem 0;
+}
+
+.launch-date {
+    font-size: 1.3rem !important;
+    color: var(--newspaper-black) !important;
+    margin-top: 2rem !important;
+}
+
+.launch-date strong {
+    color: var(--accent-color);
+}
+
+/* Footer */
+.footer {
+    background: var(--newspaper-black);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 3rem;
+    border-top: 4px double var(--newspaper-black);
+}
+
+.footer p {
+    margin: 0.5rem 0;
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+}
+
+.footer small {
+    opacity: 0.7;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .newspaper-title {
+        font-size: 2rem;
+    }
+
+    .hero h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero-text {
+        font-size: 1rem;
+    }
+
+    .hero-stats {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .nav-bar .container {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .notice {
+        padding: 2rem 1rem;
+    }
+}
