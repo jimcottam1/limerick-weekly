@@ -538,6 +538,10 @@ async function generateAllCategories() {
         const outputDir = path.join(__dirname, '..', 'output');
         const dateStr = new Date().toISOString().split('T')[0];
 
+        // Ensure output directory exists
+        await fs.mkdir(outputDir, { recursive: true });
+        console.log(`✓ Output directory ready: ${outputDir}`);
+
         // Generate each category page
         for (const [categoryKey, config] of Object.entries(CATEGORIES)) {
             console.log(`\n${config.icon} Processing ${config.title}...`);
