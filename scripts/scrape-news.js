@@ -253,15 +253,33 @@ async function scrapeNews() {
         }
     }
 
-    // Step 3: Remove duplicates (by URL/ID)
+    // Step 3: Remove duplicates (by URL/ID and title similarity)
     const uniqueArticles = [];
     const seenIds = new Set();
+    const seenUrls = new Set();
+    const seenTitles = new Set();
 
     for (const article of allArticles) {
-        if (!seenIds.has(article.id)) {
-            seenIds.add(article.id);
-            uniqueArticles.push(article);
+        const normalizedId = article.id?.toLowerCase().trim();
+        const normalizedUrl = article.link?.toLowerCase().trim();
+        const normalizedTitle = article.title?.toLowerCase().trim();
+
+        // Skip if we've seen this ID, URL, or exact title
+        if (seenIds.has(normalizedId)) {
+            continue;
         }
+        if (seenUrls.has(normalizedUrl)) {
+            continue;
+        }
+        if (seenTitles.has(normalizedTitle)) {
+            console.log(`   Skipping duplicate title: "${article.title}"`);
+            continue;
+        }
+
+        seenIds.add(normalizedId);
+        seenUrls.add(normalizedUrl);
+        seenTitles.add(normalizedTitle);
+        uniqueArticles.push(article);
     }
 
     console.log(`\n📊 Deduplication: ${allArticles.length} → ${uniqueArticles.length} unique articles`);

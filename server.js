@@ -109,6 +109,9 @@ app.get('/api/articles/recent', async (req, res) => {
         console.log(`   Pipeline fetch completed`);
 
         const articles = [];
+        const seenUrls = new Set();
+        const seenHeadlines = new Set();
+
         results.forEach((result, index) => {
             const [err, rewrittenData] = result;
             if (!err && rewrittenData) {
@@ -116,6 +119,24 @@ app.get('/api/articles/recent', async (req, res) => {
                     const article = JSON.parse(rewrittenData);
                     // Only include articles with Limerick connection
                     if (article.localAngle) {
+                        const normalizedUrl = article.originalLink?.toLowerCase().trim();
+                        const normalizedHeadline = article.headline?.toLowerCase().trim();
+
+                        // Check for duplicate URL
+                        if (seenUrls.has(normalizedUrl)) {
+                            console.log(`   Skipping duplicate URL: ${article.headline}`);
+                            return;
+                        }
+
+                        // Check for duplicate or very similar headline
+                        if (seenHeadlines.has(normalizedHeadline)) {
+                            console.log(`   Skipping duplicate headline: ${article.headline}`);
+                            return;
+                        }
+
+                        seenUrls.add(normalizedUrl);
+                        seenHeadlines.add(normalizedHeadline);
+
                         articles.push({
                             id: articleIds[index],
                             ...article
@@ -127,7 +148,7 @@ app.get('/api/articles/recent', async (req, res) => {
             }
         });
 
-        console.log(`   Returning ${articles.length} articles with local angles`);
+        console.log(`   Returning ${articles.length} unique articles with local angles`);
 
         res.json({
             count: articles.length,
