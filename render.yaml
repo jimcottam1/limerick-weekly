@@ -4,7 +4,7 @@ services:
     name: limerick-weekly
     env: node
     plan: free
-    buildCommand: npm install
+    buildCommand: npm install && node scripts/post-deploy.js
     startCommand: npm start
     envVars:
       - key: NODE_ENV

@@ -86,11 +86,31 @@ Once deployed, test these URLs:
 
 ## What Happens After Deployment
 
+### Initial Deployment
+When you first deploy, Render will:
+1. Install all dependencies (`npm install`)
+2. Run post-deployment script that:
+   - Creates required directories (`articles/`, `articles-html/`, `output/`)
+   - Attempts to generate initial content (scrape + AI rewrite + HTML generation)
+   - This may take 5-10 minutes but won't block deployment
+3. Start the web server
+4. Start the background scheduler worker
+
+### Daily Automatic Updates
 ✅ **Web Server**: Runs continuously, serves your website
 ✅ **Redis**: Connected to your existing Redis Cloud instance
-✅ **Scheduler**: Runs daily at 6 AM Irish time to update news
+✅ **Scheduler**: Runs **daily at 6 AM Irish time** to:
+   - Scrape latest news from NewsAPI and RSS feeds
+   - AI rewrite up to 20 articles with Limerick angle
+   - Generate new HTML article pages
+   - Update category pages
 ✅ **Auto-Deploy**: Every git push triggers automatic redeployment
 ✅ **Free Tier**: Includes 750 hours/month (enough for 24/7 uptime)
+
+### Content Generation Timeline
+- **On Deploy**: Initial content generated (if successful)
+- **Daily at 6 AM**: Fresh content automatically generated
+- **Manual**: Run `npm run weekly` anytime via Render Shell
 
 ## Important Notes
 
@@ -112,16 +132,24 @@ If you want instant response times, upgrade to paid plan ($7/month) or use a ser
 
 **Build fails?**
 - Check that `package.json` is committed
-- Verify build command: `npm install`
+- Verify build command includes post-deploy script
+- Check build logs in Render dashboard
 
 **Server won't start?**
 - Check environment variables are set correctly
 - View logs in Render dashboard
 - Verify Redis URL is accessible
 
+**No articles showing on first deployment?**
+- This is normal! Initial content generation may take 5-10 minutes
+- Check the build logs to see if content generation completed
+- Wait for 6 AM Irish time for the scheduler to run
+- OR manually run: `npm run weekly` from Render Shell
+
 **Scheduler not running?**
 - Make sure the background worker is deployed
 - Check worker logs for errors
+- Verify UPDATE_SCHEDULE environment variable is set
 
 ## Manual Updates
 
