@@ -35,8 +35,7 @@ async function dailyUpdate() {
         `AI rewriting (max ${MAX_ARTICLES_PER_DAY} articles)`
     );
 
-    // Step 3: Generate article pages
-    await runCommand('npm run articles', 'Generating article HTML pages');
+    // Note: Articles are now served dynamically from Redis, no static HTML generation needed
 
     console.log(`\n${'='.repeat(60)}`);
     console.log(`✅ Daily update complete!`);

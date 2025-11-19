@@ -11,7 +11,7 @@
     "articles": "node scripts/generate-article-pages.js",
     "generate": "node scripts/generate-weekly.js",
     "categories": "node scripts/generate-categories.js",
-    "weekly": "npm run scrape && npm run rewrite && npm run articles",
+    "weekly": "npm run scrape && npm run rewrite",
     "daily-update": "node scripts/daily-update.js",
     "clear-rewrites": "node scripts/clear-rewrites.js",
     "scheduler": "node scheduler.js",
