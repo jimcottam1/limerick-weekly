@@ -38,9 +38,6 @@ async function dailyUpdate() {
     // Step 3: Generate article pages
     await runCommand('npm run articles', 'Generating article HTML pages');
 
-    // Step 4: Generate categories
-    await runCommand('npm run categories', 'Generating category pages');
-
     console.log(`\n${'='.repeat(60)}`);
     console.log(`✅ Daily update complete!`);
     console.log(`🌐 Your news is now up to date`);
