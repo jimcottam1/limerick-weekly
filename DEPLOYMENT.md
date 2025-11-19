@@ -111,12 +111,17 @@ When you first deploy, Render will:
 ### Daily Automatic Updates
 ✅ **Web Server**: Runs continuously on Render, serves your website
 ✅ **Redis**: Connected to your existing Redis Cloud instance
-✅ **GitHub Actions**: Runs **daily at 6 AM UTC** (free forever!) to:
-   - Trigger the `/api/trigger-update` endpoint
-   - Server then scrapes latest news from NewsAPI and RSS feeds
-   - AI rewrites up to 20 articles with Limerick angle
-   - Generates new HTML article pages
-   - Updates category pages
+✅ **GitHub Actions**: Two workflows run automatically (free forever!):
+   1. **Daily Update** (6 AM UTC):
+      - Triggers the `/api/trigger-update` endpoint
+      - Server scrapes latest news from NewsAPI and RSS feeds
+      - AI rewrites up to 20 articles with Limerick angle
+      - Generates new HTML article pages
+      - Updates category pages
+   2. **Keep-Alive** (every 30 minutes):
+      - Pings `/health` endpoint
+      - Prevents Render free tier from spinning down
+      - Ensures instant response times 24/7
 ✅ **Auto-Deploy**: Every git push triggers automatic redeployment
 ✅ **Free Tier**: Render free tier includes 750 hours/month (enough for 24/7 uptime)
 
@@ -130,19 +135,23 @@ When you first deploy, Render will:
 
 ## Important Notes
 
-### Free Tier Limitations
-- Server spins down after 15 minutes of inactivity
-- First request after idle may take 30-60 seconds to wake up
-- 750 hours/month free (one service 24/7)
+### Free Tier Limitations & Keep-Alive
+- ✅ **Problem Solved!** GitHub Actions pings your server every 30 minutes
+- Server stays awake 24/7 with instant response times
+- No need for paid plans or external services
+- 750 hours/month free (enough for 24/7 uptime)
 
-### Keeping It Awake (Optional)
-If you want instant response times, upgrade to paid plan ($7/month) or use a service like UptimeRobot to ping your site every 5 minutes.
+The included `keep-alive.yml` workflow automatically prevents spin-down - no configuration needed!
 
 ### Monitoring
-- View logs in Render dashboard
-- Check Redis usage in Redis Cloud dashboard
-- Monitor Gemini API usage in Google Cloud Console
-- NewsAPI usage: https://newsapi.org/account
+- **GitHub Actions**: https://github.com/jimcottam1/limerick-weekly/actions
+  - View daily update runs and logs
+  - Check keep-alive ping history
+  - Manually trigger workflows anytime
+- **Render Dashboard**: View server logs and deployment history
+- **Redis Cloud**: Check database usage and connection stats
+- **Gemini API**: Monitor usage in Google Cloud Console
+- **NewsAPI**: https://newsapi.org/account
 
 ## Troubleshooting
 
