@@ -252,11 +252,21 @@ async function generateArticlePages() {
         const outputDir = path.join(__dirname, '..', 'articles-html');
         await fs.mkdir(outputDir, { recursive: true });
 
+        let limerickCount = 0;
+        let skippedCount = 0;
+
         for (const key of keys) {
             const articleData = await redis.get(key);
             if (!articleData) continue;
 
             const article = JSON.parse(articleData);
+
+            // Skip articles without a local angle (not Limerick-related)
+            if (!article.localAngle) {
+                skippedCount++;
+                continue;
+            }
+
             const articleId = key.replace('article:rewritten:', '');
             const safeId = articleId.replace(/[^a-z0-9]/gi, '-');
 
@@ -266,9 +276,13 @@ async function generateArticlePages() {
 
             await fs.writeFile(filepath, html);
             console.log(`✓ Generated: ${filename}`);
+            limerickCount++;
         }
 
-        console.log(`\n✅ Generated ${keys.length} article pages in articles-html/`);
+        console.log(`\n✅ Generated ${limerickCount} Limerick-related article pages in articles-html/`);
+        if (skippedCount > 0) {
+            console.log(`   ⊘ Skipped ${skippedCount} non-Limerick articles`);
+        }
 
     } catch (error) {
         console.error('❌ Error:', error.message);

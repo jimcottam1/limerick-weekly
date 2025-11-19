@@ -46,7 +46,7 @@ app.use('/articles', express.static('articles-html'));
 
 // Routes
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+    res.sendFile(path.join(__dirname, 'public', 'limerick-news.html'));
 });
 
 // Health check
@@ -74,17 +74,25 @@ app.get('/api/digest/latest', async (req, res) => {
     }
 });
 
-// Get recent articles
+// Get recent articles (rewritten versions with Limerick connections)
 app.get('/api/articles/recent', async (req, res) => {
     try {
-        const limit = parseInt(req.query.limit) || 20;
+        const limit = parseInt(req.query.limit) || 50;
         const articleIds = await redis.zrevrange('articles:by_date', 0, limit - 1);
 
         const articles = [];
         for (const id of articleIds) {
-            const data = await redis.get(`article:${id}`);
-            if (data) {
-                articles.push(JSON.parse(data));
+            // Try to get rewritten version first
+            const rewrittenData = await redis.get(`article:rewritten:${id}`);
+            if (rewrittenData) {
+                const article = JSON.parse(rewrittenData);
+                // Only include articles with Limerick connection
+                if (article.localAngle) {
+                    articles.push({
+                        id: id,
+                        ...article
+                    });
+                }
             }
         }
 
@@ -95,6 +103,20 @@ app.get('/api/articles/recent', async (req, res) => {
     } catch (error) {
         console.error('Error fetching articles:', error);
         res.status(500).json({ error: 'Failed to fetch articles' });
+    }
+});
+
+// Get single rewritten article
+app.get('/api/article/rewritten/:id', async (req, res) => {
+    try {
+        const data = await redis.get(`article:rewritten:${req.params.id}`);
+        if (!data) {
+            return res.status(404).json({ error: 'Article not found' });
+        }
+        res.json(JSON.parse(data));
+    } catch (error) {
+        console.error('Error fetching article:', error);
+        res.status(500).json({ error: 'Failed to fetch article' });
     }
 });
 

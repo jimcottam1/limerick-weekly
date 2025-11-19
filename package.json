@@ -11,7 +11,10 @@
     "articles": "node scripts/generate-article-pages.js",
     "generate": "node scripts/generate-weekly.js",
     "categories": "node scripts/generate-categories.js",
-    "weekly": "npm run scrape && npm run rewrite && npm run articles && npm run generate && npm run categories"
+    "weekly": "npm run scrape && npm run rewrite && npm run articles && npm run generate && npm run categories",
+    "daily-update": "node scripts/daily-update.js",
+    "scheduler": "node scheduler.js",
+    "prod": "node scheduler.js & node server.js"
   },
   "keywords": [
     "limerick",
@@ -24,11 +27,13 @@
   "license": "MIT",
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
+    "cheerio": "^1.1.2",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^4.18.2",
     "ioredis": "^5.8.2",
     "newsapi": "^2.4.1",
+    "node-cron": "^3.0.3",
     "node-fetch": "^2.7.0",
     "xml2js": "^0.6.2"
   },

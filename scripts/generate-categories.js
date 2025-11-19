@@ -72,12 +72,40 @@ async function getRecentArticles(limit = 100) {
 
         const articles = [];
         for (const id of articleIds) {
-            const data = await redis.get(`article:${id}`);
+            // Try to get rewritten version first (has localAngle)
+            let data = await redis.get(`article:rewritten:${id}`);
+
             if (data) {
-                articles.push(JSON.parse(data));
+                const rewritten = JSON.parse(data);
+                // Skip non-Limerick articles
+                if (!rewritten.localAngle) continue;
+
+                // Convert rewritten format to analysis format
+                articles.push({
+                    id: id,
+                    title: rewritten.headline,
+                    description: rewritten.story,
+                    link: rewritten.originalLink,
+                    source: rewritten.originalSource,
+                    pubDate: rewritten.publishedAt,
+                    imageUrl: rewritten.imageUrl,
+                    pullQuote: rewritten.pullQuote,
+                    localAngle: rewritten.localAngle
+                });
+            } else {
+                // Fallback to original article (but skip if no localAngle)
+                data = await redis.get(`article:${id}`);
+                if (data) {
+                    const article = JSON.parse(data);
+                    // Only include if it has localAngle (was rewritten)
+                    if (article.localAngle) {
+                        articles.push(article);
+                    }
+                }
             }
         }
 
+        console.log(`   ✓ Found ${articles.length} Limerick-related articles`);
         return articles;
     } catch (error) {
         console.error('Error fetching articles:', error.message);

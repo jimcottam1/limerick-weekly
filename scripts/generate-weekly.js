@@ -20,7 +20,7 @@ if (process.env.REDIS_URL) {
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
 /**
- * Get recent articles from Redis
+ * Get recent articles from Redis - prioritize rewritten articles with full content
  */
 async function getRecentArticles(limit = 50) {
     try {
@@ -32,16 +32,41 @@ async function getRecentArticles(limit = 50) {
             return [];
         }
 
-        // Fetch article data
+        // Fetch article data, preferring rewritten versions
         const articles = [];
         for (const id of articleIds) {
-            const data = await redis.get(`article:${id}`);
+            // Try to get rewritten version first (has full content)
+            let data = await redis.get(`article:rewritten:${id}`);
+
             if (data) {
-                articles.push(JSON.parse(data));
+                const rewritten = JSON.parse(data);
+                // Convert rewritten format to analysis format
+                articles.push({
+                    id: id,
+                    title: rewritten.headline,
+                    description: rewritten.story,
+                    link: rewritten.originalLink,
+                    source: rewritten.originalSource,
+                    pubDate: rewritten.publishedAt,
+                    imageUrl: rewritten.imageUrl,
+                    pullQuote: rewritten.pullQuote,
+                    localAngle: rewritten.localAngle
+                });
+            } else {
+                // Fallback to original article
+                data = await redis.get(`article:${id}`);
+                if (data) {
+                    articles.push(JSON.parse(data));
+                }
             }
         }
 
-        return articles;
+        // Filter for Limerick-related articles only (those with localAngle from rewriting)
+        const limerickArticles = articles.filter(article => article.localAngle);
+
+        console.log(`   ✓ Found ${articles.length} total articles, ${limerickArticles.length} Limerick-related`);
+
+        return limerickArticles;
     } catch (error) {
         console.error('Error fetching articles:', error.message);
         return [];
@@ -57,9 +82,12 @@ async function analyzeArticles(articles) {
     // Use the newer, faster Gemini Flash Lite model (same as windfarm)
     const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash-lite' });
 
-    // Prepare article summaries for AI
+    // Prepare article summaries for AI - now with full content
     const articleSummaries = articles.map((article, index) => {
-        return `[${index + 1}] ${article.title}\n   Source: ${article.source}\n   Summary: ${article.description.substring(0, 300)}...\n`;
+        const content = article.description || '';
+        // Use full content if available (rewritten articles), otherwise use first 1000 chars
+        const summary = content.length > 1000 ? content.substring(0, 1000) + '...' : content;
+        return `[${index + 1}] ${article.title}\n   Source: ${article.source}\n   Content: ${summary}\n`;
     }).join('\n');
 
     const prompt = `You are an AI editor for "The Limerick Weekly", a premium local news digest for Limerick, Ireland.

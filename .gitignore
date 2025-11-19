@@ -5,3 +5,12 @@ node_modules/
 .vercel
 cache/
 dist/
+
+# Generated content (will be created by the app)
+articles/
+articles-html/
+output/
+nul
+
+# Claude Code
+.claude/
