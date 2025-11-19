@@ -29,7 +29,10 @@ async function dailyUpdate() {
     // Step 1: Scrape new articles
     await runCommand('npm run scrape', 'Scraping new articles');
 
-    // Step 2: AI rewrite (with limit to control token usage)
+    // Step 2: AI deduplication (remove similar stories)
+    await runCommand('npm run dedupe', 'AI-powered deduplication');
+
+    // Step 3: AI rewrite (with limit to control token usage)
     await runCommand(
         `node scripts/rewrite-articles.js ${MAX_ARTICLES_PER_DAY}`,
         `AI rewriting (max ${MAX_ARTICLES_PER_DAY} articles)`
