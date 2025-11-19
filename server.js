@@ -94,21 +94,38 @@ app.get('/api/articles/recent', async (req, res) => {
         const articleIds = await redis.zrevrange('articles:by_date', 0, limit - 1);
         console.log(`   Found ${articleIds.length} article IDs in sorted set`);
 
+        if (articleIds.length === 0) {
+            console.log(`   No article IDs found`);
+            return res.json({ count: 0, articles: [] });
+        }
+
+        // Use Redis pipeline for bulk fetch (much faster than individual GETs)
+        const pipeline = redis.pipeline();
+        articleIds.forEach(id => {
+            pipeline.get(`article:rewritten:${id}`);
+        });
+
+        const results = await pipeline.exec();
+        console.log(`   Pipeline fetch completed`);
+
         const articles = [];
-        for (const id of articleIds) {
-            // Try to get rewritten version first
-            const rewrittenData = await redis.get(`article:rewritten:${id}`);
-            if (rewrittenData) {
-                const article = JSON.parse(rewrittenData);
-                // Only include articles with Limerick connection
-                if (article.localAngle) {
-                    articles.push({
-                        id: id,
-                        ...article
-                    });
+        results.forEach((result, index) => {
+            const [err, rewrittenData] = result;
+            if (!err && rewrittenData) {
+                try {
+                    const article = JSON.parse(rewrittenData);
+                    // Only include articles with Limerick connection
+                    if (article.localAngle) {
+                        articles.push({
+                            id: articleIds[index],
+                            ...article
+                        });
+                    }
+                } catch (parseError) {
+                    console.error(`   Error parsing article ${articleIds[index]}:`, parseError.message);
                 }
             }
-        }
+        });
 
         console.log(`   Returning ${articles.length} articles with local angles`);
 
