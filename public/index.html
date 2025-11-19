@@ -212,33 +212,20 @@
                 const response = await fetch('/api/articles/recent?limit=50');
                 const data = await response.json();
 
-                // Filter to get only rewritten articles with local angles
-                const articles = [];
+                console.log('API Response:', data); // Debug logging
 
-                // Get all rewritten article IDs
-                for (const article of data.articles) {
-                    try {
-                        const rewrittenResponse = await fetch(`/api/article/rewritten/${article.id}`);
-                        if (rewrittenResponse.ok) {
-                            const rewritten = await rewrittenResponse.json();
-                            if (rewritten.localAngle) {
-                                articles.push(rewritten);
-                            }
-                        }
-                    } catch (e) {
-                        // Skip if not found
-                    }
-                }
+                // The API already returns rewritten articles with localAngle
+                const articles = data.articles || [];
 
                 if (articles.length === 0) {
-                    document.getElementById('loadingMessage').innerHTML = '📰 No articles available. Run <code>npm run weekly</code> to generate content.';
+                    document.getElementById('loadingMessage').innerHTML = '📰 No articles available. Check Render logs or run update workflow.';
                     return;
                 }
 
                 displayArticles(articles);
             } catch (error) {
                 console.error('Error loading articles:', error);
-                document.getElementById('loadingMessage').innerHTML = '❌ Error loading articles. Please refresh the page.';
+                document.getElementById('loadingMessage').innerHTML = '❌ Error loading articles: ' + error.message;
             }
         }
 
