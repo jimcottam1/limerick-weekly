@@ -152,8 +152,12 @@ REQUIREMENTS:
 4. Write 3-5 paragraphs (300-500 words)
 5. Add a compelling headline that's different from the original
 6. Make it feel like original reporting, not a summary
-7. Be objective but engaging
-8. Include local context and impact
+7. Be objective, balanced, and respectful - avoid condescending or patronizing language
+8. Treat all communities, individuals, and groups with dignity and respect
+9. Report facts without editorial judgment about social class, income, or location
+10. Avoid rhetoric that implies some areas or people are "lesser than" others
+11. Use neutral, factual language when describing neighborhoods and communities
+12. Include local context and impact without sensationalism
 
 RESPOND IN JSON:
 {
