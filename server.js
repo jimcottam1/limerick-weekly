@@ -46,7 +46,7 @@ app.use('/articles', express.static('articles-html'));
 
 // Routes
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'limerick-news.html'));
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 // Health check

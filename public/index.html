@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Limerick Weekly - Saturday Edition</title>
+    <title>The Limerick Weekly - Local News for Limerick</title>
     <style>
         * {
             margin: 0;
@@ -12,308 +12,190 @@
         }
 
         body {
-            font-family: 'Times New Roman', Times, serif;
-            background: #f8f8f8;
-            color: #000;
-            line-height: 1.4;
+            font-family: 'Georgia', 'Times New Roman', serif;
+            background: #fafafa;
+            color: #1a1a1a;
+            line-height: 1.6;
         }
 
-        .newspaper {
-            max-width: 1000px;
-            margin: 20px auto;
-            background: #fff;
-            box-shadow: 0 0 30px rgba(0,0,0,0.3);
-            padding: 20px;
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            min-height: 100vh;
         }
 
-        /* Masthead */
-        .masthead {
-            border-bottom: 4px double #000;
-            border-top: 2px solid #000;
-            padding: 20px 0 10px 0;
-            margin-bottom: 10px;
-        }
-
-        .paper-name {
+        /* Header */
+        .header {
+            background: #1a1a1a;
+            color: white;
+            padding: 2rem;
             text-align: center;
-            font-family: 'Georgia', serif;
+            border-bottom: 4px solid #c41e3a;
         }
 
-        .paper-name h1 {
-            font-size: 4.5rem;
+        .header h1 {
+            font-size: 3rem;
             font-weight: 900;
-            letter-spacing: 0.2em;
-            margin-bottom: 5px;
-            text-transform: uppercase;
-            font-style: italic;
-        }
-
-        .edition-info {
-            text-align: center;
-            font-size: 0.85rem;
-            text-transform: uppercase;
             letter-spacing: 0.1em;
-            margin-top: 8px;
-            padding-top: 8px;
-            border-top: 1px solid #000;
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
         }
 
-        /* Navigation Tabs */
-        .sections-nav {
-            display: flex;
-            border-bottom: 3px solid #000;
-            margin-bottom: 20px;
-            background: #000;
+        .header p {
+            font-size: 1rem;
+            font-style: italic;
+            color: #ccc;
         }
 
-        .section-tab {
-            flex: 1;
-            padding: 12px;
-            text-align: center;
-            background: #000;
-            color: #fff;
-            cursor: pointer;
-            font-weight: bold;
+        .date {
+            margin-top: 1rem;
             font-size: 0.9rem;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            border-right: 1px solid #333;
-            transition: background 0.2s;
+            color: #999;
+            border-top: 1px solid #444;
+            padding-top: 1rem;
         }
 
-        .section-tab:last-child {
-            border-right: none;
+        /* Main Content */
+        .content {
+            padding: 3rem 2rem;
         }
 
-        .section-tab:hover {
-            background: #333;
+        .intro {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 2px solid #eee;
         }
 
-        .section-tab.active {
-            background: #fff;
-            color: #000;
+        .intro h2 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: #c41e3a;
         }
 
-        /* Section Content */
-        .section-content {
-            display: none !important;
+        .count {
+            font-size: 1.1rem;
+            color: #666;
         }
 
-        .section-content.active {
-            display: block !important;
+        /* Article List */
+        .articles-list {
+            list-style: none;
         }
 
-        .section-header {
-            border-bottom: 3px double #000;
-            margin-bottom: 20px;
-            padding-bottom: 5px;
+        .article-item {
+            border-bottom: 1px solid #eee;
+            padding: 2rem 0;
         }
 
-        .section-header h2 {
-            font-size: 2.5rem;
-            font-weight: 900;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
-
-        /* Article Grid */
-        .articles {
-            column-count: 2;
-            column-gap: 30px;
-            margin-bottom: 30px;
-        }
-
-        .article {
-            break-inside: avoid;
-            margin-bottom: 25px;
-            page-break-inside: avoid;
+        .article-item:last-child {
+            border-bottom: none;
         }
 
         .article-number {
             display: inline-block;
-            background: #000;
-            color: #fff;
-            padding: 3px 8px;
-            font-size: 0.7rem;
+            background: #c41e3a;
+            color: white;
+            padding: 0.3rem 0.8rem;
+            font-size: 0.9rem;
             font-weight: bold;
-            margin-bottom: 8px;
+            margin-bottom: 1rem;
         }
 
-        .article h3 {
-            font-size: 1.5rem;
-            line-height: 1.2;
-            margin-bottom: 8px;
-            font-weight: 900;
+        .article-title {
+            font-size: 1.8rem;
+            line-height: 1.3;
+            margin-bottom: 0.5rem;
         }
 
-        .article h3 a {
-            color: #000;
+        .article-title a {
+            color: #1a1a1a;
             text-decoration: none;
+            transition: color 0.3s;
         }
 
-        .article h3 a:hover {
-            text-decoration: underline;
+        .article-title a:hover {
+            color: #c41e3a;
         }
 
         .article-summary {
-            font-size: 1rem;
-            line-height: 1.5;
-            margin-bottom: 8px;
-            text-align: justify;
+            color: #555;
+            font-size: 1.05rem;
+            margin: 1rem 0;
+            line-height: 1.6;
         }
 
         .article-meta {
-            font-size: 0.85rem;
-            color: #666;
-            font-style: italic;
-            margin-bottom: 5px;
+            font-size: 0.9rem;
+            color: #999;
+            margin-top: 1rem;
         }
 
         .read-more {
-            font-size: 0.85rem;
-            font-weight: bold;
+            display: inline-block;
+            margin-top: 1rem;
+            color: #c41e3a;
             text-decoration: none;
-            color: #000;
-            border-bottom: 1px solid #000;
+            font-weight: bold;
+            font-size: 1rem;
         }
 
         .read-more:hover {
-            border-bottom: 2px solid #000;
-        }
-
-        /* Front Page - Special Layout */
-        .front-page .lead-story {
-            column-span: all;
-            border-bottom: 2px solid #000;
-            margin-bottom: 25px;
-            padding-bottom: 20px;
-        }
-
-        .front-page .lead-story h3 {
-            font-size: 2.5rem;
-            line-height: 1.1;
-        }
-
-        .front-page .lead-story .article-summary {
-            font-size: 1.1rem;
-            column-count: 2;
-            column-gap: 20px;
-        }
-
-        /* Loading */
-        .loading {
-            text-align: center;
-            padding: 60px;
-            font-size: 1.2rem;
+            text-decoration: underline;
         }
 
         /* Footer */
         .footer {
-            border-top: 2px solid #000;
-            margin-top: 30px;
-            padding-top: 15px;
+            background: #f5f5f5;
             text-align: center;
-            font-size: 0.85rem;
+            padding: 2rem;
+            border-top: 2px solid #eee;
+            margin-top: 3rem;
         }
 
-        @media (max-width: 768px) {
-            .articles {
-                column-count: 1;
-            }
+        .footer p {
+            margin: 0.5rem 0;
+            color: #666;
+            font-size: 0.9rem;
+        }
 
-            .paper-name h1 {
-                font-size: 2.5rem;
-            }
-
-            .sections-nav {
-                flex-wrap: wrap;
-            }
-
-            .section-tab {
-                flex: 1 1 33%;
-            }
+        .loading {
+            text-align: center;
+            padding: 4rem;
+            font-size: 1.2rem;
+            color: #666;
         }
     </style>
 </head>
 <body>
-    <div class="newspaper">
-        <!-- Masthead -->
-        <header class="masthead">
-            <div class="paper-name">
-                <h1>The Limerick Weekly</h1>
-            </div>
-            <div class="edition-info">
-                <span id="currentDate"></span> • AI-Generated Local News • Limerick, Ireland
-            </div>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>The Limerick Weekly</h1>
+            <p>Local News for Limerick</p>
+            <div class="date" id="currentDate"></div>
         </header>
 
-        <!-- Section Navigation -->
-        <nav class="sections-nav">
-            <div class="section-tab active" onclick="showSection('frontpage', this)">Front Page</div>
-            <div class="section-tab" onclick="showSection('sport', this)">Sport</div>
-            <div class="section-tab" onclick="showSection('local', this)">Local News</div>
-            <div class="section-tab" onclick="showSection('politics', this)">Politics</div>
-            <div class="section-tab" onclick="showSection('business', this)">Business</div>
-            <div class="section-tab" onclick="showSection('culture', this)">Culture</div>
-        </nav>
-
-        <!-- Loading -->
-        <div id="loadingMessage" class="loading">
-            📰 Loading today's edition...
-        </div>
-
-        <!-- Front Page Section -->
-        <div id="section-frontpage" class="section-content active">
-            <div class="section-header">
-                <h2>Today's Headlines</h2>
+        <!-- Main Content -->
+        <main class="content">
+            <div id="loadingMessage" class="loading">
+                📰 Loading articles...
             </div>
-            <div class="articles front-page" id="frontpage-articles"></div>
-        </div>
 
-        <!-- Sport Section -->
-        <div id="section-sport" class="section-content">
-            <div class="section-header">
-                <h2>⚽ Sport</h2>
+            <div id="articlesContainer" style="display: none;">
+                <div class="intro">
+                    <h2>Latest Stories</h2>
+                    <p class="count"><span id="articleCount"></span> articles with local Limerick connections</p>
+                </div>
+                <ul class="articles-list" id="articlesList"></ul>
             </div>
-            <div class="articles" id="sport-articles"></div>
-        </div>
-
-        <!-- Local News Section -->
-        <div id="section-local" class="section-content">
-            <div class="section-header">
-                <h2>🏘️ Local News</h2>
-            </div>
-            <div class="articles" id="local-articles"></div>
-        </div>
-
-        <!-- Politics Section -->
-        <div id="section-politics" class="section-content">
-            <div class="section-header">
-                <h2>🏛️ Politics</h2>
-            </div>
-            <div class="articles" id="politics-articles"></div>
-        </div>
-
-        <!-- Business Section -->
-        <div id="section-business" class="section-content">
-            <div class="section-header">
-                <h2>💼 Business</h2>
-            </div>
-            <div class="articles" id="business-articles"></div>
-        </div>
-
-        <!-- Culture Section -->
-        <div id="section-culture" class="section-content">
-            <div class="section-header">
-                <h2>🎭 Culture & Events</h2>
-            </div>
-            <div class="articles" id="culture-articles"></div>
-        </div>
+        </main>
 
         <!-- Footer -->
         <footer class="footer">
-            <p><strong>The Limerick Weekly</strong> • Established 2025</p>
-            <p>All articles AI-generated and rewritten for local relevance</p>
+            <p><strong>The Limerick Weekly</strong></p>
+            <p>Your source for local Limerick news</p>
         </footer>
     </div>
 
@@ -324,109 +206,101 @@
         const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
         dateEl.textContent = today.toLocaleDateString('en-IE', options);
 
-        // Section switching
-        function showSection(sectionName, element) {
-            // Hide all sections
-            document.querySelectorAll('.section-content').forEach(s => s.classList.remove('active'));
-            document.querySelectorAll('.section-tab').forEach(t => t.classList.remove('active'));
+        // Category mapping
+        const categoryMap = {
+            sport: '⚽ Sport',
+            politics: '🏛️ Politics',
+            local: '🏘️ Local',
+            business: '💼 Business',
+            events: '🎭 Events',
+            culture: '🎨 Culture'
+        };
 
-            // Show selected section
-            document.getElementById('section-' + sectionName).classList.add('active');
-            element.classList.add('active');
-        }
-
-        // Categorize articles
-        function categorizeArticle(article) {
+        // Determine category from article
+        function determineCategory(article) {
             const text = (article.headline + ' ' + article.story).toLowerCase();
 
-            if (text.match(/sport|rugby|gaa|football|hurling|racing|horse|match|team|athletic/i)) return 'sport';
-            if (text.match(/politics|government|election|party|minister|td|council|vote|candidate/i)) return 'politics';
-            if (text.match(/business|economy|jobs|company|enterprise|economic|trade|investment/i)) return 'business';
-            if (text.match(/culture|arts|music|festival|event|concert|theatre|exhibition|book/i)) return 'culture';
+            if (text.match(/sport|rugby|gaa|football|hurling|racing|horse|match|team/i)) return 'sport';
+            if (text.match(/politics|government|election|party|minister|td|council/i)) return 'politics';
+            if (text.match(/business|economy|jobs|company|enterprise/i)) return 'business';
+            if (text.match(/culture|arts|music|festival|event|concert/i)) return 'events';
 
             return 'local';
         }
 
-        // Load and display articles
+        // Load articles from Redis
         async function loadArticles() {
             try {
                 const response = await fetch('/api/articles/recent?limit=50');
                 const data = await response.json();
 
-                if (data.articles.length === 0) {
-                    document.getElementById('loadingMessage').innerHTML = '📰 No articles available.';
+                // Filter to get only rewritten articles with local angles
+                const articles = [];
+
+                // Get all rewritten article IDs
+                for (const article of data.articles) {
+                    try {
+                        const rewrittenResponse = await fetch(`/api/article/rewritten/${article.id}`);
+                        if (rewrittenResponse.ok) {
+                            const rewritten = await rewrittenResponse.json();
+                            if (rewritten.localAngle) {
+                                articles.push(rewritten);
+                            }
+                        }
+                    } catch (e) {
+                        // Skip if not found
+                    }
+                }
+
+                if (articles.length === 0) {
+                    document.getElementById('loadingMessage').innerHTML = '📰 No articles available. Run <code>npm run weekly</code> to generate content.';
                     return;
                 }
 
-                // Categorize articles
-                const categories = {
-                    sport: [],
-                    local: [],
-                    politics: [],
-                    business: [],
-                    culture: []
-                };
-
-                data.articles.forEach(article => {
-                    const category = categorizeArticle(article);
-                    categories[category].push(article);
-                });
-
-                // Display articles in each section
-                displayArticles(categories.sport, 'sport-articles', categories.sport.length);
-                displayArticles(categories.local, 'local-articles', categories.local.length);
-                displayArticles(categories.politics, 'politics-articles', categories.politics.length);
-                displayArticles(categories.business, 'business-articles', categories.business.length);
-                displayArticles(categories.culture, 'culture-articles', categories.culture.length);
-
-                // Front page gets mix of top stories from all categories
-                const frontPage = [
-                    ...categories.sport.slice(0, 2),
-                    ...categories.local.slice(0, 3),
-                    ...categories.politics.slice(0, 2),
-                    ...categories.business.slice(0, 1),
-                    ...categories.culture.slice(0, 2)
-                ].slice(0, 10);
-
-                displayArticles(frontPage, 'frontpage-articles', frontPage.length, true);
-
-                document.getElementById('loadingMessage').style.display = 'none';
-
+                displayArticles(articles);
             } catch (error) {
-                console.error('Error:', error);
-                document.getElementById('loadingMessage').innerHTML = '❌ Error loading articles.';
+                console.error('Error loading articles:', error);
+                document.getElementById('loadingMessage').innerHTML = '❌ Error loading articles. Please refresh the page.';
             }
         }
 
-        function displayArticles(articles, containerId, count, isFrontPage = false) {
-            const container = document.getElementById(containerId);
+        function displayArticles(articles) {
+            const container = document.getElementById('articlesList');
+            const articleCount = document.getElementById('articleCount');
 
-            if (articles.length === 0) {
-                container.innerHTML = '<p style="text-align: center; padding: 40px; color: #666;">No articles in this section.</p>';
-                return;
-            }
+            articleCount.textContent = articles.length;
 
             articles.forEach((article, index) => {
-                const articleId = article.originalLink.replace(/[^a-z0-9]/gi, '-');
+                // Create article ID for link
+                const articleId = article.originalLink
+                    .replace(/https?:\/\//, '')
+                    .replace(/[^a-z0-9]/gi, '-');
+
+                // Get first paragraph as summary
                 const firstParagraph = article.story.split('\n\n')[0];
-                const summary = firstParagraph.length > 150
-                    ? firstParagraph.substring(0, 150) + '...'
+                const summary = firstParagraph.length > 200
+                    ? firstParagraph.substring(0, 200) + '...'
                     : firstParagraph;
 
-                const isLeadStory = isFrontPage && index === 0;
-                const articleDiv = document.createElement('div');
-                articleDiv.className = 'article' + (isLeadStory ? ' lead-story' : '');
-
-                articleDiv.innerHTML = `
-                    <div class="article-number">${isLeadStory ? 'LEAD STORY' : `STORY ${index + 1}`}</div>
-                    <h3><a href="/articles/${articleId}.html">${article.headline}</a></h3>
+                const item = document.createElement('li');
+                item.className = 'article-item';
+                item.innerHTML = `
+                    <div class="article-number">#${index + 1}</div>
+                    <h2 class="article-title">
+                        <a href="/articles/${articleId}.html">${article.headline}</a>
+                    </h2>
                     <p class="article-summary">${summary}</p>
-                    <div class="article-meta">${article.originalSource}</div>
-                    <a href="/articles/${articleId}.html" class="read-more">Continue reading →</a>
+                    <div class="article-meta">
+                        ${article.originalSource} • ${new Date(article.publishedAt).toLocaleDateString('en-IE')}
+                    </div>
+                    <a href="/articles/${articleId}.html" class="read-more">Read Full Article →</a>
                 `;
 
-                container.appendChild(articleDiv);
+                container.appendChild(item);
             });
+
+            document.getElementById('loadingMessage').style.display = 'none';
+            document.getElementById('articlesContainer').style.display = 'block';
         }
 
         // Load articles on page load
