@@ -77,8 +77,22 @@ app.get('/api/digest/latest', async (req, res) => {
 // Get recent articles (rewritten versions with Limerick connections)
 app.get('/api/articles/recent', async (req, res) => {
     try {
+        console.log('📡 API request: /api/articles/recent');
+
         const limit = parseInt(req.query.limit) || 50;
+
+        // Check Redis connection
+        if (!redis || redis.status !== 'ready') {
+            console.error('⚠️  Redis not connected (status: ' + (redis?.status || 'null') + ')');
+            return res.status(503).json({
+                error: 'Database not available',
+                count: 0,
+                articles: []
+            });
+        }
+
         const articleIds = await redis.zrevrange('articles:by_date', 0, limit - 1);
+        console.log(`   Found ${articleIds.length} article IDs in sorted set`);
 
         const articles = [];
         for (const id of articleIds) {
@@ -96,13 +110,20 @@ app.get('/api/articles/recent', async (req, res) => {
             }
         }
 
+        console.log(`   Returning ${articles.length} articles with local angles`);
+
         res.json({
             count: articles.length,
             articles
         });
     } catch (error) {
-        console.error('Error fetching articles:', error);
-        res.status(500).json({ error: 'Failed to fetch articles' });
+        console.error('❌ Error fetching articles:', error);
+        res.status(500).json({
+            error: 'Failed to fetch articles',
+            message: error.message,
+            count: 0,
+            articles: []
+        });
     }
 });
 

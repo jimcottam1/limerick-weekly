@@ -209,23 +209,46 @@
         // Load articles from Redis
         async function loadArticles() {
             try {
-                const response = await fetch('/api/articles/recent?limit=50');
-                const data = await response.json();
+                // Add 10 second timeout
+                const controller = new AbortController();
+                const timeoutId = setTimeout(() => controller.abort(), 10000);
 
+                const response = await fetch('/api/articles/recent?limit=50', {
+                    signal: controller.signal
+                });
+                clearTimeout(timeoutId);
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
+                const data = await response.json();
                 console.log('API Response:', data); // Debug logging
 
                 // The API already returns rewritten articles with localAngle
                 const articles = data.articles || [];
 
                 if (articles.length === 0) {
-                    document.getElementById('loadingMessage').innerHTML = '📰 No articles available. Check Render logs or run update workflow.';
+                    document.getElementById('loadingMessage').innerHTML =
+                        '📰 No articles available yet.<br><br>' +
+                        '<small>Articles are generated daily at 6 AM UTC.<br>' +
+                        'Trigger manually via GitHub Actions → "Daily News Update"</small>';
                     return;
                 }
 
                 displayArticles(articles);
             } catch (error) {
                 console.error('Error loading articles:', error);
-                document.getElementById('loadingMessage').innerHTML = '❌ Error loading articles: ' + error.message;
+
+                if (error.name === 'AbortError') {
+                    document.getElementById('loadingMessage').innerHTML =
+                        '⏱️ API request timed out.<br><br>' +
+                        '<small>Redis may not be connected. Check REDIS_URL in Render environment variables.</small>';
+                } else {
+                    document.getElementById('loadingMessage').innerHTML =
+                        '❌ Error loading articles: ' + error.message + '<br><br>' +
+                        '<small>Check browser console for details.</small>';
+                }
             }
         }
 
