@@ -153,6 +153,41 @@ app.get('/api/stats', async (req, res) => {
     }
 });
 
+// Clear rewritten articles (for regeneration with improved prompts)
+app.post('/api/clear-rewrites', async (req, res) => {
+    try {
+        // Verify authorization token
+        const authToken = req.headers.authorization?.replace('Bearer ', '');
+        const expectedToken = process.env.UPDATE_TOKEN || 'default-secret-token';
+
+        if (authToken !== expectedToken) {
+            return res.status(401).json({ error: 'Unauthorized' });
+        }
+
+        const clearFiles = req.body?.clearFiles || false;
+        console.log(`🗑️  Clear rewrites triggered via API (clearFiles: ${clearFiles})`);
+
+        // Import the clear function
+        const { clearRewrites } = require('./scripts/clear-rewrites');
+
+        // Run clear in background (don't wait for completion)
+        clearRewrites(clearFiles)
+            .then(({ cleared }) => console.log(`✅ Cleared ${cleared} rewritten articles`))
+            .catch(err => console.error('❌ Clear rewrites failed:', err));
+
+        // Return immediately
+        res.json({
+            status: 'started',
+            message: 'Clear rewrites triggered successfully',
+            clearFiles,
+            timestamp: new Date().toISOString()
+        });
+    } catch (error) {
+        console.error('Error clearing rewrites:', error);
+        res.status(500).json({ error: 'Failed to clear rewrites' });
+    }
+});
+
 // Trigger daily update (for GitHub Actions)
 app.post('/api/trigger-update', async (req, res) => {
     try {

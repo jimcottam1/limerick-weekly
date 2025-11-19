@@ -1,0 +1,128 @@
+name: Clear and Regenerate Articles
+
+on:
+  # Allow manual triggering only (no schedule)
+  workflow_dispatch:
+    inputs:
+      clear_files:
+        description: 'Also clear backup files from disk?'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  clear-and-regenerate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clear Old Rewrites
+        shell: bash
+        run: |
+          #!/usr/bin/env bash
+          set -euo pipefail
+
+          echo "🗑️  Clearing old rewritten articles..."
+          echo "📅 $(date)"
+          echo "🗂️  Clear files: ${{ github.event.inputs.clear_files || 'false' }}"
+
+          # Call the clear endpoint
+          curl_response=$(curl -X POST \
+            -H "Authorization: Bearer ${{ secrets.UPDATE_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -d '{"clearFiles": ${{ github.event.inputs.clear_files || false }}}' \
+            -w "\n%{http_code}" \
+            -sS \
+            "${{ secrets.RENDER_URL }}/api/clear-rewrites" || echo "CURL_ERROR")
+
+          # Detect curl-level failure
+          if [[ "$curl_response" == "CURL_ERROR" ]]; then
+            echo "❌ Curl failed (network, DNS, SSL, timeout, or server unreachable)"
+            exit 1
+          fi
+
+          # Extract HTTP status code and body
+          http_code=$(echo "$curl_response" | tail -n1)
+          body=$(echo "$curl_response" | sed '$d')
+
+          echo "Response code: $http_code"
+          echo "Response body: $body"
+
+          # Validate HTTP code is numeric
+          if ! [[ "$http_code" =~ ^[0-9]+$ ]]; then
+            echo "❌ Invalid or missing HTTP status code!"
+            echo "Raw curl output:"
+            echo "$curl_response"
+            exit 1
+          fi
+
+          # Check success
+          if [[ "$http_code" -eq 200 ]]; then
+            echo "✅ Old articles cleared successfully!"
+          else
+            echo "❌ Clear failed (HTTP $http_code)"
+            exit 1
+          fi
+
+      - name: Wait for Clear to Complete
+        run: |
+          echo "⏳ Waiting 5 seconds for clear operation to complete..."
+          sleep 5
+
+      - name: Trigger Regeneration
+        shell: bash
+        run: |
+          #!/usr/bin/env bash
+          set -euo pipefail
+
+          echo ""
+          echo "🔄 Triggering article regeneration..."
+          echo "📅 $(date)"
+
+          # Call the update endpoint to regenerate articles
+          curl_response=$(curl -X POST \
+            -H "Authorization: Bearer ${{ secrets.UPDATE_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -w "\n%{http_code}" \
+            -sS \
+            "${{ secrets.RENDER_URL }}/api/trigger-update" || echo "CURL_ERROR")
+
+          # Detect curl-level failure
+          if [[ "$curl_response" == "CURL_ERROR" ]]; then
+            echo "❌ Curl failed (network, DNS, SSL, timeout, or server unreachable)"
+            exit 1
+          fi
+
+          # Extract HTTP status code and body
+          http_code=$(echo "$curl_response" | tail -n1)
+          body=$(echo "$curl_response" | sed '$d')
+
+          echo "Response code: $http_code"
+          echo "Response body: $body"
+
+          # Validate HTTP code is numeric
+          if ! [[ "$http_code" =~ ^[0-9]+$ ]]; then
+            echo "❌ Invalid or missing HTTP status code!"
+            echo "Raw curl output:"
+            echo "$curl_response"
+            exit 1
+          fi
+
+          # Check success
+          if [[ "$http_code" -eq 200 ]]; then
+            echo "✅ Regeneration triggered successfully!"
+          else
+            echo "❌ Regeneration failed (HTTP $http_code)"
+            exit 1
+          fi
+
+      - name: Summary
+        if: success()
+        run: |
+          echo "### ✅ Articles Cleared and Regenerated" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Old rewritten articles have been cleared and regeneration has started." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Time**: $(date)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Status**: Regeneration in progress" >> $GITHUB_STEP_SUMMARY
+          echo "- **Note**: New articles will use the improved, respectful tone" >> $GITHUB_STEP_SUMMARY
+          echo "- **Duration**: Regeneration may take 5-10 minutes to complete" >> $GITHUB_STEP_SUMMARY
