@@ -158,6 +158,10 @@ REQUIREMENTS:
 10. Avoid rhetoric that implies some areas or people are "lesser than" others
 11. Use neutral, factual language when describing neighborhoods and communities
 12. Include local context and impact without sensationalism
+13. MAINTAIN A POSITIVE, CONSTRUCTIVE TONE - focus on solutions, community resilience, and progress
+14. When reporting challenges, highlight efforts being made to address them and community responses
+15. Emphasize local achievements, community spirit, and positive developments
+16. Frame stories in ways that inform and uplift rather than sensationalize or discourage
 
 RESPOND IN JSON:
 {
