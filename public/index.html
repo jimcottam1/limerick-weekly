@@ -236,10 +236,8 @@
             articleCount.textContent = articles.length;
 
             articles.forEach((article, index) => {
-                // Create article ID for link
-                const articleId = article.originalLink
-                    .replace(/https?:\/\//, '')
-                    .replace(/[^a-z0-9]/gi, '-');
+                // Create article ID for link - must match generate-article-pages.js logic
+                const articleId = article.id.replace(/[^a-z0-9]/gi, '-');
 
                 // Get first paragraph as summary
                 const firstParagraph = article.story.split('\n\n')[0];
