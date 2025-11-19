@@ -206,28 +206,6 @@
         const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
         dateEl.textContent = today.toLocaleDateString('en-IE', options);
 
-        // Category mapping
-        const categoryMap = {
-            sport: '⚽ Sport',
-            politics: '🏛️ Politics',
-            local: '🏘️ Local',
-            business: '💼 Business',
-            events: '🎭 Events',
-            culture: '🎨 Culture'
-        };
-
-        // Determine category from article
-        function determineCategory(article) {
-            const text = (article.headline + ' ' + article.story).toLowerCase();
-
-            if (text.match(/sport|rugby|gaa|football|hurling|racing|horse|match|team/i)) return 'sport';
-            if (text.match(/politics|government|election|party|minister|td|council/i)) return 'politics';
-            if (text.match(/business|economy|jobs|company|enterprise/i)) return 'business';
-            if (text.match(/culture|arts|music|festival|event|concert/i)) return 'events';
-
-            return 'local';
-        }
-
         // Load articles from Redis
         async function loadArticles() {
             try {
