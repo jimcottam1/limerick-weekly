@@ -54,19 +54,31 @@ In your Render service settings, add these **secret** environment variables:
 - `GEMINI_API_KEY` = `AIzaSyAhFGFCHpcX6f4sUunxXavIhUDP-ff1zdk`
 - `REDIS_URL` = `redis://default:fTogsFImpS9dAuzkxnTuGUVybaXoimhJ@redis-15214.c1.eu-west-1-3.ec2.redns.redis-cloud.com:15214`
 - `NEWSAPI_KEY` = `f8105cb0a7b54338b115432bfbe4ed33`
+- `UPDATE_TOKEN` = (generate a random secret token - see below)
+
+**Generate UPDATE_TOKEN:**
+```bash
+# Run this to generate a secure random token:
+node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
+```
+Copy the output and use it as your UPDATE_TOKEN in both Render and GitHub (next step).
 
 All other variables are already in the render.yaml file.
 
-### 5. Add Background Worker (For Daily Updates)
+### 5. Set Up GitHub Actions for Daily Updates
 
-1. Click **"New +"** → **"Background Worker"**
-2. Select same repository
-3. Configure:
-   - **Name**: limerick-weekly-scheduler
-   - **Environment**: Node
-   - **Build Command**: `npm install`
-   - **Start Command**: `npm run scheduler`
-4. Add the same environment variables as above
+GitHub Actions will automatically trigger daily updates at 6 AM (completely free!).
+
+1. Go to your GitHub repository: https://github.com/jimcottam1/limerick-weekly
+2. Click **Settings** → **Secrets and variables** → **Actions**
+3. Click **"New repository secret"** and add:
+   - Name: `UPDATE_TOKEN`
+   - Value: (paste the same token you used in Render)
+4. Add another secret:
+   - Name: `RENDER_URL`
+   - Value: `https://your-app-name.onrender.com` (replace with your actual Render URL)
+
+That's it! GitHub Actions is now configured to trigger updates daily.
 
 ### 6. Deploy!
 
@@ -94,23 +106,27 @@ When you first deploy, Render will:
    - Attempts to generate initial content (scrape + AI rewrite + HTML generation)
    - This may take 5-10 minutes but won't block deployment
 3. Start the web server
-4. Start the background scheduler worker
+4. GitHub Actions will handle daily updates (no background worker needed!)
 
 ### Daily Automatic Updates
-✅ **Web Server**: Runs continuously, serves your website
+✅ **Web Server**: Runs continuously on Render, serves your website
 ✅ **Redis**: Connected to your existing Redis Cloud instance
-✅ **Scheduler**: Runs **daily at 6 AM Irish time** to:
-   - Scrape latest news from NewsAPI and RSS feeds
-   - AI rewrite up to 20 articles with Limerick angle
-   - Generate new HTML article pages
-   - Update category pages
+✅ **GitHub Actions**: Runs **daily at 6 AM UTC** (free forever!) to:
+   - Trigger the `/api/trigger-update` endpoint
+   - Server then scrapes latest news from NewsAPI and RSS feeds
+   - AI rewrites up to 20 articles with Limerick angle
+   - Generates new HTML article pages
+   - Updates category pages
 ✅ **Auto-Deploy**: Every git push triggers automatic redeployment
-✅ **Free Tier**: Includes 750 hours/month (enough for 24/7 uptime)
+✅ **Free Tier**: Render free tier includes 750 hours/month (enough for 24/7 uptime)
 
 ### Content Generation Timeline
 - **On Deploy**: Initial content generated (if successful)
-- **Daily at 6 AM**: Fresh content automatically generated
-- **Manual**: Run `npm run weekly` anytime via Render Shell
+- **Daily at 6 AM UTC**: Fresh content automatically generated via GitHub Actions
+- **Manual**:
+  - Via Render Shell: `npm run weekly`
+  - Via GitHub Actions: Go to Actions tab → "Daily News Update" → "Run workflow"
+  - Via API: `curl -X POST -H "Authorization: Bearer YOUR_TOKEN" https://your-app.onrender.com/api/trigger-update`
 
 ## Important Notes
 
@@ -146,10 +162,12 @@ If you want instant response times, upgrade to paid plan ($7/month) or use a ser
 - Wait for 6 AM Irish time for the scheduler to run
 - OR manually run: `npm run weekly` from Render Shell
 
-**Scheduler not running?**
-- Make sure the background worker is deployed
-- Check worker logs for errors
-- Verify UPDATE_SCHEDULE environment variable is set
+**Daily updates not running?**
+- Check GitHub Actions tab in your repository
+- Verify both secrets are set: `UPDATE_TOKEN` and `RENDER_URL`
+- Check the workflow run logs for errors
+- Manually test: Actions tab → "Daily News Update" → "Run workflow"
+- Verify the API endpoint works: test with curl command above
 
 ## Manual Updates
 

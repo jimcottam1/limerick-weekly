@@ -17,36 +17,7 @@ services:
         sync: false
       - key: NEWSAPI_KEY
         sync: false
-      - key: RSS_FEEDS
-        value: https://www.limerickpost.ie/feed/,https://www.limerickleader.ie/rss/,https://www.live95.ie/feed/
-      - key: LIMERICK_KEYWORDS
-        value: Limerick,Munster,Shannon,Treaty City
-      - key: ARTICLES_TO_ANALYZE
-        value: 50
-      - key: TOP_STORIES_COUNT
-        value: 10
-      - key: MIN_ARTICLE_LENGTH
-        value: 100
-      - key: MAX_DAILY_REWRITES
-        value: 20
-      - key: UPDATE_SCHEDULE
-        value: 0 6 * * *
-
-  # Background worker for scheduled updates
-  - type: worker
-    name: limerick-weekly-scheduler
-    env: node
-    plan: free
-    buildCommand: npm install
-    startCommand: npm run scheduler
-    envVars:
-      - key: NODE_ENV
-        value: production
-      - key: GEMINI_API_KEY
-        sync: false
-      - key: REDIS_URL
-        sync: false
-      - key: NEWSAPI_KEY
+      - key: UPDATE_TOKEN
         sync: false
       - key: RSS_FEEDS
         value: https://www.limerickpost.ie/feed/,https://www.limerickleader.ie/rss/,https://www.live95.ie/feed/
@@ -60,5 +31,3 @@ services:
         value: 100
       - key: MAX_DAILY_REWRITES
         value: 20
-      - key: UPDATE_SCHEDULE
-        value: 0 6 * * *

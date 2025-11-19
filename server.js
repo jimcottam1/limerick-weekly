@@ -153,6 +153,39 @@ app.get('/api/stats', async (req, res) => {
     }
 });
 
+// Trigger daily update (for GitHub Actions)
+app.post('/api/trigger-update', async (req, res) => {
+    try {
+        // Verify authorization token
+        const authToken = req.headers.authorization?.replace('Bearer ', '');
+        const expectedToken = process.env.UPDATE_TOKEN || 'default-secret-token';
+
+        if (authToken !== expectedToken) {
+            return res.status(401).json({ error: 'Unauthorized' });
+        }
+
+        console.log('🔄 Manual update triggered via API');
+
+        // Import the daily update function
+        const { dailyUpdate } = require('./scripts/daily-update');
+
+        // Run update in background (don't wait for completion)
+        dailyUpdate()
+            .then(() => console.log('✅ Scheduled update completed'))
+            .catch(err => console.error('❌ Scheduled update failed:', err));
+
+        // Return immediately
+        res.json({
+            status: 'started',
+            message: 'Daily update triggered successfully',
+            timestamp: new Date().toISOString()
+        });
+    } catch (error) {
+        console.error('Error triggering update:', error);
+        res.status(500).json({ error: 'Failed to trigger update' });
+    }
+});
+
 // Start server
 app.listen(PORT, () => {
     console.log(`🗞️  The Limerick Weekly server running on http://localhost:${PORT}`);

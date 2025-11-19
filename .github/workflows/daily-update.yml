@@ -1,0 +1,51 @@
+name: Daily News Update
+
+on:
+  # Schedule: Every day at 6:00 AM UTC (6 AM GMT/7 AM IST)
+  # Adjust time as needed: https://crontab.guru/
+  schedule:
+    - cron: '0 6 * * *'
+
+  # Allow manual triggering from GitHub Actions tab
+  workflow_dispatch:
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger Daily Update
+        run: |
+          echo "🔄 Triggering daily news update..."
+          echo "📅 $(date)"
+
+          response=$(curl -X POST \
+            -H "Authorization: Bearer ${{ secrets.UPDATE_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -w "\n%{http_code}" \
+            -s \
+            "${{ secrets.RENDER_URL }}/api/trigger-update")
+
+          http_code=$(echo "$response" | tail -n1)
+          body=$(echo "$response" | sed '$d')
+
+          echo "Response code: $http_code"
+          echo "Response body: $body"
+
+          if [ "$http_code" -eq 200 ]; then
+            echo "✅ Update triggered successfully!"
+          else
+            echo "❌ Update failed with status code: $http_code"
+            exit 1
+          fi
+
+      - name: Summary
+        if: success()
+        run: |
+          echo "### ✅ Daily Update Triggered" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "The Limerick Weekly content update was triggered successfully." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Time**: $(date)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Status**: Content generation started" >> $GITHUB_STEP_SUMMARY
+          echo "- **Note**: Generation may take 5-10 minutes to complete" >> $GITHUB_STEP_SUMMARY
