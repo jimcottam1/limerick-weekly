@@ -15,27 +15,48 @@ jobs:
 
     steps:
       - name: Trigger Daily Update
+        shell: bash
         run: |
+          #!/usr/bin/env bash
+          set -euo pipefail
+
           echo "🔄 Triggering daily news update..."
           echo "📅 $(date)"
 
-          response=$(curl -X POST \
+          # Run curl safely and capture both body + status
+          curl_response=$(curl -X POST \
             -H "Authorization: Bearer ${{ secrets.UPDATE_TOKEN }}" \
             -H "Content-Type: application/json" \
             -w "\n%{http_code}" \
-            -s \
-            "${{ secrets.RENDER_URL }}/api/trigger-update")
+            -sS \
+            "${{ secrets.RENDER_URL }}/api/trigger-update" || echo "CURL_ERROR")
 
-          http_code=$(echo "$response" | tail -n1)
-          body=$(echo "$response" | sed '$d')
+          # Detect curl-level failure
+          if [[ "$curl_response" == "CURL_ERROR" ]]; then
+            echo "❌ Curl failed (network, DNS, SSL, timeout, or server unreachable)"
+            exit 1
+          fi
+
+          # Extract HTTP status code and body
+          http_code=$(echo "$curl_response" | tail -n1)
+          body=$(echo "$curl_response" | sed '$d')
 
           echo "Response code: $http_code"
           echo "Response body: $body"
 
-          if [ "$http_code" -eq 200 ]; then
+          # Validate HTTP code is numeric
+          if ! [[ "$http_code" =~ ^[0-9]+$ ]]; then
+            echo "❌ Invalid or missing HTTP status code!"
+            echo "Raw curl output:"
+            echo "$curl_response"
+            exit 1
+          fi
+
+          # Check success
+          if [[ "$http_code" -eq 200 ]]; then
             echo "✅ Update triggered successfully!"
           else
-            echo "❌ Update failed with status code: $http_code"
+            echo "❌ Update failed (HTTP $http_code)"
             exit 1
           fi
 
