@@ -13,6 +13,7 @@
     "categories": "node scripts/generate-categories.js",
     "weekly": "npm run scrape && npm run rewrite && npm run articles && npm run generate && npm run categories",
     "daily-update": "node scripts/daily-update.js",
+    "clear-rewrites": "node scripts/clear-rewrites.js",
     "scheduler": "node scheduler.js",
     "prod": "node scheduler.js & node server.js"
   },
