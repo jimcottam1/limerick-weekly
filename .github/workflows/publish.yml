@@ -1,0 +1,108 @@
+name: Update and Publish
+
+on:
+  # Every day at 06:00 UTC (07:00 in Irish summer time)
+  schedule:
+    - cron: '0 6 * * *'
+
+  # Manual run from the Actions tab
+  workflow_dispatch:
+    inputs:
+      clear_rewrites:
+        description: 'Clear all rewritten articles first, so they are regenerated (e.g. after changing the prompt)'
+        required: false
+        type: boolean
+        default: false
+
+  # Redeploy the site when the front end or builder changes (no scraping or AI calls on push)
+  push:
+    branches: [master]
+    paths:
+      - 'public/**'
+      - 'scripts/build-site.js'
+      - 'scripts/lib/**'
+      - '.github/workflows/publish.yml'
+
+# Only one publish at a time; let a running one finish rather than cancelling it mid-commit
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+env:
+  RSS_FEEDS: https://www.limerickpost.ie/feed/,https://www.limerickleader.ie/rss/,https://www.live95.ie/feed/
+  LIMERICK_KEYWORDS: Limerick,Munster,Shannon,Treaty City
+  MIN_ARTICLE_LENGTH: 100
+  MAX_DAILY_REWRITES: 20
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # commit data/store.json
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Check secrets
+        if: github.event_name != 'push'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo "::error::GEMINI_API_KEY secret is not set (Settings > Secrets and variables > Actions)"
+            exit 1
+          fi
+
+      - name: Clear rewritten articles
+        if: github.event_name == 'workflow_dispatch' && inputs.clear_rewrites
+        run: npm run clear-rewrites
+
+      - name: Scrape, deduplicate and rewrite
+        if: github.event_name != 'push'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+        run: |
+          npm run scrape
+          npm run dedupe
+          npm run rewrite
+
+      - name: Commit updated article store
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # The store doesn't exist until the first scrape has run
+          if [ -f data/store.json ]; then git add data/store.json; fi
+          if git diff --cached --quiet; then
+            echo "No changes to the article store"
+          else
+            git commit -m "chore: update article store [skip ci]"
+            git pull --rebase
+            git push
+          fi
+
+      - name: Build site
+        run: npm run build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
