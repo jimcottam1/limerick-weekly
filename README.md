@@ -1,4 +1,4 @@
-# The Limerick Weekly
+# The 061
 
 AI-curated local news for Limerick, published as a static site on GitHub Pages.
 

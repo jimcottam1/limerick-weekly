@@ -112,7 +112,7 @@ Respond with ONLY "YES" or "NO"`;
 async function rewriteArticle(originalArticle, fullContent) {
     console.log(`\n✍️  Rewriting: ${originalArticle.title.substring(0, 60)}...`);
 
-    const prompt = `You are a professional journalist writing for "The Limerick Weekly" newspaper.
+    const prompt = `You are a professional journalist writing for "The 061", a Limerick news site named after the local phone code.
 
 SOURCE ARTICLE:
 Title: ${originalArticle.title}
@@ -122,7 +122,7 @@ Summary: ${originalArticle.description}
 
 ${fullContent ? `FULL CONTENT:\n${fullContent}` : ''}
 
-TASK: Rewrite this as an original news story for The Limerick Weekly.
+TASK: Rewrite this as an original news story for The 061.
 
 REQUIREMENTS:
 1. Write in journalistic style - clear, engaging, professional

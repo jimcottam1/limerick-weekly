@@ -1,4 +1,4 @@
-/* The Limerick Weekly - shared broadsheet styles for the front page and article pages */
+/* The 061 - shared broadsheet styles for the front page and article pages */
 
 :root {
     --paper: #f4f0e6;
@@ -9,7 +9,6 @@
     --rule: #1c1a17;
     --rule-light: #c9c1ad;
     --accent: #8b1c1c;
-    --masthead: 'UnifrakturMaguntia', 'Old English Text MT', serif;
     --display: 'Playfair Display', Georgia, serif;
     --body: 'Source Serif 4', Georgia, 'Times New Roman', serif;
     --label: 'Libre Franklin', 'Helvetica Neue', Arial, sans-serif;
@@ -62,12 +61,26 @@ a:hover { color: var(--accent); }
 }
 
 .masthead-title {
-    font-family: var(--masthead);
-    font-weight: 400;
-    font-size: clamp(40px, 6.6vw, 84px);
-    line-height: 1;
+    font-family: var(--display);
+    font-weight: 900;
+    font-size: clamp(64px, 11vw, 132px);
+    line-height: 0.9;
+    letter-spacing: -0.03em;
+    font-variant-numeric: lining-nums;
     text-align: center;
     white-space: nowrap;
+}
+
+/* Small italic "The" sitting beside the big 061 */
+.mast-the {
+    font-family: var(--display);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 0.3em;
+    letter-spacing: 0;
+    vertical-align: 0.95em;
+    margin-right: 0.12em;
+    color: var(--accent);
 }
 
 .masthead-title a:hover { color: var(--ink); }
@@ -117,7 +130,7 @@ a:hover { color: var(--accent); }
 }
 
 .masthead-compact .masthead { grid-template-columns: 1fr; padding: 10px 0 6px; }
-.masthead-compact .masthead-title { font-size: clamp(34px, 6vw, 60px); }
+.masthead-compact .masthead-title { font-size: clamp(48px, 7vw, 72px); }
 
 /* ---------- Shared type ---------- */
 
@@ -348,8 +361,10 @@ a:hover { color: var(--accent); }
 }
 
 .colophon .masthead-small {
-    font-family: var(--masthead);
-    font-size: 26px;
+    font-family: var(--display);
+    font-weight: 900;
+    font-size: 30px;
+    font-variant-numeric: lining-nums;
     letter-spacing: 0;
     text-transform: none;
     color: var(--ink);
@@ -370,7 +385,7 @@ a:hover { color: var(--accent); }
     .story:nth-child(2n) { padding-right: 0; border-right: none; }
     .ear { display: none; }
     .masthead { grid-template-columns: 1fr; }
-    .masthead-title { font-size: clamp(34px, 9.5vw, 84px); }
+    .masthead-title { font-size: clamp(56px, 18vw, 112px); }
 }
 
 @media (max-width: 600px) {

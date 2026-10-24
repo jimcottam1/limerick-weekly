@@ -62,7 +62,7 @@ function collectArticles() {
 
 const FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Playfair+Display:ital,wght@0,700;0,900;1,400&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=UnifrakturMaguntia&display=swap">`;
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Playfair+Display:ital,wght@0,700;0,900;1,400&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">`;
 
 /** Feed names come from the feed hostname; show them the way the papers write them. */
 const SOURCE_NAMES = {
@@ -105,7 +105,7 @@ function articleHtml(article) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${escapeHtml(article.headline)} - The Limerick Weekly</title>
+    <title>${escapeHtml(article.headline)} - The 061</title>
     <meta name="description" content="${escapeHtml(article.subheadline || article.headline)}">
     ${FONTS}
     <link rel="stylesheet" href="../styles.css">
@@ -114,7 +114,7 @@ function articleHtml(article) {
     <div class="paper">
         <header class="masthead-compact">
             <div class="masthead">
-                <p class="masthead-title"><a href="../index.html">The Limerick Weekly</a></p>
+                <p class="masthead-title"><a href="../index.html"><span class="mast-the">The</span>061</a></p>
             </div>
             <div class="dateline">
                 <a href="../index.html">&larr; Front page</a>
@@ -127,7 +127,7 @@ function articleHtml(article) {
             <span class="kicker">${escapeHtml(article.section)}</span>
             <h1 class="headline">${escapeHtml(article.headline)}</h1>
             ${article.subheadline ? `<p class="deck">${escapeHtml(article.subheadline)}</p>` : ''}
-            <p class="byline">The Limerick Weekly &middot; from reporting by ${escapeHtml(article.originalSource)}${dateStr ? ` &middot; ${escapeHtml(dateStr)}` : ''}</p>
+            <p class="byline">The 061 &middot; from reporting by ${escapeHtml(article.originalSource)}${dateStr ? ` &middot; ${escapeHtml(dateStr)}` : ''}</p>
 
             ${image ? `<img src="${escapeHtml(image)}" alt="" class="article-image" referrerpolicy="no-referrer">` : ''}
             ${article.pullQuote ? `<p class="pull-quote">${escapeHtml(article.pullQuote)}</p>` : ''}
@@ -142,13 +142,13 @@ ${paragraphs}
             </section>
 
             <section class="source-note">
-                <p>This story was rewritten by AI for The Limerick Weekly from original reporting by <strong>${escapeHtml(article.originalSource)}</strong>${article.originalTitle ? `, &ldquo;${escapeHtml(article.originalTitle)}&rdquo;` : ''}.</p>
+                <p>This story was rewritten by AI for The 061 from original reporting by <strong>${escapeHtml(article.originalSource)}</strong>${article.originalTitle ? `, &ldquo;${escapeHtml(article.originalTitle)}&rdquo;` : ''}.</p>
                 ${original ? `<p><a href="${escapeHtml(original)}" target="_blank" rel="noopener noreferrer">Read the original article &rarr;</a></p>` : ''}
             </section>
         </main>
 
         <footer class="colophon">
-            <span class="masthead-small">The Limerick Weekly</span>
+            <span class="masthead-small"><span class="mast-the">The</span>061</span>
             Stories are AI rewrites of local reporting &middot; each links to its original source
         </footer>
     </div>
@@ -162,14 +162,14 @@ const NOT_FOUND_HTML = `<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Not found - The Limerick Weekly</title>
+    <title>Not found - The 061</title>
     ${FONTS}
     <link rel="stylesheet" id="styles" href="styles.css">
 </head>
 <body>
     <div class="paper">
         <header class="masthead-compact">
-            <div class="masthead"><p class="masthead-title"><a class="home" href="./">The Limerick Weekly</a></p></div>
+            <div class="masthead"><p class="masthead-title"><a class="home" href="./"><span class="mast-the">The</span>061</a></p></div>
             <div class="dateline"><span>Stop press</span><span class="motto">All the news of the Treaty City</span><span>Page not found</span></div>
         </header>
         <p class="notice">This story may have expired or been removed.<br><br><a class="home continued" href="./">Back to the front page &rarr;</a></p>

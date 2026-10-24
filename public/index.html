@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Limerick Weekly - Local News for Limerick</title>
+    <title>The 061 - Local News for Limerick</title>
     <meta name="description" content="Local news from Limerick city and county, curated daily.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Playfair+Display:ital,wght@0,700;0,900;1,400&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=UnifrakturMaguntia&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Playfair+Display:ital,wght@0,700;0,900;1,400&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -20,7 +20,7 @@
             </div>
             <div class="masthead">
                 <div class="ear ear-left"><strong>Local first</strong>News from the Treaty City and county</div>
-                <h1 class="masthead-title"><a href="./">The Limerick Weekly</a></h1>
+                <h1 class="masthead-title"><a href="./"><span class="mast-the">The</span>061</a></h1>
                 <div class="ear ear-right"><strong>Updated daily</strong>New stories every morning at 6am</div>
             </div>
             <div class="dateline">
@@ -35,7 +35,7 @@
         </main>
 
         <footer class="colophon">
-            <span class="masthead-small">The Limerick Weekly</span>
+            <span class="masthead-small"><span class="mast-the">The</span>061</span>
             Stories are AI rewrites of local reporting &middot; each links to its original source
         </footer>
     </div>
@@ -86,7 +86,7 @@
                     <span class="kicker">${esc(article.section)}</span>
                     <h2 class="headline"><a href="${articleHref(article)}">${esc(article.headline)}</a></h2>
                     ${article.subheadline ? `<p class="deck">${esc(article.subheadline)}</p>` : ''}
-                    <p class="byline">The Limerick Weekly &middot; from reporting by ${esc(article.originalSource)} &middot; ${esc(shortDate(article.publishedAt))}</p>
+                    <p class="byline">The 061 &middot; from reporting by ${esc(article.originalSource)} &middot; ${esc(shortDate(article.publishedAt))}</p>
                     ${article.pullQuote ? `<p class="pull-quote">${esc(article.pullQuote)}</p>` : ''}
                     <div class="body-text drop-cap">${paragraphs}</div>
                     <a class="continued" href="${articleHref(article)}">Continued inside &rarr;</a>
