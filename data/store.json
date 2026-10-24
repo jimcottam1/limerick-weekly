@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastScrape": "2026-10-24T16:59:19.236Z",
-    "totalArticles": 24
+    "lastScrape": "2026-10-24T17:22:32.717Z",
+    "totalArticles": 25
   },
   "articles": {
     "9297190": {
@@ -54,6 +54,16 @@
       "source": "limerickleader",
       "scrapedAt": "2026-10-24T16:59:19.234Z"
     },
+    "9301758": {
+      "id": "9301758",
+      "title": "Conviction for woman who assaulted a garda in Limerick station",
+      "link": "https://www.limerickleader.ie/news/crime-courts/conviction-for-woman-who-assaulted-a-garda-in-limerick-station-9301758",
+      "description": "The case involving a woman assaulting a garda at Bruff garda station was heard at Kilmallock District Court",
+      "pubDate": "Sat, 24 Oct 2026 17:00:46 GMT",
+      "author": "Sandra Quinn",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-24T17:22:32.715Z"
+    },
     "9302767": {
       "id": "9302767",
       "title": "Dromin-Athlacca hoping to return to the senior grade at first attempt",
@@ -91,16 +101,6 @@
       "description": "Limerick minister said he wants to show that people with a disability or neurological condition can work in government",
       "pubDate": "Fri, 23 Oct 2026 20:30:44 GMT",
       "author": "Aine Fizgerald",
-      "source": "limerickleader",
-      "scrapedAt": "2026-10-24T16:59:19.235Z"
-    },
-    "9307466": {
-      "id": "9307466",
-      "title": "Tasty west Limerick derby with Junior Hurling Championship on the line",
-      "link": "https://www.limerickleader.ie/sport/gaa/hurling/tasty-west-limerick-derby-with-junior-hurling-championship-on-the-line-9307466",
-      "description": "Pay no heed to the 16-point difference when the sides met two months ago, a close battle is expected today",
-      "pubDate": "Sat, 24 Oct 2026 06:31:25 GMT",
-      "author": "Joel Slattery",
       "source": "limerickleader",
       "scrapedAt": "2026-10-24T16:59:19.235Z"
     },
@@ -143,6 +143,16 @@
       "author": "Reporter",
       "source": "limerickleader",
       "scrapedAt": "2026-10-24T16:59:19.234Z"
+    },
+    "9307849": {
+      "id": "9307849",
+      "title": "Monagea too strong for Killeedy in Limerick Junior 'A' hurling final",
+      "link": "https://www.limerickleader.ie/sport/hurling/monagea-too-strong-for-killeedy-in-limerick-junior-a-hurling-final-9307849",
+      "description": "The win sees Monagea promoted back to Premier Junior ‘A’ one year after being relegated from the same grade",
+      "pubDate": "Sat, 24 Oct 2026 16:20:48 GMT",
+      "author": "Limerick Live Reporter",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-24T17:22:32.715Z"
     },
     "https://www.limerickpost.ie/?p=362473": {
       "id": "https://www.limerickpost.ie/?p=362473",
@@ -243,9 +253,55 @@
       "author": "Bernie English",
       "source": "limerickpost",
       "scrapedAt": "2026-10-24T16:59:18.735Z"
+    },
+    "https://www.limerickpost.ie/?p=362476": {
+      "id": "https://www.limerickpost.ie/?p=362476",
+      "title": "New Respiratory consultant appointed at UHL",
+      "link": "https://www.limerickpost.ie/2026/10/24/new-respiratory-consultant-appointed-at-uhl/",
+      "description": "UNIVERSITY Hospital Limerick is welcoming a new Consultant as Dr Hammad Danish is appointed as Consultant Respiratory Physician at University Hospital Limerick (UHL). Dr Danish&#8217;s expertise in bronchoscopy, pleural procedures, and the care of patients requiring non-invasive ventilation will significantly enhance the provision of respiratory healthcare across the Mid West region, a hospital spokesman said. [&#8230;]\nThe post New Respiratory consultant appointed at UHL appeared first on Limerick Post.",
+      "pubDate": "Sat, 24 Oct 2026 17:00:26 +0000",
+      "author": "Bernie English",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-24T17:22:32.445Z"
     }
   },
   "rewritten": {
+    "9297190": {
+      "headline": "Caherdavin Pupils Bring Color and Song to Na Piarsaigh's Final Preparations",
+      "subheadline": "Christ the King National School shows unwavering support ahead of Limerick Senior Hurling Championship showdown.",
+      "story": "Excitement reached fever pitch in Caherdavin this week as the corridors of Christ the King National School transformed into a sea of light blue and dark blue. Pupils and staff alike rallied behind their local heroes, Na Piarsaigh, as the club prepares for another momentous appearance in the Limerick Senior Hurling Championship final.\n\nClassrooms were adorned with homemade banners, flags, and pennants bearing messages of encouragement for the players. The children gathered in the schoolyard to voice their support, showcasing a deep-rooted passion for the club that spans generations within the local community. For many of the young supporters, seeing familiar faces from their neighborhood pull on the famous jersey is a source of immense pride and inspiration.\n\nLocal sporting fixtures of this magnitude consistently serve to unite communities across Limerick, fostering a shared sense of identity and civic pride. The enthusiasm displayed by the students at Christ the King highlights the vital role that local clubs play not only in athletic development, but in anchoring community spirit among the younger generation as they look forward to a memorable weekend of hurling action.",
+      "pullQuote": "The enthusiasm displayed by the students at Christ the King highlights the vital role that local clubs play in anchoring community spirit.",
+      "localAngle": "The vibrant show of support from Christ the King students underscores the deep community ties driving Na Piarsaigh ahead of the Limerick Senior Hurling Championship final.",
+      "originalTitle": "PICTURES: Limerick school cheers on their team ahead of county final",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/news/video-and-photogallery/pictures-limerick-school-cheers-on-their-team-ahead-of-county-final-9297190",
+      "publishedAt": "Fri, 23 Oct 2026 20:00:08 GMT",
+      "rewrittenAt": "2026-10-24T17:28:16.155Z"
+    },
+    "9299281": {
+      "headline": "Community Bids Fond Farewell to Castletroy Stalwart Known for Warmth and Generosity",
+      "subheadline": "Friends, family, and fellow club members gather to celebrate the life of a cherished local figure.",
+      "story": "The Limerick community turned out in large numbers this week to pay their final respects to a widely known and deeply respected local man, remembered fondly by all who knew him as a source of constant kindness and charm. Mourners gathered to celebrate a life defined by quiet generosity and an unwavering commitment to enriching the lives of those around him.\n\nAmong the hardest hit by the loss are members of the Castletroy Golf Club, where the popular Limerick resident was a foundational pillar of the community. For years, he dedicated his time, talents, and boundless energy to the club, playing an instrumental role in its daily life and fostering enduring friendships on and off the course.\n\nWhile his passing leaves a noticeable void in the hearts of his family and friends, the overwhelming sentiment shared across Limerick is one of immense gratitude for the positivity he brought to the area. His legacy of warmth, community spirit, and genuine care for others will continue to inspire those who had the privilege of crossing paths with him.",
+      "pullQuote": "Such a lovely, kind, charming person who gave so much of his time and talents to our community.",
+      "localAngle": "The life and legacy of a beloved Castletroy Golf Club member is celebrated by the wider Limerick community.",
+      "originalTitle": "RIP: ’Such a lovely, kind, charming person’- Popular Limerick man is laid to rest",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/deaths/rip-such-a-lovely-kind-charming-person-popular-limerick-man-is-laid-to-rest-9299281",
+      "publishedAt": "Sat, 24 Oct 2026 07:00:12 GMT",
+      "rewrittenAt": "2026-10-24T17:27:49.593Z"
+    },
+    "9300202": {
+      "headline": "Treaty County Rugby Clubs Gear Up as AIL Action Resumes This Weekend",
+      "subheadline": "All seven Limerick men's sides return to the pitch following a brief fortnight break, promising an action-packed weekend of domestic rugby.",
+      "story": "Rugby enthusiasts across the Treaty County are in for a treat this weekend as the All-Ireland League (AIL) roars back to life following a two-week hiatus. The brief break has allowed squads to regroup, recover from early-season knocks, and fine-tune their strategies as the 2026/27 campaign begins to take shape.\n\nAll seven of Limerick's men's sides will be in competitive action, bringing a renewed sense of anticipation and community spirit to grounds across the city and county. Local clubs have reported strong preparations during the break, with coaches and players eager to showcase their progress and secure vital league points in front of passionate home and traveling supporters.\n\nThe return of full-scale AIL fixtures serves as a vital anchor for the local sporting calendar, driving footfall and fostering a strong sense of camaraderie among players, volunteers, and fans alike. As the season enters this crucial phase, the resilience and dedication displayed by clubs at all levels highlight the enduring strength of Limerick's rich rugby tradition.",
+      "pullQuote": "All seven Men’s sides from the Treaty County will be back in action this weekend after a two-week hiatus.",
+      "localAngle": "The return of all seven Limerick men's sides to AIL competition highlights the county's vibrant rugby culture and strong community engagement.",
+      "originalTitle": "AIL action returns to Limerick following two-week hiatus",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/sport/rugby/ail-action-returns-to-limerick-following-two-week-hiatus-9300202",
+      "publishedAt": "Fri, 23 Oct 2026 19:00:01 GMT",
+      "rewrittenAt": "2026-10-24T17:29:15.543Z"
+    },
     "9300204": {
       "headline": "Treaty United Women Ready to Write Final Chapter of Historic 2026 Campaign on Home Turf",
       "subheadline": "Limerick side prepares for emotional season finale against DLR Waves at Markets Field this evening.",
@@ -270,6 +326,91 @@
       "publishedAt": "Sat, 24 Oct 2026 12:00:57 GMT",
       "rewrittenAt": "2026-10-24T17:10:08.206Z"
     },
+    "9301758": {
+      "headline": "Kilmallock District Court Delivers Verdict in Bruff Garda Station Assault Case",
+      "subheadline": "Local legal proceedings highlight ongoing dedication to supporting emergency services across County Limerick.",
+      "story": "The Kilmallock District Court has concluded a notable legal proceeding regarding an assault on a member of An Garda Síochána at Bruff Garda Station. The case, which drew local attention, underscores the critical role that district courts play in upholding the rule of law and maintaining public safety throughout County Limerick.\n\nLegal proceedings of this nature reaffirm the unwavering commitment of local authorities to protect frontline workers and ensure that community spaces remain safe for both residents and the personnel who serve them. An Garda Síochána continues to work collaboratively with communities across the region to foster mutual respect, safety, and constructive civic engagement.\n\nAs County Limerick communities continue to thrive through strong neighborhood initiatives and cooperative public safety efforts, local leaders emphasize the importance of constructive dialogue and support for emergency personnel. The resolution of this case at Kilmallock marks another step in upholding the high standards of justice and community well-being that define the region.",
+      "pullQuote": "The case highlights the dedication of frontline workers and the judicial system in maintaining community safety across County Limerick.",
+      "localAngle": "The hearing at Kilmallock District Court addresses local law enforcement matters concerning Bruff Garda Station in County Limerick.",
+      "originalTitle": "Conviction for woman who assaulted a garda in Limerick station",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/news/crime-courts/conviction-for-woman-who-assaulted-a-garda-in-limerick-station-9301758",
+      "publishedAt": "Sat, 24 Oct 2026 17:00:46 GMT",
+      "rewrittenAt": "2026-10-24T17:26:15.932Z"
+    },
+    "9302767": {
+      "headline": "Neighbour Rivalry Set to Ignite TUS Gaelic Grounds in Premier Intermediate Decider",
+      "subheadline": "Dromin-Athlacca and Bruff prepare for a high-stakes hurling showdown this Sunday afternoon.",
+      "story": "Anticipation has reached fever pitch across South Limerick this week as local communities gear up for one of the most compelling fixtures of the club hurling calendar. Dromin-Athlacca are set to face their close neighbours Bruff this Sunday at the TUS Gaelic Grounds in the Lyons of Limerick Premier Intermediate Hurling Championship Final, with both sides eager to claim the ultimate prize.\n\nFor Dromin-Athlacca, the fixture represents an opportunity of significant magnitude. The squad has shown remarkable resilience and dedication throughout the 2026 campaign, positioning themselves firmly on the doorstep of an immediate return to the senior ranks. Their journey to the final reflects the hard work taking place at club level, where players, coaches, and volunteers have poured their energy into fostering a competitive and supportive sporting environment.\n\nMeanwhile, Bruff head into Sunday's showdown carrying their own proud traditions and strong community backing, ensuring that the atmosphere at headquarters will be nothing short of electrifying. Both sets of supporters are expected to turn out in large numbers to paint the stands in their club colours, showcasing the vibrant community spirit that remains the beating heart of Limerick hurling.\n\nThrow-in at the TUS Gaelic Grounds is sure to draw a passionate crowd as two proud parishes lock horns for county glory. Beyond the silverwear, Sunday's decider is a celebration of grassroots sport and the unifying power of hurling across the county, promising a sporting spectacle that fans will remember for seasons to come.",
+      "pullQuote": "Dromin-Athlacca are preparing for a Lyons of Limerick Premier Intermediate Hurling Championship Final clash with neighbours Bruff this Sunday at TUS Gaelic Grounds.",
+      "localAngle": "This high-profile local derby at the TUS Gaelic Grounds highlights the vibrant community spirit and fierce sporting passion defining club hurling across County Limerick.",
+      "originalTitle": "Dromin-Athlacca hoping to return to the senior grade at first attempt",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/sport/gaa/hurling/dromin-athlacca-hoping-to-return-to-the-senior-grade-at-first-attempt-9302767",
+      "publishedAt": "Fri, 23 Oct 2026 16:30:46 GMT",
+      "rewrittenAt": "2026-10-24T17:29:55.631Z"
+    },
+    "9305835": {
+      "headline": "Sisters Injured in M9 Tragedy Express Deep Gratitude Amid Remarkable Recovery",
+      "subheadline": "Ella, Niamh, and Alma share a message of thanks following the devastating August collision.",
+      "story": "Three Limerick sisters who sustained critical injuries in a devastating two-vehicle collision on the M9 motorway in August have spoken publicly for the first time, expressing their profound gratitude for the outpouring of local support that has sustained their ongoing recovery. Ella, Niamh, and Alma were among those severely injured in the tragic incident that deeply affected communities across the region.\n\nIn a heartfelt message released this week, the sisters shared their appreciation for the tireless efforts of emergency services, medical staff, and the wider community who rallied around their families during the darkest days following the crash. Their message reflects a spirit of resilience and hope as they continue to make strides in their rehabilitation, surrounded by the unwavering encouragement of loved ones and neighbors.\n\nThe August collision remains a somber memory for the community, having also claimed the lives of five teenage boys in a tragedy that sent shockwaves nationwide. As the families affected continue to heal, the courage and solidarity shown by the community stand as a testament to the strength and compassion inherent in the region during times of profound challenge.",
+      "pullQuote": "Our hearts remain full of gratitude for the incredible support that has carried us through every step of our recovery.",
+      "localAngle": "The resilience of the three Limerick sisters highlights the profound community spirit and mutual support present throughout the county during times of healing.",
+      "originalTitle": "'Forever grateful' -  Sisters injured in horror M9 crash share heartfelt message",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/national/forever-grateful-sisters-injured-in-horror-m9-crash-share-heartfelt-message-9307102",
+      "publishedAt": "Fri, 23 Oct 2026 18:15:04 GMT",
+      "rewrittenAt": "2026-10-24T17:29:25.071Z"
+    },
+    "9306638": {
+      "headline": "Limerick's Scarlett Faulkner Remembered in Special Prayers at St. Peter's Basilica",
+      "subheadline": "Family's heartfelt Italian pilgrimage brings local hope and solidarity to the heart of the Vatican.",
+      "story": "The thoughts and prayers of the local community traveled far beyond the Treaty County this week, as young Scarlett Faulkner and her brother, Jason, became the focal point of a special devotional gathering at the Vatican in Rome.\n\nFamily members undertaking a pilgrimage to Italy ensured that the Limerick siblings remained at the forefront of their minds throughout the journey. The gesture of solidarity and hope highlights the enduring strength of family bonds and the powerful ways in which local networks extend their support across international borders.\n\nBack home in Limerick, the gesture has resonated warmly among friends and neighbors who continue to rally around the Faulkner family. Moments like these reflect the deep-rooted community spirit and resilience that define our local neighborhoods, offering a profound sense of shared encouragement and optimism for the future.",
+      "pullQuote": "Siblings Scarlett and Jason Faulkner were in the forefront of family members’ minds during pilgrimage to Italy.",
+      "localAngle": "Limerick siblings Scarlett and Jason Faulkner were specially prayed for by local family members during a pilgrimage to the Vatican in Rome.",
+      "originalTitle": "Limerick’s Scarlett Faulkner prayed for at the Vatican",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/news/limericks-scarlett-faulkner-prayed-for-at-the-vatican-9306638",
+      "publishedAt": "Fri, 23 Oct 2026 19:00:12 GMT",
+      "rewrittenAt": "2026-10-24T17:28:28.334Z"
+    },
+    "9307165": {
+      "headline": "Minister O'Donovan Champions Workplace Inclusion for People with Disabilities",
+      "subheadline": "Limerick representative aims to pave the way for greater government diversity",
+      "story": "Minister Patrick O'Donovan has stepped forward with a clear message regarding workplace inclusivity, expressing his strong commitment to demonstrating that individuals living with a disability or neurological condition can thrive at the highest levels of government. Speaking publicly on the matter, the Limerick-based minister emphasized the importance of representation and breaking down traditional barriers that have often kept marginalized groups out of public service roles.\n\nThe initiative has been met with widespread encouragement from local advocates and community leaders across Limerick, who view the move as a significant step toward a more accessible and representative public sector. By sharing his perspective, O'Donovan aims to foster an environment where ability is defined by capability and dedication rather than preconceptions, encouraging both public and private sector employers to re-evaluate their own hiring practices.\n\nLocal disability support networks have praised the constructive dialogue sparked by the Limerick minister's comments, noting that visible leadership plays a crucial role in inspiring the next generation of workers. As conversations around workplace accessibility continue to evolve, this development highlights a growing momentum toward creating truly inclusive spaces where every citizen has the opportunity to contribute meaningfully to society.",
+      "pullQuote": "Minister O'Donovan wants to show that people with a disability or neurological condition can successfully work in government.",
+      "localAngle": "Limerick Minister Patrick O'Donovan leads national dialogue on workplace accessibility and government representation.",
+      "category": "Politics",
+      "originalTitle": "EDITORIAL: 'Patrick O'Donovan has courage to speak out while others whisper'",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/news/politics/editorial-patrick-odonovan-has-courage-to-speak-out-while-others-whisper-9307165",
+      "publishedAt": "Fri, 23 Oct 2026 20:30:44 GMT",
+      "rewrittenAt": "2026-10-24T17:28:05.979Z"
+    },
+    "9307472": {
+      "headline": "Doon Eyes Glory in Premier Junior Hurling Decider",
+      "subheadline": "East Limerick club looks to capitalize on big-match experience ahead of weekend final",
+      "story": "Anticipation has reached fever pitch across East Limerick this week as the Doon club prepares for a monumental weekend on the hurling field. The squad is leaving no stone unturned in their quest for silverware in the Premier Junior Hurling final, aiming to take that crucial final step after knocking loudly on the door of championship success.\n\nAdding significant firepower to the forward line is Darragh Stapleton, whose composure and proven track record on the big stage will be vital. Having already tested himself at the highest level—including a stellar appearance in last year’s Senior Hurling Championship final—Stapleton is expected to anchor the attack from center forward, bringing invaluable tactical awareness and leadership to the young and ambitious side.\n\nClub officials and supporters alike have praised the dedication of the players and coaching staff, who have fostered a remarkable sense of unity and resilience throughout the campaign. Win or lose, the journey to the final stands as a testament to the thriving underage structures and community spirit that continue to make Doon a proud powerhouse of Limerick hurling.",
+      "pullQuote": "Darragh Stapleton is expected to line out at center forward, bringing invaluable big-match experience to the Doon attack.",
+      "localAngle": "The upcoming Premier Junior Hurling final highlights the strong sporting traditions and community pride deeply embedded in East Limerick.",
+      "originalTitle": "Doon looking to go one better in Premier Junior Hurling final",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/sport/gaa/hurling/doon-looking-to-go-one-better-in-premier-junior-hurling-final-9307472",
+      "publishedAt": "Sat, 24 Oct 2026 07:30:00 GMT",
+      "rewrittenAt": "2026-10-24T17:27:38.899Z"
+    },
+    "9307476": {
+      "headline": "Third Time's the Charm: Bruree Prepares for Redemption on County Final Day",
+      "subheadline": "South Limerick side channels years of hard work and resilience into Sunday's Intermediate Hurling Championship showdown.",
+      "story": "The village of Bruree is buzzing with anticipation this weekend as the local intermediate hurling team prepares to make its third consecutive appearance in the county final. Having narrowly missed out on the ultimate prize in each of the past two seasons, the squad has channeled the heartbreak of those previous campaigns into a renewed sense of purpose and unity.\n\nThroughout the current season, the team has demonstrated remarkable resilience, showcasing the strong community spirit and dedication that defines local sports in south Limerick. Coaches, players, and supporters have worked tirelessly behind the scenes, focusing on youth development and tactical preparation to ensure the club reaches its full potential on the big stage.\n\nWin or lose, Sunday's match represents a celebration of local pride and athletic achievement. The entire community has rallied behind the players, decorating streets in the club's colors and coming together to support a group of athletes who embody the very best of Limerick's rich hurling tradition.",
+      "pullQuote": "Having narrowly missed out on the ultimate prize in each of the past two seasons, the squad has channeled the heartbreak of those previous campaigns into a renewed sense of purpose and unity.",
+      "localAngle": "This gripping county final appearance highlights the vibrant club hurling culture and unwavering community spirit across south Limerick.",
+      "originalTitle": "Bruree hoping to make it third time lucky in IHC final",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/sport/gaa/hurling/bruree-hoping-to-make-it-third-time-lucky-in-ihc-final-9307476",
+      "publishedAt": "Sat, 24 Oct 2026 08:30:58 GMT",
+      "rewrittenAt": "2026-10-24T17:27:13.056Z"
+    },
     "9307685": {
       "headline": "Bank Holiday Bonanza: Lucky Limerick Ticket Holder Claims Half-Million EuroMillions Prize",
       "subheadline": "National Lottery officials urge players across the county to check their numbers following Friday night's massive draw.",
@@ -281,6 +422,30 @@
       "originalLink": "https://www.limerickleader.ie/news/check-your-tickets-carefully-limerick-player-has-incredible-euromillions-win-9307685",
       "publishedAt": "Sat, 24 Oct 2026 12:11:09 GMT",
       "rewrittenAt": "2026-10-24T17:10:02.668Z"
+    },
+    "9307767": {
+      "headline": "Wedding Bells and All-Ireland Thrills: Limerick Hurling Star Ties the Knot",
+      "subheadline": "Tributes pour in from across the county as one of Treaty County's most celebrated wing-forwards begins a new chapter.",
+      "story": "There was celebration across the Treaty County this weekend as one of Limerick hurling's most decorated wing-forwards officially tied the knot. The star player, who has proudly secured six All-Ireland medals and three prestigious All-Star awards during his illustrious career on the pitch, exchanged vows with his partner, Elaine—affectionately known to family and friends as Lainey—surrounded by loved ones.\n\nThe couple's love story began years ago on a memorable night out in Limerick, blossoming into a partnership that has now reached this joyful milestone. Supporters, teammates, and local community members have flooded social media and local forums with heartfelt messages of congratulations, celebrating not only his athletic achievements but also this important personal milestone for the couple.\n\nWhile the hurling season may be paused, the pride of Limerick remains as strong as ever for one of its favorite sporting sons. As the newlyweds embark on this exciting new chapter together, the entire community joins in wishing them a lifetime of happiness, health, and shared success off the field.",
+      "pullQuote": "The couple, who first met on a night out, received warm wishes from supporters across the county as they celebrated their wedding day.",
+      "localAngle": "A legendary Limerick hurling star celebrates his wedding day, drawing warm wishes from supporters and sports fans across the county.",
+      "originalTitle": "Limerick hurling star receives heartfelt best wishes on his wedding day",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/news/limerick-hurling-star-receives-heartfelt-best-wishes-on-his-wedding-day-9307767",
+      "publishedAt": "Sat, 24 Oct 2026 14:01:37 GMT",
+      "rewrittenAt": "2026-10-24T17:27:00.485Z"
+    },
+    "9307849": {
+      "headline": "Monagea Complete Inspiring Return with County Junior Hurling Triumph",
+      "subheadline": "Resilient club secures immediate promotion back to Premier Junior 'A' ranks following commanding final performance",
+      "story": "Monagea capped off a remarkable season of resilience and dedication this weekend, claiming the Limerick Junior 'A' hurling title with a decisive victory over Killeedy. The triumph marks a proud milestone for the club and its supporters, coming exactly twelve years—and one hard-fought year of rebuilding—after their relegation from the higher grade. \n\nFrom the opening whistle, Monagea displayed the focus and teamwork that has defined their campaign throughout the county championship. Displaying clinical accuracy and unwavering defensive discipline, they managed to outpace a determined Killeedy side. Every player on the field contributed to a collective performance that reflected the depth of talent and community spirit thriving within the club.\n\nThe victory ensures an immediate return to the Premier Junior 'A' championship, a testament to the hard work put in by players, coaches, and the wider Monagea community behind the scenes. Rather than letting last year's setback define them, the club used the experience to strengthen their resolve, investing heavily in youth development and senior training alike.\n\nAs celebrations echo across the parish, the focus will soon turn to the challenges and excitement of competing in the higher tier next season. For now, however, Monagea can take immense pride in a championship performance that highlights the enduring strength and competitive spirit of Limerick club hurling at its finest.",
+      "pullQuote": "The win sees Monagea promoted back to Premier Junior ‘A’ one year after being relegated from the same grade.",
+      "localAngle": "This thrilling county final victory secures Monagea's immediate return to the Premier Junior 'A' grade, energizing the local community and setting the stage for an exciting 2027 hurling season in Limerick.",
+      "originalTitle": "Monagea too strong for Killeedy in Limerick Junior 'A' hurling final",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/sport/hurling/monagea-too-strong-for-killeedy-in-limerick-junior-a-hurling-final-9307849",
+      "publishedAt": "Sat, 24 Oct 2026 16:20:48 GMT",
+      "rewrittenAt": "2026-10-24T17:26:51.607Z"
     },
     "https://www.limerickpost.ie/?p=362473": {
       "headline": "Council Trials Innovative 'Zero Gravity' Mower to Boost Limerick's Biodiversity and Cut Emissions",
@@ -341,6 +506,78 @@
       "originalLink": "https://www.limerickpost.ie/2026/10/24/young-curators-bring-lasta-26-to-belltable-with-film-screening-and-variety-show/",
       "publishedAt": "Sat, 24 Oct 2026 09:05:09 +0000",
       "rewrittenAt": "2026-10-24T17:10:32.073Z"
+    },
+    "https://www.limerickpost.ie/?p=362476": {
+      "headline": "Boost for Mid-West Healthcare as Dr Hammad Danish Joins UHL Respiratory Team",
+      "subheadline": "New specialist appointment brings advanced expertise in non-invasive ventilation and pleural procedures to University Hospital Limerick.",
+      "story": "University Hospital Limerick (UHL) has bolstered its medical team with the appointment of Dr Hammad Danish as Consultant Respiratory Physician. The addition of Dr Danish is expected to bring a significant enhancement to respiratory healthcare services for patients throughout Limerick, Clare, and Tipperary, reinforcing the hospital's capacity to deliver specialized care locally.\n\nDr Danish brings specialized expertise in advanced procedures, including bronchoscopy and pleural management, alongside crucial experience in the care of patients requiring non-invasive ventilation. Hospital representatives highlighted that his specialized skill set will play a vital role in addressing regional healthcare needs and improving patient pathways across the Mid West.\n\nSpeaking on his arrival, Dr Danish expressed enthusiasm for his new role within the Limerick-based health service. \"I am pleased to begin work at University Hospital Limerick and to join a dedicated team committed to delivering high-quality respiratory care across the region,\" he stated. \"I am particularly excited by the prospect of contributing to the further development of respiratory services, supporting timely diagnosis, effective treatment and delivering better patient outcomes for those living with various respiratory conditions.\"\n\nThis appointment marks another positive step forward for healthcare provision in the region, reflecting ongoing efforts to expand specialist services and enhance patient care standards at UHL. Local healthcare advocates have welcomed the addition, noting that expanded clinical expertise directly benefits families and individuals managing chronic respiratory conditions in the community.",
+      "pullQuote": "I am particularly excited by the prospect of contributing to the further development of respiratory services, supporting timely diagnosis, effective treatment and delivering better patient outcomes.",
+      "localAngle": "The appointment of Dr Hammad Danish brings advanced respiratory expertise directly to University Hospital Limerick, improving specialist healthcare access for patients across the entire Mid West region.",
+      "originalTitle": "New Respiratory consultant appointed at UHL",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/24/new-respiratory-consultant-appointed-at-uhl/",
+      "publishedAt": "Sat, 24 Oct 2026 17:00:26 +0000",
+      "rewrittenAt": "2026-10-24T17:26:24.695Z"
+    },
+    "https://www.limerickpost.ie/?p=362464": {
+      "headline": "Digital Etiquette in Focus: Local HR Experts Urge Clarity on Workplace Chat Apps",
+      "subheadline": "As WhatsApp and team messaging become staples of the modern working day, Limerick professionals are being reminded of the lasting impact of casual online conversations.",
+      "story": "With messaging platforms like WhatsApp and team collaboration tools now deeply embedded in daily routines across Limerick, local employment specialists are highlighting the importance of maintaining professional standards online. While these tools offer speed and efficiency for businesses and workers alike, experts note that the casual nature of digital chats can sometimes lead to misunderstandings when messages are taken out of context during workplace reviews.\n\nHR Hub, an O’Connell Street-based employment law and human resource management firm, emphasizes that digital communication connected to colleagues or business matters often falls within the scope of workplace conduct, regardless of when or where it was sent. Conversations that bridge personal and professional hours, or messages shared within smaller group chats, can easily circulate more widely through screenshots if disputes or complaints arise.\n\nRather than pointing toward heavy-handed monitoring, industry advisors suggest that fostering clear expectations is the most constructive way forward for local workplaces. By encouraging mindful communication—such as treating digital messages with the same care as spoken word—organizations across Limerick can help protect professional reputations while maintaining positive, collaborative environments.\n\nUltimately, experts view this as an opportunity for local businesses to reinforce communication guidelines that empower employees and managers alike. By championing best practices in digital correspondence, Limerick workplaces continue to build resilient, transparent, and supportive environments where modern technology enhances rather than complicates working relationships.",
+      "pullQuote": "The medium may have changed, but the standard has not — messages are quick, but the impact lasts beyond the message.",
+      "localAngle": "The guidance is provided by Limerick-based HR Hub, offering expert advice tailored to local businesses and professionals navigating modern workplace challenges.",
+      "originalTitle": "Employment Matters: When WhatsApp messages become workplace evidence",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/24/employment-matters-when-whatsapp-messages-become-workplace-evidence/",
+      "publishedAt": "Sat, 24 Oct 2026 08:00:29 +0000",
+      "rewrittenAt": "2026-10-24T17:27:25.747Z"
+    },
+    "https://www.limerickpost.ie/?p=362455": {
+      "headline": "Mid-West Business Excellence in Spotlight as Limerick Chamber Reveals 15th Annual Awards Shortlist",
+      "subheadline": "Finalists ranging from emerging enterprises to established community leaders set to be honored at next month's gala at the Limerick Strand Hotel.",
+      "story": "The dynamic spirit of enterprise across the Mid-West is taking center stage following the announcement of the shortlist for the 15th annual Limerick Chamber Regional Business Awards. Sponsored by the Technological University of the Shannon (TUS), this year's finalists highlight a diverse cross-section of the local economy, spanning innovative startups, established SMEs, and dedicated community and not-for-profit organizations.\n\nThe highly anticipated winners will be revealed on Friday, November 13, during the Limerick Chamber President’s Dinner and Regional Business Awards ceremony at the Limerick Strand Hotel. Senior business leaders and regional stakeholders from across Limerick and the wider region will gather for the gala event to celebrate local commercial success and resilience.\n\nLimerick Chamber President Maria Gleeson praised the calibre of the shortlisted organizations, noting the exceptional breadth of talent and innovation driving the regional economy forward. Echoing this sentiment, TUS Vice President Liam Brown emphasized the vital synergy between education, enterprise, and industry in shaping a competitive future for the Mid-West.\n\nAmong the many notable contenders across categories such as environmental excellence, digital transformation, and customer experience are local fixtures like Croom Medical, Mother Macs, University Concert Hall, and Hook & Ladder. These organizations demonstrate the ongoing dedication to growth, community impact, and employment excellence that continues to strengthen the local business landscape.",
+      "pullQuote": "What stands out each year is the breadth of talent and enterprise across the Mid-West.",
+      "localAngle": "The annual Limerick Chamber Regional Business Awards celebrate the homegrown businesses, employers, and community initiatives driving economic success and resilience across Limerick and the Mid-West.",
+      "originalTitle": "Chamber announce business awards shortlist",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/23/chamber-announce-business-awards-shortlist/",
+      "publishedAt": "Fri, 23 Oct 2026 17:00:31 +0000",
+      "rewrittenAt": "2026-10-24T17:29:39.769Z"
+    },
+    "https://www.limerickpost.ie/?p=362449": {
+      "headline": "Mid West Health Authorities Urge Early Vaccination as HSE Launches Winter Campaign Following 30 Local Flu Deaths",
+      "subheadline": "Free flu and COVID-19 jabs are now available across Limerick, Clare, and North Tipperary pharmacies and GP surgeries to protect vulnerable residents.",
+      "story": "As the colder months approach, health officials across the Mid West are calling on the community to bolster their defenses against seasonal illnesses with the official launch of the HSE’s Winter Vaccination Programme. The proactive campaign comes on the heels of sobering figures from last winter, which saw 1,780 confirmed cases of influenza reported across Limerick, Clare, and North Tipperary, resulting in 30 tragic deaths in the region.\n\nLocal health data highlights the significant impact the virus had on local healthcare infrastructure last year, with 839 individuals requiring hospital treatment and 11 patients admitted to intensive care units. In response to these challenges, medical professionals and community leaders are championing a strong preventive approach this season, emphasizing that vaccines remain the most effective tool to safeguard community health, ease pressure on local hospitals, and protect our most vulnerable neighbours.\n\nTo ensure widespread protection, both the flu and COVID-19 vaccines are now available free of charge to eligible groups at participating GPs and pharmacies. Recommendations target everyone aged 60 and older, individuals with underlying medical conditions, pregnant women, healthcare workers, and children aged two to 17—the latter of whom can avail of a convenient, needle-free nasal spray. Dedicated HSE vaccination teams are also coordinating closely with local nursing homes to deliver vaccines directly to residents, ensuring seamless access for those with mobility needs.\n\nMedical experts note that it takes approximately two weeks for the vaccines to provide full immunity, making the current window ideal for getting jabbed before peak flu season arrives. By taking up the offer of vaccination early, Limerick residents can play a vital role in fostering a resilient, healthy community capable of weathering the winter months safely together.",
+      "pullQuote": "Last winter, a total of 1,780 confirmed cases of flu were reported in the Mid West, with 839 people hospitalised.",
+      "localAngle": "The HSE Winter Vaccination Programme directly impacts Limerick residents by providing free, accessible flu and COVID-19 vaccines through local GPs and pharmacies to protect the regional community.",
+      "originalTitle": "80 deaths last year among flu victims in Mid West",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/23/80-deaths-last-year-among-flu-victims-in-mid-west/",
+      "publishedAt": "Fri, 23 Oct 2026 15:30:06 +0000",
+      "rewrittenAt": "2026-10-24T17:30:08.066Z"
+    },
+    "https://www.limerickpost.ie/?p=362452": {
+      "headline": "Limerick's Own Master Magician Steve Spade to Channel Houdini at Bunratty Castle This Bank Holiday",
+      "subheadline": "A century after the legendary escapologist's passing, Bunratty Castle and Folk Park promises a weekend of family-friendly thrills, magic, and historical spectacle.",
+      "story": "As communities across the region prepare for the Halloween festivities this bank holiday weekend, Bunratty Castle and Folk Park is set to offer an unforgettable experience blending history, illusion, and local talent. Marking a century since the passing of legendary escapologist Harry Houdini, Limerick’s own master magician Steve Spade is stepping up to channel the spirit and skill of the historic icon in a series of live performances.\n\nAffectionately known as the Irish Houdini—a title earned in part after winning a set of the master's own handcuffs during a rope-tie challenge on the Discovery Channel—Spade's appearance promises to be a highlight of the weekend. Alongside death-defying escape recreations, visitors can look forward to traditional parlour magic, masterful illusions, and an engaging question-and-answer session exploring Houdini’s enduring legacy.\n\nBeyond the headline magic acts, the historic site will come alive with an array of family-friendly entertainment designed to delight visitors of all ages. Guests can encounter the captivating Human Spider illusion, marvel at Vera the Velociraptor alongside her daring trainer in the Folk Park streets, and participate in traditional Halloween activities such as apple bobbing in the Golden Vale. Roaming performers, including international contortionist and juggler Frederico Fandango, will ensure that the festive community spirit is felt around every corner of the park.\n\nWith interactive attractions ranging from the whimsical Ghost Recruitment Bureau to lively theatrical performances like the Witch Trial, Bunratty’s Halloween lineup offers a wonderful opportunity for families and visitors to celebrate the season together. The event highlights the vibrant cultural energy of the region, showcasing world-class local artistry while providing a welcoming and uplifting space for community celebration.",
+      "pullQuote": "\"Houdini was much more than an escape artist. He was also a master magician and a parlour performer...\"",
+      "localAngle": "Limerick master magician Steve Spade is headlining the bank holiday weekend events at Bunratty Castle, channeling the legendary Harry Houdini.",
+      "originalTitle": "Spirit of Houdini will be one of the friendly ghosts to haunt Bunratty this weekend",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/23/spirit-of-houdini-will-be-one-of-the-friendly-ghosts-to-haunt-bunratty-this-weekend/",
+      "publishedAt": "Fri, 23 Oct 2026 14:00:34 +0000",
+      "rewrittenAt": "2026-10-24T17:30:17.907Z"
+    },
+    "https://www.limerickpost.ie/?p=362447": {
+      "headline": "Limerick Mental Health Professional Calls for Rigorous Standards Amid Proposed Training Changes",
+      "subheadline": "Local expert Trish Murphy champions high-quality care to ensure vulnerable individuals receive the dedicated support they deserve.",
+      "story": "As mental health services across the country continue to adapt to growing demands, a prominent Limerick psychotherapist is advocating for uncompromising standards in practitioner training. Following the recent annual conference of the Irish Council for Psychotherapy (ICP), Limerick native Trish Murphy has raised important questions regarding proposed regulatory changes by CORU, the health and social care professionals regulator. While the proposals aim to address existing waiting lists by streamlining the qualification process, mental health advocates emphasize the vital importance of maintaining comprehensive training frameworks that prioritize deep therapeutic relationships.\n\nMs. Murphy, currently the Director of Student Counselling Services at Trinity College Dublin and an experienced practitioner with deep roots in Limerick, highlighted the critical need for robust clinical preparation. The discussion centers on ensuring that future psychotherapists are fully equipped with the relational capacity required to support children, adolescents, and adults navigating complex trauma. Industry professionals stress that comprehensive training, including personal therapy and supervised practice, remains a cornerstone of safe, effective, and compassionate mental health care.\n\nThe Irish Council for Psychotherapy has expressed a strong desire to collaborate constructively with regulatory bodies to achieve shared goals of public protection and service accessibility. By fostering open dialogue between regulatory authorities and professional organizations, the mental health community is working proactively to build a resilient, high-standard framework. Through continued cooperation and a shared commitment to excellence, stakeholders across the sector are striving to ensure that Limerick residents and individuals nationwide continue to have access to safe, professional, and empowering mental health support systems.",
+      "pullQuote": "Newly trained psychotherapists will not be equipped to provide the relational capacity that is essential to the long-term processing of trauma.",
+      "localAngle": "Limerick-born psychotherapist Trish Murphy is leading the national conversation on safeguarding the quality of mental health training and protecting vulnerable clients.",
+      "originalTitle": "Limerick psychotherapist warns of dangers of fast-track training",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/23/limerick-psychotherapist-warns-of-dangers-of-fast-track-training/",
+      "publishedAt": "Fri, 23 Oct 2026 12:30:43 +0000",
+      "rewrittenAt": "2026-10-24T17:30:28.763Z"
     }
   }
 }
