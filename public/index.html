@@ -4,208 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Limerick Weekly - Local News for Limerick</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Georgia', 'Times New Roman', serif;
-            background: #fafafa;
-            color: #1a1a1a;
-            line-height: 1.6;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            background: white;
-            min-height: 100vh;
-        }
-
-        /* Header */
-        .header {
-            background: #1a1a1a;
-            color: white;
-            padding: 2rem;
-            text-align: center;
-            border-bottom: 4px solid #c41e3a;
-        }
-
-        .header h1 {
-            font-size: 3rem;
-            font-weight: 900;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            margin-bottom: 0.5rem;
-        }
-
-        .header p {
-            font-size: 1rem;
-            font-style: italic;
-            color: #ccc;
-        }
-
-        .date {
-            margin-top: 1rem;
-            font-size: 0.9rem;
-            color: #999;
-            border-top: 1px solid #444;
-            padding-top: 1rem;
-        }
-
-        /* Main Content */
-        .content {
-            padding: 3rem 2rem;
-        }
-
-        .intro {
-            text-align: center;
-            margin-bottom: 3rem;
-            padding-bottom: 2rem;
-            border-bottom: 2px solid #eee;
-        }
-
-        .intro h2 {
-            font-size: 1.5rem;
-            margin-bottom: 0.5rem;
-            color: #c41e3a;
-        }
-
-        .count {
-            font-size: 1.1rem;
-            color: #666;
-        }
-
-        /* Article List */
-        .articles-list {
-            list-style: none;
-        }
-
-        .article-item {
-            border-bottom: 1px solid #eee;
-            padding: 2rem 0;
-        }
-
-        .article-item:last-child {
-            border-bottom: none;
-        }
-
-        .article-number {
-            display: inline-block;
-            background: #c41e3a;
-            color: white;
-            padding: 0.3rem 0.8rem;
-            font-size: 0.9rem;
-            font-weight: bold;
-            margin-bottom: 1rem;
-        }
-
-        .article-title {
-            font-size: 1.8rem;
-            line-height: 1.3;
-            margin-bottom: 0.5rem;
-        }
-
-        .article-title a {
-            color: #1a1a1a;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        .article-title a:hover {
-            color: #c41e3a;
-        }
-
-        .article-summary {
-            color: #555;
-            font-size: 1.05rem;
-            margin: 1rem 0;
-            line-height: 1.6;
-        }
-
-        .article-meta {
-            font-size: 0.9rem;
-            color: #999;
-            margin-top: 1rem;
-        }
-
-        .read-more {
-            display: inline-block;
-            margin-top: 1rem;
-            color: #c41e3a;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 1rem;
-        }
-
-        .read-more:hover {
-            text-decoration: underline;
-        }
-
-        /* Footer */
-        .footer {
-            background: #f5f5f5;
-            text-align: center;
-            padding: 2rem;
-            border-top: 2px solid #eee;
-            margin-top: 3rem;
-        }
-
-        .footer p {
-            margin: 0.5rem 0;
-            color: #666;
-            font-size: 0.9rem;
-        }
-
-        .loading {
-            text-align: center;
-            padding: 4rem;
-            font-size: 1.2rem;
-            color: #666;
-        }
-    </style>
+    <meta name="description" content="Local news from Limerick city and county, curated daily.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Playfair+Display:ital,wght@0,700;0,900;1,400&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=UnifrakturMaguntia&display=swap">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <!-- Header -->
-        <header class="header">
-            <h1>The Limerick Weekly</h1>
-            <p>Local News for Limerick</p>
-            <div class="date" id="currentDate"></div>
+    <div class="paper">
+        <header>
+            <div class="edition-bar">
+                <span id="edition">Vol. &mdash; No. &mdash;</span>
+                <span>Limerick, Ireland</span>
+                <span>Free Edition</span>
+            </div>
+            <div class="masthead">
+                <div class="ear ear-left"><strong>Local first</strong>News from the Treaty City and county</div>
+                <h1 class="masthead-title"><a href="./">The Limerick Weekly</a></h1>
+                <div class="ear ear-right"><strong>Updated daily</strong>New stories every morning at 6am</div>
+            </div>
+            <div class="dateline">
+                <span id="editionDate">&nbsp;</span>
+                <span class="motto">All the news of the Treaty City</span>
+                <span id="storyCount">&nbsp;</span>
+            </div>
         </header>
 
-        <!-- Main Content -->
-        <main class="content">
-            <div id="loadingMessage" class="loading">
-                📰 Loading articles...
-            </div>
-
-            <div id="articlesContainer" style="display: none;">
-                <div class="intro">
-                    <h2>Latest Stories</h2>
-                    <p class="count"><span id="articleCount"></span> articles with local Limerick connections</p>
-                </div>
-                <ul class="articles-list" id="articlesList"></ul>
-            </div>
+        <main id="front">
+            <p class="notice">Setting the type&hellip;</p>
         </main>
 
-        <!-- Footer -->
-        <footer class="footer">
-            <p><strong>The Limerick Weekly</strong></p>
-            <p>Your source for local Limerick news</p>
+        <footer class="colophon">
+            <span class="masthead-small">The Limerick Weekly</span>
+            Stories are AI rewrites of local reporting &middot; each links to its original source
         </footer>
     </div>
 
     <script>
-        // Set current date
-        const dateEl = document.getElementById('currentDate');
-        const today = new Date();
-        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-        dateEl.textContent = today.toLocaleDateString('en-IE', options);
-
         // Escape text before putting it into innerHTML (article text comes from an AI rewrite of scraped pages)
         function esc(value) {
             return String(value ?? '').replace(/[&<>"']/g, c => ({
@@ -213,66 +48,114 @@
             }[c]));
         }
 
+        function articleHref(article) {
+            return `articles/${encodeURIComponent(article.slug)}.html`;
+        }
+
+        function shortDate(value) {
+            const d = new Date(value);
+            return Number.isNaN(d.getTime()) ? '' : d.toLocaleDateString('en-IE', { day: 'numeric', month: 'short' });
+        }
+
+        function toRoman(n) {
+            const map = [[10, 'X'], [9, 'IX'], [5, 'V'], [4, 'IV'], [1, 'I']];
+            let out = '';
+            for (const [value, numeral] of map) {
+                while (n >= value) { out += numeral; n -= value; }
+            }
+            return out;
+        }
+
+        // Edition details come from when the site was built, not when the page is viewed
+        function setEdition(generatedAt, count) {
+            const d = new Date(generatedAt);
+            const when = Number.isNaN(d.getTime()) ? new Date() : d;
+            const startOfYear = new Date(when.getFullYear(), 0, 0);
+            const dayOfYear = Math.floor((when - startOfYear) / 86400000);
+            document.getElementById('edition').textContent =
+                `Vol. ${toRoman(Math.max(1, when.getFullYear() - 2024))} · No. ${dayOfYear}`;
+            document.getElementById('editionDate').textContent =
+                when.toLocaleDateString('en-IE', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+            document.getElementById('storyCount').textContent = `${count} ${count === 1 ? 'story' : 'stories'}`;
+        }
+
+        function leadHtml(article) {
+            const paragraphs = (article.lead || [article.summary]).map(p => `<p>${esc(p)}</p>`).join('');
+            return `
+                <article class="lead">
+                    <span class="kicker">${esc(article.section)}</span>
+                    <h2 class="headline"><a href="${articleHref(article)}">${esc(article.headline)}</a></h2>
+                    ${article.subheadline ? `<p class="deck">${esc(article.subheadline)}</p>` : ''}
+                    <p class="byline">The Limerick Weekly &middot; from reporting by ${esc(article.originalSource)} &middot; ${esc(shortDate(article.publishedAt))}</p>
+                    ${article.pullQuote ? `<p class="pull-quote">${esc(article.pullQuote)}</p>` : ''}
+                    <div class="body-text drop-cap">${paragraphs}</div>
+                    <a class="continued" href="${articleHref(article)}">Continued inside &rarr;</a>
+                </article>`;
+        }
+
+        function secondHtml(article) {
+            return `
+                <article class="second">
+                    <span class="kicker">${esc(article.section)}</span>
+                    <h3 class="headline"><a href="${articleHref(article)}">${esc(article.headline)}</a></h3>
+                    ${article.subheadline ? `<p class="deck">${esc(article.subheadline)}</p>` : ''}
+                    <p class="summary">${esc(article.summary)}</p>
+                    <a class="continued" href="${articleHref(article)}">Read more &rarr;</a>
+                </article>`;
+        }
+
+        function storyHtml(article) {
+            return `
+                <article class="story">
+                    <span class="kicker">${esc(article.section)}</span>
+                    <h3 class="headline"><a href="${articleHref(article)}">${esc(article.headline)}</a></h3>
+                    ${article.subheadline ? `<p class="deck">${esc(article.subheadline)}</p>` : ''}
+                    <p class="summary">${esc(article.summary)}</p>
+                    <a class="continued" href="${articleHref(article)}">Read more &rarr;</a>
+                </article>`;
+        }
+
+        function render(articles) {
+            const [lead, ...rest] = articles;
+            const seconds = rest.slice(0, 3);
+            const others = rest.slice(3);
+
+            let html = `<div class="front">${leadHtml(lead)}`;
+            if (seconds.length) {
+                html += `<aside class="sidebar"><div class="sidebar-heading">Also in the news</div>${seconds.map(secondHtml).join('')}</aside>`;
+            }
+            html += '</div>';
+            if (others.length) {
+                html += `<hr class="section-rule"><div class="grid">${others.map(storyHtml).join('')}</div>`;
+            }
+            document.getElementById('front').innerHTML = html;
+        }
+
         // Load the article list published by the daily build (relative path so it works under /limerick-weekly/)
         async function loadArticles() {
-            const loading = document.getElementById('loadingMessage');
+            const front = document.getElementById('front');
             try {
                 const response = await fetch('data/articles.json', { cache: 'no-cache' });
-
                 if (!response.ok) {
                     throw new Error(`HTTP ${response.status}: ${response.statusText}`);
                 }
 
                 const data = await response.json();
                 const articles = data.articles || [];
+                setEdition(data.generatedAt, articles.length);
 
                 if (articles.length === 0) {
-                    loading.innerHTML =
-                        '📰 No articles available yet.<br><br>' +
-                        '<small>Articles are generated daily at 6 AM UTC.</small>';
+                    front.innerHTML = '<p class="notice">No stories in this edition yet. New stories are added every morning at 6am.</p>';
                     return;
                 }
 
-                displayArticles(articles);
+                render(articles);
             } catch (error) {
                 console.error('Error loading articles:', error);
-                loading.innerHTML =
-                    '❌ Error loading articles: ' + esc(error.message) + '<br><br>' +
-                    '<small>Please try refreshing the page.</small>';
+                front.innerHTML = `<p class="notice">The presses have stalled: ${esc(error.message)}. Please try refreshing the page.</p>`;
             }
         }
 
-        function displayArticles(articles) {
-            const container = document.getElementById('articlesList');
-            const articleCount = document.getElementById('articleCount');
-
-            articleCount.textContent = articles.length;
-
-            articles.forEach((article, index) => {
-                const href = `articles/${encodeURIComponent(article.slug)}.html`;
-
-                const item = document.createElement('li');
-                item.className = 'article-item';
-                item.innerHTML = `
-                    <div class="article-number">#${index + 1}</div>
-                    <h2 class="article-title">
-                        <a href="${href}">${esc(article.headline)}</a>
-                    </h2>
-                    <p class="article-summary">${esc(article.summary)}</p>
-                    <div class="article-meta">
-                        ${esc(article.originalSource)} • ${new Date(article.publishedAt).toLocaleDateString('en-IE')}
-                    </div>
-                    <a href="${href}" class="read-more">Read Full Article →</a>
-                `;
-
-                container.appendChild(item);
-            });
-
-            document.getElementById('loadingMessage').style.display = 'none';
-            document.getElementById('articlesContainer').style.display = 'block';
-        }
-
-        // Load articles on page load
         loadArticles();
     </script>
 </body>
