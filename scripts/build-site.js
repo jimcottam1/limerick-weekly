@@ -93,6 +93,13 @@ function paragraphsOf(story) {
     return story.split('\n\n').map(p => p.trim()).filter(Boolean);
 }
 
+/** "Photo: Adrian Butler / Limerick Leader", or just the source when the feed gives no usable credit. */
+function photoCredit(article) {
+    const credit = (article.imageCredit || '').trim();
+    const useful = credit.length > 2 && credit.toLowerCase() !== article.originalSource.toLowerCase();
+    return `Photo: ${useful ? `${credit} / ` : ''}${article.originalSource}`;
+}
+
 function articleHtml(article) {
     const published = new Date(article.publishedAt);
     const dateStr = Number.isNaN(published.getTime())
@@ -131,7 +138,10 @@ function articleHtml(article) {
             ${article.subheadline ? `<p class="deck">${escapeHtml(article.subheadline)}</p>` : ''}
             <p class="byline">The 061 &middot; from reporting by ${escapeHtml(article.originalSource)}${dateStr ? ` &middot; ${escapeHtml(dateStr)}` : ''}</p>
 
-            ${image ? `<img src="${escapeHtml(image)}" alt="" class="article-image" referrerpolicy="no-referrer">` : ''}
+            ${image ? `<figure class="photo photo-article">
+                <img src="${escapeHtml(image)}" alt="" referrerpolicy="no-referrer" onerror="this.parentNode.remove()">
+                <figcaption>${escapeHtml(photoCredit(article))}</figcaption>
+            </figure>` : ''}
             ${article.pullQuote ? `<p class="pull-quote">${escapeHtml(article.pullQuote)}</p>` : ''}
 
             <div class="body-text drop-cap">
@@ -202,11 +212,14 @@ function buildSite() {
     }
 
     // The front page only needs list fields, plus the opening paragraphs for whichever story leads.
-    const listing = articles.map(({ slug, section, headline, subheadline, story, pullQuote, originalSource, publishedAt }) => {
+    const listing = articles.map(article => {
+        const { slug, section, headline, subheadline, story, pullQuote, originalSource, publishedAt } = article;
         const paragraphs = paragraphsOf(story);
         const first = paragraphs[0] || '';
+        const imageUrl = safeUrl(article.imageUrl);
         return {
             slug, section, headline, subheadline, pullQuote, originalSource, publishedAt,
+            ...(imageUrl && { imageUrl, photoCredit: photoCredit(article) }),
             summary: first.length > 200 ? first.substring(0, 200) + '...' : first,
             lead: paragraphs.slice(0, 3)
         };

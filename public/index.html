@@ -79,6 +79,16 @@
             document.getElementById('storyCount').textContent = `${count} ${count === 1 ? 'story' : 'stories'}`;
         }
 
+        // Photos are hot-linked from the source site; if one fails to load, drop the whole figure
+        function photoHtml(article, className) {
+            if (!article.imageUrl) return '';
+            return `
+                <figure class="photo ${className}">
+                    <a href="${articleHref(article)}"><img src="${esc(article.imageUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('figure').remove()"></a>
+                    <figcaption>${esc(article.photoCredit)}</figcaption>
+                </figure>`;
+        }
+
         function leadHtml(article) {
             const paragraphs = (article.lead || [article.summary]).map(p => `<p>${esc(p)}</p>`).join('');
             return `
@@ -87,15 +97,18 @@
                     <h2 class="headline"><a href="${articleHref(article)}">${esc(article.headline)}</a></h2>
                     ${article.subheadline ? `<p class="deck">${esc(article.subheadline)}</p>` : ''}
                     <p class="byline">The 061 &middot; from reporting by ${esc(article.originalSource)} &middot; ${esc(shortDate(article.publishedAt))}</p>
+                    ${photoHtml(article, 'photo-lead')}
                     ${article.pullQuote ? `<p class="pull-quote">${esc(article.pullQuote)}</p>` : ''}
                     <div class="body-text drop-cap">${paragraphs}</div>
                     <a class="continued" href="${articleHref(article)}">Continued inside &rarr;</a>
                 </article>`;
         }
 
-        function secondHtml(article) {
+        // Only the top sidebar story gets a photo, so the sidebar doesn't outgrow the lead column
+        function secondHtml(article, index) {
             return `
                 <article class="second">
+                    ${index === 0 ? photoHtml(article, 'photo-second') : ''}
                     <span class="kicker">${esc(article.section)}</span>
                     <h3 class="headline"><a href="${articleHref(article)}">${esc(article.headline)}</a></h3>
                     ${article.subheadline ? `<p class="deck">${esc(article.subheadline)}</p>` : ''}
@@ -107,6 +120,7 @@
         function storyHtml(article) {
             return `
                 <article class="story">
+                    ${photoHtml(article, 'photo-story')}
                     <span class="kicker">${esc(article.section)}</span>
                     <h3 class="headline"><a href="${articleHref(article)}">${esc(article.headline)}</a></h3>
                     ${article.subheadline ? `<p class="deck">${esc(article.subheadline)}</p>` : ''}
@@ -116,7 +130,10 @@
         }
 
         function render(articles) {
-            const [lead, ...rest] = articles;
+            // Lead with the newest story that has a photo; the rest keep their order
+            const leadIndex = Math.max(0, articles.findIndex(a => a.imageUrl));
+            const lead = articles[leadIndex];
+            const rest = articles.filter((_, i) => i !== leadIndex);
             const seconds = rest.slice(0, 3);
             const others = rest.slice(3);
 

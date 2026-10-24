@@ -176,6 +176,7 @@ Return ONLY valid JSON, no additional text.`;
             originalLink: originalArticle.link,
             publishedAt: originalArticle.pubDate,
             imageUrl: originalArticle.imageUrl,
+            imageCredit: originalArticle.imageCredit,
             rewrittenAt: new Date().toISOString()
         };
     } catch (error) {

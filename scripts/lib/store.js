@@ -55,6 +55,10 @@ function hasArticle(id) {
     return Object.prototype.hasOwnProperty.call(load().articles, id);
 }
 
+function getArticle(id) {
+    return load().articles[id] || null;
+}
+
 function addArticle(article) {
     load().articles[article.id] = article;
 }
@@ -102,6 +106,7 @@ module.exports = {
     STORE_PATH,
     save,
     hasArticle,
+    getArticle,
     addArticle,
     getRecentArticles,
     removeArticle,

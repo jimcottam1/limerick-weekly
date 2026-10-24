@@ -6,8 +6,9 @@
     "scrape": "node scripts/scrape-news.js",
     "dedupe": "node scripts/ai-deduplicate.js",
     "rewrite": "node scripts/rewrite-articles.js",
+    "images": "node scripts/fetch-images.js",
     "build": "node scripts/build-site.js",
-    "update": "npm run scrape && npm run dedupe && npm run rewrite && npm run build",
+    "update": "npm run scrape && npm run dedupe && npm run rewrite && npm run images && npm run build",
     "clear-rewrites": "node scripts/clear-rewrites.js",
     "preview": "npx --yes serve site"
   },

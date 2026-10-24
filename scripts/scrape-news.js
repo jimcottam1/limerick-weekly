@@ -102,6 +102,23 @@ async function fetchRSSFeed(url) {
 /**
  * Extract articles from parsed RSS feed
  */
+/**
+ * Lead photo and credit from the feed item, where the feed provides one
+ * (the Limerick Leader uses media:content with media:credit).
+ */
+function feedImage(item) {
+    const media = item['media:content']?.find(m => m.$?.url && (m.$.medium === 'image' || /^image\//.test(m.$.type || '')))
+        || item['media:thumbnail']?.[0]
+        || item.enclosure?.find(e => /^image\//.test(e.$?.type || ''));
+    if (!media?.$?.url) return {};
+
+    const credit = media['media:credit']?.[0];
+    return {
+        imageUrl: media.$.url,
+        imageCredit: (typeof credit === 'string' ? credit : credit?._) || undefined
+    };
+}
+
 function extractArticles(feedData, sourceName) {
     if (!feedData) return [];
 
@@ -118,6 +135,7 @@ function extractArticles(feedData, sourceName) {
                 description: item.description?.[0] || item.summary?.[0] || item.content?.[0] || '',
                 pubDate: item.pubDate?.[0] || item.published?.[0] || new Date().toISOString(),
                 author: item.author?.[0]?.name?.[0] || item['dc:creator']?.[0] || 'Unknown',
+                ...feedImage(item),
                 source: sourceName,
                 scrapedAt: new Date().toISOString()
             };
@@ -149,6 +167,11 @@ function saveArticles(articles) {
 
     for (const article of articles) {
         if (store.hasArticle(article.id)) {
+            // Fill in a feed image for articles stored before images were collected
+            const existing = store.getArticle(article.id);
+            if (article.imageUrl && !existing.imageUrl) {
+                store.addArticle({ ...existing, imageUrl: article.imageUrl, imageCredit: article.imageCredit });
+            }
             skipped.push(article);
         } else {
             store.addArticle(article);

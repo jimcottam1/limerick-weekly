@@ -317,7 +317,35 @@ a:hover { color: var(--accent); }
 
 .article .body-text { column-count: 2; column-gap: 32px; column-rule: 1px solid var(--rule-light); font-size: 17.5px; }
 
-.article-image { width: 100%; height: auto; margin-bottom: 20px; filter: grayscale(0.15) contrast(1.02); }
+/* ---------- Photos ---------- */
+
+.photo { margin: 0 0 14px; }
+.photo a { display: block; }
+
+.photo img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    background: var(--paper-edge);
+    filter: saturate(0.85) contrast(1.03);
+}
+
+.photo figcaption {
+    font-family: var(--label);
+    font-size: 10.5px;
+    letter-spacing: 0.04em;
+    color: var(--ink-faint);
+    text-align: right;
+    padding-top: 4px;
+    border-bottom: 1px solid var(--rule-light);
+    padding-bottom: 4px;
+}
+
+.photo-lead img { aspect-ratio: 16 / 9; }
+.photo-second img { aspect-ratio: 3 / 2; }
+.photo-story img { aspect-ratio: 3 / 2; }
+.photo-article { margin: 0 0 22px; }
+.photo-article img { max-height: 520px; }
 
 .boxed {
     border: 1px solid var(--rule);
