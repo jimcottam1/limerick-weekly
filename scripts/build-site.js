@@ -9,6 +9,10 @@ const PUBLIC_DIR = path.join(ROOT, 'public');
 const SITE_DIR = process.env.SITE_DIR || path.join(ROOT, 'site');
 const MAX_ARTICLES = 50;
 
+// GitHub Pages lets browsers cache files for 10 minutes, so a returning reader could get a new page
+// with the old stylesheet. Versioning the stylesheet URL by its content makes every change load fresh.
+const STYLE_VERSION = crypto.createHash('sha1').update(fs.readFileSync(path.join(PUBLIC_DIR, 'styles.css'))).digest('hex').slice(0, 8);
+
 function escapeHtml(value) {
     return String(value ?? '').replace(/[&<>"']/g, c => ({
         '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
@@ -133,7 +137,7 @@ function articleHtml(article) {
     <title>${escapeHtml(article.headline)} - The 061</title>
     <meta name="description" content="${escapeHtml(article.subheadline || article.headline)}">
     ${FONTS}
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../styles.css?v=${STYLE_VERSION}">
 </head>
 <body>
     <div class="paper">
@@ -192,7 +196,7 @@ const NOT_FOUND_HTML = `<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Not found - The 061</title>
     ${FONTS}
-    <link rel="stylesheet" id="styles" href="styles.css">
+    <link rel="stylesheet" id="styles" href="styles.css?v=${STYLE_VERSION}">
 </head>
 <body>
     <div class="paper">
@@ -206,7 +210,7 @@ const NOT_FOUND_HTML = `<!DOCTYPE html>
 // Works for both a project site (/the-061/...) and a root site
 var m = location.pathname.match(/^(.*\\/)articles\\//) || location.pathname.match(/^(\\/[^/]+\\/)/);
 var base = m ? m[1] : '/';
-document.getElementById('styles').href = base + 'styles.css';
+document.getElementById('styles').href = base + 'styles.css?v=${STYLE_VERSION}';
 document.querySelectorAll('.home').forEach(function (a) { a.href = base; });
 </script>
 </body></html>
@@ -220,6 +224,8 @@ function buildSite() {
     fs.mkdirSync(path.join(SITE_DIR, 'data'), { recursive: true });
 
     fs.cpSync(PUBLIC_DIR, SITE_DIR, { recursive: true });
+    const indexPath = path.join(SITE_DIR, 'index.html');
+    fs.writeFileSync(indexPath, fs.readFileSync(indexPath, 'utf8').replace('href="styles.css"', `href="styles.css?v=${STYLE_VERSION}"`));
 
     const articles = collectArticles();
 
