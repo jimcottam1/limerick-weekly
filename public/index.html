@@ -206,49 +206,39 @@
         const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
         dateEl.textContent = today.toLocaleDateString('en-IE', options);
 
-        // Load articles from Redis
-        async function loadArticles() {
-            try {
-                // Add 10 second timeout
-                const controller = new AbortController();
-                const timeoutId = setTimeout(() => controller.abort(), 10000);
+        // Escape text before putting it into innerHTML (article text comes from an AI rewrite of scraped pages)
+        function esc(value) {
+            return String(value ?? '').replace(/[&<>"']/g, c => ({
+                '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+            }[c]));
+        }
 
-                const response = await fetch('/api/articles/recent?limit=50', {
-                    signal: controller.signal
-                });
-                clearTimeout(timeoutId);
+        // Load the article list published by the daily build (relative path so it works under /limerick-weekly/)
+        async function loadArticles() {
+            const loading = document.getElementById('loadingMessage');
+            try {
+                const response = await fetch('data/articles.json', { cache: 'no-cache' });
 
                 if (!response.ok) {
                     throw new Error(`HTTP ${response.status}: ${response.statusText}`);
                 }
 
                 const data = await response.json();
-                console.log('API Response:', data); // Debug logging
-
-                // The API already returns rewritten articles with localAngle
                 const articles = data.articles || [];
 
                 if (articles.length === 0) {
-                    document.getElementById('loadingMessage').innerHTML =
+                    loading.innerHTML =
                         '📰 No articles available yet.<br><br>' +
-                        '<small>Articles are generated daily at 6 AM UTC.<br>' +
-                        'Trigger manually via GitHub Actions → "Daily News Update"</small>';
+                        '<small>Articles are generated daily at 6 AM UTC.</small>';
                     return;
                 }
 
                 displayArticles(articles);
             } catch (error) {
                 console.error('Error loading articles:', error);
-
-                if (error.name === 'AbortError') {
-                    document.getElementById('loadingMessage').innerHTML =
-                        '⏱️ API request timed out.<br><br>' +
-                        '<small>Redis may not be connected. Check REDIS_URL in Render environment variables.</small>';
-                } else {
-                    document.getElementById('loadingMessage').innerHTML =
-                        '❌ Error loading articles: ' + error.message + '<br><br>' +
-                        '<small>Check browser console for details.</small>';
-                }
+                loading.innerHTML =
+                    '❌ Error loading articles: ' + esc(error.message) + '<br><br>' +
+                    '<small>Please try refreshing the page.</small>';
             }
         }
 
@@ -259,27 +249,20 @@
             articleCount.textContent = articles.length;
 
             articles.forEach((article, index) => {
-                // Create article ID for link - must match generate-article-pages.js logic
-                const articleId = article.id.replace(/[^a-z0-9]/gi, '-');
-
-                // Get first paragraph as summary
-                const firstParagraph = article.story.split('\n\n')[0];
-                const summary = firstParagraph.length > 200
-                    ? firstParagraph.substring(0, 200) + '...'
-                    : firstParagraph;
+                const href = `articles/${encodeURIComponent(article.slug)}.html`;
 
                 const item = document.createElement('li');
                 item.className = 'article-item';
                 item.innerHTML = `
                     <div class="article-number">#${index + 1}</div>
                     <h2 class="article-title">
-                        <a href="/articles/${articleId}.html">${article.headline}</a>
+                        <a href="${href}">${esc(article.headline)}</a>
                     </h2>
-                    <p class="article-summary">${summary}</p>
+                    <p class="article-summary">${esc(article.summary)}</p>
                     <div class="article-meta">
-                        ${article.originalSource} • ${new Date(article.publishedAt).toLocaleDateString('en-IE')}
+                        ${esc(article.originalSource)} • ${new Date(article.publishedAt).toLocaleDateString('en-IE')}
                     </div>
-                    <a href="/articles/${articleId}.html" class="read-more">Read Full Article →</a>
+                    <a href="${href}" class="read-more">Read Full Article →</a>
                 `;
 
                 container.appendChild(item);

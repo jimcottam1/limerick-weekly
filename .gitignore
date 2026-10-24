@@ -2,15 +2,10 @@ node_modules/
 .env
 .DS_Store
 *.log
-.vercel
-cache/
-dist/
+*.tmp
 
-# Generated content (will be created by the app)
-articles/
-articles-html/
-output/
-nul
+# Built site (deployed by GitHub Actions, not committed)
+site/
 
 # Claude Code
 .claude/

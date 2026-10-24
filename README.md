@@ -1,92 +1,74 @@
 # The Limerick Weekly
 
-AI-Curated Local News Digest for Limerick
+AI-curated local news for Limerick, published as a static site on GitHub Pages.
 
-## About
+A GitHub Actions workflow runs every day. It collects Limerick news from RSS feeds (and NewsAPI, if configured), removes duplicate stories, rewrites the ones with a Limerick connection using Google Gemini, and publishes the result. There is no server or database.
 
-The Limerick Weekly is an AI-powered news aggregator that collects articles from multiple Limerick news sources and generates a comprehensive weekly digest. Using Google's Gemini AI, it analyzes news coverage, identifies trending topics, and creates an engaging newspaper-style summary.
-
-## Features
-
-- 📰 **Multi-Source Aggregation** - Pulls from Limerick Post, Limerick Leader, Live 95, and more
-- 🤖 **AI-Powered Summaries** - Gemini AI analyzes and summarizes stories
-- 🔥 **Trend Detection** - Identifies most discussed topics
-- 📊 **Story Clustering** - Combines coverage of same story from multiple sources
-- 📅 **Weekly Editions** - Professional newspaper-style digest every week
-- 📧 **Email Newsletter** - Subscribe for weekly updates
-
-## Tech Stack
-
-- **Backend**: Node.js, Express
-- **AI**: Google Gemini 2.5 Flash Lite
-- **Database**: Redis (caching)
-- **Hosting**: Vercel
-- **Automation**: GitHub Actions
-
-## Project Structure
+## How it works
 
 ```
-limerick-weekly/
-├── api/
-│   ├── articles.js          # Get all articles
-│   ├── weekly.js            # Generate weekly digest
-│   └── issue/[number].js    # Get specific issue
-├── scripts/
-│   ├── scrape-news.js       # Scrape RSS feeds
-│   └── generate-weekly.js   # Generate weekly edition
-├── public/
-│   ├── index.html           # Main page
-│   ├── styles.css           # Styling
-│   └── app.js               # Frontend logic
-├── server.js                # Express server
-└── package.json
+GitHub Actions (daily 06:00 UTC, or run manually)
+  scrape  -> data/store.json        RSS + NewsAPI, new articles only
+  dedupe  -> data/store.json        Gemini removes same-story duplicates
+  rewrite -> data/store.json        Gemini rewrites up to MAX_DAILY_REWRITES new articles
+  build   -> site/                  index page, one page per article, data/articles.json
+  deploy  -> GitHub Pages
 ```
 
-## Setup
+`data/store.json` is the only state. It is committed back to the repo by the workflow, and articles expire after 30 days. `site/` is generated and never committed.
 
-1. Clone the repository
-```bash
-git clone https://github.com/yourusername/limerick-weekly.git
-cd limerick-weekly
-```
+## One-time setup
 
-2. Install dependencies
+1. **Pages:** repo Settings > Pages > Source: **GitHub Actions**.
+2. **Secrets:** Settings > Secrets and variables > Actions:
+   - `GEMINI_API_KEY` (required) - from https://aistudio.google.com/app/apikey
+   - `NEWSAPI_KEY` (optional)
+3. Run **Actions > Update and Publish > Run workflow** once. The site appears at `https://<user>.github.io/<repo>/`.
+
+## Workflow triggers
+
+- **Daily schedule** - full pipeline.
+- **Manual run** - same, with an optional *Clear rewritten articles first* checkbox. Use it after changing the rewrite prompt so old stories are regenerated.
+- **Push to `master`** touching `public/` or the builder - rebuilds and redeploys only, with no scraping or AI calls.
+
+## Local development
+
 ```bash
 npm install
+cp .env.example .env      # add GEMINI_API_KEY
+npm run update            # scrape, dedupe, rewrite, build
+npm run preview           # serve site/ locally
 ```
 
-3. Create `.env` file
+Individual steps: `npm run scrape`, `dedupe`, `rewrite`, `build`, `clear-rewrites`.
+
+## Configuration
+
+Environment variables (see `.env.example`; the workflow sets defaults for the non-secret ones):
+
+| Variable | Purpose |
+| --- | --- |
+| `GEMINI_API_KEY` | Gemini API key |
+| `NEWSAPI_KEY` | Optional NewsAPI key |
+| `RSS_FEEDS` | Comma-separated feed URLs |
+| `LIMERICK_KEYWORDS` | NewsAPI search terms |
+| `MIN_ARTICLE_LENGTH` | Ignore feed items with shorter descriptions |
+| `MAX_DAILY_REWRITES` | Max new articles examined per run (controls Gemini usage) |
+
+## Project layout
+
 ```
-GEMINI_API_KEY=your_api_key_here
-REDIS_URL=your_redis_url_here
+scripts/
+  scrape-news.js        collect articles into the store
+  ai-deduplicate.js     drop same-story duplicates
+  rewrite-articles.js   Limerick check + AI rewrite
+  build-site.js         store -> site/ (HTML is escaped, URLs restricted to http/https)
+  clear-rewrites.js     forget rewrites so they regenerate
+  lib/store.js          file-backed store with 30-day expiry
+public/                 index page, copied into site/
+.github/workflows/publish.yml
 ```
 
-4. Run locally
-```bash
-npm run dev
-```
+## Note on content
 
-## Scripts
-
-- `npm start` - Start production server
-- `npm run dev` - Start development server with nodemon
-- `npm run scrape` - Scrape news sources
-- `npm run generate` - Generate weekly digest
-
-## Data Sources
-
-- Limerick Post
-- Limerick Leader
-- Live 95 FM
-- Google News (Limerick)
-- Munster Rugby
-- GAA News
-- More sources coming soon...
-
-## License
-
-MIT
-
-## Contributing
-
-Contributions welcome! Please open an issue or PR.
+Stories are AI rewrites of third-party reporting and are labelled as such, with a link to the original source on every page. Consider the source publishers' terms when choosing feeds.

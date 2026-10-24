@@ -1,48 +1,9 @@
 require('dotenv').config();
 const { GoogleGenerativeAI } = require('@google/generative-ai');
-const Redis = require('ioredis');
-
-// Initialize Redis
-let redis = null;
-if (process.env.REDIS_URL) {
-    redis = new Redis(process.env.REDIS_URL);
-} else {
-    redis = new Redis({
-        host: process.env.REDIS_HOST || 'localhost',
-        port: process.env.REDIS_PORT || 6379,
-        password: process.env.REDIS_PASSWORD || undefined
-    });
-}
+const store = require('./lib/store');
 
 // Initialize Gemini AI
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-
-/**
- * Get recent articles from Redis
- */
-async function getRecentArticles(limit = 100) {
-    try {
-        const articleIds = await redis.zrevrange('articles:by_date', 0, limit - 1);
-
-        if (articleIds.length === 0) {
-            console.log('⚠️  No articles found in database');
-            return [];
-        }
-
-        const articles = [];
-        for (const id of articleIds) {
-            const data = await redis.get(`article:${id}`);
-            if (data) {
-                articles.push({ id, ...JSON.parse(data) });
-            }
-        }
-
-        return articles;
-    } catch (error) {
-        console.error('Error fetching articles:', error.message);
-        return [];
-    }
-}
 
 /**
  * Check if two articles are about the same story using AI
@@ -93,9 +54,8 @@ async function aiDeduplicate() {
     console.log('='.repeat(50));
 
     try {
-        // Get all articles
-        console.log('\n📚 Fetching articles from Redis...');
-        const articles = await getRecentArticles(100);
+        console.log('\n📚 Loading articles from the store...');
+        const articles = store.getRecentArticles(100);
 
         if (articles.length === 0) {
             console.log('\n⚠️  No articles available.');
@@ -104,65 +64,51 @@ async function aiDeduplicate() {
 
         console.log(`✓ Found ${articles.length} articles`);
 
-        const toKeep = [];
+        // Articles that already have a rewrite were vetted on an earlier run, so they
+        // form the baseline. Only new articles are compared against it.
+        // Articles judged to have no Limerick connection are ignored entirely.
+        const vetted = articles.filter(a => {
+            const r = store.getRewritten(a.id);
+            return r && !r.skipped;
+        });
+        const candidates = articles.filter(a => !store.getRewritten(a.id));
+
+        const toKeep = [...vetted];
         const toRemove = [];
-        const checked = new Set();
 
-        console.log('\n🔍 Checking for semantic duplicates...\n');
+        console.log(`\n🔍 Checking ${candidates.length} new articles for semantic duplicates (${vetted.length} already vetted)...\n`);
 
-        for (let i = 0; i < articles.length; i++) {
-            const article1 = articles[i];
-
-            // Skip if already marked for removal
-            if (toRemove.some(a => a.id === article1.id)) {
-                continue;
-            }
-
+        for (const article of candidates) {
             let isDuplicate = false;
 
-            // Compare with articles we're keeping
             for (const keptArticle of toKeep) {
-                const pairKey = [article1.id, keptArticle.id].sort().join('|');
+                console.log(`   Comparing: "${article.title.substring(0, 50)}..." vs "${keptArticle.title.substring(0, 50)}..."`);
 
-                if (!checked.has(pairKey)) {
-                    console.log(`   Comparing: "${article1.title.substring(0, 50)}..." vs "${keptArticle.title.substring(0, 50)}..."`);
-
-                    const similar = await areSimilarStories(article1, keptArticle);
-                    checked.add(pairKey);
-
-                    if (similar) {
-                        console.log(`   ✗ DUPLICATE DETECTED - Removing: "${article1.title}"`);
-                        isDuplicate = true;
-                        toRemove.push(article1);
-                        break;
-                    } else {
-                        console.log(`   ✓ Different stories`);
-                    }
-
-                    // Rate limiting - wait 500ms between AI calls
-                    await new Promise(resolve => setTimeout(resolve, 500));
+                if (await areSimilarStories(article, keptArticle)) {
+                    console.log(`   ✗ DUPLICATE DETECTED - Removing: "${article.title}"`);
+                    isDuplicate = true;
+                    toRemove.push(article);
+                    break;
                 }
+                console.log(`   ✓ Different stories`);
+
+                // Rate limiting - wait 500ms between AI calls
+                await new Promise(resolve => setTimeout(resolve, 500));
             }
 
             if (!isDuplicate) {
-                toKeep.push(article1);
+                toKeep.push(article);
             }
         }
 
-        // Remove duplicates from Redis
         if (toRemove.length > 0) {
             console.log(`\n🗑️  Removing ${toRemove.length} duplicate articles...`);
 
             for (const article of toRemove) {
-                // Remove from Redis
-                await redis.del(`article:${article.id}`);
-                await redis.zrem('articles:by_date', article.id);
-
-                // Also remove rewritten version if exists
-                await redis.del(`article:rewritten:${article.id}`);
-
+                store.removeArticle(article.id);
                 console.log(`   ✓ Removed: ${article.title}`);
             }
+            store.save();
         }
 
         console.log('\n' + '='.repeat(50));
@@ -184,12 +130,10 @@ if (require.main === module) {
     aiDeduplicate()
         .then(() => {
             console.log('\n🎉 Done!');
-            redis.disconnect();
             process.exit(0);
         })
         .catch((error) => {
             console.error('\n❌ Error:', error);
-            redis.disconnect();
             process.exit(1);
         });
 }

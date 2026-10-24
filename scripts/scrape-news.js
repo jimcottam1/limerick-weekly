@@ -1,36 +1,8 @@
 require('dotenv').config();
-const Redis = require('ioredis');
+const store = require('./lib/store');
 const xml2js = require('xml2js');
 const NewsAPI = require('newsapi');
 const fetch = require('node-fetch');
-
-// Initialize Redis (using Redis URL like windfarm)
-let redis = null;
-if (process.env.REDIS_URL) {
-    redis = new Redis(process.env.REDIS_URL, {
-        retryStrategy: (times) => {
-            if (times > 3) {
-                console.error('❌ Redis connection failed after 3 retries');
-                return null;
-            }
-            return Math.min(times * 100, 2000);
-        }
-    });
-} else {
-    // Fallback to local Redis
-    redis = new Redis({
-        host: process.env.REDIS_HOST || 'localhost',
-        port: process.env.REDIS_PORT || 6379,
-        password: process.env.REDIS_PASSWORD || undefined,
-        retryStrategy: (times) => {
-            if (times > 3) {
-                console.error('❌ Redis connection failed after 3 retries');
-                return null;
-            }
-            return Math.min(times * 100, 2000);
-        }
-    });
-}
 
 // Initialize NewsAPI (recommended)
 let newsapi = null;
@@ -162,35 +134,18 @@ function extractArticles(feedData, sourceName) {
 }
 
 /**
- * Save articles to Redis
+ * Save new articles to the store
  */
-async function saveArticles(articles) {
+function saveArticles(articles) {
     const saved = [];
     const skipped = [];
 
     for (const article of articles) {
-        try {
-            // Check if article already exists
-            const exists = await redis.exists(`article:${article.id}`);
-
-            if (!exists) {
-                // Save article with 30-day expiration
-                await redis.setex(
-                    `article:${article.id}`,
-                    30 * 24 * 60 * 60, // 30 days
-                    JSON.stringify(article)
-                );
-
-                // Add to sorted set by publication date
-                const timestamp = new Date(article.pubDate).getTime();
-                await redis.zadd('articles:by_date', timestamp, article.id);
-
-                saved.push(article);
-            } else {
-                skipped.push(article);
-            }
-        } catch (error) {
-            console.error(`Error saving article ${article.id}:`, error.message);
+        if (store.hasArticle(article.id)) {
+            skipped.push(article);
+        } else {
+            store.addArticle(article);
+            saved.push(article);
         }
     }
 
@@ -284,9 +239,9 @@ async function scrapeNews() {
 
     console.log(`\n📊 Deduplication: ${allArticles.length} → ${uniqueArticles.length} unique articles`);
 
-    // Step 4: Save to Redis
+    // Step 4: Save to the store
     if (uniqueArticles.length > 0) {
-        const { saved, skipped } = await saveArticles(uniqueArticles);
+        const { saved, skipped } = saveArticles(uniqueArticles);
         console.log(`   ✓ Saved ${saved.length} new articles`);
         console.log(`   ⊘ Skipped ${skipped.length} existing articles`);
 
@@ -296,8 +251,9 @@ async function scrapeNews() {
     }
 
     // Store scraping metadata
-    await redis.set('scrape:last_run', new Date().toISOString());
-    await redis.set('scrape:total_articles', totalArticles);
+    store.setMeta('lastScrape', new Date().toISOString());
+    store.setMeta('totalArticles', totalArticles);
+    store.save();
 
     console.log('\n' + '='.repeat(50));
     console.log('📊 Scraping Summary:');
@@ -314,14 +270,12 @@ if (require.main === module) {
     scrapeNews()
         .then(() => {
             console.log('\n✅ Scraping complete!');
-            redis.disconnect();
             process.exit(0);
         })
         .catch((error) => {
             console.error('\n❌ Scraping failed:', error);
-            redis.disconnect();
             process.exit(1);
         });
 }
 
-module.exports = { scrapeNews, redis };
+module.exports = { scrapeNews };

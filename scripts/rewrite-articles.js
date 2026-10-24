@@ -1,22 +1,8 @@
 require('dotenv').config();
 const { GoogleGenerativeAI } = require('@google/generative-ai');
-const Redis = require('ioredis');
+const store = require('./lib/store');
 const fetch = require('node-fetch');
 const cheerio = require('cheerio');
-const fs = require('fs').promises;
-const path = require('path');
-
-// Initialize Redis
-let redis = null;
-if (process.env.REDIS_URL) {
-    redis = new Redis(process.env.REDIS_URL);
-} else {
-    redis = new Redis({
-        host: process.env.REDIS_HOST || 'localhost',
-        port: process.env.REDIS_PORT || 6379,
-        password: process.env.REDIS_PASSWORD || undefined
-    });
-}
 
 // Initialize Gemini AI
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
@@ -185,6 +171,11 @@ Return ONLY valid JSON, no additional text.`;
         }
 
         const rewritten = JSON.parse(jsonMatch[0]);
+        for (const field of ['headline', 'story', 'localAngle']) {
+            if (typeof rewritten[field] !== 'string' || !rewritten[field].trim()) {
+                throw new Error(`AI response missing "${field}"`);
+            }
+        }
         console.log(`   ✓ Generated ${rewritten.story.length} characters`);
 
         return {
@@ -203,118 +194,72 @@ Return ONLY valid JSON, no additional text.`;
 }
 
 /**
- * Get recent articles from Redis
+ * Rewrite new articles.
+ * `maxAttempts` caps how many articles we spend AI calls on in one run.
  */
-async function getRecentArticles(limit = 20) {
-    try {
-        const articleIds = await redis.zrevrange('articles:by_date', 0, limit - 1);
-
-        if (articleIds.length === 0) {
-            console.log('⚠️  No articles found in database');
-            return [];
-        }
-
-        const articles = [];
-        for (const id of articleIds) {
-            const data = await redis.get(`article:${id}`);
-            if (data) {
-                articles.push(JSON.parse(data));
-            }
-        }
-
-        return articles;
-    } catch (error) {
-        console.error('Error fetching articles:', error.message);
-        return [];
-    }
-}
-
-/**
- * Save rewritten article
- */
-async function saveRewrittenArticle(rewritten, originalId) {
-    try {
-        // Save to Redis
-        const key = `article:rewritten:${originalId}`;
-        await redis.setex(key, 30 * 24 * 60 * 60, JSON.stringify(rewritten)); // 30 days
-
-        // Also save to file for backup
-        const outputDir = path.join(__dirname, '..', 'articles');
-        await fs.mkdir(outputDir, { recursive: true });
-
-        const filename = `${originalId.replace(/[^a-z0-9]/gi, '-')}.json`;
-        const filepath = path.join(outputDir, filename);
-        await fs.writeFile(filepath, JSON.stringify(rewritten, null, 2));
-
-        console.log(`   ✓ Saved to Redis and ${filepath}`);
-    } catch (error) {
-        console.error('Error saving rewritten article:', error.message);
-    }
-}
-
-/**
- * Rewrite multiple articles
- */
-async function rewriteArticles(count = 10) {
+async function rewriteArticles(maxAttempts = 10) {
     console.log('📝 AI Article Rewriter\n');
     console.log('='.repeat(50));
 
     try {
-        // Get recent articles
-        console.log(`\n📚 Fetching ${count} recent articles...`);
-        const articles = await getRecentArticles(count);
+        const articles = store.getRecentArticles(100);
 
         if (articles.length === 0) {
             console.log('\n⚠️  No articles available. Run "npm run scrape" first.');
             return null;
         }
 
-        console.log(`✓ Found ${articles.length} articles to rewrite\n`);
+        console.log(`\n✓ ${articles.length} articles in store, rewriting up to ${maxAttempts} new ones\n`);
 
         let rewritten = 0;
         let skipped = 0;
+        let attempts = 0;
 
         for (const article of articles) {
-            // Check if already rewritten
-            const existingKey = `article:rewritten:${article.id}`;
-            const existing = await redis.get(existingKey);
+            if (attempts >= maxAttempts) break;
 
-            if (existing) {
-                console.log(`⊘ Skipping (already rewritten): ${article.title.substring(0, 60)}...`);
-                skipped++;
+            // Already rewritten, or already judged to have no Limerick connection
+            if (store.getRewritten(article.id)) {
                 continue;
             }
+
+            attempts++;
 
             // Fetch full content from article URL
             const fullContent = await fetchFullArticle(article.link);
 
-            // Check if article has Limerick connection before rewriting
             console.log(`   🔍 Checking Limerick connection...`);
             const hasConnection = await hasLimerickConnection(article, fullContent);
 
             if (!hasConnection) {
                 console.log(`   ⊘ Skipping (no Limerick connection): ${article.title.substring(0, 60)}...`);
+                // Remember the decision so tomorrow's run doesn't pay for the same check
+                store.setRewritten(article.id, { skipped: true, rewrittenAt: new Date().toISOString() });
                 skipped++;
                 continue;
             }
 
             console.log(`   ✓ Has Limerick connection - proceeding with rewrite`);
 
-            // Rewrite article with full content
             const rewrittenArticle = await rewriteArticle(article, fullContent);
 
             if (rewrittenArticle) {
-                await saveRewrittenArticle(rewrittenArticle, article.id);
+                store.setRewritten(article.id, rewrittenArticle);
                 rewritten++;
             }
+
+            // Save after each article so a later failure doesn't lose progress
+            store.save();
 
             // Rate limiting - wait 1 second between requests
             await new Promise(resolve => setTimeout(resolve, 1000));
         }
 
+        store.save();
+
         console.log('\n' + '='.repeat(50));
         console.log('📊 Rewriting Summary:');
-        console.log(`   Total articles: ${articles.length}`);
+        console.log(`   Articles examined: ${attempts}`);
         console.log(`   Rewritten: ${rewritten}`);
         console.log(`   Skipped: ${skipped}`);
         console.log('='.repeat(50));
@@ -328,17 +273,15 @@ async function rewriteArticles(count = 10) {
 
 // Run if called directly
 if (require.main === module) {
-    const count = parseInt(process.argv[2]) || 10;
+    const count = parseInt(process.argv[2] || process.env.MAX_DAILY_REWRITES) || 10;
 
     rewriteArticles(count)
         .then(() => {
             console.log('\n🎉 Done!');
-            redis.disconnect();
             process.exit(0);
         })
         .catch((error) => {
             console.error('\n❌ Error:', error);
-            redis.disconnect();
             process.exit(1);
         });
 }
