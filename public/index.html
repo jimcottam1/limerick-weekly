@@ -60,6 +60,27 @@
             return Number.isNaN(d.getTime()) ? '' : d.toLocaleDateString('en-IE', { day: 'numeric', month: 'short' });
         }
 
+        // Calendar day in Irish time, so "Today" flips at midnight in Limerick rather than UTC
+        function irishDay(date) {
+            return date.toLocaleDateString('en-CA', { timeZone: 'Europe/Dublin' });
+        }
+
+        /** "Today", "Yesterday", the weekday within the last week, otherwise the date. */
+        function whenLabel(value) {
+            const d = new Date(value);
+            if (Number.isNaN(d.getTime())) return '';
+            const days = Math.round((new Date(irishDay(new Date())) - new Date(irishDay(d))) / 86400000);
+            if (days <= 0) return 'Today';
+            if (days === 1) return 'Yesterday';
+            if (days < 7) return d.toLocaleDateString('en-IE', { weekday: 'long', timeZone: 'Europe/Dublin' });
+            return shortDate(value);
+        }
+
+        function whenHtml(article) {
+            const label = whenLabel(article.publishedAt);
+            return label ? `<span class="when${label === 'Today' ? ' today' : ''}">${esc(label)}</span>` : '';
+        }
+
         function toRoman(n) {
             const map = [[10, 'X'], [9, 'IX'], [5, 'V'], [4, 'IV'], [1, 'I']];
             let out = '';
@@ -130,7 +151,7 @@
             const paragraphs = (article.lead || [article.summary]).slice(0, paragraphCount).map(p => `<p>${esc(p)}</p>`).join('');
             return `
                 <article class="lead">
-                    <span class="kicker">${esc(article.section)}</span>
+                    ${kicker(article, null)}
                     <h2 class="headline"><a href="${articleHref(article)}">${esc(article.headline)}</a></h2>
                     ${article.subheadline ? `<p class="deck">${esc(article.subheadline)}</p>` : ''}
                     <p class="byline">The 061 &middot; from reporting by ${sourceLink(article)} &middot; ${esc(shortDate(article.publishedAt))}</p>
@@ -146,7 +167,7 @@
             return `
                 <article class="second">
                     ${index === 0 ? photoHtml(article, 'photo-second') : ''}
-                    <span class="kicker">${esc(article.section)}</span>
+                    ${kicker(article, null)}
                     <h3 class="headline"><a href="${articleHref(article)}">${esc(article.headline)}</a></h3>
                     ${article.subheadline ? `<p class="deck">${esc(article.subheadline)}</p>` : ''}
                     <p class="summary">${esc(article.summary)}</p>
@@ -196,8 +217,10 @@
         }
 
         // Inside a section the kicker is only worth showing for stories folded in from another section
+        // Section label (unless it's the section the story sits in) and how old the story is
         function kicker(article, sectionName) {
-            return article.section !== sectionName ? `<span class="kicker">${esc(article.section)}</span>` : '';
+            const label = article.section !== sectionName ? `<span class="kicker">${esc(article.section)}</span>` : '';
+            return `<div class="meta-line">${label}${whenHtml(article)}</div>`;
         }
 
         function sectionLeadHtml(article, sectionName) {
@@ -251,7 +274,7 @@
                 <section class="paper-section" id="${sectionId(name)}">
                     <header class="section-head">
                         <h2>${esc(name)}</h2>
-                        <span>${stories.length} ${stories.length === 1 ? 'story' : 'stories'}</span>
+                        <a class="more-link" href="sections/${sectionId(name)}.html">More ${esc(name)} &rarr;</a>
                     </header>
                     <div class="section-top${briefs.length ? '' : ' solo'}">
                         ${sectionLeadHtml(lead, name)}
@@ -263,7 +286,8 @@
 
         function renderSectionNav(sections) {
             const links = [`<a href="#top">Front Page</a>`]
-                .concat(sections.map(s => `<a href="#${sectionId(s.name)}">${esc(s.name)}</a>`));
+                .concat(sections.map(s => `<a href="#${sectionId(s.name)}">${esc(s.name)}</a>`))
+                .concat(`<a href="sections/all.html">Archive</a>`);
             document.getElementById('sectionNav').innerHTML = links.join('');
         }
 

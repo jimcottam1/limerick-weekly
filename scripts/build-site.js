@@ -7,7 +7,11 @@ const store = require('./lib/store');
 const ROOT = path.join(__dirname, '..');
 const PUBLIC_DIR = path.join(ROOT, 'public');
 const SITE_DIR = process.env.SITE_DIR || path.join(ROOT, 'site');
-const MAX_ARTICLES = 50;
+// Every stored story (30 days) gets a page and an archive entry; the front page shows the last week,
+// topped up with the newest stories if a quiet week leaves it thin
+const MAX_ARTICLES = 500;
+const FRONT_PAGE_DAYS = 7;
+const FRONT_PAGE_MIN = 12;
 
 // GitHub Pages lets browsers cache files for 10 minutes, so a returning reader could get a new page
 // with the old stylesheet. Versioning the stylesheet URL by its content makes every change load fresh.
@@ -148,7 +152,7 @@ function articleHtml(article) {
             <div class="dateline">
                 <a href="../index.html">&larr; Front page</a>
                 <span class="motto">All the news of the Treaty City</span>
-                <a href="../index.html#${sectionId(article.section)}">${escapeHtml(article.section)}</a>
+                <a href="../sections/${sectionId(article.section)}.html">${escapeHtml(article.section)}</a>
             </div>
         </header>
 
@@ -182,6 +186,101 @@ ${paragraphs}
         <footer class="colophon">
             <span class="masthead-small"><span class="mast-the">The</span>061</span>
             Stories are AI rewrites of local reporting &middot; each links to its original source
+        </footer>
+    </div>
+</body>
+</html>
+`;
+}
+
+function longDate(value) {
+    const d = new Date(value);
+    return Number.isNaN(d.getTime())
+        ? 'Undated'
+        : d.toLocaleDateString('en-IE', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Europe/Dublin' });
+}
+
+function archiveEntryHtml(article, showSection) {
+    const image = safeUrl(article.imageUrl);
+    const original = safeUrl(article.originalLink);
+    const href = `../articles/${article.slug}.html`;
+    return `
+            <article class="archive-entry${image ? '' : ' no-photo'}">
+                ${image ? `<a class="archive-thumb" href="${href}"><img src="${escapeHtml(image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></a>` : ''}
+                <div>
+                    ${showSection ? `<span class="kicker">${escapeHtml(article.section)}</span>` : ''}
+                    <h3 class="headline"><a href="${href}">${escapeHtml(article.headline)}</a></h3>
+                    ${article.subheadline ? `<p class="deck">${escapeHtml(article.subheadline)}</p>` : ''}
+                    <div class="story-foot">
+                        <a class="continued" href="${href}">Read more &rarr;</a>
+                        <span class="original">Original story: ${original
+                            ? `<a class="source-link" href="${escapeHtml(original)}" target="_blank" rel="noopener">${escapeHtml(article.originalSource)}</a>`
+                            : escapeHtml(article.originalSource)}</span>
+                    </div>
+                </div>
+            </article>`;
+}
+
+/**
+ * An archive page: every stored story in a section (or all of them), newest first under date headings.
+ * `sections` is the list of all section archives, for the links along the top.
+ */
+function archiveHtml(title, currentId, articles, sections) {
+    const showSection = currentId === 'all';
+    const byDay = new Map();
+    for (const article of articles) {
+        const day = longDate(article.publishedAt);
+        if (!byDay.has(day)) byDay.set(day, []);
+        byDay.get(day).push(article);
+    }
+
+    const nav = [{ id: 'all', name: 'All stories' }, ...sections]
+        .map(s => s.id === currentId
+            ? `<span aria-current="page">${escapeHtml(s.name)}</span>`
+            : `<a href="${s.id}.html">${escapeHtml(s.name)}</a>`)
+        .join('');
+
+    const days = [...byDay].map(([day, stories]) => `
+        <section class="archive-day">
+            <h2 class="archive-date">${escapeHtml(day)}</h2>
+            ${stories.map(a => archiveEntryHtml(a, showSection)).join('')}
+        </section>`).join('');
+
+    return `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>${escapeHtml(title)} - The 061</title>
+    <meta name="description" content="${escapeHtml(title)} from the last 30 days in The 061, local news for Limerick.">
+    ${FONTS}
+    <link rel="stylesheet" href="../styles.css?v=${STYLE_VERSION}">
+</head>
+<body>
+    <div class="paper">
+        <header class="masthead-compact">
+            <div class="masthead">
+                <p class="masthead-title"><a href="../index.html"><span class="mast-the">The</span>061</a></p>
+            </div>
+            <div class="dateline">
+                <a href="../index.html">&larr; Front page</a>
+                <span class="motto">All the news of the Treaty City</span>
+                <span>Archive</span>
+            </div>
+            <nav class="section-nav" aria-label="Archive sections">${nav}</nav>
+        </header>
+
+        <main class="archive">
+            <header class="section-head">
+                <h1>${escapeHtml(title)}</h1>
+                <span>${articles.length} ${articles.length === 1 ? 'story' : 'stories'} &middot; last 30 days</span>
+            </header>
+            ${days}
+        </main>
+
+        <footer class="colophon">
+            <span class="masthead-small"><span class="mast-the">The</span>061</span>
+            Stories are kept for 30 days &middot; each links to its original source
         </footer>
     </div>
 </body>
@@ -233,8 +332,22 @@ function buildSite() {
         fs.writeFileSync(path.join(SITE_DIR, 'articles', `${article.slug}.html`), articleHtml(article));
     }
 
+    // Section archives: every stored story, grouped by section, plus one page with everything
+    fs.mkdirSync(path.join(SITE_DIR, 'sections'), { recursive: true });
+    const sectionNames = [...new Set(articles.map(a => a.section))].sort((a, b) => a.localeCompare(b));
+    const sections = sectionNames.map(name => ({ id: sectionId(name), name, count: articles.filter(a => a.section === name).length }));
+    fs.writeFileSync(path.join(SITE_DIR, 'sections', 'all.html'), archiveHtml('All stories', 'all', articles, sections));
+    for (const { id, name } of sections) {
+        fs.writeFileSync(path.join(SITE_DIR, 'sections', `${id}.html`), archiveHtml(name, id, articles.filter(a => a.section === name), sections));
+    }
+
+    // The front page shows the last week (articles are newest first), topped up if that's too few
+    const builtAt = Date.now();
+    const recent = articles.filter(a => builtAt - new Date(a.publishedAt).getTime() <= FRONT_PAGE_DAYS * 86400000);
+    const frontPage = recent.length >= FRONT_PAGE_MIN ? recent : articles.slice(0, FRONT_PAGE_MIN);
+
     // The front page only needs list fields, plus the opening paragraphs for whichever story leads.
-    const listing = articles.map(article => {
+    const listing = frontPage.map(article => {
         const { slug, section, headline, subheadline, story, pullQuote, originalSource, publishedAt } = article;
         const paragraphs = paragraphsOf(story);
         const first = paragraphs[0] || '';
@@ -250,13 +363,19 @@ function buildSite() {
     });
     fs.writeFileSync(
         path.join(SITE_DIR, 'data', 'articles.json'),
-        JSON.stringify({ generatedAt: new Date().toISOString(), count: listing.length, articles: listing })
+        JSON.stringify({
+            generatedAt: new Date(builtAt).toISOString(),
+            count: listing.length,
+            archiveCount: articles.length,
+            sections: sections.map(({ id, name, count }) => ({ id, name, count })),
+            articles: listing
+        })
     );
 
     fs.writeFileSync(path.join(SITE_DIR, '404.html'), NOT_FOUND_HTML);
     fs.writeFileSync(path.join(SITE_DIR, '.nojekyll'), '');
 
-    console.log(`✅ Built ${articles.length} article pages into ${SITE_DIR}`);
+    console.log(`✅ Built ${articles.length} article pages, ${sections.length + 1} archive pages and a front page of ${listing.length} into ${SITE_DIR}`);
     return { count: articles.length };
 }
 

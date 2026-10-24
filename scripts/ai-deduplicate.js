@@ -85,7 +85,7 @@ async function aiDeduplicate() {
             const duplicateOf = await findDuplicate(article, toKeep);
             if (duplicateOf) {
                 console.log(`   ✗ DUPLICATE of "${duplicateOf.title.substring(0, 60)}..." - Removing`);
-                toRemove.push(article);
+                toRemove.push({ article, duplicateOf });
             } else {
                 toKeep.push(article);
             }
@@ -94,8 +94,14 @@ async function aiDeduplicate() {
         if (toRemove.length > 0) {
             console.log(`\n🗑️  Removing ${toRemove.length} duplicate articles...`);
 
-            for (const article of toRemove) {
-                store.removeArticle(article.id);
+            // Keep the article but mark it as a skipped duplicate, rather than deleting it: a deleted
+            // article is still in the feed tomorrow, so it would be scraped and checked all over again
+            for (const { article, duplicateOf } of toRemove) {
+                store.setRewritten(article.id, {
+                    skipped: true,
+                    duplicateOf: duplicateOf.id,
+                    rewrittenAt: new Date().toISOString()
+                });
                 console.log(`   ✓ Removed: ${article.title}`);
             }
             store.save();
