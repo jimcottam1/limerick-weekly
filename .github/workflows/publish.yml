@@ -29,7 +29,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  RSS_FEEDS: https://www.limerickpost.ie/feed/,https://www.limerickleader.ie/rss/
+  RSS_FEEDS: https://www.limerickpost.ie/feed/,https://www.limerickleader.ie/rss/,https://www.ilovelimerick.ie/feed/,https://limerickvoice.com/feed/
   LIMERICK_KEYWORDS: Limerick,Munster,Shannon,Treaty City
   MIN_ARTICLE_LENGTH: 100
   MAX_DAILY_REWRITES: 20

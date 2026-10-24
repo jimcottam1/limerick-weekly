@@ -67,7 +67,9 @@ const FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com">
 /** Feed names come from the feed hostname; show them the way the papers write them. */
 const SOURCE_NAMES = {
     limerickpost: 'Limerick Post',
-    limerickleader: 'Limerick Leader'
+    limerickleader: 'Limerick Leader',
+    ilovelimerick: 'I Love Limerick',
+    limerickvoice: 'Limerick Voice'
 };
 
 /** Rough newspaper section from keywords; the headline decides if it can, then the story. "News" otherwise. */
