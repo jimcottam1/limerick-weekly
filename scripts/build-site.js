@@ -101,7 +101,7 @@ const SECTIONS = [
 ];
 
 function sectionFor(article) {
-    for (const text of [`${article.headline} ${article.subheadline || ''}`, article.story]) {
+    for (const text of [`${article.headline} ${article.summary || article.subheadline || ''}`, article.story]) {
         const match = SECTIONS.find(([, pattern]) => pattern.test(text));
         if (match) return match[0];
     }
@@ -139,7 +139,7 @@ function articleHtml(article) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${escapeHtml(article.headline)} - The 061</title>
-    <meta name="description" content="${escapeHtml(article.subheadline || article.headline)}">
+    <meta name="description" content="${escapeHtml(article.summary || article.subheadline || article.headline)}">
     ${FONTS}
     <link rel="stylesheet" href="../styles.css?v=${STYLE_VERSION}">
 </head>
@@ -159,14 +159,15 @@ function articleHtml(article) {
         <main class="article">
             <span class="kicker">${escapeHtml(article.section)}</span>
             <h1 class="headline">${escapeHtml(article.headline)}</h1>
-            ${article.subheadline ? `<p class="deck">${escapeHtml(article.subheadline)}</p>` : ''}
+            ${article.summary
+                ? `<p class="tldr"><span class="tldr-label">In brief</span> ${escapeHtml(article.summary)}</p>`
+                : article.subheadline ? `<p class="deck">${escapeHtml(article.subheadline)}</p>` : ''}
             <p class="byline">The 061 &middot; from reporting by ${escapeHtml(article.originalSource)}${dateStr ? ` &middot; ${escapeHtml(dateStr)}` : ''}</p>
 
             ${image ? `<figure class="photo photo-article">
                 <img src="${escapeHtml(image)}" alt="" referrerpolicy="no-referrer" onerror="this.parentNode.remove()">
                 <figcaption>${escapeHtml(photoCredit(article))}</figcaption>
             </figure>` : ''}
-            ${article.pullQuote ? `<p class="pull-quote">${escapeHtml(article.pullQuote)}</p>` : ''}
 
             <div class="body-text drop-cap">
 ${paragraphs}
@@ -210,7 +211,7 @@ function archiveEntryHtml(article, showSection) {
                 <div>
                     ${showSection ? `<span class="kicker">${escapeHtml(article.section)}</span>` : ''}
                     <h3 class="headline"><a href="${href}">${escapeHtml(article.headline)}</a></h3>
-                    ${article.subheadline ? `<p class="deck">${escapeHtml(article.subheadline)}</p>` : ''}
+                    ${article.summary || article.subheadline ? `<p class="brief-summary">${escapeHtml(article.summary || article.subheadline)}</p>` : ''}
                     <div class="story-foot">
                         <a class="continued" href="${href}">Read more &rarr;</a>
                         <span class="original">Original story: ${original
@@ -348,16 +349,17 @@ function buildSite() {
 
     // The front page only needs list fields, plus the opening paragraphs for whichever story leads.
     const listing = frontPage.map(article => {
-        const { slug, section, headline, subheadline, story, pullQuote, originalSource, publishedAt } = article;
+        const { slug, section, headline, story, originalSource, publishedAt } = article;
         const paragraphs = paragraphsOf(story);
         const first = paragraphs[0] || '';
         const imageUrl = safeUrl(article.imageUrl);
         return {
-            slug, section, headline, subheadline, pullQuote, originalSource, publishedAt,
+            slug, section, headline, originalSource, publishedAt,
             originalLink: safeUrl(article.originalLink),
             sourceHome: safeUrl(article.sourceHome),
             ...(imageUrl && { imageUrl, photoCredit: photoCredit(article) }),
-            summary: first.length > 200 ? first.substring(0, 200) + '...' : first,
+            // The rewrite's TL;DR; stories written before it existed fall back to their opening paragraph
+            summary: article.summary || (first.length > 200 ? first.substring(0, 200) + '...' : first),
             lead: paragraphs.slice(0, 6)
         };
     });

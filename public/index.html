@@ -153,10 +153,9 @@
                 <article class="lead">
                     ${kicker(article, null)}
                     <h2 class="headline"><a href="${articleHref(article)}">${esc(article.headline)}</a></h2>
-                    ${article.subheadline ? `<p class="deck">${esc(article.subheadline)}</p>` : ''}
+                    <p class="tldr">${esc(article.summary)}</p>
                     <p class="byline">The 061 &middot; from reporting by ${sourceLink(article)} &middot; ${esc(shortDate(article.publishedAt))}</p>
                     ${photoHtml(article, 'photo-lead')}
-                    ${article.pullQuote ? `<p class="pull-quote">${esc(article.pullQuote)}</p>` : ''}
                     <div class="body-text drop-cap">${paragraphs}</div>
                     <a class="continued" href="${articleHref(article)}">Continued inside &rarr;</a>
                 </article>`;
@@ -169,7 +168,6 @@
                     ${index === 0 ? photoHtml(article, 'photo-second') : ''}
                     ${kicker(article, null)}
                     <h3 class="headline"><a href="${articleHref(article)}">${esc(article.headline)}</a></h3>
-                    ${article.subheadline ? `<p class="deck">${esc(article.subheadline)}</p>` : ''}
                     <p class="summary">${esc(article.summary)}</p>
                     ${storyFoot(article)}
                 </article>`;
@@ -181,7 +179,6 @@
                     ${photoHtml(article, 'photo-story')}
                     ${kicker(article, sectionName)}
                     <h3 class="headline"><a href="${articleHref(article)}">${esc(article.headline)}</a></h3>
-                    ${article.subheadline ? `<p class="deck">${esc(article.subheadline)}</p>` : ''}
                     <p class="summary">${esc(article.summary)}</p>
                     ${storyFoot(article)}
                 </article>`;
@@ -230,7 +227,6 @@
                     <div class="section-lead-text">
                         ${kicker(article, sectionName)}
                         <h3 class="headline"><a href="${articleHref(article)}">${esc(article.headline)}</a></h3>
-                        ${article.subheadline ? `<p class="deck">${esc(article.subheadline)}</p>` : ''}
                         <p class="summary">${esc(article.summary)}</p>
                         ${storyFoot(article)}
                     </div>
@@ -242,7 +238,7 @@
                 <article class="brief">
                     ${kicker(article, sectionName)}
                     <h4 class="headline"><a href="${articleHref(article)}">${esc(article.headline)}</a></h4>
-                    ${article.subheadline ? `<p class="deck">${esc(article.subheadline)}</p>` : ''}
+                    <p class="brief-summary">${esc(article.summary)}</p>
                     ${storyFoot(article)}
                 </article>`;
         }

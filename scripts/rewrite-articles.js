@@ -124,30 +124,33 @@ ${fullContent ? `FULL CONTENT:\n${fullContent}` : ''}
 
 TASK: Rewrite this as an original news story for The 061.
 
+GET TO THE POINT. Readers want to know what happened in the first few seconds.
+
 REQUIREMENTS:
-1. Write in journalistic style - clear, engaging, professional
-2. Focus on the Limerick angle - why this matters to local readers
-3. Include key facts, quotes (if available), and context
-4. Write 3-5 paragraphs (300-500 words)
-5. Add a compelling headline that's different from the original
-6. Make it feel like original reporting, not a summary
-7. Be objective, balanced, and respectful - avoid condescending or patronizing language
-8. Treat all communities, individuals, and groups with dignity and respect
-9. Report facts without editorial judgment about social class, income, or location
-10. Avoid rhetoric that implies some areas or people are "lesser than" others
-11. Use neutral, factual language when describing neighborhoods and communities
-12. Include local context and impact without sensationalism
-13. MAINTAIN A POSITIVE, CONSTRUCTIVE TONE - focus on solutions, community resilience, and progress
-14. When reporting challenges, highlight efforts being made to address them and community responses
-15. Emphasize local achievements, community spirit, and positive developments
-16. Frame stories in ways that inform and uplift rather than sensationalize or discourage
+1. The HEADLINE states the news itself: who did what, or what was decided. Use concrete facts
+   (names, places, numbers, outcomes). Under 15 words. No vague phrases like "highlights dedication",
+   "sparks debate" or "set to" when the actual outcome is known. Different wording from the original.
+2. The SUMMARY is the TL;DR: one or two short, plain sentences giving the key facts - who, what,
+   where, when and the outcome (e.g. the verdict, the sentence, the score, the amount, the decision).
+   Someone who reads only the headline and summary should know what happened.
+3. The STORY opens with the most important fact, then adds detail and context in order of importance.
+   3-4 short paragraphs (200-350 words). Include quotes if available.
+4. Focus on the Limerick angle - why this matters to local readers
+5. Write in clear, plain journalistic style. Make it read as original reporting, not a summary of an article
+6. Be objective, balanced, and respectful - avoid condescending or patronizing language
+7. Treat all communities, individuals, and groups with dignity and respect
+8. Report facts without editorial judgment about social class, income, or location
+9. Use neutral, factual language when describing neighbourhoods and communities; no sensationalism
+10. Keep a constructive tone where it fits, such as community responses or efforts to address a problem,
+    but NEVER at the expense of stating plainly what happened. Do not pad stories with generic
+    praise ("dedication", "resilience", "community spirit") that isn't in the source.
+11. Only use facts from the source article. Do not invent details, quotes or outcomes.
 
 RESPOND IN JSON:
 {
-  "headline": "<your compelling headline>",
-  "subheadline": "<optional one-line subheadline>",
-  "story": "<your full story in 3-5 paragraphs, separated by \\n\\n>",
-  "pullQuote": "<one compelling quote or fact to highlight>",
+  "headline": "<headline that states the news>",
+  "summary": "<1-2 sentence TL;DR with the key facts and outcome>",
+  "story": "<your story in 3-4 paragraphs, separated by \\n\\n>",
   "localAngle": "<one sentence explaining the Limerick connection>"
 }
 
@@ -162,7 +165,7 @@ Return ONLY valid JSON, no additional text.`;
         }
 
         const rewritten = JSON.parse(jsonMatch[0]);
-        for (const field of ['headline', 'story', 'localAngle']) {
+        for (const field of ['headline', 'summary', 'story', 'localAngle']) {
             if (typeof rewritten[field] !== 'string' || !rewritten[field].trim()) {
                 throw new Error(`AI response missing "${field}"`);
             }
