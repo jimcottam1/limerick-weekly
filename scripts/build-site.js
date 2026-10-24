@@ -177,7 +177,7 @@ const NOT_FOUND_HTML = `<!DOCTYPE html>
         <p class="notice">This story may have expired or been removed.<br><br><a class="home continued" href="./">Back to the front page &rarr;</a></p>
     </div>
 <script>
-// Works for both a project site (/limerick-weekly/...) and a root site
+// Works for both a project site (/the-061/...) and a root site
 var m = location.pathname.match(/^(.*\\/)articles\\//) || location.pathname.match(/^(\\/[^/]+\\/)/);
 var base = m ? m[1] : '/';
 document.getElementById('styles').href = base + 'styles.css';

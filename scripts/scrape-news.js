@@ -76,7 +76,14 @@ async function fetchFromNewsAPI() {
  */
 async function fetchRSSFeed(url) {
     try {
-        const response = await fetch(url);
+        // Some feeds (e.g. I Love Limerick) return 403 to the default node-fetch user agent
+        const response = await fetch(url, {
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                'Accept': 'application/rss+xml, application/xml;q=0.9, */*;q=0.8'
+            },
+            timeout: 15000
+        });
         if (!response.ok) {
             throw new Error(`HTTP ${response.status}: ${response.statusText}`);
         }
