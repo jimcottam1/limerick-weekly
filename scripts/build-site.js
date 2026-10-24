@@ -52,7 +52,8 @@ function collectArticles() {
             id,
             slug: slugFor(id),
             section: sectionFor(article),
-            originalSource: SOURCE_NAMES[article.originalSource] || article.originalSource
+            originalSource: SOURCE_NAMES[article.originalSource] || article.originalSource,
+            sourceHome: SOURCE_HOMEPAGES[article.originalSource]
         });
         if (articles.length >= MAX_ARTICLES) break;
     }
@@ -70,6 +71,14 @@ const SOURCE_NAMES = {
     limerickleader: 'Limerick Leader',
     ilovelimerick: 'I Love Limerick',
     limerickvoice: 'Limerick Voice'
+};
+
+/** Publishers' homepages, for the sources list in the front page footer. */
+const SOURCE_HOMEPAGES = {
+    limerickpost: 'https://www.limerickpost.ie/',
+    limerickleader: 'https://www.limerickleader.ie/',
+    ilovelimerick: 'https://www.ilovelimerick.ie/',
+    limerickvoice: 'https://limerickvoice.com/'
 };
 
 /** Rough newspaper section from keywords; the headline decides if it can, then the story. "News" otherwise. */
@@ -219,6 +228,8 @@ function buildSite() {
         const imageUrl = safeUrl(article.imageUrl);
         return {
             slug, section, headline, subheadline, pullQuote, originalSource, publishedAt,
+            originalLink: safeUrl(article.originalLink),
+            sourceHome: safeUrl(article.sourceHome),
             ...(imageUrl && { imageUrl, photoCredit: photoCredit(article) }),
             summary: first.length > 200 ? first.substring(0, 200) + '...' : first,
             lead: paragraphs.slice(0, 6)

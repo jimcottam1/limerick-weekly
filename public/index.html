@@ -34,9 +34,11 @@
             <p class="notice">Setting the type&hellip;</p>
         </main>
 
+        <section class="sources" id="sources"></section>
+
         <footer class="colophon">
             <span class="masthead-small"><span class="mast-the">The</span>061</span>
-            Stories are AI rewrites of local reporting &middot; each links to its original source
+            AI-curated local news for Limerick
         </footer>
     </div>
 
@@ -89,6 +91,40 @@
                 </figure>`;
         }
 
+        // Link to the publisher's original story; plain text if the build had no usable link
+        function sourceLink(article) {
+            const name = esc(article.originalSource);
+            return article.originalLink
+                ? `<a class="source-link" href="${esc(article.originalLink)}" target="_blank" rel="noopener" title="Read the original story on ${name}">${name}</a>`
+                : name;
+        }
+
+        function storyFoot(article) {
+            return `
+                <div class="story-foot">
+                    <a class="continued" href="${articleHref(article)}">Read more &rarr;</a>
+                    <span class="original">Original story: ${sourceLink(article)}</span>
+                </div>`;
+        }
+
+        // Footer list of every publication in this edition, linked to its homepage
+        function renderSources(articles) {
+            const sources = new Map();
+            for (const a of articles) {
+                if (!sources.has(a.originalSource)) sources.set(a.originalSource, a.sourceHome);
+            }
+            const items = [...sources]
+                .sort(([a], [b]) => a.localeCompare(b))
+                .map(([name, home]) => home
+                    ? `<li><a href="${esc(home)}" target="_blank" rel="noopener">${esc(name)}</a></li>`
+                    : `<li>${esc(name)}</li>`)
+                .join('');
+            document.getElementById('sources').innerHTML = `
+                <h2 class="sources-heading">Sources</h2>
+                <ul class="sources-list">${items}</ul>
+                <p class="sources-note">The 061 rewrites local reporting with AI. The original journalism belongs to these publishers. Every story links to its source, so please read and support them.</p>`;
+        }
+
         function leadHtml(article, paragraphCount) {
             const paragraphs = (article.lead || [article.summary]).slice(0, paragraphCount).map(p => `<p>${esc(p)}</p>`).join('');
             return `
@@ -96,7 +132,7 @@
                     <span class="kicker">${esc(article.section)}</span>
                     <h2 class="headline"><a href="${articleHref(article)}">${esc(article.headline)}</a></h2>
                     ${article.subheadline ? `<p class="deck">${esc(article.subheadline)}</p>` : ''}
-                    <p class="byline">The 061 &middot; from reporting by ${esc(article.originalSource)} &middot; ${esc(shortDate(article.publishedAt))}</p>
+                    <p class="byline">The 061 &middot; from reporting by ${sourceLink(article)} &middot; ${esc(shortDate(article.publishedAt))}</p>
                     ${photoHtml(article, 'photo-lead')}
                     ${article.pullQuote ? `<p class="pull-quote">${esc(article.pullQuote)}</p>` : ''}
                     <div class="body-text drop-cap">${paragraphs}</div>
@@ -113,7 +149,7 @@
                     <h3 class="headline"><a href="${articleHref(article)}">${esc(article.headline)}</a></h3>
                     ${article.subheadline ? `<p class="deck">${esc(article.subheadline)}</p>` : ''}
                     <p class="summary">${esc(article.summary)}</p>
-                    <a class="continued" href="${articleHref(article)}">Read more &rarr;</a>
+                    ${storyFoot(article)}
                 </article>`;
         }
 
@@ -125,7 +161,7 @@
                     <h3 class="headline"><a href="${articleHref(article)}">${esc(article.headline)}</a></h3>
                     ${article.subheadline ? `<p class="deck">${esc(article.subheadline)}</p>` : ''}
                     <p class="summary">${esc(article.summary)}</p>
-                    <a class="continued" href="${articleHref(article)}">Read more &rarr;</a>
+                    ${storyFoot(article)}
                 </article>`;
         }
 
@@ -200,6 +236,7 @@
                 }
 
                 layout(articles);
+                renderSources(articles);
                 // Web fonts change line heights, so balance again once they've loaded and on resize
                 document.fonts?.ready.then(() => layout(articles));
                 let resizeTimer;
