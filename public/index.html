@@ -28,6 +28,7 @@
                 <span class="motto">All the news of the Treaty City</span>
                 <span id="storyCount">&nbsp;</span>
             </div>
+            <nav class="section-nav" id="sectionNav" aria-label="Sections"></nav>
         </header>
 
         <main id="front">
@@ -153,11 +154,11 @@
                 </article>`;
         }
 
-        function storyHtml(article) {
+        function storyHtml(article, sectionName) {
             return `
                 <article class="story">
                     ${photoHtml(article, 'photo-story')}
-                    <span class="kicker">${esc(article.section)}</span>
+                    ${kicker(article, sectionName)}
                     <h3 class="headline"><a href="${articleHref(article)}">${esc(article.headline)}</a></h3>
                     ${article.subheadline ? `<p class="deck">${esc(article.subheadline)}</p>` : ''}
                     <p class="summary">${esc(article.summary)}</p>
@@ -165,24 +166,123 @@
                 </article>`;
         }
 
+        // ---------- Sections ----------
+
+        // Running order of the paper; sections with fewer stories than this fold into News
+        const SECTION_ORDER = ['News', 'Sport', 'Council', 'Business', 'Arts & Culture', 'Courts'];
+        const MIN_SECTION_SIZE = 2;
+        const SECTION_LIST_SIZE = 3;
+
+        function sectionId(name) {
+            return name.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+        }
+
+        /** Group stories into sections in running order, folding very small sections into News. */
+        function groupSections(articles) {
+            const groups = new Map();
+            for (const article of articles) {
+                const name = SECTION_ORDER.includes(article.section) ? article.section : 'News';
+                if (!groups.has(name)) groups.set(name, []);
+                groups.get(name).push(article);
+            }
+            for (const [name, stories] of groups) {
+                if (name !== 'News' && stories.length < MIN_SECTION_SIZE) {
+                    if (!groups.has('News')) groups.set('News', []);
+                    groups.get('News').push(...stories);
+                    groups.delete(name);
+                }
+            }
+            return SECTION_ORDER.filter(name => groups.has(name)).map(name => ({ name, stories: groups.get(name) }));
+        }
+
+        // Inside a section the kicker is only worth showing for stories folded in from another section
+        function kicker(article, sectionName) {
+            return article.section !== sectionName ? `<span class="kicker">${esc(article.section)}</span>` : '';
+        }
+
+        function sectionLeadHtml(article, sectionName) {
+            return `
+                <article class="section-lead${article.imageUrl ? '' : ' no-photo'}">
+                    ${photoHtml(article, 'photo-section')}
+                    <div class="section-lead-text">
+                        ${kicker(article, sectionName)}
+                        <h3 class="headline"><a href="${articleHref(article)}">${esc(article.headline)}</a></h3>
+                        ${article.subheadline ? `<p class="deck">${esc(article.subheadline)}</p>` : ''}
+                        <p class="summary">${esc(article.summary)}</p>
+                        ${storyFoot(article)}
+                    </div>
+                </article>`;
+        }
+
+        function briefHtml(article, sectionName) {
+            return `
+                <article class="brief">
+                    ${kicker(article, sectionName)}
+                    <h4 class="headline"><a href="${articleHref(article)}">${esc(article.headline)}</a></h4>
+                    ${article.subheadline ? `<p class="deck">${esc(article.subheadline)}</p>` : ''}
+                    ${storyFoot(article)}
+                </article>`;
+        }
+
+        // Full rows of three, then a last row that fills the width: two half-width stories,
+        // or a single story laid out across the page with its photo beside the text
+        function moreHtml(stories, sectionName) {
+            const fullRows = stories.length - (stories.length % 3);
+            const grid = stories.slice(0, fullRows);
+            const tail = stories.slice(fullRows);
+            let html = grid.length ? `<div class="grid">${grid.map(a => storyHtml(a, sectionName)).join('')}</div>` : '';
+            if (tail.length === 2) {
+                html += `<div class="grid cols-2">${tail.map(a => storyHtml(a, sectionName)).join('')}</div>`;
+            } else if (tail.length === 1) {
+                html += `<div class="tail-single">${sectionLeadHtml(tail[0], sectionName).replace('class="section-lead', 'class="section-lead wide')}</div>`;
+            }
+            return html;
+        }
+
+        function sectionHtml({ name, stories }) {
+            // Feature the section's newest story with a photo; photo-less stories go last in the grid
+            const leadIndex = Math.max(0, stories.findIndex(a => a.imageUrl));
+            const lead = stories[leadIndex];
+            const rest = stories.filter((_, i) => i !== leadIndex);
+            const briefs = rest.slice(0, SECTION_LIST_SIZE);
+            const more = rest.slice(SECTION_LIST_SIZE).sort((a, b) => !a.imageUrl - !b.imageUrl);
+
+            return `
+                <section class="paper-section" id="${sectionId(name)}">
+                    <header class="section-head">
+                        <h2>${esc(name)}</h2>
+                        <span>${stories.length} ${stories.length === 1 ? 'story' : 'stories'}</span>
+                    </header>
+                    <div class="section-top${briefs.length ? '' : ' solo'}">
+                        ${sectionLeadHtml(lead, name)}
+                        ${briefs.length ? `<div class="briefs">${briefs.map(a => briefHtml(a, name)).join('')}</div>` : ''}
+                    </div>
+                    ${moreHtml(more, name)}
+                </section>`;
+        }
+
+        function renderSectionNav(sections) {
+            const links = [`<a href="#top">Front Page</a>`]
+                .concat(sections.map(s => `<a href="#${sectionId(s.name)}">${esc(s.name)}</a>`));
+            document.getElementById('sectionNav').innerHTML = links.join('');
+        }
+
         function render(articles, sidebarCount, paragraphCount) {
-            // Lead with the newest story that has a photo; the rest keep their order
+            // Lead with the newest story that has a photo; the next few newest make up the sidebar
             const leadIndex = Math.max(0, articles.findIndex(a => a.imageUrl));
             const lead = articles[leadIndex];
             const rest = articles.filter((_, i) => i !== leadIndex);
             const seconds = rest.slice(0, sidebarCount);
-            // Stories without a photo go to the end of the grid so each row lines up
-            const others = rest.slice(sidebarCount).sort((a, b) => !a.imageUrl - !b.imageUrl);
+            const sections = groupSections(rest.slice(sidebarCount));
 
-            let html = `<div class="front">${leadHtml(lead, paragraphCount)}`;
+            let html = `<div class="front" id="top">${leadHtml(lead, paragraphCount)}`;
             if (seconds.length) {
-                html += `<aside class="sidebar"><div class="sidebar-heading">Also in the news</div>${seconds.map(secondHtml).join('')}</aside>`;
+                html += `<aside class="sidebar"><div class="sidebar-heading">Top stories</div>${seconds.map(secondHtml).join('')}</aside>`;
             }
             html += '</div>';
-            if (others.length) {
-                html += `<hr class="section-rule"><div class="grid">${others.map(storyHtml).join('')}</div>`;
-            }
+            html += sections.map(sectionHtml).join('');
             document.getElementById('front').innerHTML = html;
+            renderSectionNav(sections);
         }
 
         /** Height of an element's content, ignoring the stretched grid cell it sits in. */
@@ -237,8 +337,14 @@
 
                 layout(articles);
                 renderSources(articles);
+                // Sections are drawn after load, so the browser can't jump to a #section link by itself
+                const jumpToHash = () => document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView();
+                if (location.hash) jumpToHash();
                 // Web fonts change line heights, so balance again once they've loaded and on resize
-                document.fonts?.ready.then(() => layout(articles));
+                document.fonts?.ready.then(() => {
+                    layout(articles);
+                    if (location.hash) jumpToHash();
+                });
                 let resizeTimer;
                 window.addEventListener('resize', () => {
                     clearTimeout(resizeTimer);

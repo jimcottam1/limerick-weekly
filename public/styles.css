@@ -387,6 +387,120 @@ a:hover { color: var(--accent); }
 
 /* ---------- Footer ---------- */
 
+/* ---------- Section navigation ---------- */
+
+.section-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 3px double var(--rule);
+    padding: 7px 0;
+    font-family: var(--label);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+.section-nav:empty { display: none; }
+.section-nav a { padding: 2px 16px; }
+.section-nav a + a { border-left: 1px solid var(--rule-light); }
+.section-nav a:hover { color: var(--accent); }
+
+html { scroll-behavior: smooth; }
+.paper-section, .front { scroll-margin-top: 12px; }
+
+/* ---------- Section blocks ---------- */
+
+.paper-section { margin-top: 40px; }
+
+.section-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-top: 6px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    padding: 6px 0 4px;
+    margin-bottom: 18px;
+}
+
+.section-head h2 {
+    font-family: var(--display);
+    font-weight: 900;
+    font-style: italic;
+    font-size: 34px;
+    line-height: 1;
+}
+
+.section-head span {
+    font-family: var(--label);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+}
+
+.section-top {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    gap: 0 44px;
+    position: relative;
+    padding-bottom: 18px;
+    border-bottom: 1px solid var(--rule-light);
+}
+
+.section-top.solo { grid-template-columns: minmax(0, 1fr); }
+
+/* Column rule between the featured story and the briefs */
+.section-top:not(.solo)::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 18px;
+    left: calc((100% - 44px) * 2 / 3 + 22px);
+    border-left: 1px solid var(--rule-light);
+}
+
+.section-lead {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+    gap: 0 22px;
+    align-items: start;
+}
+
+.section-lead.no-photo { grid-template-columns: minmax(0, 1fr); }
+.section-lead .headline { font-size: 28px; margin-bottom: 8px; }
+.section-lead .deck { font-size: 17px; margin-bottom: 10px; }
+.section-lead .summary { font-size: 15.5px; }
+.photo-section { margin: 0; }
+.photo-section img { aspect-ratio: 4 / 3; }
+
+.brief {
+    padding: 0 0 12px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid var(--rule-light);
+}
+
+.brief:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.brief .headline { font-size: 19px; margin-bottom: 4px; }
+.brief .deck { font-size: 14.5px; margin-bottom: 6px; }
+
+.paper-section .grid { margin-top: 0; }
+
+.grid.cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.grid.cols-2 .story:nth-child(3n)::after { display: block; }
+.grid.cols-2 .story:nth-child(2n)::after,
+.grid.cols-2 .story:last-child::after { display: none; }
+
+.tail-single {
+    padding: 18px 0;
+    border-bottom: 1px solid var(--rule-light);
+}
+
+.section-lead.wide { grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); }
+.section-lead.wide.no-photo { grid-template-columns: minmax(0, 1fr); }
+.section-lead.wide .headline { font-size: 24px; }
+
 /* ---------- Source credits ---------- */
 
 .source-link {
@@ -504,6 +618,10 @@ a:hover { color: var(--accent); }
     .ear { display: none; }
     .masthead { grid-template-columns: 1fr; }
     .masthead-title { font-size: clamp(56px, 18vw, 112px); }
+    .section-top { grid-template-columns: minmax(0, 1fr); }
+    .section-top::after { display: none; }
+    .briefs { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--rule-light); }
+    .section-nav a { padding: 2px 10px; }
 }
 
 @media (max-width: 600px) {
@@ -516,4 +634,9 @@ a:hover { color: var(--accent); }
     .story { padding: 16px 0; }
     .story::after, .story:nth-child(n)::after { display: none; }
     .pull-quote { font-size: 19px; }
+    .section-lead { grid-template-columns: minmax(0, 1fr); }
+    .photo-section { margin-bottom: 12px; }
+    .section-head h2 { font-size: 28px; }
+    .section-nav { font-size: 11px; letter-spacing: 0.08em; }
+    .section-nav a { padding: 2px 8px; }
 }

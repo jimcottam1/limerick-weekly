@@ -83,6 +83,8 @@ const SOURCE_HOMEPAGES = {
 
 /** Rough newspaper section from keywords; the headline decides if it can, then the story. "News" otherwise. */
 const SECTIONS = [
+    // Weather warnings mention businesses, travel and so on, so catch them before Business does
+    ['News', /\b(storm|met [eé]ireann|status (yellow|orange|red)|weather warning)\b/i],
     ['Sport', /\b(munster|gaa|hurl\w*|camogie|rugby|soccer|football\w*|treaty united|match|fixture|league|championship|kick-?off|squad|cup)\b/i],
     ['Council', /\b(council\w*|councillors?|planning|housing|elected members|local authority)\b/i],
     ['Business', /\b(business\w*|property|house prices|jobs?|employ\w*|company|companies|investment|economy|retail\w*|chamber)\b/i],
@@ -96,6 +98,11 @@ function sectionFor(article) {
         if (match) return match[0];
     }
     return 'News';
+}
+
+/** Anchor for a section on the front page; must match sectionId() in public/index.html. */
+function sectionId(name) {
+    return name.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
 function paragraphsOf(story) {
@@ -137,7 +144,7 @@ function articleHtml(article) {
             <div class="dateline">
                 <a href="../index.html">&larr; Front page</a>
                 <span class="motto">All the news of the Treaty City</span>
-                <span>${escapeHtml(article.section)}</span>
+                <a href="../index.html#${sectionId(article.section)}">${escapeHtml(article.section)}</a>
             </div>
         </header>
 
