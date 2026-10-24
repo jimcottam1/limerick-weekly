@@ -258,19 +258,30 @@ a:hover { color: var(--accent); }
     margin: 26px 0 0;
 }
 
+/* Equal-width columns; the vertical rules sit in the gutters so every photo is the same size */
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 44px;
 }
 
 .story {
-    padding: 18px 22px 18px;
-    border-right: 1px solid var(--rule-light);
+    position: relative;
+    padding: 18px 0;
     border-bottom: 1px solid var(--rule-light);
 }
 
-.story:nth-child(3n + 1) { padding-left: 0; }
-.story:nth-child(3n) { padding-right: 0; border-right: none; }
+.story::after {
+    content: '';
+    position: absolute;
+    top: 18px;
+    bottom: 18px;
+    right: -22px;
+    border-right: 1px solid var(--rule-light);
+}
+
+.story:nth-child(3n)::after,
+.story:last-child::after { display: none; }
 .story .headline { font-size: 22px; margin-bottom: 6px; }
 .story .deck { font-size: 15px; margin-bottom: 8px; }
 .story .summary { font-size: 15px; }
@@ -407,10 +418,11 @@ a:hover { color: var(--accent); }
     .front { grid-template-columns: 1fr; }
     .lead { padding-right: 0; border-right: none; padding-bottom: 20px; border-bottom: 1px solid var(--rule-light); }
     .sidebar { padding-left: 0; padding-top: 20px; }
-    .grid { grid-template-columns: repeat(2, 1fr); }
-    .story, .story:nth-child(3n + 1), .story:nth-child(3n) { padding: 18px 18px; border-right: 1px solid var(--rule-light); }
-    .story:nth-child(2n + 1) { padding-left: 0; }
-    .story:nth-child(2n) { padding-right: 0; border-right: none; }
+    .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 36px; }
+    .story::after { right: -18px; }
+    .story:nth-child(3n)::after { display: block; }
+    .story:nth-child(2n)::after,
+    .story:last-child::after { display: none; }
     .ear { display: none; }
     .masthead { grid-template-columns: 1fr; }
     .masthead-title { font-size: clamp(56px, 18vw, 112px); }
@@ -423,6 +435,7 @@ a:hover { color: var(--accent); }
     .dateline .motto { display: none; }
     .lead .body-text, .article .body-text { column-count: 1; }
     .grid { grid-template-columns: 1fr; }
-    .story, .story:nth-child(n) { padding: 16px 0; border-right: none; }
+    .story { padding: 16px 0; }
+    .story::after, .story:nth-child(n)::after { display: none; }
     .pull-quote { font-size: 19px; }
 }

@@ -221,7 +221,7 @@ function buildSite() {
             slug, section, headline, subheadline, pullQuote, originalSource, publishedAt,
             ...(imageUrl && { imageUrl, photoCredit: photoCredit(article) }),
             summary: first.length > 200 ? first.substring(0, 200) + '...' : first,
-            lead: paragraphs.slice(0, 3)
+            lead: paragraphs.slice(0, 6)
         };
     });
     fs.writeFileSync(

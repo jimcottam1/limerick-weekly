@@ -89,8 +89,8 @@
                 </figure>`;
         }
 
-        function leadHtml(article) {
-            const paragraphs = (article.lead || [article.summary]).map(p => `<p>${esc(p)}</p>`).join('');
+        function leadHtml(article, paragraphCount) {
+            const paragraphs = (article.lead || [article.summary]).slice(0, paragraphCount).map(p => `<p>${esc(p)}</p>`).join('');
             return `
                 <article class="lead">
                     <span class="kicker">${esc(article.section)}</span>
@@ -129,15 +129,16 @@
                 </article>`;
         }
 
-        function render(articles) {
+        function render(articles, sidebarCount, paragraphCount) {
             // Lead with the newest story that has a photo; the rest keep their order
             const leadIndex = Math.max(0, articles.findIndex(a => a.imageUrl));
             const lead = articles[leadIndex];
             const rest = articles.filter((_, i) => i !== leadIndex);
-            const seconds = rest.slice(0, 3);
-            const others = rest.slice(3);
+            const seconds = rest.slice(0, sidebarCount);
+            // Stories without a photo go to the end of the grid so each row lines up
+            const others = rest.slice(sidebarCount).sort((a, b) => !a.imageUrl - !b.imageUrl);
 
-            let html = `<div class="front">${leadHtml(lead)}`;
+            let html = `<div class="front">${leadHtml(lead, paragraphCount)}`;
             if (seconds.length) {
                 html += `<aside class="sidebar"><div class="sidebar-heading">Also in the news</div>${seconds.map(secondHtml).join('')}</aside>`;
             }
@@ -146,6 +147,38 @@
                 html += `<hr class="section-rule"><div class="grid">${others.map(storyHtml).join('')}</div>`;
             }
             document.getElementById('front').innerHTML = html;
+        }
+
+        /** Height of an element's content, ignoring the stretched grid cell it sits in. */
+        function contentHeight(el) {
+            if (!el) return 0;
+            const top = el.getBoundingClientRect().top;
+            return Math.max(0, ...[...el.children].map(c => c.getBoundingClientRect().bottom - top));
+        }
+
+        // Fit the lead column and sidebar to roughly the same height: drop sidebar stories into
+        // the grid while the sidebar is taller, then trim lead paragraphs while the lead is taller.
+        // Photos have fixed aspect ratios, so heights are right before the images finish loading.
+        const SLACK = 60;
+        function layout(articles) {
+            const maxParagraphs = Math.max(...articles.map(a => (a.lead || []).length), 1);
+            let sidebarCount = 3;
+            let paragraphCount = maxParagraphs;
+            render(articles, sidebarCount, paragraphCount);
+
+            // Stacked on narrow screens: nothing to balance
+            if (window.matchMedia('(max-width: 900px)').matches) return;
+
+            const heights = () => [contentHeight(document.querySelector('.lead')), contentHeight(document.querySelector('.sidebar'))];
+            let [lead, side] = heights();
+            while (side > lead + SLACK && sidebarCount > 1) {
+                render(articles, --sidebarCount, paragraphCount);
+                [lead, side] = heights();
+            }
+            while (lead > side + SLACK && paragraphCount > 1) {
+                render(articles, sidebarCount, --paragraphCount);
+                [lead, side] = heights();
+            }
         }
 
         // Load the article list published by the daily build (relative path so it works under /the-061/)
@@ -166,7 +199,14 @@
                     return;
                 }
 
-                render(articles);
+                layout(articles);
+                // Web fonts change line heights, so balance again once they've loaded and on resize
+                document.fonts?.ready.then(() => layout(articles));
+                let resizeTimer;
+                window.addEventListener('resize', () => {
+                    clearTimeout(resizeTimer);
+                    resizeTimer = setTimeout(() => layout(articles), 200);
+                });
             } catch (error) {
                 console.error('Error loading articles:', error);
                 front.innerHTML = `<p class="notice">The presses have stalled: ${esc(error.message)}. Please try refreshing the page.</p>`;
