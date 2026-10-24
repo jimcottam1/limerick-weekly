@@ -1,11 +1,8 @@
 require('dotenv').config();
-const { GoogleGenerativeAI } = require('@google/generative-ai');
 const store = require('./lib/store');
+const { generate } = require('./lib/gemini');
 const fetch = require('node-fetch');
 const cheerio = require('cheerio');
-
-// Initialize Gemini AI
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
 /**
  * Fetch full article content from URL using Cheerio for better extraction
@@ -77,11 +74,10 @@ async function fetchFullArticle(url) {
 }
 
 /**
- * Check if article has Limerick connection using AI
+ * Check if article has Limerick connection using AI.
+ * Returns true/false, or null if the check couldn't be made.
  */
 async function hasLimerickConnection(article, fullContent) {
-    const model = genAI.getGenerativeModel({ model: 'gemini-3.5-flash-lite' });
-
     const checkPrompt = `Does this article have ANY connection to Limerick, Ireland?
 
 Consider connections to:
@@ -101,13 +97,12 @@ ${fullContent ? 'Content: ' + fullContent.substring(0, 1000) : ''}
 Respond with ONLY "YES" or "NO"`;
 
     try {
-        const result = await model.generateContent(checkPrompt);
-        const response = result.response.text().trim().toUpperCase();
+        const response = (await generate(checkPrompt)).trim().toUpperCase();
         return response.includes('YES');
     } catch (error) {
         console.error(`   ✗ Error checking Limerick connection: ${error.message}`);
-        // Default to YES to avoid missing potentially relevant articles
-        return true;
+        // Unknown, not YES: publishing an unchecked story is worse than waiting a day
+        return null;
     }
 }
 
@@ -116,8 +111,6 @@ Respond with ONLY "YES" or "NO"`;
  */
 async function rewriteArticle(originalArticle, fullContent) {
     console.log(`\n✍️  Rewriting: ${originalArticle.title.substring(0, 60)}...`);
-
-    const model = genAI.getGenerativeModel({ model: 'gemini-3.5-flash-lite' });
 
     const prompt = `You are a professional journalist writing for "The Limerick Weekly" newspaper.
 
@@ -161,9 +154,7 @@ RESPOND IN JSON:
 Return ONLY valid JSON, no additional text.`;
 
     try {
-        const result = await model.generateContent(prompt);
-        const response = await result.response;
-        const text = response.text();
+        const text = await generate(prompt);
 
         const jsonMatch = text.match(/\{[\s\S]*\}/);
         if (!jsonMatch) {
@@ -213,6 +204,7 @@ async function rewriteArticles(maxAttempts = 10) {
 
         let rewritten = 0;
         let skipped = 0;
+        let failed = 0;
         let attempts = 0;
 
         for (const article of articles) {
@@ -231,6 +223,13 @@ async function rewriteArticles(maxAttempts = 10) {
             console.log(`   🔍 Checking Limerick connection...`);
             const hasConnection = await hasLimerickConnection(article, fullContent);
 
+            if (hasConnection === null) {
+                // Nothing recorded, so the next run tries this article again
+                console.log(`   ⏸ Leaving for the next run: ${article.title.substring(0, 60)}...`);
+                failed++;
+                continue;
+            }
+
             if (!hasConnection) {
                 console.log(`   ⊘ Skipping (no Limerick connection): ${article.title.substring(0, 60)}...`);
                 // Remember the decision so tomorrow's run doesn't pay for the same check
@@ -246,13 +245,12 @@ async function rewriteArticles(maxAttempts = 10) {
             if (rewrittenArticle) {
                 store.setRewritten(article.id, rewrittenArticle);
                 rewritten++;
+            } else {
+                failed++;
             }
 
             // Save after each article so a later failure doesn't lose progress
             store.save();
-
-            // Rate limiting - wait 1 second between requests
-            await new Promise(resolve => setTimeout(resolve, 1000));
         }
 
         store.save();
@@ -262,9 +260,10 @@ async function rewriteArticles(maxAttempts = 10) {
         console.log(`   Articles examined: ${attempts}`);
         console.log(`   Rewritten: ${rewritten}`);
         console.log(`   Skipped: ${skipped}`);
+        console.log(`   Failed (retried next run): ${failed}`);
         console.log('='.repeat(50));
 
-        return { rewritten, skipped };
+        return { rewritten, skipped, failed };
     } catch (error) {
         console.error('\n❌ Error:', error.message);
         throw error;

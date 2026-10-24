@@ -1,27 +1,27 @@
 require('dotenv').config();
-const { GoogleGenerativeAI } = require('@google/generative-ai');
 const store = require('./lib/store');
-
-// Initialize Gemini AI
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+const { generate } = require('./lib/gemini');
 
 /**
- * Check if two articles are about the same story using AI
+ * Ask the AI whether an article reports the same story as any already-kept article.
+ * One call per new article, rather than one per pair. Returns the matching kept article, or null.
  */
-async function areSimilarStories(article1, article2) {
-    const model = genAI.getGenerativeModel({ model: 'gemini-3.5-flash-lite' });
+async function findDuplicate(article, keptArticles) {
+    if (keptArticles.length === 0) return null;
 
-    const prompt = `Are these two articles about the SAME story/event?
+    const list = keptArticles
+        .map((kept, i) => `${i + 1}. ${kept.title} - ${kept.description.substring(0, 150)}`)
+        .join('\n');
 
-ARTICLE 1:
-Title: ${article1.title}
-Source: ${article1.source}
-Description: ${article1.description.substring(0, 300)}
+    const prompt = `Is the NEW ARTICLE about the SAME story/event as any article in the LIST?
 
-ARTICLE 2:
-Title: ${article2.title}
-Source: ${article2.source}
-Description: ${article2.description.substring(0, 300)}
+NEW ARTICLE:
+Title: ${article.title}
+Source: ${article.source}
+Description: ${article.description.substring(0, 300)}
+
+LIST:
+${list}
 
 Consider them the SAME if they:
 - Report the same specific event or incident
@@ -33,16 +33,17 @@ Consider them DIFFERENT if they:
 - Cover different aspects of a broader topic
 - Are general news vs specific incidents
 
-Respond with ONLY "SAME" or "DIFFERENT"`;
+Respond with ONLY the number of the matching article in the LIST, or "NONE"`;
 
     try {
-        const result = await model.generateContent(prompt);
-        const response = result.response.text().trim().toUpperCase();
-        return response.includes('SAME');
+        const response = (await generate(prompt)).trim().toUpperCase();
+        const match = response.match(/\d+/);
+        if (response.includes('NONE') || !match) return null;
+        return keptArticles[parseInt(match[0]) - 1] || null;
     } catch (error) {
-        console.error(`   ✗ Error checking similarity: ${error.message}`);
-        // Default to different to avoid false positives
-        return false;
+        console.error(`   ✗ Error checking for duplicates: ${error.message}`);
+        // Default to keeping the article; build-site still drops exact link/headline repeats
+        return null;
     }
 }
 
@@ -79,24 +80,13 @@ async function aiDeduplicate() {
         console.log(`\n🔍 Checking ${candidates.length} new articles for semantic duplicates (${vetted.length} already vetted)...\n`);
 
         for (const article of candidates) {
-            let isDuplicate = false;
+            console.log(`   Checking: "${article.title.substring(0, 60)}..." against ${toKeep.length} kept`);
 
-            for (const keptArticle of toKeep) {
-                console.log(`   Comparing: "${article.title.substring(0, 50)}..." vs "${keptArticle.title.substring(0, 50)}..."`);
-
-                if (await areSimilarStories(article, keptArticle)) {
-                    console.log(`   ✗ DUPLICATE DETECTED - Removing: "${article.title}"`);
-                    isDuplicate = true;
-                    toRemove.push(article);
-                    break;
-                }
-                console.log(`   ✓ Different stories`);
-
-                // Rate limiting - wait 500ms between AI calls
-                await new Promise(resolve => setTimeout(resolve, 500));
-            }
-
-            if (!isDuplicate) {
+            const duplicateOf = await findDuplicate(article, toKeep);
+            if (duplicateOf) {
+                console.log(`   ✗ DUPLICATE of "${duplicateOf.title.substring(0, 60)}..." - Removing`);
+                toRemove.push(article);
+            } else {
                 toKeep.push(article);
             }
         }
