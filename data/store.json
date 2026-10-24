@@ -1,8 +1,346 @@
 {
   "meta": {
-    "lastScrape": "2026-10-24T16:52:51.893Z",
-    "totalArticles": 0
+    "lastScrape": "2026-10-24T16:59:19.236Z",
+    "totalArticles": 24
   },
-  "articles": {},
-  "rewritten": {}
+  "articles": {
+    "9297190": {
+      "id": "9297190",
+      "title": "PICTURES: Limerick school cheers on their team ahead of county final",
+      "link": "https://www.limerickleader.ie/news/video-and-photogallery/pictures-limerick-school-cheers-on-their-team-ahead-of-county-final-9297190",
+      "description": "Pupils from Christ the King Caherdavin cheering on Na Piarsaigh ahead of the Limerick Senior Hurling Championship final",
+      "pubDate": "Fri, 23 Oct 2026 20:00:08 GMT",
+      "author": "Adrian Butler",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-24T16:59:19.235Z"
+    },
+    "9299281": {
+      "id": "9299281",
+      "title": "RIP: ’Such a lovely, kind, charming person’- Popular Limerick man is laid to rest",
+      "link": "https://www.limerickleader.ie/deaths/rip-such-a-lovely-kind-charming-person-popular-limerick-man-is-laid-to-rest-9299281",
+      "description": "The popular man was a valued member at Castletroy Golf Club, where he dedicated both his time and talents",
+      "pubDate": "Sat, 24 Oct 2026 07:00:12 GMT",
+      "author": "Limerick Live Reporter",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-24T16:59:19.235Z"
+    },
+    "9300202": {
+      "id": "9300202",
+      "title": "AIL action returns to Limerick following two-week hiatus",
+      "link": "https://www.limerickleader.ie/sport/rugby/ail-action-returns-to-limerick-following-two-week-hiatus-9300202",
+      "description": "ALL seven Men’s sides from the Treaty County will be back in action this weekend after a two-week hiatus, as the 2026/27 season begins to take shape.",
+      "pubDate": "Fri, 23 Oct 2026 19:00:01 GMT",
+      "author": "Oisín Nolan",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-24T16:59:19.235Z"
+    },
+    "9300204": {
+      "id": "9300204",
+      "title": "Treaty United Women aim to finish season as history makers",
+      "link": "https://www.limerickleader.ie/sport/soccer/treaty-united/treaty-united-women-aim-to-finish-season-as-history-makers-9300204",
+      "description": "The Treaty United Women’s side will finish their 2026 SSE Airtricity Premier Division season as home to DLR Waves on this evening, with a kick-off time of 5pm.",
+      "pubDate": "Sat, 24 Oct 2026 10:30:15 GMT",
+      "author": "Oisín Nolan",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-24T16:59:19.235Z"
+    },
+    "9300781": {
+      "id": "9300781",
+      "title": "Leinster trip next up for improving Munster as focus switches to URC",
+      "link": "https://www.limerickleader.ie/sport/rugby/munster-rugby/leinster-trip-next-up-for-improving-munster-as-focus-switches-to-urc-9300781",
+      "description": "Munster won the corresponding game 31-14 and will be hoping to build on recent positive performances",
+      "pubDate": "Sat, 24 Oct 2026 12:00:57 GMT",
+      "author": "John Keogh",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-24T16:59:19.234Z"
+    },
+    "9302767": {
+      "id": "9302767",
+      "title": "Dromin-Athlacca hoping to return to the senior grade at first attempt",
+      "link": "https://www.limerickleader.ie/sport/gaa/hurling/dromin-athlacca-hoping-to-return-to-the-senior-grade-at-first-attempt-9302767",
+      "description": "DROMIN-ATHLACCA are preparing for a Lyons of Limerick Premier Intermediate Hurling Championship Final clash with neighbours Bruff this Sunday at TUS Gaelic Grounds.",
+      "pubDate": "Fri, 23 Oct 2026 16:30:46 GMT",
+      "author": "Oisín Nolan",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-24T16:59:19.235Z"
+    },
+    "9305835": {
+      "id": "9305835",
+      "title": "'Forever grateful' -  Sisters injured in horror M9 crash share heartfelt message",
+      "link": "https://www.limerickleader.ie/national/forever-grateful-sisters-injured-in-horror-m9-crash-share-heartfelt-message-9307102",
+      "description": "Sisters Ella, Niamh and Alma were critically injured in the crash in August which claimed the lives of five teenage boys",
+      "pubDate": "Fri, 23 Oct 2026 18:15:04 GMT",
+      "author": "Rachel Kavanagh",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-24T16:59:19.235Z"
+    },
+    "9306638": {
+      "id": "9306638",
+      "title": "Limerick’s Scarlett Faulkner prayed for at the Vatican",
+      "link": "https://www.limerickleader.ie/news/limericks-scarlett-faulkner-prayed-for-at-the-vatican-9306638",
+      "description": "Siblings Scarlett and Jason Faulkner were in the forefront of family members’ minds during pilgramage to Italy",
+      "pubDate": "Fri, 23 Oct 2026 19:00:12 GMT",
+      "author": "Donal O'Regan",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-24T16:59:19.235Z"
+    },
+    "9307165": {
+      "id": "9307165",
+      "title": "EDITORIAL: 'Patrick O'Donovan has courage to speak out while others whisper'",
+      "link": "https://www.limerickleader.ie/news/politics/editorial-patrick-odonovan-has-courage-to-speak-out-while-others-whisper-9307165",
+      "description": "Limerick minister said he wants to show that people with a disability or neurological condition can work in government",
+      "pubDate": "Fri, 23 Oct 2026 20:30:44 GMT",
+      "author": "Aine Fizgerald",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-24T16:59:19.235Z"
+    },
+    "9307466": {
+      "id": "9307466",
+      "title": "Tasty west Limerick derby with Junior Hurling Championship on the line",
+      "link": "https://www.limerickleader.ie/sport/gaa/hurling/tasty-west-limerick-derby-with-junior-hurling-championship-on-the-line-9307466",
+      "description": "Pay no heed to the 16-point difference when the sides met two months ago, a close battle is expected today",
+      "pubDate": "Sat, 24 Oct 2026 06:31:25 GMT",
+      "author": "Joel Slattery",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-24T16:59:19.235Z"
+    },
+    "9307472": {
+      "id": "9307472",
+      "title": "Doon looking to go one better in Premier Junior Hurling final",
+      "link": "https://www.limerickleader.ie/sport/gaa/hurling/doon-looking-to-go-one-better-in-premier-junior-hurling-final-9307472",
+      "description": "Darragh Stapleton, who played in last year’s Senior Hurling Championship final, is expected to line out at center forward for Doon",
+      "pubDate": "Sat, 24 Oct 2026 07:30:00 GMT",
+      "author": "Joel Slattery",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-24T16:59:19.235Z"
+    },
+    "9307476": {
+      "id": "9307476",
+      "title": "Bruree hoping to make it third time lucky in IHC final",
+      "link": "https://www.limerickleader.ie/sport/gaa/hurling/bruree-hoping-to-make-it-third-time-lucky-in-ihc-final-9307476",
+      "description": "The south Limerick men fell at the final hurdle in each of the last two seasons and will be hoping that this is their year",
+      "pubDate": "Sat, 24 Oct 2026 08:30:58 GMT",
+      "author": "Joel Slattery",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-24T16:59:19.235Z"
+    },
+    "9307685": {
+      "id": "9307685",
+      "title": "‘Check your tickets carefully!’: Limerick player has ‘incredible’ EuroMillions win ",
+      "link": "https://www.limerickleader.ie/news/check-your-tickets-carefully-limerick-player-has-incredible-euromillions-win-9307685",
+      "description": "National Lottery spokesperson Emma Monaghan said “there could be a very exciting Bank Holiday weekend ahead for one EuroMillions player in Limerick who is now holding a €500,000 winning ticket”.",
+      "pubDate": "Sat, 24 Oct 2026 12:11:09 GMT",
+      "author": "Reporter",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-24T16:59:19.234Z"
+    },
+    "9307767": {
+      "id": "9307767",
+      "title": "Limerick hurling star receives heartfelt best wishes on his wedding day",
+      "link": "https://www.limerickleader.ie/news/limerick-hurling-star-receives-heartfelt-best-wishes-on-his-wedding-day-9307767",
+      "description": "The wing-forward, who has six All-Ireland medals and three All-Star awards to his name, met Elaine, affectionately known as Lainey, on a night out",
+      "pubDate": "Sat, 24 Oct 2026 14:01:37 GMT",
+      "author": "Reporter",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-24T16:59:19.234Z"
+    },
+    "https://www.limerickpost.ie/?p=362473": {
+      "id": "https://www.limerickpost.ie/?p=362473",
+      "title": "Zero gravity machine hitting heights in biodiversity",
+      "link": "https://www.limerickpost.ie/2026/10/24/zero-gravity-machine-hitting-heights-in-biodiversity/",
+      "description": "A ZERO gravity machine is hitting new heights in helping to enhance biodiversity management, support climate action objectives, and improve the efficiency of meadow and open space management across the county. The machine was leased by the Council for a trial period and used to cut and collect vegetation from grasslands and pollinator-friendly meadows within [&#8230;]\nThe post Zero gravity machine hitting heights in biodiversity appeared first on Limerick Post.",
+      "pubDate": "Sat, 24 Oct 2026 14:00:54 +0000",
+      "author": "Bernie English",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-24T16:59:18.735Z"
+    },
+    "https://www.limerickpost.ie/?p=362470": {
+      "id": "https://www.limerickpost.ie/?p=362470",
+      "title": "Proposed disposal of Abbeyfeale properties to Limerick Twenty Thirty raises serious questions",
+      "link": "https://www.limerickpost.ie/2026/10/24/proposed-disposal-of-abbeyfeale-properties-to-limerick-twenty-thirty-raises-serious-questions/",
+      "description": "COUNCILLORS have warned the local authority that it could be &#8220;creating a monster&#8221; with the proposed disposal of six properties in Abbeyfeale to Limerick Twenty Thirty. At October’s Newcastle West district meeting, Mayor John Moran&#8217;s plans to allocate the Council-owned stock to the project development company to fulfil key objectives of the mayoral programme were [&#8230;]\nThe post Proposed disposal of Abbeyfeale properties to Limerick Twenty Thirty raises serious questions appeared first on Limerick Post.",
+      "pubDate": "Sat, 24 Oct 2026 11:00:15 +0000",
+      "author": "Alan Jacques",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-24T16:59:18.735Z"
+    },
+    "https://www.limerickpost.ie/?p=362466": {
+      "id": "https://www.limerickpost.ie/?p=362466",
+      "title": "Limerick property prices continue to rise according to new report",
+      "link": "https://www.limerickpost.ie/2026/10/24/limerick-property-prices-continue-to-rise-according-to-new-report/",
+      "description": "LIMERICK property prices have risen by €10,000 in one year, according to the latest MyHome Property Price Report. The report for quarter three of 2026 shows that the median asking price for a property in the county is now €290,000. That means prices have remained flat over the quarter. Asking prices for a three-bed semi-detached [&#8230;]\nThe post Limerick property prices continue to rise according to new report appeared first on Limerick Post.",
+      "pubDate": "Sat, 24 Oct 2026 09:30:26 +0000",
+      "author": "Sarah Coleman",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-24T16:59:18.735Z"
+    },
+    "https://www.limerickpost.ie/?p=362391": {
+      "id": "https://www.limerickpost.ie/?p=362391",
+      "title": "Big Shots Halloween Screams returns to Belltable for another night of frights",
+      "link": "https://www.limerickpost.ie/2026/10/24/big-shots-halloween-screams-returns-to-belltable-for-another-night-of-frights/",
+      "description": "Ireland’s All-Island Horror Film Competition will return to the big screen when Big Shots Halloween Screams comes to Belltable on Saturday October 31. Teams from across the island will write, shoot and edit original short horror films throughout October. The finished entries will then be screened for a live audience, with awards and cash prizes [&#8230;]\nThe post Big Shots Halloween Screams returns to Belltable for another night of frights appeared first on Limerick Post.",
+      "pubDate": "Sat, 24 Oct 2026 09:20:26 +0000",
+      "author": "Eric Fitzgerald",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-24T16:59:18.735Z"
+    },
+    "https://www.limerickpost.ie/?p=362371": {
+      "id": "https://www.limerickpost.ie/?p=362371",
+      "title": "Young curators bring LASTA ‘26 to Belltable with film screening and variety show",
+      "link": "https://www.limerickpost.ie/2026/10/24/young-curators-bring-lasta-26-to-belltable-with-film-screening-and-variety-show/",
+      "description": "LASTA ‘26, a festival run by the Young Curators national mentorship programme, will bring theatre, dance, music, film and performance made for young people and by young people to Belltable later this month. Co-curators Marcus Cropper and Ilinca Luca have put together a programme that welcomes their peers into the venue as a space for [&#8230;]\nThe post Young curators bring LASTA ‘26 to Belltable with film screening and variety show appeared first on Limerick Post.",
+      "pubDate": "Sat, 24 Oct 2026 09:05:09 +0000",
+      "author": "Eric Fitzgerald",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-24T16:59:18.735Z"
+    },
+    "https://www.limerickpost.ie/?p=362464": {
+      "id": "https://www.limerickpost.ie/?p=362464",
+      "title": "Employment Matters: When WhatsApp messages become workplace evidence",
+      "link": "https://www.limerickpost.ie/2026/10/24/employment-matters-when-whatsapp-messages-become-workplace-evidence/",
+      "description": "MOST people have sent a message they later regretted. In the workplace, that message may not stay private. Messaging platforms such as WhatsApp and team chat tools are now part of everyday working life. They are quick, informal, and efficient. But that same informality can create risk. Messages sent casually or in haste can look [&#8230;]\nThe post Employment Matters: When WhatsApp messages become workplace evidence appeared first on Limerick Post.",
+      "pubDate": "Sat, 24 Oct 2026 08:00:29 +0000",
+      "author": "Dr Pat Rockett",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-24T16:59:18.735Z"
+    },
+    "https://www.limerickpost.ie/?p=362455": {
+      "id": "https://www.limerickpost.ie/?p=362455",
+      "title": "Chamber announce business awards shortlist",
+      "link": "https://www.limerickpost.ie/2026/10/23/chamber-announce-business-awards-shortlist/",
+      "description": "LIMERICK Chamber has announced the finalists for its annual Regional Business Awards. Sponsored by the Technological University of the Shannon (TUS), the awards are now in its 15th year and celebrate a range of sectors from emerging enterprises to established companies. The winners will be announced at the Limerick Chamber President&#8217;s Dinner and Regional Business [&#8230;]\nThe post Chamber announce business awards shortlist appeared first on Limerick Post.",
+      "pubDate": "Fri, 23 Oct 2026 17:00:31 +0000",
+      "author": "Sarah Coleman",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-24T16:59:18.735Z"
+    },
+    "https://www.limerickpost.ie/?p=362449": {
+      "id": "https://www.limerickpost.ie/?p=362449",
+      "title": "80 deaths last year among flu victims in Mid West",
+      "link": "https://www.limerickpost.ie/2026/10/23/80-deaths-last-year-among-flu-victims-in-mid-west/",
+      "description": "THERE were 30 deaths in the Mid West among patients who caught the flu last year and more than 800 people had to be hospitalised last winter with 1,7800 with the virus reported. The startling figures were released this week as the HSE’s Winter Vaccination Programme was launched with flu and COVID-19 vaccines now available [&#8230;]\nThe post 80 deaths last year among flu victims in Mid West appeared first on Limerick Post.",
+      "pubDate": "Fri, 23 Oct 2026 15:30:06 +0000",
+      "author": "Bernie English",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-24T16:59:18.735Z"
+    },
+    "https://www.limerickpost.ie/?p=362452": {
+      "id": "https://www.limerickpost.ie/?p=362452",
+      "title": "Spirit of Houdini will be one of the friendly ghosts to haunt Bunratty this weekend",
+      "link": "https://www.limerickpost.ie/2026/10/23/spirit-of-houdini-will-be-one-of-the-friendly-ghosts-to-haunt-bunratty-this-weekend/",
+      "description": "ONE Century ago this Halloween, renowned escapologist, Harry Houdini, made the greatest escape of all and left this life. This coming weekend, the man who has been called the Irish Houdini will be channelling the great man&#8217;s talent at the bank holiday event Bunratty Castle and Folk Park. Houdini is Limerick master magician, Steve Spade, [&#8230;]\nThe post Spirit of Houdini will be one of the friendly ghosts to haunt Bunratty this weekend appeared first on Limerick Post.",
+      "pubDate": "Fri, 23 Oct 2026 14:00:34 +0000",
+      "author": "Bernie English",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-24T16:59:18.735Z"
+    },
+    "https://www.limerickpost.ie/?p=362447": {
+      "id": "https://www.limerickpost.ie/?p=362447",
+      "title": "Limerick psychotherapist warns of dangers of fast-track training",
+      "link": "https://www.limerickpost.ie/2026/10/23/limerick-psychotherapist-warns-of-dangers-of-fast-track-training/",
+      "description": "A LIMERICK psychotherapist has warned that proposed new regulations, aimed at increasing the number of qualified psychotherapists available to deal with waiting lists, could put vulnerable people at risk. Following its annual conference, Limerick psychotherapist Trish Murphy echoed the concerns of the Irish Council for Psychotherapy that the most vulnerable in society could be failed [&#8230;]\nThe post Limerick psychotherapist warns of dangers of fast-track training appeared first on Limerick Post.",
+      "pubDate": "Fri, 23 Oct 2026 12:30:43 +0000",
+      "author": "Bernie English",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-24T16:59:18.735Z"
+    }
+  },
+  "rewritten": {
+    "9300204": {
+      "headline": "Treaty United Women Ready to Write Final Chapter of Historic 2026 Campaign on Home Turf",
+      "subheadline": "Limerick side prepares for emotional season finale against DLR Waves at Markets Field this evening.",
+      "story": "Treaty United’s women’s team is set to bring down the curtain on a landmark SSE Airtricity Premier Division campaign this evening, welcoming DLR Waves to Limerick for a 5pm kickoff. The fixture marks the culmination of months of dedication, growth, and competitive football that has continued to capture the imagination of local sports enthusiasts throughout the region.\n\nAs the squad prepares to step onto the pitch for the final time this season, players and coaching staff alike are reflecting on the progress made over the past several months. The team has consistently demonstrated resilience and determination, representing Limerick proudly on the national stage and inspiring the next generation of young players coming through local grassroots clubs across the county.\n\nSupporters are expected to turn out in strong numbers to show their appreciation for the squad's efforts this season. Tonight’s match is not only the final fixture on the calendar but also an opportunity to celebrate a positive trajectory for women's football in the region, paving the way for even greater achievements when the team returns to action in the future.",
+      "pullQuote": "The Treaty United women's side is ready to finish their 2026 campaign in style in front of home supporters.",
+      "localAngle": "The match at Markets Field offers Limerick sports fans a final chance this season to support their local Premier Division women's team.",
+      "originalTitle": "Treaty United Women aim to finish season as history makers",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/sport/soccer/treaty-united/treaty-united-women-aim-to-finish-season-as-history-makers-9300204",
+      "publishedAt": "Sat, 24 Oct 2026 10:30:15 GMT",
+      "rewrittenAt": "2026-10-24T17:10:18.196Z"
+    },
+    "9300781": {
+      "headline": "Red Army Gears Up as Munster Shifts Focus to Leinster Showdown",
+      "subheadline": "Building on recent momentum, the province prepares for a thrilling inter-provincial clash following a stellar 31-14 victory.",
+      "story": "Munster rugby supporters across Limerick and the wider province are turning their attention to the upcoming inter-provincial challenge as preparations ramp up for a high-stakes fixture against Leinster. Following a string of encouraging performances and a decisive 31-14 victory in the corresponding fixture last season, the squad is eager to maintain their upward trajectory in the United Rugby Championship (URC).\n\nHead coach and players have been putting in rigorous work on the training ground, aiming to harness the positive energy from recent outings to deliver another memorable performance for the passionate home faithful. The upcoming match offers an ideal platform for the team to showcase their tactical growth, depth, and resilience against formidable opposition.\n\nFor the local community, fixtures against Leinster always carry a special significance, uniting fans in pubs, clubs, and Thomond Park to celebrate the spirit of the game. As the province builds towards kick-off, the collective optimism surrounding the team highlights the enduring connection between Munster Rugby and the people of Limerick, promising an electrifying atmosphere for all in attendance.",
+      "pullQuote": "Munster are looking to build on recent positive performances as they prepare for a crucial Leinster trip.",
+      "localAngle": "Limerick supporters are rallying behind Munster as the squad prepares for a high-stakes URC clash against Leinster.",
+      "originalTitle": "Leinster trip next up for improving Munster as focus switches to URC",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/sport/rugby/munster-rugby/leinster-trip-next-up-for-improving-munster-as-focus-switches-to-urc-9300781",
+      "publishedAt": "Sat, 24 Oct 2026 12:00:57 GMT",
+      "rewrittenAt": "2026-10-24T17:10:08.206Z"
+    },
+    "9307685": {
+      "headline": "Bank Holiday Bonanza: Lucky Limerick Ticket Holder Claims Half-Million EuroMillions Prize",
+      "subheadline": "National Lottery officials urge players across the county to check their numbers following Friday night's massive draw.",
+      "story": "There is a buzz of excitement across the Treaty County this weekend as National Lottery officials confirm that a single ticket holder in Limerick has won a staggering €500,000 in the EuroMillions draw. The life-changing win is expected to set the stage for an unforgettable Bank Holiday weekend for the yet-unnamed lucky participant.\n\nWhile the exact location where the winning ticket was purchased has not yet been revealed by lottery headquarters, anticipation is already building in local shops and communities. National Lottery spokesperson Emma Monaghan shared the thrilling news on Saturday morning, encouraging everyone who participated in Friday's draw to thoroughly check their slips.\n\n\"There could be a very exciting Bank Holiday weekend ahead for one EuroMillions player in Limerick who is now holding a €500,000 winning ticket,\" Monaghan said, urging the winner to sign the back of their ticket, keep it safe, and contact the National Lottery prize claims team to arrange collecting their substantial sum.\n\nAs celebrations begin to unfold across the region, this latest win brings a welcome dose of joy and optimism to the local community. It serves as a timely reminder of the exciting possibilities that await players right here in Limerick, adding an extra layer of festive cheer to the long weekend festivities.",
+      "pullQuote": "There could be a very exciting Bank Holiday weekend ahead for one EuroMillions player in Limerick who is now holding a €500,000 winning ticket.",
+      "localAngle": "A Limerick resident is celebrating a massive €500,000 EuroMillions win just ahead of the Bank Holiday weekend.",
+      "originalTitle": "‘Check your tickets carefully!’: Limerick player has ‘incredible’ EuroMillions win ",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/news/check-your-tickets-carefully-limerick-player-has-incredible-euromillions-win-9307685",
+      "publishedAt": "Sat, 24 Oct 2026 12:11:09 GMT",
+      "rewrittenAt": "2026-10-24T17:10:02.668Z"
+    },
+    "https://www.limerickpost.ie/?p=362473": {
+      "headline": "Council Trials Innovative 'Zero Gravity' Mower to Boost Limerick's Biodiversity and Cut Emissions",
+      "subheadline": "New machinery trial paves the way for sustainable meadow management across the county.",
+      "story": "Limerick City and County Council has successfully completed a trial of an advanced 'zero gravity' mowing system designed to enhance local biodiversity and support the county's climate action objectives. The specialized GHS Drive 1800 machine was leased for a pilot program focusing on grasslands and pollinator-friendly meadows within the Limerick Decarbonisation Zone and surrounding areas.\n\nUnlike traditional mowing equipment, the innovative machine cuts and removes vegetation in a single, highly efficient operation. Environmental experts emphasize that removing grass cuttings is a vital best-practice technique for meadow management, as it reduces soil fertility and creates the optimal conditions for native wildflowers and pollinators to thrive. The successful trial aligns directly with the local authority's commitments under the Limerick Biodiversity Action Plan, the Climate Action Plan, and the All-Ireland Pollinator Plan.\n\nBeyond its ecological benefits, the pilot highlighted significant operational advantages for the local authority. The machinery demonstrated reduced fuel consumption, lower greenhouse gas emissions, and a quieter operation compared to conventional equipment. Furthermore, research indicates that properly managed wildflower meadows encourage deeper root systems and increased soil carbon storage, gradually transforming local green spaces into valuable carbon sinks.\n\nBuilding on the positive outcomes of the lease program, Limerick City and County Council is now exploring the permanent acquisition of similar technology. The move marks another proactive step in the region's long-term approach to sustainable open space management, ensuring that Limerick continues to lead by example in local environmental stewardship.",
+      "pullQuote": "Removing cuttings from meadows is recognised as a best-practice management technique, creating the conditions needed for a greater diversity of native wildflowers and pollinators to thrive.",
+      "localAngle": "The trial of the zero-gravity mower within the Limerick Decarbonisation Zone demonstrates the local authority's ongoing commitment to meeting county-wide climate action and biodiversity targets.",
+      "originalTitle": "Zero gravity machine hitting heights in biodiversity",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/24/zero-gravity-machine-hitting-heights-in-biodiversity/",
+      "publishedAt": "Sat, 24 Oct 2026 14:00:54 +0000",
+      "rewrittenAt": "2026-10-24T17:09:56.428Z"
+    },
+    "https://www.limerickpost.ie/?p=362470": {
+      "headline": "Abbeyfeale Property Transfer Sparks Healthy Debate on Local Development Strategy",
+      "subheadline": "Elected members weigh in on proposed housing initiative involving Limerick Twenty Thirty",
+      "story": "Elected representatives in West Limerick are engaging in constructive discussions regarding a visionary proposal to allocate six council-owned properties in Abbeyfeale to Limerick Twenty Thirty. Unveiled at the October Newcastle West district meeting, the initiative aims to breathe new life into local housing stock, offering a sustainable, cost-recovery rental model tailored for working households and key workers in the area.\n\nThe properties—located at Convent Road, Colbert Terrace, Old Church Street, and the Bridge Inn—include a mix of one, two, three, and four-bedroom homes. Refurbished to an exceptionally high standard, these Grade A residences are expected to be ready by mid-November. Supporters of the project, including District Cathaoirleach Cllr Liam Galvin, highlight that bringing these previously idle buildings back into active use addresses a long-standing community priority and will significantly strengthen local spending power and economic sustainability in West Limerick.\n\nAt the same time, councillors are proactively examining the broader implications of utilizing a project development company traditionally focused on commercial growth for residential schemes. Fianna Fáil councillor Michael Collins raised important questions during the district meeting regarding the distinction between commercial and private housing mandates, calling for a dedicated workshop to ensure all elected members can collaborate on the optimal path forward. District leaders remain committed to open dialogue, balancing the urgent need to activate local housing with strategic planning for the county's long-term commercial vitality.",
+      "pullQuote": "I believe we will have them ready by the middle of November. I wasn’t 100 per cent in favour of the scheme that the Mayor was proposing but I am willing to give it a chance.",
+      "localAngle": "The proposed disposal of Abbeyfeale council properties to Limerick Twenty Thirty marks a pivotal step in shaping the future of housing and economic development across West Limerick.",
+      "originalTitle": "Proposed disposal of Abbeyfeale properties to Limerick Twenty Thirty raises serious questions",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/24/proposed-disposal-of-abbeyfeale-properties-to-limerick-twenty-thirty-raises-serious-questions/",
+      "publishedAt": "Sat, 24 Oct 2026 11:00:15 +0000",
+      "rewrittenAt": "2026-10-24T17:10:15.215Z"
+    },
+    "https://www.limerickpost.ie/?p=362466": {
+      "headline": "Limerick Property Market Shows Steady Growth with Rising Inventory and Slower Inflation Rates",
+      "subheadline": "Latest MyHome report highlights positive trends for local homebuyers as market supply improves across the county.",
+      "story": "Property prices in Limerick have seen a steady annual increase of €10,000, bringing the median asking price across the county to €290,000, according to the latest MyHome Property Price Report for the third quarter of 2026. While the figures reflect continuous growth over the past year, asking prices remained flat over the final quarter, pointing to a stabilizing market environment for local buyers and sellers alike.\n\nSpecific property categories across the county have experienced varied shifts. Asking prices for three-bed semi-detached homes rose by €15,000 over the past year to reach €295,000, which includes a modest €5,000 increase in the third quarter alone. Meanwhile, four-bed semi-detached houses saw a decrease of €5,500 annually to settle at a median asking price of €359,500, despite experiencing a €7,000 rise during the most recent quarter. Market activity has also seen encouraging improvements, with 444 properties listed for sale in Limerick at the close of the third quarter—marking a 4 per cent increase over the period. Properties are currently going sale agreed in just under three months on average.\n\nIndustry experts have welcomed these developments as encouraging signs for the local housing market. Conall MacCoille, Chief Economist at Bank of Ireland, highlighted that the slowing rate of asking price inflation, combined with an increasing number of properties for sale and a pickup in homebuilding, creates a more favorable environment for prospective buyers. Additionally, MyHome Managing Director Joanne Geary pointed to strong engagement from first-time buyers, noting that first-time buyer transactions have risen by 12 per cent year-on-year, reflecting continued confidence and accessibility in Limerick's property sector.",
+      "pullQuote": "The rate of asking price inflation continues to slow, the number of properties for sale on MyHome is rising, and homebuilding has picked up.",
+      "localAngle": "The latest MyHome Property Price Report provides local readers with a comprehensive look at median asking prices, inventory levels, and housing market trends across Limerick county.",
+      "originalTitle": "Limerick property prices continue to rise according to new report",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/24/limerick-property-prices-continue-to-rise-according-to-new-report/",
+      "publishedAt": "Sat, 24 Oct 2026 09:30:26 +0000",
+      "rewrittenAt": "2026-10-24T17:10:22.187Z"
+    },
+    "https://www.limerickpost.ie/?p=362391": {
+      "headline": "Terror and Talent Set for the Belltable as 'Big Shots Halloween Screams' Returns to Limerick",
+      "subheadline": "Ireland's premier all-island horror film competition is back on Treaty City screens this Halloween night with original short films, live audiences, and cash prizes.",
+      "story": "Film enthusiasts and horror fans across Limerick are in for a spine-chilling treat next weekend as the Belltable prepares to host the return of 'Big Shots Halloween Screams' on Saturday, October 31. Following successful runs in 2024 and 2025, Ireland’s All-Island Horror Film Competition is once again bringing its unique brand of cinematic terror to the heart of the city, offering local audiences a front-row seat to some of the freshest talent in independent filmmaking.\n\nThroughout the month of October, creative teams from every corner of the island have been hard at work writing, shooting, and editing their own original short horror films. These homegrown productions will culminate in a special live screening event at the Belltable, where audiences can experience the suspense together on the big screen. In addition to the thrill of the premiere, participating filmmakers will be competing for a range of prestigious awards and cash prizes.\n\nDoors for the Halloween night event will open at 6.30pm, with the screenings set to kick off at 7.30pm. Tickets are available now for €12.50, offering an affordable and entertaining evening out for local culture seekers and horror aficionados alike. As cultural events continue to thrive in Limerick, the return of Big Shots Halloween Screams highlights the city's vibrant arts community and provides an exciting platform for emerging cinematic storytellers to showcase their craft.",
+      "pullQuote": "Teams from across the island will write, shoot and edit original short horror films throughout October for the live Belltable screening.",
+      "localAngle": "The popular all-island horror film competition returns to Limerick's Belltable venue, offering local film fans a thrilling Halloween night out.",
+      "originalTitle": "Big Shots Halloween Screams returns to Belltable for another night of frights",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/24/big-shots-halloween-screams-returns-to-belltable-for-another-night-of-frights/",
+      "publishedAt": "Sat, 24 Oct 2026 09:20:26 +0000",
+      "rewrittenAt": "2026-10-24T17:10:26.632Z"
+    },
+    "https://www.limerickpost.ie/?p=362371": {
+      "headline": "Youth-Led LASTA ‘26 Festival Brings Fresh Energy and Creativity to the Belltable Stage",
+      "subheadline": "Co-curators Marcus Cropper and Ilinca Luca invite Limerick audiences to celebrate young artistic talent in a dynamic two-event programme.",
+      "story": "The Belltable is set to come alive with youthful creativity and vibrant performances later this month as it hosts LASTA ‘26, a nationwide festival spearheaded by the Young Curators national mentorship programme. Local culture enthusiasts and young audiences alike are in for a treat as co-curators Marcus Cropper and Ilinca Luca unveil a diverse programme designed to transform the iconic Limerick venue into a welcoming space for artistic experimentation and community connection.\n\nThe festival kicks off on Wednesday, October 28, with two screenings of the timeless workplace comedy 9 to 5, scheduled for 5pm and 7.30pm. Presented personally by Ms. Luca and Mr. Cropper, the screenings serve as a special tribute to the legendary 1980 film starring Dolly Parton, Lily Tomlin, and Jane Fonda. Tickets for the cinematic event are affordably priced at €8 general admission and €5 concession, offering an accessible evening out for film fans across the city.\n\nThe excitement continues on Friday, October 30, at 7.30pm with 'Nighttime Medley', an intimate variety show that promises an unforgettable evening of performance, drag clowning, and contemporary dance. Billed as a celebration of mischief-makers and bold artistry, the line-up features acclaimed Limerick-based dance artist Alex Vostokova—an Associate Artist at Dance Limerick—alongside Dublin-based performer Day Magee and rising drag clown sensation Whimsy. Ms. Vostokova will present her thought-provoking piece Pit, commissioned by Coisceim Dance Theatre, which explores the impact of modern urbanism through powerful choreography.\n\nEvents like LASTA ‘26 highlight the vital role that young people play in shaping Limerick’s vibrant cultural landscape. By providing a platform for emerging artists and welcoming peers into the heart of the city's arts scene, the festival reinforces the Belltable's position as a dynamic hub for community engagement, inspiration, and creative expression.",
+      "pullQuote": "Co-curators Marcus Cropper and Ilinca Luca have put together a programme that welcomes their peers into the venue as a space for creative experimentation and fun.",
+      "localAngle": "Limerick-based dance artist Alex Vostokova will perform her acclaimed piece 'Pit' at the Belltable as part of the nationwide LASTA '26 festival.",
+      "originalTitle": "Young curators bring LASTA ‘26 to Belltable with film screening and variety show",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/24/young-curators-bring-lasta-26-to-belltable-with-film-screening-and-variety-show/",
+      "publishedAt": "Sat, 24 Oct 2026 09:05:09 +0000",
+      "rewrittenAt": "2026-10-24T17:10:32.073Z"
+    }
+  }
 }
