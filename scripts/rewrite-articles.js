@@ -80,7 +80,7 @@ async function fetchFullArticle(url) {
  * Check if article has Limerick connection using AI
  */
 async function hasLimerickConnection(article, fullContent) {
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash-lite' });
+    const model = genAI.getGenerativeModel({ model: 'gemini-3.5-flash-lite' });
 
     const checkPrompt = `Does this article have ANY connection to Limerick, Ireland?
 
@@ -117,7 +117,7 @@ Respond with ONLY "YES" or "NO"`;
 async function rewriteArticle(originalArticle, fullContent) {
     console.log(`\n✍️  Rewriting: ${originalArticle.title.substring(0, 60)}...`);
 
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash-lite' });
+    const model = genAI.getGenerativeModel({ model: 'gemini-3.5-flash-lite' });
 
     const prompt = `You are a professional journalist writing for "The Limerick Weekly" newspaper.
 

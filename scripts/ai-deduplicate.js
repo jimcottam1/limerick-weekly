@@ -9,7 +9,7 @@ const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
  * Check if two articles are about the same story using AI
  */
 async function areSimilarStories(article1, article2) {
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash-lite' });
+    const model = genAI.getGenerativeModel({ model: 'gemini-3.5-flash-lite' });
 
     const prompt = `Are these two articles about the SAME story/event?
 

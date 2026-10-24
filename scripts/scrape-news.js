@@ -107,7 +107,7 @@ function extractArticles(feedData, sourceName) {
             const article = {
                 id: item.guid?.[0]?._ || item.guid?.[0] || item.id?.[0] || item.link?.[0],
                 title: item.title?.[0]?._ || item.title?.[0] || 'Untitled',
-                link: item.link?.[0]?._ || item.link?.[0]?.$.href || item.link?.[0] || '',
+                link: item.link?.[0]?._ || item.link?.[0]?.$?.href || item.link?.[0] || '',
                 description: item.description?.[0] || item.summary?.[0] || item.content?.[0] || '',
                 pubDate: item.pubDate?.[0] || item.published?.[0] || new Date().toISOString(),
                 author: item.author?.[0]?.name?.[0] || item['dc:creator']?.[0] || 'Unknown',
