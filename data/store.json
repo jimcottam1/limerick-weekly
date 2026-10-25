@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastScrape": "2026-10-24T21:35:00.848Z",
-    "totalArticles": 26
+    "lastScrape": "2026-10-25T10:26:00.370Z",
+    "totalArticles": 25
   },
   "articles": {
     "9290418": {
@@ -168,6 +168,18 @@
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/24/6/07/ILIM-18-10-25-Bruree-v-Murroe-Boher-in-the-County-Intermediate-Hurling-Final-2.jpeg?width=1200&auto=webp&trim=167%2C0%2C168%2C0",
       "imageCredit": "BRENDAN GLEESON"
     },
+    "9307480": {
+      "id": "9307480",
+      "title": "Senior hurling the big prize as south Limerick rivals do battle ",
+      "link": "https://www.limerickleader.ie/sport/gaa/hurling/senior-hurling-the-big-prize-as-south-limerick-rivals-do-battle-9307480",
+      "description": "Both clubs are looking to join Garryspillane and Monaleen as multiple winners of the Michael Fox Memorial Cup",
+      "pubDate": "Sun, 25 Oct 2026 08:30:48 GMT",
+      "author": "Joel Slattery",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/24/6/53/Premier-IHC-Murroe-Boher-v-Dromin-Athlacca-5-(1).jpeg?width=1200&auto=webp&trim=381%2C810%2C481%2C84",
+      "imageCredit": "BRENDAN GLEESON",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-25T10:25:57.930Z"
+    },
     "9307685": {
       "id": "9307685",
       "title": "‘Check your tickets carefully!’: Limerick player has ‘incredible’ EuroMillions win ",
@@ -227,6 +239,30 @@
       "imageCredit": "BRENDAN GLEESON",
       "source": "limerickleader",
       "scrapedAt": "2026-10-24T21:27:49.234Z"
+    },
+    "9307993": {
+      "id": "9307993",
+      "title": "Limerick Senior Hurling Championship final: All you need to know",
+      "link": "https://www.limerickleader.ie/sport/gaa/hurling/limerick-senior-hurling-championship-final-all-you-need-to-know-9307993",
+      "description": "Eighty-seven days after Na Piarsaigh opened their Whitebox Senior Hurling Championship defence with a defeat to Kilmallock, the pair renew their rivalry at the TUS Gaelic Grounds",
+      "pubDate": "Sun, 25 Oct 2026 10:00:50 GMT",
+      "author": "Joel Slattery",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/24/22/47/Na-Piarsaigh-v-Kilmallock-in-the-Limerick-SHC-2-(1).jpeg?width=1200&auto=webp&trim=100%2C0%2C100%2C0",
+      "imageCredit": "BRENDAN GLEESON",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-25T10:25:57.929Z"
+    },
+    "9307998": {
+      "id": "9307998",
+      "title": "Brothers in arms: The family links in the Limerick hurling final",
+      "link": "https://www.limerickleader.ie/sport/gaa/hurling/brothers-in-arms-the-family-links-in-the-limerick-hurling-final-9307998",
+      "description": "Come Sunday night, there will be plenty of happy households in either the north side of the city or the south end of the county. But for some families, it will be extra special",
+      "pubDate": "Sun, 25 Oct 2026 09:28:47 GMT",
+      "author": "Joel Slattery",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/24/22/53/3590480.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageCredit": "SPORTSFILE",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-25T10:25:57.930Z"
     },
     "https://www.limerickpost.ie/?p=362473": {
       "id": "https://www.limerickpost.ie/?p=362473",
@@ -367,6 +403,36 @@
       "author": "Tara Lowth",
       "source": "limerickvoice",
       "scrapedAt": "2026-10-24T21:27:52.355Z"
+    },
+    "https://www.limerickpost.ie/?p=362395": {
+      "id": "https://www.limerickpost.ie/?p=362395",
+      "title": "From BBC Proms to the ICO: Yeol Eum Son brings Mozart to UCH",
+      "link": "https://www.limerickpost.ie/2026/10/25/from-bbc-proms-to-the-ico-yeol-eum-son-brings-mozart-to-uch/",
+      "description": "ACCLAIMED South Korean pianist Yeol Eum Son will perform at University Concert Hall on Friday November 20 as part of a three-date Irish tour with the Irish Chamber Orchestra (ICO). The concert, titled Mozart Illuminated, begins at 7.30pm. Tickets from www.irishchamberorchestra.com Son, whose recent appearances include a sold-out BBC Proms performance of Gershwin’s Piano Concerto [&#8230;]\nThe post From BBC Proms to the ICO: Yeol Eum Son brings Mozart to UCH appeared first on Limerick Post.",
+      "pubDate": "Sun, 25 Oct 2026 09:15:33 +0000",
+      "author": "Eric Fitzgerald",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-25T10:25:57.470Z"
+    },
+    "https://www.limerickpost.ie/?p=362479": {
+      "id": "https://www.limerickpost.ie/?p=362479",
+      "title": "Film Column – Bloody Tennis",
+      "link": "https://www.limerickpost.ie/2026/10/25/film-column-bloody-tennis/",
+      "description": "BLOODY Tennis is horror&#8217;s answer to Suspiria if ballet shoes and tutus were swapped for moisture-absorbent lifestyle gear and performance trainers. Directed by Nikias Chryssos, the film opens with American girl Sophie (Sandra Guldberg) arriving at an elite tennis academy somewhere in Southern Europe. It&#8217;s here the Suspiria comparisons end as we quickly find ourselves [&#8230;]\nThe post Film Column &#8211; Bloody Tennis appeared first on Limerick Post.",
+      "pubDate": "Sun, 25 Oct 2026 09:00:02 +0000",
+      "author": "Alan Jacques",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-25T10:25:57.471Z"
+    },
+    "https://limerickvoice.com/?p=53161": {
+      "id": "https://limerickvoice.com/?p=53161",
+      "title": "Treaty United Women bring club chapter to a close in season finale",
+      "link": "https://limerickvoice.com/sport/treaty-united-women-bring-club-chapter-to-a-close-in-season-finale/",
+      "description": "Treaty Women play final game of the season before Limerick FC return. TREATY United Women led DLR Waves 3-0 at half-time in their final game under the Treaty United name, with Katie Lawlee and Caroline Penner putting the hosts in control.  The fixture was moved from the Markets Field to the all-weather pitch at Aisling [&#8230;]\nThe post Treaty United Women bring club chapter to a close in season finale appeared first on .",
+      "pubDate": "Sun, 25 Oct 2026 08:00:50 +0000",
+      "author": "Emma Dineen",
+      "source": "limerickvoice",
+      "scrapedAt": "2026-10-25T10:26:00.368Z"
     }
   },
   "rewritten": {
@@ -542,6 +608,19 @@
       "imageCredit": "BRENDAN GLEESON",
       "rewrittenAt": "2026-10-24T21:33:25.738Z"
     },
+    "9307480": {
+      "headline": "South Limerick Rivals Clash for Michael Fox Memorial Cup and Senior Status",
+      "summary": "Two south Limerick clubs go head-to-head in the senior hurling final, both aiming to claim the Michael Fox Memorial Cup and join Garryspillane and Monaleen as multiple winners.",
+      "story": "The stage is set for a high-stakes hurling showdown in south Limerick this Sunday, as two fierce local rivals prepare to battle it out for the Michael Fox Memorial Cup.\n\nBoth clubs enter the fixture with their sights firmly fixed on the ultimate prize in the divisional competition. Victory would see either side cement their status alongside recent multiple winners Garryspillane and Monaleen in the tournament's roll of honour.\n\nWith local pride and championship silverware on the line, throw-in is expected to draw a significant crowd of supporters from across the region to witness the latest chapter in this intense south Limerick rivalry.",
+      "localAngle": "The match highlights the fierce local sporting rivalries and deep-rooted community passion for the GAA across south Limerick.",
+      "originalTitle": "Senior hurling the big prize as south Limerick rivals do battle ",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/sport/gaa/hurling/senior-hurling-the-big-prize-as-south-limerick-rivals-do-battle-9307480",
+      "publishedAt": "Sun, 25 Oct 2026 08:30:48 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/24/6/53/Premier-IHC-Murroe-Boher-v-Dromin-Athlacca-5-(1).jpeg?width=1200&auto=webp&trim=381%2C810%2C481%2C84",
+      "imageCredit": "BRENDAN GLEESON",
+      "rewrittenAt": "2026-10-25T10:26:56.773Z"
+    },
     "9307685": {
       "headline": "Limerick EuroMillions Player Wins €500,000 in Friday Night Draw",
       "summary": "A Limerick EuroMillions player is holding a winning ticket worth €500,000 following the latest draw. National Lottery officials have urged local ticket holders to check their numbers ahead of the Bank Holiday weekend.",
@@ -606,6 +685,24 @@
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/24/19/58/1Y3A1718.jpeg?width=1200&auto=webp&trim=80%2C0%2C40%2C0",
       "imageCredit": "BRENDAN GLEESON",
       "rewrittenAt": "2026-10-24T21:31:10.023Z"
+    },
+    "9307993": {
+      "skipped": true,
+      "duplicateOf": "9297190",
+      "rewrittenAt": "2026-10-25T10:26:23.607Z"
+    },
+    "9307998": {
+      "headline": "Family ties and sibling rivalries take centre stage in Limerick hurling final",
+      "summary": "Families across Limerick are facing divided loyalties as brothers and relatives prepare to face off on opposing sides in the county hurling final this Sunday.",
+      "story": "The build-up to this Sunday's Limerick hurling final brings an extra layer of personal drama for several local families, with brothers and close relatives set to line out on opposite sides of the pitch. \n\nWhile the showdown will ultimately crown a champion from either the north side of the city or the south end of the county, the encounter carries profound personal significance for the households whose members find themselves on opposing teams.\n\nCome Sunday night, celebrations are guaranteed for one side of the divide, but the fixture ensures a unique family dynamic as relatives compete directly against each other for the silverware.",
+      "localAngle": "The match pits communities from the north side of Limerick city against the south end of the county in a high-stakes local hurling showdown.",
+      "originalTitle": "Brothers in arms: The family links in the Limerick hurling final",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/sport/gaa/hurling/brothers-in-arms-the-family-links-in-the-limerick-hurling-final-9307998",
+      "publishedAt": "Sun, 25 Oct 2026 09:28:47 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/24/22/53/3590480.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageCredit": "SPORTSFILE",
+      "rewrittenAt": "2026-10-25T10:26:29.954Z"
     },
     "https://limerickvoice.com/?p=53125": {
       "skipped": true,
@@ -772,6 +869,37 @@
       "rewrittenAt": "2026-10-24T21:37:09.446Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/08/stock-teen-mental-health-depression-eric-ward-akT1bnnuMMk-unsplash.jpg",
       "imageCheckedAt": "2026-10-24T21:37:11.757Z"
+    },
+    "https://limerickvoice.com/?p=53161": {
+      "skipped": true,
+      "duplicateOf": "9300204",
+      "rewrittenAt": "2026-10-25T10:26:23.607Z"
+    },
+    "https://www.limerickpost.ie/?p=362395": {
+      "headline": "Internationally Acclaimed Pianist Yeol Eum Son to Perform Mozart at UCH",
+      "summary": "South Korean pianist Yeol Eum Son will perform with the Irish Chamber Orchestra at the University Concert Hall on Friday, November 20. The 'Mozart Illuminated' concert begins at 7.30pm as part of a three-date Irish tour.",
+      "story": "Music fans across the 061 are in for a treat next month as renowned South Korean pianist Yeol Eum Son brings her upcoming Irish tour to the University Concert Hall (UCH). \n\nTaking place on Friday, November 20 at 7.30pm, the concert is titled 'Mozart Illuminated' and will feature Son performing as both soloist and director alongside the Irish Chamber Orchestra (ICO). The Limerick performance is part of a three-date national tour that also visits Dublin and Cork.\n\nLimerick audiences will see Son perform Mozart’s much-loved \"Elvira Madigan\" concerto (Piano Concerto No. 21) alongside the dramatic Piano Concerto No. 24 in C minor. The evening's programme will open with Mozart's Divertimento in D major, directed by ICO guest leader Hed Yaron Meyerson.\n\nSon is widely recognised for her international performing career, including a recent sold-out BBC Proms performance at the Royal Albert Hall. Her famous 2011 performance of Mozart’s Piano Concerto No. 21 has garnered over 32 million online views. Tickets for the Limerick concert are available directly from the Irish Chamber Orchestra website.",
+      "localAngle": "The concert brings a world-renowned classical music performance directly to Limerick's University Concert Hall as part of an exclusive three-date Irish tour.",
+      "originalTitle": "From BBC Proms to the ICO: Yeol Eum Son brings Mozart to UCH",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/25/from-bbc-proms-to-the-ico-yeol-eum-son-brings-mozart-to-uch/",
+      "publishedAt": "Sun, 25 Oct 2026 09:15:33 +0000",
+      "rewrittenAt": "2026-10-25T10:26:39.192Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/10/Yeol-Eum-Son003.jpg",
+      "imageCheckedAt": "2026-10-25T10:26:57.048Z"
+    },
+    "https://www.limerickpost.ie/?p=362479": {
+      "headline": "New Horror Film 'Bloody Tennis' Fails to Score in 2/5 Review",
+      "summary": "Nikias Chryssos's new horror-thriller 'Bloody Tennis' has received a disappointing two-star review after failing to deliver on its ambitious premise. The film follows an American teen at a brutal elite tennis academy in Southern Europe.",
+      "story": "Film critics have delivered a fault to new horror-thriller 'Bloody Tennis', panning the movie as an underdeveloped and unpleasant entry into the cannibalistic horror sub-genre. Directed by Nikias Chryssos, the film opens with American student Sophie, played by Sandra Guldberg, arriving at an elite tennis academy in Southern Europe.\n\nWhile initially drawing comparisons to 'Suspiria', the film quickly shifts into 'Saw' and 'Raw' territory as Sophie navigates a twisted bootcamp for aspiring tennis stars. However, reviewers noted that the movie struggles to build momentum, offering a half-hearted body count and weak-kneed attempts at man-eating horror.\n\nCritics also pointed to surreal clay court bouts and catfighting that ultimately overlook tension, leaving audiences with a disjointed narrative and an unsatisfying grand finale. Earning a lacklustre two-star rating, the film proves that even with high stakes on the court, this particular match lacks any real love.",
+      "localAngle": "Local film enthusiasts looking for their next cinema trip may want to skip this poorly received sports-horror crossover when it hits screens.",
+      "originalTitle": "Film Column – Bloody Tennis",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/25/film-column-bloody-tennis/",
+      "publishedAt": "Sun, 25 Oct 2026 09:00:02 +0000",
+      "rewrittenAt": "2026-10-25T10:26:48.224Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/10/bloody-tennis-2.webp",
+      "imageCheckedAt": "2026-10-25T10:26:57.716Z"
     }
   }
 }
