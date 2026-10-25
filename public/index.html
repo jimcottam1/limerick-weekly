@@ -130,20 +130,40 @@
         }
 
         // Footer list of every publication in this edition, linked to its homepage
+        // Animated promo banners for the papers we draw on, built from their own logos (public/promos).
+        // Always shown, even in a week when one of them has no story on the front page.
+        const PROMOS = [
+            { name: 'Limerick Leader', home: 'https://www.limerickleader.ie/', file: 'limerick-leader' },
+            { name: 'Limerick Post', home: 'https://www.limerickpost.ie/', file: 'limerick-post' },
+            { name: 'Limerick Voice', home: 'https://limerickvoice.com/', file: 'limerick-voice' }
+        ];
+
         function renderSources(articles) {
-            const sources = new Map();
+            const promos = PROMOS.map(p => `
+                <li>
+                    <a class="promo" href="${p.home}" target="_blank" rel="noopener" title="Visit ${p.name}">
+                        <picture>
+                            <source srcset="promos/${p.file}.png" media="(prefers-reduced-motion: reduce)">
+                            <img src="promos/${p.file}.gif" alt="${p.name}" width="480" height="240" loading="lazy">
+                        </picture>
+                    </a>
+                </li>`).join('');
+
+            // Any other source in this edition (e.g. a newly added feed) gets a plain link
+            const others = new Map();
             for (const a of articles) {
-                if (!sources.has(a.originalSource)) sources.set(a.originalSource, a.sourceHome);
+                if (!PROMOS.some(p => p.name === a.originalSource) && !others.has(a.originalSource)) {
+                    others.set(a.originalSource, a.sourceHome);
+                }
             }
-            const items = [...sources]
-                .sort(([a], [b]) => a.localeCompare(b))
-                .map(([name, home]) => home
-                    ? `<li><a href="${esc(home)}" target="_blank" rel="noopener">${esc(name)}</a></li>`
-                    : `<li>${esc(name)}</li>`)
-                .join('');
+            const otherLinks = [...others].map(([name, home]) => home
+                ? `<li><a href="${esc(home)}" target="_blank" rel="noopener">${esc(name)}</a></li>`
+                : `<li>${esc(name)}</li>`).join('');
+
             document.getElementById('sources').innerHTML = `
-                <h2 class="sources-heading">Sources</h2>
-                <ul class="sources-list">${items}</ul>
+                <h2 class="sources-heading">Our sources</h2>
+                <ul class="promo-list">${promos}</ul>
+                ${otherLinks ? `<ul class="sources-list">${otherLinks}</ul>` : ''}
                 <p class="sources-note">The 061 rewrites local reporting with AI. The original journalism belongs to these publishers. Every story links to its source, so please read and support them.</p>`;
         }
 

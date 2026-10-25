@@ -665,6 +665,29 @@ html { scroll-behavior: smooth; }
     margin-bottom: 8px;
 }
 
+.promo-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    margin: 6px 0 14px;
+}
+
+.promo {
+    display: block;
+    border: 1px solid var(--rule);
+    outline: 1px solid var(--rule);
+    outline-offset: 3px;
+    transition: transform 0.15s ease;
+}
+
+.promo:hover { transform: translateY(-2px); }
+.promo img { display: block; width: 100%; height: auto; }
+
+@media (max-width: 700px) {
+    .promo-list { grid-template-columns: minmax(0, 1fr); max-width: 400px; margin-left: auto; margin-right: auto; }
+}
+
 .sources-list {
     list-style: none;
     display: flex;
