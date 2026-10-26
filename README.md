@@ -2,7 +2,7 @@
 
 AI-curated local news for Limerick, published as a static site on GitHub Pages.
 
-A GitHub Actions workflow runs three times each morning and afternoon. It collects Limerick news from the Limerick Post, Limerick Leader, Limerick Voice, Limerick GAA and Limerick Chamber RSS feeds (and NewsAPI, if configured), skipping non-news posts such as club notes and fixture lists and anything over 14 days old, removes duplicate stories, rewrites the ones with a Limerick connection using Google Gemini, and publishes the result. There is no server or database.
+A GitHub Actions workflow runs three times a day (early morning, with two backup runs). It collects Limerick news from the Limerick Post, Limerick Leader, Limerick Voice, Limerick GAA and Limerick Chamber RSS feeds (and NewsAPI, if configured), skipping non-news posts such as club notes and fixture lists and anything over 14 days old, removes duplicate stories, rewrites the ones with a Limerick connection using Google Gemini, and publishes the result. There is no server or database.
 
 ## How it works
 
