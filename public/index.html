@@ -212,6 +212,8 @@
         const SECTION_ORDER = ['News', 'Sport', 'Council', 'Business', 'Arts & Culture', 'Courts'];
         const MIN_SECTION_SIZE = 2;
         const SECTION_LIST_SIZE = 2;
+        // Most stories a section shows on the front page; older ones are in its archive page
+        const SECTION_CAP = 7;
 
         function sectionId(name) {
             return name.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -280,7 +282,10 @@
             return html;
         }
 
-        function sectionHtml({ name, stories }) {
+        function sectionHtml({ name, stories: all }) {
+            // Stories arrive newest first; keep the newest few and leave the rest to the archive
+            const stories = all.slice(0, SECTION_CAP);
+            const held = all.length - stories.length;
             // Feature the section's newest story with a photo; photo-less stories go last in the grid
             const leadIndex = Math.max(0, stories.findIndex(a => a.imageUrl));
             const lead = stories[leadIndex];
@@ -292,7 +297,7 @@
                 <section class="paper-section" id="${sectionId(name)}">
                     <header class="section-head">
                         <h2>${esc(name)}</h2>
-                        <a class="more-link" href="sections/${sectionId(name)}.html">More ${esc(name)} &rarr;</a>
+                        <a class="more-link" href="sections/${sectionId(name)}.html">${held ? `${held} more this week &middot; ` : ''}More ${esc(name)} &rarr;</a>
                     </header>
                     <div class="section-top${briefs.length ? '' : ' solo'}">
                         ${sectionLeadHtml(lead, name)}
@@ -369,7 +374,9 @@
                 }
 
                 const data = await response.json();
-                const articles = data.articles || [];
+                // Newest first by the original publication date (undated stories last)
+                const time = a => new Date(a.publishedAt).getTime() || 0;
+                const articles = (data.articles || []).slice().sort((a, b) => time(b) - time(a));
                 setEdition(data.generatedAt, articles.length);
 
                 if (articles.length === 0) {
