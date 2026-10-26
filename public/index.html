@@ -314,13 +314,59 @@
             document.getElementById('sectionNav').innerHTML = links.join('');
         }
 
+        // ---------- Choosing the lead and Top stories ----------
+
+        // Gemini rates each story 1-5 for importance and for positivity. Importance counts most;
+        // each step of positivity above or below neutral (3) adds or takes off half a point.
+        const POSITIVITY_WEIGHT = 0.5;
+        const TOP_STORIES = 3;
+
+        const published = a => new Date(a.publishedAt).getTime() || 0;
+        const score = a => (a.importance || 3) + POSITIVITY_WEIGHT * ((a.positivity || 3) - 3);
+        const byScore = (a, b) => score(b) - score(a) || published(b) - published(a);
+        const within = (list, hours) => list.filter(a => Date.now() - published(a) <= hours * 3600000);
+
+        /** Pool from the shortest time window that has enough stories in it. */
+        function recentPool(list, windows, minimum) {
+            for (const hours of windows) {
+                const pool = within(list, hours);
+                if (pool.length >= minimum) return pool;
+            }
+            return list;
+        }
+
+        /**
+         * Lead: the best-scoring story with a photo from the last day (or two, or the week).
+         * Top stories: the best of the last two days, at most one per section so one busy desk can't
+         * fill the top of the paper, and always including any major (importance 5) story from today.
+         */
+        function chooseFront(articles) {
+            const withPhoto = articles.filter(a => a.imageUrl);
+            const lead = [...recentPool(withPhoto.length ? withPhoto : articles, [24, 48, 24 * 7], 1)].sort(byScore)[0];
+            const others = articles.filter(a => a !== lead);
+            const pool = [...recentPool(others, [48, 24 * 7], TOP_STORIES)].sort(byScore);
+
+            const chosen = [];
+            const sectionsUsed = new Set([lead.section]);
+            const take = a => { chosen.push(a); sectionsUsed.add(a.section); };
+            within(pool, 24).filter(a => a.importance === 5).forEach(take);
+            for (const a of pool) {
+                if (chosen.length >= TOP_STORIES) break;
+                if (!chosen.includes(a) && !sectionsUsed.has(a.section)) take(a);
+            }
+            // Not enough different sections in the window: fill with the next best regardless
+            for (const a of pool) {
+                if (chosen.length >= TOP_STORIES) break;
+                if (!chosen.includes(a)) take(a);
+            }
+            return { lead, top: chosen.sort(byScore) };
+        }
+
         function render(articles, sidebarCount, paragraphCount) {
-            // Lead with the newest story that has a photo; the next few newest make up the sidebar
-            const leadIndex = Math.max(0, articles.findIndex(a => a.imageUrl));
-            const lead = articles[leadIndex];
-            const rest = articles.filter((_, i) => i !== leadIndex);
-            const seconds = rest.slice(0, sidebarCount);
-            const sections = groupSections(rest.slice(sidebarCount));
+            const { lead, top } = chooseFront(articles);
+            const seconds = top.slice(0, sidebarCount);
+            // Everything else goes to the sections, newest first (including any Top story the sidebar had no room for)
+            const sections = groupSections(articles.filter(a => a !== lead && !seconds.includes(a)));
 
             let html = `<div class="front" id="top">${leadHtml(lead, paragraphCount)}`;
             if (seconds.length) {

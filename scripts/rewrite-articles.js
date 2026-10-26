@@ -1,7 +1,7 @@
 require('dotenv').config();
 const store = require('./lib/store');
 const { generate } = require('./lib/gemini');
-const { SECTIONS: SECTION_NAMES, GUIDE: SECTION_GUIDE, normaliseSection } = require('./lib/sections');
+const { SECTIONS: SECTION_NAMES, GUIDE: SECTION_GUIDE, RATING_GUIDE, normaliseSection, toRating } = require('./lib/sections');
 const fetch = require('node-fetch');
 const cheerio = require('cheerio');
 
@@ -149,13 +149,17 @@ REQUIREMENTS:
 
 ${SECTION_GUIDE}
 
+${RATING_GUIDE}
+
 RESPOND IN JSON:
 {
   "headline": "<headline that states the news>",
   "summary": "<1-2 sentence TL;DR with the key facts and outcome>",
   "story": "<your story in 3-4 paragraphs, separated by \\n\\n>",
   "localAngle": "<one sentence explaining the Limerick connection>",
-  "section": "<one of: ${SECTION_NAMES.join(', ')}>"
+  "section": "<one of: ${SECTION_NAMES.join(', ')}>",
+  "importance": <1-5>,
+  "positivity": <1-5>
 }
 
 Return ONLY valid JSON, no additional text.`;
@@ -176,7 +180,9 @@ Return ONLY valid JSON, no additional text.`;
         }
         // An unrecognised section is dropped; the catch-up step or the keyword fallback fills it in
         rewritten.section = normaliseSection(rewritten.section) || undefined;
-        console.log(`   ✓ Generated ${rewritten.story.length} characters (${rewritten.section || 'no section'})`);
+        rewritten.importance = toRating(rewritten.importance) || undefined;
+        rewritten.positivity = toRating(rewritten.positivity) || undefined;
+        console.log(`   ✓ Generated ${rewritten.story.length} characters (${rewritten.section || 'no section'}, importance ${rewritten.importance ?? '?'}, positivity ${rewritten.positivity ?? '?'})`);
 
         return {
             ...rewritten,

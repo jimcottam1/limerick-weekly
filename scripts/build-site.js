@@ -363,6 +363,9 @@ function buildSite() {
         const imageUrl = safeUrl(article.imageUrl);
         return {
             slug, section, headline, originalSource, publishedAt,
+            // Gemini's ratings, used to pick the lead and Top stories (missing on stories not yet rated)
+            importance: article.importance || null,
+            positivity: article.positivity || null,
             originalLink: safeUrl(article.originalLink),
             sourceHome: safeUrl(article.sourceHome),
             ...(imageUrl && { imageUrl, photoCredit: photoCredit(article) }),
