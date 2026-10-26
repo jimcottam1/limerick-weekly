@@ -1,6 +1,7 @@
 require('dotenv').config();
 const store = require('./lib/store');
 const { generate } = require('./lib/gemini');
+const { SECTIONS: SECTION_NAMES, GUIDE: SECTION_GUIDE, normaliseSection } = require('./lib/sections');
 const fetch = require('node-fetch');
 const cheerio = require('cheerio');
 
@@ -146,12 +147,15 @@ REQUIREMENTS:
     praise ("dedication", "resilience", "community spirit") that isn't in the source.
 11. Only use facts from the source article. Do not invent details, quotes or outcomes.
 
+${SECTION_GUIDE}
+
 RESPOND IN JSON:
 {
   "headline": "<headline that states the news>",
   "summary": "<1-2 sentence TL;DR with the key facts and outcome>",
   "story": "<your story in 3-4 paragraphs, separated by \\n\\n>",
-  "localAngle": "<one sentence explaining the Limerick connection>"
+  "localAngle": "<one sentence explaining the Limerick connection>",
+  "section": "<one of: ${SECTION_NAMES.join(', ')}>"
 }
 
 Return ONLY valid JSON, no additional text.`;
@@ -170,7 +174,9 @@ Return ONLY valid JSON, no additional text.`;
                 throw new Error(`AI response missing "${field}"`);
             }
         }
-        console.log(`   ✓ Generated ${rewritten.story.length} characters`);
+        // An unrecognised section is dropped; the catch-up step or the keyword fallback fills it in
+        rewritten.section = normaliseSection(rewritten.section) || undefined;
+        console.log(`   ✓ Generated ${rewritten.story.length} characters (${rewritten.section || 'no section'})`);
 
         return {
             ...rewritten,

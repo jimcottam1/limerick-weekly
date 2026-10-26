@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
 const store = require('./lib/store');
+const { normaliseSection } = require('./lib/sections');
 
 const ROOT = path.join(__dirname, '..');
 const PUBLIC_DIR = path.join(ROOT, 'public');
@@ -93,7 +94,7 @@ const SOURCE_HOMEPAGES = {
     limerickchamber: 'https://www.limerickchamber.ie/'
 };
 
-/** Rough newspaper section from keywords; the headline decides if it can, then the story. "News" otherwise. */
+/** Fallback section from keywords (Gemini normally chooses); the headline decides if it can, then the story. */
 const SECTIONS = [
     // Weather warnings mention businesses, travel and so on, so catch them before Business does
     ['News', /\b(storm|met [eé]ireann|status (yellow|orange|red)|weather warning)\b/i],
@@ -105,6 +106,9 @@ const SECTIONS = [
 ];
 
 function sectionFor(article) {
+    // Gemini's choice when it made one; the keyword rules below are only the fallback
+    const chosen = normaliseSection(article.section);
+    if (chosen) return chosen;
     for (const text of [`${article.headline} ${article.summary || article.subheadline || ''}`, article.story]) {
         const match = SECTIONS.find(([, pattern]) => pattern.test(text));
         if (match) return match[0];

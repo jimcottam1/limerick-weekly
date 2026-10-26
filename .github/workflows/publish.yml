@@ -75,6 +75,7 @@ jobs:
           npm run scrape
           npm run dedupe
           npm run rewrite
+          npm run sections
           npm run images
 
       - name: Commit updated article store
