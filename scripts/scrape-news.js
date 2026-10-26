@@ -102,6 +102,9 @@ async function fetchRSSFeed(url) {
 /**
  * Extract articles from parsed RSS feed
  */
+const NOT_NEWS = /club notes|(results|fixtures):?\s*$|\blotto\b|\bwin a\b.*€|many thanks to/i;
+const MAX_AGE_DAYS = parseInt(process.env.MAX_ARTICLE_AGE_DAYS || '14');
+
 /**
  * Lead photo and credit from the feed item, where the feed provides one
  * (the Limerick Leader uses media:content with media:credit).
@@ -146,6 +149,17 @@ function extractArticles(feedData, sourceName) {
             // Skip articles that are too short
             const minLength = parseInt(process.env.MIN_ARTICLE_LENGTH || '100');
             if (article.description.length < minLength) {
+                continue;
+            }
+
+            // Skip notices that aren't news (club notes, fixture/result lists, lotto and sponsor posts)
+            if (NOT_NEWS.test(article.title)) {
+                continue;
+            }
+
+            // Skip old posts: some feeds (e.g. Limerick Chamber) list months of items
+            const published = new Date(article.pubDate).getTime();
+            if (Number.isFinite(published) && Date.now() - published > MAX_AGE_DAYS * 86400000) {
                 continue;
             }
 

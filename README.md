@@ -2,12 +2,12 @@
 
 AI-curated local news for Limerick, published as a static site on GitHub Pages.
 
-A GitHub Actions workflow runs every day. It collects Limerick news from RSS feeds (and NewsAPI, if configured), removes duplicate stories, rewrites the ones with a Limerick connection using Google Gemini, and publishes the result. There is no server or database.
+A GitHub Actions workflow runs three times each morning and afternoon. It collects Limerick news from the Limerick Post, Limerick Leader, Limerick Voice, Limerick GAA and Limerick Chamber RSS feeds (and NewsAPI, if configured), skipping non-news posts such as club notes and fixture lists and anything over 14 days old, removes duplicate stories, rewrites the ones with a Limerick connection using Google Gemini, and publishes the result. There is no server or database.
 
 ## How it works
 
 ```
-GitHub Actions (daily 06:00 UTC, or run manually)
+GitHub Actions (05:07, 09:07 and 13:07 UTC, or run manually)
   scrape  -> data/store.json        RSS + NewsAPI, new articles only
   dedupe  -> data/store.json        Gemini removes same-story duplicates
   rewrite -> data/store.json        Gemini rewrites up to MAX_DAILY_REWRITES new articles
@@ -27,7 +27,7 @@ GitHub Actions (daily 06:00 UTC, or run manually)
 
 ## Workflow triggers
 
-- **Daily schedule** - full pipeline.
+- **Schedule** - full pipeline at 05:07 UTC, with backup runs at 09:07 and 13:07. GitHub delays scheduled jobs (worst on the hour), so the backups make sure each day's edition appears; a backup only processes stories it hasn't seen.
 - **Manual run** - same, with an optional *Clear rewritten articles first* checkbox. Use it after changing the rewrite prompt so old stories are regenerated.
 - **Push to `master`** touching `public/` or the builder - rebuilds and redeploys only, with no scraping or AI calls.
 

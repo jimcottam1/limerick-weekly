@@ -78,7 +78,9 @@ const SOURCE_NAMES = {
     limerickpost: 'Limerick Post',
     limerickleader: 'Limerick Leader',
     ilovelimerick: 'I Love Limerick',
-    limerickvoice: 'Limerick Voice'
+    limerickvoice: 'Limerick Voice',
+    limerickgaa: 'Limerick GAA',
+    limerickchamber: 'Limerick Chamber'
 };
 
 /** Publishers' homepages, for the sources list in the front page footer. */
@@ -86,7 +88,9 @@ const SOURCE_HOMEPAGES = {
     limerickpost: 'https://www.limerickpost.ie/',
     limerickleader: 'https://www.limerickleader.ie/',
     ilovelimerick: 'https://www.ilovelimerick.ie/',
-    limerickvoice: 'https://limerickvoice.com/'
+    limerickvoice: 'https://limerickvoice.com/',
+    limerickgaa: 'https://www.limerickgaa.ie/',
+    limerickchamber: 'https://www.limerickchamber.ie/'
 };
 
 /** Rough newspaper section from keywords; the headline decides if it can, then the story. "News" otherwise. */

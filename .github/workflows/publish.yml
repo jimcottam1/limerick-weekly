@@ -1,9 +1,12 @@
 name: Update and Publish
 
 on:
-  # Every day at 06:00 UTC (07:00 in Irish summer time)
+  # GitHub delays scheduled jobs, worst of all on the hour (06:00 runs have started up to 6 hours late),
+  # so run at an off-peak minute with two backups. A backup only picks up stories not seen yet.
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '7 5 * * *'
+    - cron: '7 9 * * *'
+    - cron: '7 13 * * *'
 
   # Manual run from the Actions tab
   workflow_dispatch:
@@ -29,7 +32,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  RSS_FEEDS: https://www.limerickpost.ie/feed/,https://www.limerickleader.ie/rss/,https://www.ilovelimerick.ie/feed/,https://limerickvoice.com/feed/
+  RSS_FEEDS: https://www.limerickpost.ie/feed/,https://www.limerickleader.ie/rss/,https://limerickvoice.com/feed/,https://www.limerickgaa.ie/feed/,https://www.limerickchamber.ie/feed/
   LIMERICK_KEYWORDS: Limerick,Munster,Shannon,Treaty City
   MIN_ARTICLE_LENGTH: 100
   MAX_DAILY_REWRITES: 20
