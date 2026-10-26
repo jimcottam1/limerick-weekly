@@ -665,13 +665,17 @@ html { scroll-behavior: smooth; }
     margin-bottom: 8px;
 }
 
+/* Three across; a short last row is centred (five sources = three, then two) */
 .promo-list {
     list-style: none;
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
     margin: 6px 0 14px;
 }
+
+.promo-list li { flex: 0 1 calc((100% - 40px) / 3); min-width: 0; }
 
 .promo {
     display: block;
@@ -685,7 +689,8 @@ html { scroll-behavior: smooth; }
 .promo img { display: block; width: 100%; height: auto; }
 
 @media (max-width: 700px) {
-    .promo-list { grid-template-columns: minmax(0, 1fr); max-width: 400px; margin-left: auto; margin-right: auto; }
+    .promo-list { max-width: 400px; margin-left: auto; margin-right: auto; }
+    .promo-list li { flex-basis: 100%; }
 }
 
 .sources-list {
