@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastScrape": "2026-10-26T21:45:12.814Z",
-    "totalArticles": 25
+    "lastScrape": "2026-10-26T22:07:58.733Z",
+    "totalArticles": 23
   },
   "articles": {
     "9290418": {
@@ -99,6 +99,29 @@
       "scrapedAt": "2026-10-24T17:22:32.715Z",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/21/12/46/Bruff-garda-station-file-pic.jpeg?width=1200&auto=webp&trim=33%2C0%2C33%2C0",
       "imageCredit": "Iconic Media Group"
+    },
+    "9301843": {
+      "id": "9301843",
+      "title": "Bat colony discovered at former garda station in Limerick village",
+      "link": "https://www.limerickleader.ie/news/planning/bat-colony-discovered-at-former-garda-station-in-limerick-village-9301843",
+      "description": "Limerick City and County Council has begun the statutory process to convert the former garda station in Shanagolden into housing",
+      "pubDate": "Mon, 26 Oct 2026 18:00:35 GMT",
+      "author": "David Hurley",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/21/13/10/ILIM-former-Shanagolden-garda-station.jpeg?width=1200&auto=webp&trim=71%2C110%2C127%2C187",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-26T22:07:43.033Z"
+    },
+    "9302131": {
+      "id": "9302131",
+      "title": "Trial for man charged with money laundering and drugs offences in Limerick",
+      "link": "https://www.limerickleader.ie/news/crime-courts/trial-for-man-charged-with-money-laundering-and-drugs-offences-in-limerick-9302131",
+      "description": "A man from Newcastle West charged with money laundering and drugs offences is to face trial at Limerick Circuit Court",
+      "pubDate": "Mon, 26 Oct 2026 20:00:18 GMT",
+      "author": "Sandra Quinn",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/04/30/19/iconic-upload-GN4_DAT_9622746.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageCredit": "Iconic Media Group",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-26T22:07:43.033Z"
     },
     "9302767": {
       "id": "9302767",
@@ -754,7 +777,8 @@
       "publishedAt": "Sat, 24 Oct 2026 19:00:10 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/09/03/10/25/3250266.jpeg?width=1200&auto=webp&trim=24%2C91%2C85%2C0",
       "imageCredit": "SPORTSFILE",
-      "rewrittenAt": "2026-10-24T21:31:30.442Z"
+      "rewrittenAt": "2026-10-24T21:31:30.442Z",
+      "section": "Council"
     },
     "9297190": {
       "headline": "Caherdavin pupils show their colours for Na Piarsaigh ahead of county final",
@@ -767,7 +791,8 @@
       "publishedAt": "Fri, 23 Oct 2026 20:00:08 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/19/15/57/ilim-Christ-the-King-Caherdavin-cheering-on-Na-Piarsaigh-19-10-26-11-30a8a693.jpeg?width=1200&auto=webp&trim=85%2C0%2C85%2C0",
       "imageCredit": "Adrian Butler",
-      "rewrittenAt": "2026-10-24T21:35:58.485Z"
+      "rewrittenAt": "2026-10-24T21:35:58.485Z",
+      "section": "Sport"
     },
     "9298211": {
       "headline": "Limerick Artist Shortlisted for RDS Visual Art Awards",
@@ -780,7 +805,8 @@
       "publishedAt": "Mon, 26 Oct 2026 14:00:12 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/20/9/24/333A9505.jpeg?width=1200&auto=webp&trim=0%2C0%2C1%2C0",
       "imageCredit": "PICTURE: RDS",
-      "rewrittenAt": "2026-10-26T21:46:33.363Z"
+      "rewrittenAt": "2026-10-26T21:46:33.363Z",
+      "section": "Arts & Culture"
     },
     "9299281": {
       "headline": "Castletroy Golf Club Member Laid to Rest Following Community Tributes",
@@ -793,7 +819,8 @@
       "publishedAt": "Sat, 24 Oct 2026 07:00:12 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/20/14/32/RIP-Such-a-lovely-kind-charming-person-Popular-Limerick-man-is-laid-to-rest.png?width=1200&auto=webp&trim=0%2C89%2C0%2C91",
       "imageCredit": "RIP.ie",
-      "rewrittenAt": "2026-10-24T21:33:52.553Z"
+      "rewrittenAt": "2026-10-24T21:33:52.553Z",
+      "section": "News"
     },
     "9300202": {
       "headline": "All Seven Limerick Men's Rugby Teams Return to AIL Action This Weekend",
@@ -806,7 +833,8 @@
       "publishedAt": "Fri, 23 Oct 2026 19:00:01 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/20/23/47/0N0A3920.jpeg?width=1200&auto=webp&trim=15%2C0%2C15%2C0",
       "imageCredit": "Dermot Lynch",
-      "rewrittenAt": "2026-10-24T21:36:25.162Z"
+      "rewrittenAt": "2026-10-24T21:36:25.162Z",
+      "section": "Sport"
     },
     "9300204": {
       "headline": "Treaty United Women Host DLR Waves in 2026 Season Finale",
@@ -819,7 +847,8 @@
       "publishedAt": "Sat, 24 Oct 2026 10:30:15 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/20/23/51/3398281.jpeg?width=1200&auto=webp&trim=0%2C0%2C2024%2C0",
       "imageCredit": "SPORTSFILE",
-      "rewrittenAt": "2026-10-24T21:32:49.418Z"
+      "rewrittenAt": "2026-10-24T21:32:49.418Z",
+      "section": "Sport"
     },
     "9300781": {
       "skipped": true,
@@ -837,7 +866,35 @@
       "publishedAt": "Sat, 24 Oct 2026 17:00:46 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/21/12/46/Bruff-garda-station-file-pic.jpeg?width=1200&auto=webp&trim=33%2C0%2C33%2C0",
       "imageCredit": "Iconic Media Group",
-      "rewrittenAt": "2026-10-24T21:31:38.552Z"
+      "rewrittenAt": "2026-10-24T21:31:38.552Z",
+      "section": "Courts"
+    },
+    "9301843": {
+      "headline": "Shanagolden Garda Station slated for housing conversion after bat discovery",
+      "summary": "Limerick City and County Council has officially started the statutory process to transform the disused Shanagolden garda station into residential housing.",
+      "story": "Plans to redevelop the former garda station in Shanagolden have taken a major step forward after Limerick City and County Council initiated the statutory process for the site.\n\nThe local authority is moving ahead with proposals to convert the vacant building into much-needed housing for the area, following the recent discovery of a bat colony at the property.\n\nThe statutory process marks the official commencement of the planning and development procedures required to bring the former police station back into active use as residential accommodation.",
+      "localAngle": "The project directly impacts local housing supply by repurposing a vacant state building in the West Limerick village of Shanagolden.",
+      "section": "Council",
+      "originalTitle": "Bat colony discovered at former garda station in Limerick village",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/news/planning/bat-colony-discovered-at-former-garda-station-in-limerick-village-9301843",
+      "publishedAt": "Mon, 26 Oct 2026 18:00:35 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/21/13/10/ILIM-former-Shanagolden-garda-station.jpeg?width=1200&auto=webp&trim=71%2C110%2C127%2C187",
+      "rewrittenAt": "2026-10-26T22:08:19.654Z"
+    },
+    "9302131": {
+      "headline": "Newcastle West man to face Limerick Circuit Court trial over drugs and money laundering",
+      "summary": "A West Limerick man charged in connection with drugs and money laundering offences has been sent forward for trial at Limerick Circuit Court. The case will proceed following legal processes in the county.",
+      "story": "A man from Newcastle West is facing trial at Limerick Circuit Court after being charged with a series of serious drugs and money laundering offences.\n\nThe accused, whose case was processed following initial proceedings, has been formally sent forward to the higher court to face the charges.\n\nNo further details regarding a trial date or specific pleas have been confirmed at this stage as legal preparations continue.\n\nThe matters will now be dealt with before Limerick Circuit Court, where further hearings in the prosecution case are scheduled to take place.",
+      "localAngle": "The case involves a local resident from Newcastle West and will be heard before Limerick Circuit Court.",
+      "section": "Courts",
+      "originalTitle": "Trial for man charged with money laundering and drugs offences in Limerick",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/news/crime-courts/trial-for-man-charged-with-money-laundering-and-drugs-offences-in-limerick-9302131",
+      "publishedAt": "Mon, 26 Oct 2026 20:00:18 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/04/30/19/iconic-upload-GN4_DAT_9622746.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageCredit": "Iconic Media Group",
+      "rewrittenAt": "2026-10-26T22:08:09.977Z"
     },
     "9302767": {
       "headline": "Dromin-Athlacca and Bruff Clash in Premier Intermediate Hurling Final",
@@ -849,7 +906,8 @@
       "originalLink": "https://www.limerickleader.ie/sport/gaa/hurling/dromin-athlacca-hoping-to-return-to-the-senior-grade-at-first-attempt-9302767",
       "publishedAt": "Fri, 23 Oct 2026 16:30:46 GMT",
       "rewrittenAt": "2026-10-24T21:36:51.016Z",
-      "imageCheckedAt": "2026-10-24T21:37:11.474Z"
+      "imageCheckedAt": "2026-10-24T21:37:11.474Z",
+      "section": "Sport"
     },
     "9303591": {
       "headline": "Limerick Artist Targeted in Racist Attack Advises at Doras Roundtable",
@@ -862,7 +920,8 @@
       "publishedAt": "Mon, 26 Oct 2026 12:00:01 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/22/10/34/Limerick-based-artist-who-was-victim-of-racist-attack-shares-insights-at-expert-roundtable.jpeg?width=1200&auto=webp&trim=0%2C280%2C0%2C279",
       "imageCredit": "Doras",
-      "rewrittenAt": "2026-10-26T21:46:51.767Z"
+      "rewrittenAt": "2026-10-26T21:46:51.767Z",
+      "section": "News"
     },
     "9305835": {
       "headline": "M9 Crash Survivors Ella, Niamh and Alma Share Heartfelt Message of Gratitude",
@@ -876,7 +935,8 @@
       "publishedAt": "Fri, 23 Oct 2026 18:15:04 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/23/16/06/NATIONAL-NEWS-BANNER-TEMPLATE-2026-09-14T165024-713.png?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
       "imageCredit": "File Photo",
-      "rewrittenAt": "2026-10-24T21:36:33.205Z"
+      "rewrittenAt": "2026-10-24T21:36:33.205Z",
+      "section": "News"
     },
     "9306638": {
       "headline": "Limerick's Scarlett Faulkner Included in Special Prayers During Vatican Pilgrimage",
@@ -888,7 +948,8 @@
       "originalLink": "https://www.limerickleader.ie/news/limericks-scarlett-faulkner-prayed-for-at-the-vatican-9306638",
       "publishedAt": "Fri, 23 Oct 2026 19:00:12 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/23/13/54/Untitled-design-(87).jpeg?width=1200&auto=webp&trim=0%2C0%2C161%2C0",
-      "rewrittenAt": "2026-10-24T21:36:06.594Z"
+      "rewrittenAt": "2026-10-24T21:36:06.594Z",
+      "section": "News"
     },
     "9307165": {
       "headline": "Minister Patrick O'Donovan Speaks Out on Representation for People with Disabilities",
@@ -900,7 +961,8 @@
       "originalLink": "https://www.limerickleader.ie/news/politics/editorial-patrick-odonovan-has-courage-to-speak-out-while-others-whisper-9307165",
       "publishedAt": "Fri, 23 Oct 2026 20:30:44 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/09/30/11/v2-image-production-0be94ca17543ae4c5498ac9e6e332f11Y29udGVudHNlYXJjaGFwaSwxNzkwODQ1NzEy-2.84676242.jpg?width=1200&auto=webp&crop=3%3A2",
-      "rewrittenAt": "2026-10-24T21:35:48.171Z"
+      "rewrittenAt": "2026-10-24T21:35:48.171Z",
+      "section": "Council"
     },
     "9307466": {
       "headline": "West Limerick Derby Set for Junior Hurling Championship Final Clash Today",
@@ -913,7 +975,8 @@
       "publishedAt": "Sat, 24 Oct 2026 06:31:25 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/24/6/35/3524216.jpeg?width=1200&auto=webp&trim=1389%2C0%2C1389%2C0",
       "imageCredit": "SPORTSFILE",
-      "rewrittenAt": "2026-10-24T21:34:02.140Z"
+      "rewrittenAt": "2026-10-24T21:34:02.140Z",
+      "section": "Sport"
     },
     "9307472": {
       "headline": "Doon Star Darragh Stapleton Named to Start Premier Junior Hurling Final",
@@ -926,7 +989,8 @@
       "publishedAt": "Sat, 24 Oct 2026 07:30:00 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/24/6/07/2353258.jpeg?width=1200&auto=webp&trim=0%2C223%2C83%2C97",
       "imageCredit": "SPORTSFILE",
-      "rewrittenAt": "2026-10-24T21:33:44.550Z"
+      "rewrittenAt": "2026-10-24T21:33:44.550Z",
+      "section": "Sport"
     },
     "9307476": {
       "headline": "Bruree Targets Third Successive Limerick Intermediate Hurling Final Appearance",
@@ -939,7 +1003,8 @@
       "publishedAt": "Sat, 24 Oct 2026 08:30:58 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/24/6/07/ILIM-18-10-25-Bruree-v-Murroe-Boher-in-the-County-Intermediate-Hurling-Final-2.jpeg?width=1200&auto=webp&trim=167%2C0%2C168%2C0",
       "imageCredit": "BRENDAN GLEESON",
-      "rewrittenAt": "2026-10-24T21:33:25.738Z"
+      "rewrittenAt": "2026-10-24T21:33:25.738Z",
+      "section": "Sport"
     },
     "9307480": {
       "headline": "South Limerick Rivals Clash for Michael Fox Memorial Cup and Senior Status",
@@ -952,7 +1017,8 @@
       "publishedAt": "Sun, 25 Oct 2026 08:30:48 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/24/6/53/Premier-IHC-Murroe-Boher-v-Dromin-Athlacca-5-(1).jpeg?width=1200&auto=webp&trim=381%2C810%2C481%2C84",
       "imageCredit": "BRENDAN GLEESON",
-      "rewrittenAt": "2026-10-25T10:26:56.773Z"
+      "rewrittenAt": "2026-10-25T10:26:56.773Z",
+      "section": "Sport"
     },
     "9307685": {
       "headline": "Limerick EuroMillions Player Wins €500,000 in Friday Night Draw",
@@ -965,7 +1031,8 @@
       "publishedAt": "Sat, 24 Oct 2026 12:11:09 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/06/10/15/21/Carrick-woman-wins-big-for-second-time-after-purchasing-lotto-ticket-near-Waterford-border.jpeg?width=1200&auto=webp&trim=24%2C0%2C25%2C0",
       "imageCredit": "File Photo",
-      "rewrittenAt": "2026-10-24T21:32:31.219Z"
+      "rewrittenAt": "2026-10-24T21:32:31.219Z",
+      "section": "News"
     },
     "9307767": {
       "headline": "Limerick hurling star ties the knot with Elaine after meeting on night out",
@@ -978,7 +1045,8 @@
       "publishedAt": "Sat, 24 Oct 2026 14:01:37 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/04/22/02/iconic-upload-2024_06_25-sandy-millar-8vaQKYnawHw-unsplash-1719310627155.jpg?width=1200&auto=webp&crop=3%3A2",
       "imageCredit": "LL",
-      "rewrittenAt": "2026-10-24T21:32:15.916Z"
+      "rewrittenAt": "2026-10-24T21:32:15.916Z",
+      "section": "Arts & Culture"
     },
     "9307849": {
       "headline": "Monagea Claim Limerick Junior 'A' Hurling Title with Victory Over Killeedy",
@@ -991,7 +1059,8 @@
       "publishedAt": "Sat, 24 Oct 2026 16:20:48 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/09/26/10/15/Generic-Hurling-1.jpeg?width=1200&auto=webp&trim=0%2C28%2C0%2C28",
       "imageCredit": "SPORTFILE",
-      "rewrittenAt": "2026-10-24T21:32:07.582Z"
+      "rewrittenAt": "2026-10-24T21:32:07.582Z",
+      "section": "Sport"
     },
     "9307939": {
       "headline": "Ben O’Connor’s Late Try Secures Bonus Point for Munster in Leinster Derby Defeat",
@@ -1004,7 +1073,8 @@
       "publishedAt": "Sat, 24 Oct 2026 19:02:44 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/24/19/23/3601018.jpeg?width=1200&auto=webp&trim=0%2C209%2C0%2C208",
       "imageCredit": "SPORTSFILE",
-      "rewrittenAt": "2026-10-24T21:31:21.724Z"
+      "rewrittenAt": "2026-10-24T21:31:21.724Z",
+      "section": "Sport"
     },
     "9307944": {
       "headline": "Knockaderry Defeat Bruree to Claim Historic Back-to-Back County Hurling Titles",
@@ -1017,7 +1087,8 @@
       "publishedAt": "Sat, 24 Oct 2026 19:22:16 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/24/19/58/1Y3A1718.jpeg?width=1200&auto=webp&trim=80%2C0%2C40%2C0",
       "imageCredit": "BRENDAN GLEESON",
-      "rewrittenAt": "2026-10-24T21:31:10.023Z"
+      "rewrittenAt": "2026-10-24T21:31:10.023Z",
+      "section": "Sport"
     },
     "9307993": {
       "skipped": true,
@@ -1035,7 +1106,8 @@
       "publishedAt": "Sun, 25 Oct 2026 09:28:47 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/24/22/53/3590480.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
       "imageCredit": "SPORTSFILE",
-      "rewrittenAt": "2026-10-25T10:26:29.954Z"
+      "rewrittenAt": "2026-10-25T10:26:29.954Z",
+      "section": "Sport"
     },
     "9308246": {
       "skipped": true,
@@ -1057,7 +1129,8 @@
       "originalLink": "https://www.limerickleader.ie/news/crime-courts/limerick-gardai-to-host-farm-safety-and-security-event-at-mart-9308404",
       "publishedAt": "Sun, 25 Oct 2026 15:57:14 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/25/15/38/69bb02dc-599e-4195-8918-e2a1df78afbb.jpeg?width=1200&auto=webp&trim=182%2C0%2C818%2C0",
-      "rewrittenAt": "2026-10-26T11:57:36.029Z"
+      "rewrittenAt": "2026-10-26T11:57:36.029Z",
+      "section": "News"
     },
     "9308419": {
       "skipped": true,
@@ -1080,7 +1153,8 @@
       "publishedAt": "Sun, 25 Oct 2026 18:00:31 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/25/17/46/MixCollage-25-Oct-2026-05-02-PM-4020-f979eea1.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
       "imageCredit": "Sportsfile",
-      "rewrittenAt": "2026-10-26T11:57:23.314Z"
+      "rewrittenAt": "2026-10-26T11:57:23.314Z",
+      "section": "Sport"
     },
     "9308476": {
       "skipped": true,
@@ -1098,7 +1172,8 @@
       "publishedAt": "Sun, 25 Oct 2026 20:00:01 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/25/17/32/3584571.jpeg?width=1200&auto=webp&trim=42%2C0%2C1657%2C0",
       "imageCredit": "SPORTSFILE",
-      "rewrittenAt": "2026-10-26T11:56:45.354Z"
+      "rewrittenAt": "2026-10-26T11:56:45.354Z",
+      "section": "Sport"
     },
     "9308508": {
       "skipped": true,
@@ -1116,7 +1191,8 @@
       "publishedAt": "Sun, 25 Oct 2026 19:00:22 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/25/18/06/3602338.jpeg?width=1200&auto=webp&trim=119%2C0%2C119%2C0",
       "imageCredit": "SPORTSFILE",
-      "rewrittenAt": "2026-10-26T11:57:00.441Z"
+      "rewrittenAt": "2026-10-26T11:57:00.441Z",
+      "section": "Sport"
     },
     "9309556": {
       "headline": "Limerick Eagles Upset Table-Toppers Celtics in Super League Derby at UL Arena",
@@ -1129,7 +1205,8 @@
       "publishedAt": "Mon, 26 Oct 2026 14:30:54 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/26/12/52/Limerick-Celtics-v-Limerick-Eagles-8.jpeg?width=1200&auto=webp&trim=0%2C0%2C200%2C0",
       "imageCredit": "Brendan Gleeson",
-      "rewrittenAt": "2026-10-26T21:46:24.671Z"
+      "rewrittenAt": "2026-10-26T21:46:24.671Z",
+      "section": "Sport"
     },
     "9309690": {
       "skipped": true,
@@ -1157,7 +1234,8 @@
       "publishedAt": "Sat, 24 Oct 2026 17:00:40 +0000",
       "rewrittenAt": "2026-10-24T21:31:48.149Z",
       "imageUrl": "https://limerickvoice.com/wp-content/uploads/2026/10/Untitled-design-1.jpg",
-      "imageCheckedAt": "2026-10-24T21:34:02.358Z"
+      "imageCheckedAt": "2026-10-24T21:34:02.358Z",
+      "section": "News"
     },
     "https://www.limerickpost.ie/?p=362476": {
       "headline": "Dr Hammad Danish Appointed as New Respiratory Consultant at UHL",
@@ -1170,7 +1248,8 @@
       "publishedAt": "Sat, 24 Oct 2026 17:00:26 +0000",
       "rewrittenAt": "2026-10-24T21:31:57.483Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/10/Consultant-appointment-Dr-Hammad-Danish.jpg",
-      "imageCheckedAt": "2026-10-24T21:34:03.029Z"
+      "imageCheckedAt": "2026-10-24T21:34:03.029Z",
+      "section": "News"
     },
     "https://www.limerickpost.ie/?p=362473": {
       "headline": "Limerick Council Trials Zero Gravity Machine to Boost Biodiversity and Cut Emissions",
@@ -1183,7 +1262,8 @@
       "publishedAt": "Sat, 24 Oct 2026 14:00:54 +0000",
       "rewrittenAt": "2026-10-24T21:32:23.451Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/10/07-10-2026-lccc-zero-grazer-50-copy.jpg",
-      "imageCheckedAt": "2026-10-24T21:34:03.501Z"
+      "imageCheckedAt": "2026-10-24T21:34:03.501Z",
+      "section": "Council"
     },
     "https://www.limerickpost.ie/?p=362470": {
       "headline": "Councillors Clash Over Plan to Transfer Six Abbeyfeale Properties to Limerick Twenty Thirty",
@@ -1196,7 +1276,8 @@
       "publishedAt": "Sat, 24 Oct 2026 11:00:15 +0000",
       "rewrittenAt": "2026-10-24T21:32:40.827Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/10/Abbeyfeale-Houses-1.jpg",
-      "imageCheckedAt": "2026-10-24T21:34:03.730Z"
+      "imageCheckedAt": "2026-10-24T21:34:03.730Z",
+      "section": "Council"
     },
     "https://www.limerickpost.ie/?p=362466": {
       "headline": "Limerick Property Prices Rise by €10,000 to Reach Median Asking Price of €290,000",
@@ -1209,7 +1290,8 @@
       "publishedAt": "Sat, 24 Oct 2026 09:30:26 +0000",
       "rewrittenAt": "2026-10-24T21:33:00.553Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2024/07/House-prices-scaled.jpg",
-      "imageCheckedAt": "2026-10-24T21:34:03.936Z"
+      "imageCheckedAt": "2026-10-24T21:34:03.936Z",
+      "section": "Business"
     },
     "https://www.limerickpost.ie/?p=362391": {
       "headline": "Big Shots Halloween Screams Film Competition Returns to Belltable on October 31",
@@ -1222,7 +1304,8 @@
       "publishedAt": "Sat, 24 Oct 2026 09:20:26 +0000",
       "rewrittenAt": "2026-10-24T21:33:09.143Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/10/IMG_3284.jpg",
-      "imageCheckedAt": "2026-10-24T21:34:04.136Z"
+      "imageCheckedAt": "2026-10-24T21:34:04.136Z",
+      "section": "Arts & Culture"
     },
     "https://www.limerickpost.ie/?p=362371": {
       "headline": "Young Curators bring LASTA '26 festival to Belltable with film and variety show",
@@ -1235,7 +1318,8 @@
       "publishedAt": "Sat, 24 Oct 2026 09:05:09 +0000",
       "rewrittenAt": "2026-10-24T21:33:16.725Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/10/Alex-Vostokova.png",
-      "imageCheckedAt": "2026-10-24T21:34:04.324Z"
+      "imageCheckedAt": "2026-10-24T21:34:04.324Z",
+      "section": "Arts & Culture"
     },
     "https://www.limerickpost.ie/?p=362464": {
       "headline": "Limerick workers warned casual WhatsApp messages can be used as workplace evidence",
@@ -1248,7 +1332,8 @@
       "publishedAt": "Sat, 24 Oct 2026 08:00:29 +0000",
       "rewrittenAt": "2026-10-24T21:33:36.051Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/09/whatsapp-phone-stock-unsplash-dimitri-karastelev-ynJaWgrwSlM-unsplash.jpg",
-      "imageCheckedAt": "2026-10-24T21:34:04.522Z"
+      "imageCheckedAt": "2026-10-24T21:34:04.522Z",
+      "section": "Business"
     },
     "https://limerickvoice.com/?p=53113": {
       "headline": "Met Éireann issues dual weather warnings as Storm Boelo arrives in Limerick",
@@ -1261,7 +1346,8 @@
       "publishedAt": "Fri, 23 Oct 2026 19:00:12 +0000",
       "rewrittenAt": "2026-10-24T21:36:16.245Z",
       "imageUrl": "https://limerickvoice.com/wp-content/uploads/2026/10/joshua_seajw92-glass-2654887_Tara-Lowth-1-scaled.jpg",
-      "imageCheckedAt": "2026-10-24T21:37:09.614Z"
+      "imageCheckedAt": "2026-10-24T21:37:09.614Z",
+      "section": "News"
     },
     "https://www.limerickpost.ie/?p=362455": {
       "headline": "Limerick Chamber reveals shortlist for 15th annual Regional Business Awards",
@@ -1274,7 +1360,8 @@
       "publishedAt": "Fri, 23 Oct 2026 17:00:31 +0000",
       "rewrittenAt": "2026-10-24T21:36:42.225Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2025/11/KRB-14-11-2025-Limerick-Chamber-Awards-1099-scaled.webp",
-      "imageCheckedAt": "2026-10-24T21:37:10.561Z"
+      "imageCheckedAt": "2026-10-24T21:37:10.561Z",
+      "section": "Business"
     },
     "https://www.limerickpost.ie/?p=362452": {
       "headline": "Limerick Magician Steve Spade Channels Harry Houdini at Bunratty Castle Halloween Event",
@@ -1287,7 +1374,8 @@
       "publishedAt": "Fri, 23 Oct 2026 14:00:34 +0000",
       "rewrittenAt": "2026-10-24T21:37:00.597Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/08/Steve-Spade-watch-on-fire.jpg",
-      "imageCheckedAt": "2026-10-24T21:37:11.520Z"
+      "imageCheckedAt": "2026-10-24T21:37:11.520Z",
+      "section": "Arts & Culture"
     },
     "https://www.limerickpost.ie/?p=362447": {
       "headline": "Limerick Psychotherapist Warns CORU Fast-Track Training Puts Vulnerable at Risk",
@@ -1300,7 +1388,8 @@
       "publishedAt": "Fri, 23 Oct 2026 12:30:43 +0000",
       "rewrittenAt": "2026-10-24T21:37:09.446Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/08/stock-teen-mental-health-depression-eric-ward-akT1bnnuMMk-unsplash.jpg",
-      "imageCheckedAt": "2026-10-24T21:37:11.757Z"
+      "imageCheckedAt": "2026-10-24T21:37:11.757Z",
+      "section": "News"
     },
     "https://limerickvoice.com/?p=53161": {
       "skipped": true,
@@ -1318,7 +1407,8 @@
       "publishedAt": "Sun, 25 Oct 2026 09:15:33 +0000",
       "rewrittenAt": "2026-10-25T10:26:39.192Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/10/Yeol-Eum-Son003.jpg",
-      "imageCheckedAt": "2026-10-25T10:26:57.048Z"
+      "imageCheckedAt": "2026-10-25T10:26:57.048Z",
+      "section": "Arts & Culture"
     },
     "https://www.limerickpost.ie/?p=362479": {
       "headline": "New Horror Film 'Bloody Tennis' Fails to Score in 2/5 Review",
@@ -1331,7 +1421,8 @@
       "publishedAt": "Sun, 25 Oct 2026 09:00:02 +0000",
       "rewrittenAt": "2026-10-25T10:26:48.224Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/10/bloody-tennis-2.webp",
-      "imageCheckedAt": "2026-10-25T10:26:57.716Z"
+      "imageCheckedAt": "2026-10-25T10:26:57.716Z",
+      "section": "Arts & Culture"
     },
     "https://www.limerickpost.ie/?p=362485": {
       "skipped": true,
@@ -1349,7 +1440,8 @@
       "publishedAt": "Mon, 26 Oct 2026 09:00:43 +0000",
       "rewrittenAt": "2026-10-26T11:56:27.575Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/06/doctor-medical-medicine-hush-naidoo-jade-photography-yo01Z-9HQAw-unsplash.jpg",
-      "imageCheckedAt": "2026-10-26T11:58:08.103Z"
+      "imageCheckedAt": "2026-10-26T11:58:08.103Z",
+      "section": "News"
     },
     "https://limerickvoice.com/?p=53174": {
       "headline": "Gardaí Catch Drivers Doing 139km/h on Limerick Roads During Bank Holiday Operation",
@@ -1362,7 +1454,8 @@
       "publishedAt": "Sun, 25 Oct 2026 20:41:07 +0000",
       "rewrittenAt": "2026-10-26T11:56:37.049Z",
       "imageUrl": "https://limerickvoice.com/wp-content/uploads/2026/10/6749911_e63b0bfe-1.jpg",
-      "imageCheckedAt": "2026-10-26T11:58:08.684Z"
+      "imageCheckedAt": "2026-10-26T11:58:08.684Z",
+      "section": "News"
     },
     "https://www.limerickpost.ie/?p=362490": {
       "headline": "Limerick Issued 1,970 Footpath Parking Fines But Just Four Dog Fouling Penalties",
@@ -1375,7 +1468,8 @@
       "publishedAt": "Sun, 25 Oct 2026 18:00:48 +0000",
       "rewrittenAt": "2026-10-26T11:57:08.304Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2017/08/Dog-poo.jpg",
-      "imageCheckedAt": "2026-10-26T11:58:09.566Z"
+      "imageCheckedAt": "2026-10-26T11:58:09.566Z",
+      "section": "News"
     },
     "https://www.limerickpost.ie/?p=362487": {
       "headline": "Lumen Street Theatre Brings Spooky Halloween Events to Rathkeale",
@@ -1388,7 +1482,8 @@
       "publishedAt": "Sun, 25 Oct 2026 15:00:20 +0000",
       "rewrittenAt": "2026-10-26T11:57:44.537Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2025/10/Samhain-Limerick-Halloween-Festival-Parade-by-Brian-Arthur-scaled.jpg",
-      "imageCheckedAt": "2026-10-26T11:58:10.038Z"
+      "imageCheckedAt": "2026-10-26T11:58:10.038Z",
+      "section": "Arts & Culture"
     },
     "https://limerickvoice.com/?p=53167": {
       "headline": "UL Graduate Aideen Howard to Represent Ireland at Miss Universe",
@@ -1402,7 +1497,8 @@
       "publishedAt": "Sun, 25 Oct 2026 12:00:14 +0000",
       "rewrittenAt": "2026-10-26T11:57:57.270Z",
       "imageUrl": "https://limerickvoice.com/wp-content/uploads/2026/10/Aideen-Howard-crowned-winner_Christina-OMahony.jpeg",
-      "imageCheckedAt": "2026-10-26T11:58:10.263Z"
+      "imageCheckedAt": "2026-10-26T11:58:10.263Z",
+      "section": "Arts & Culture"
     },
     "https://www.limerickpost.ie/?p=362482": {
       "headline": "Limerick Homebuyers Face Costly Repairs After Concealed Attic Leak Discovered",
@@ -1415,7 +1511,8 @@
       "publishedAt": "Sun, 25 Oct 2026 10:30:01 +0000",
       "rewrittenAt": "2026-10-26T11:58:07.822Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/04/christin-hume-Hcfwew744z4-unsplash.jpg",
-      "imageCheckedAt": "2026-10-26T11:58:10.410Z"
+      "imageCheckedAt": "2026-10-26T11:58:10.410Z",
+      "section": "Business"
     },
     "https://limerickgaa.ie/?p=142732": {
       "skipped": true,
@@ -1443,7 +1540,8 @@
       "publishedAt": "Mon, 26 Oct 2026 18:49:00 +0000",
       "rewrittenAt": "2026-10-26T21:46:06.597Z",
       "imageUrl": null,
-      "imageCheckedAt": "2026-10-26T21:47:00.832Z"
+      "imageCheckedAt": "2026-10-26T21:47:00.832Z",
+      "section": "Sport"
     },
     "https://www.limerickpost.ie/?p=362499": {
       "headline": "County Limerick TD Niall Collins addresses UN forestry committee in Rome",
@@ -1456,7 +1554,8 @@
       "publishedAt": "Mon, 26 Oct 2026 18:00:54 +0000",
       "rewrittenAt": "2026-10-26T21:46:15.578Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2025/08/Christmas-cards-scaled.jpg",
-      "imageCheckedAt": "2026-10-26T21:47:02.717Z"
+      "imageCheckedAt": "2026-10-26T21:47:02.717Z",
+      "section": "Council"
     },
     "https://www.limerickpost.ie/?p=362494": {
       "headline": "Limerick Faces Receive New An Post Coat of Arms Stamp",
@@ -1469,7 +1568,8 @@
       "publishedAt": "Mon, 26 Oct 2026 12:00:16 +0000",
       "rewrittenAt": "2026-10-26T21:46:42.972Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/10/AVA_PADRAIG-029A5051.jpg",
-      "imageCheckedAt": "2026-10-26T21:47:03.368Z"
+      "imageCheckedAt": "2026-10-26T21:47:03.368Z",
+      "section": "Arts & Culture"
     },
     "https://limerickgaa.ie/?p=142698": {
       "headline": "2001 Limerick All-Ireland Winning U21 Hurling Team Honoured at Gaelic Grounds",
@@ -1482,7 +1582,8 @@
       "publishedAt": "Sun, 25 Oct 2026 20:33:57 +0000",
       "rewrittenAt": "2026-10-26T21:47:00.640Z",
       "imageUrl": null,
-      "imageCheckedAt": "2026-10-26T21:47:03.562Z"
+      "imageCheckedAt": "2026-10-26T21:47:03.562Z",
+      "section": "Sport"
     }
   }
 }
