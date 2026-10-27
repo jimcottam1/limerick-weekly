@@ -701,6 +701,66 @@ html { scroll-behavior: smooth; }
     .section-head h1 { font-size: 30px; }
 }
 
+/* ---------- Share buttons ---------- */
+
+.share-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin: -8px 0 22px;
+}
+
+.share-bar[data-labelled] {
+    justify-content: flex-start;
+    margin: 4px 4px 18px;
+    padding-top: 12px;
+    border-top: 1px solid var(--rule-light);
+}
+
+.share-label {
+    font-family: var(--label);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin-right: 6px;
+}
+
+.share-btn {
+    font-family: var(--label);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    padding: 5px 11px;
+    border: 1px solid var(--rule);
+    background: transparent;
+    color: var(--ink);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.share-btn:hover { background: var(--ink); color: var(--paper); }
+.share-btn[hidden] { display: none; }
+.share-native { background: var(--accent); border-color: var(--accent); color: var(--paper); }
+
+.share-mini {
+    font-family: var(--label);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-left: 12px;
+    padding: 0;
+    border: none;
+    background: none;
+    color: var(--ink-faint);
+    cursor: pointer;
+}
+
+.share-mini:hover { color: var(--accent); }
+
 /* ---------- Source credits ---------- */
 
 .source-link {

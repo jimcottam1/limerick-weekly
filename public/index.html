@@ -122,13 +122,30 @@
                 : name;
         }
 
+        function shareButton(article) {
+            return `<button type="button" class="share-mini" data-share="${esc(articleHref(article))}" data-title="${esc(article.headline)}">Share</button>`;
+        }
+
         function storyFoot(article) {
             return `
                 <div class="story-foot">
-                    <a class="continued" href="${articleHref(article)}">Read more &rarr;</a>
+                    <span><a class="continued" href="${articleHref(article)}">Read more &rarr;</a>${shareButton(article)}</span>
                     <span class="original">Original story: ${sourceLink(article)}</span>
                 </div>`;
         }
+
+        // Share: the phone's own share menu where there is one; otherwise copy the story's link
+        document.addEventListener('click', e => {
+            const btn = e.target.closest('[data-share]');
+            if (!btn) return;
+            const url = new URL(btn.dataset.share, location.href).href;
+            const done = text => { btn.textContent = text; setTimeout(() => { btn.textContent = 'Share'; }, 2000); };
+            if (navigator.share) {
+                navigator.share({ title: btn.dataset.title, url }).catch(() => {});
+            } else if (navigator.clipboard) {
+                navigator.clipboard.writeText(url).then(() => done('Link copied'), () => done('Copy failed'));
+            }
+        });
 
         // Footer list of every publication in this edition, linked to its homepage
         // Animated promo banners for the papers we draw on, built from their own logos (public/promos).
@@ -270,7 +287,7 @@
                     <p class="byline">The 061 &middot; from reporting by ${sourceLink(article)} &middot; ${esc(shortDate(article.publishedAt))}</p>
                     ${photoHtml(article, 'photo-lead')}
                     <div class="body-text drop-cap">${paragraphs}</div>
-                    <a class="continued" href="${articleHref(article)}">Continued inside &rarr;</a>
+                    <a class="continued" href="${articleHref(article)}">Continued inside &rarr;</a>${shareButton(article)}
                 </article>`;
         }
 

@@ -90,6 +90,45 @@ function shareTags({ title, description, url, image, type = 'website' }) {
         + `\n    <link rel="canonical" href="${escapeHtml(url)}">`;
 }
 
+/**
+ * Share buttons for a story. "Share" uses the phone's own share menu where the browser supports it
+ * (shown by SHARE_SCRIPT); the rest are plain links that work everywhere.
+ */
+function shareBar(article, label) {
+    const url = `${SITE_URL}articles/${article.slug}.html`;
+    const title = article.headline;
+    const enc = encodeURIComponent;
+    const links = [
+        ['WhatsApp', `https://wa.me/?text=${enc(`${title} ${url}`)}`],
+        ['Facebook', `https://www.facebook.com/sharer/sharer.php?u=${enc(url)}`],
+        ['X', `https://twitter.com/intent/tweet?text=${enc(title)}&url=${enc(url)}`],
+        ['Email', `mailto:?subject=${enc(title)}&body=${enc(`${title}\n\n${url}`)}`]
+    ];
+    return `<div class="share-bar"${label ? ' data-labelled' : ''}>
+                ${label ? `<span class="share-label">${escapeHtml(label)}</span>` : ''}
+                <button type="button" class="share-btn share-native" data-share-url="${escapeHtml(url)}" data-share-title="${escapeHtml(title)}" hidden>Share&hellip;</button>
+                ${links.map(([name, href]) => `<a class="share-btn" href="${escapeHtml(href)}"${name === 'Email' ? '' : ' target="_blank" rel="noopener"'}>${name}</a>`).join('')}
+                <button type="button" class="share-btn" data-copy-url="${escapeHtml(url)}">Copy link</button>
+            </div>`;
+}
+
+// Shows the native "Share…" button where supported, and makes "Copy link" work
+const SHARE_SCRIPT = `
+document.querySelectorAll('.share-native').forEach(function (b) {
+    if (!navigator.share) return;
+    b.hidden = false;
+    b.addEventListener('click', function () {
+        navigator.share({ title: b.dataset.shareTitle, url: b.dataset.shareUrl }).catch(function () {});
+    });
+});
+document.querySelectorAll('[data-copy-url]').forEach(function (b) {
+    b.addEventListener('click', function () {
+        var done = function (text) { b.textContent = text; setTimeout(function () { b.textContent = 'Copy link'; }, 2000); };
+        if (navigator.clipboard) navigator.clipboard.writeText(b.dataset.copyUrl).then(function () { done('Link copied'); }, function () { done('Copy failed'); });
+        else done('Copy failed');
+    });
+});`;
+
 const FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Playfair+Display:ital,wght@0,700;0,900;1,400&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">`;
@@ -198,6 +237,7 @@ function articleHtml(article) {
                 ? `<p class="tldr"><span class="tldr-label">In brief</span> ${escapeHtml(article.summary)}</p>`
                 : article.subheadline ? `<p class="deck">${escapeHtml(article.subheadline)}</p>` : ''}
             <p class="byline">The 061 &middot; from reporting by ${escapeHtml(article.originalSource)}${dateStr ? ` &middot; ${escapeHtml(dateStr)}` : ''}</p>
+            ${shareBar(article)}
 
             ${image ? `<figure class="photo photo-article">
                 <img src="${escapeHtml(image)}" alt="" referrerpolicy="no-referrer" onerror="this.parentNode.remove()">
@@ -213,6 +253,8 @@ ${paragraphs}
                 <p>${escapeHtml(article.localAngle)}</p>
             </section>
 
+            ${shareBar(article, 'Share this story')}
+
             <section class="source-note">
                 <p>This story was rewritten by AI for The 061 from original reporting by <strong>${escapeHtml(article.originalSource)}</strong>${article.originalTitle ? `, &ldquo;${escapeHtml(article.originalTitle)}&rdquo;` : ''}.</p>
                 ${original ? `<p><a href="${escapeHtml(original)}" target="_blank" rel="noopener noreferrer">Read the original article &rarr;</a></p>` : ''}
@@ -224,6 +266,7 @@ ${paragraphs}
             Stories are AI rewrites of local reporting &middot; each links to its original source
         </footer>
     </div>
+    <script>${SHARE_SCRIPT}</script>
 </body>
 </html>
 `;
