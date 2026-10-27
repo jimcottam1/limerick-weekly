@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastScrape": "2026-10-27T10:27:36.382Z",
-    "totalArticles": 28
+    "lastScrape": "2026-10-27T15:17:43.216Z",
+    "totalArticles": 27
   },
   "articles": {
     "9290418": {
@@ -156,6 +156,18 @@
       "imageCredit": "Doras",
       "source": "limerickleader",
       "scrapedAt": "2026-10-26T21:44:55.965Z"
+    },
+    "9303669": {
+      "id": "9303669",
+      "title": "Eight new beauty brands land at Boots including Olaplex, Sunday Riley and By Terry",
+      "link": "https://www.limerickleader.ie/recommended/boots-boots-beauty-boots-new-beauty-brands-olaplex-sunday-riley-kate-somerville-by-terry-rochelle-humes-eulah-laura-geller-kopari-edit-by-boots-launches-2026-9311793",
+      "description": "Boots has expanded its beauty offering with eight new arrivals, including luxury skincare, premium haircare and affordable make-up from some of the industry's best-known names.",
+      "pubDate": "Tue, 27 Oct 2026 12:18:25 GMT",
+      "author": "Julie Bayley",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/22/11/53/Luxury-Beauty-Product-Editorial-Display.png?width=1200&auto=webp&trim=0%2C187%2C0%2C186",
+      "imageCredit": "Boots",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-27T15:17:30.388Z"
     },
     "9305835": {
       "id": "9305835",
@@ -514,6 +526,18 @@
       "source": "limerickleader",
       "scrapedAt": "2026-10-27T10:27:19.789Z"
     },
+    "9312039": {
+      "id": "9312039",
+      "title": "'I fail': Wife of Limerick rugby legend shares bank holiday mishap",
+      "link": "https://www.limerickleader.ie/whats-on/celebrity/i-fail-wife-of-limerick-rugby-legend-shares-bank-holiday-mishap-9312039",
+      "description": "The influencer and model shared her struggles with staying organised in a social media post, after forgetting that the previous day was a bank holiday",
+      "pubDate": "Tue, 27 Oct 2026 14:15:44 GMT",
+      "author": "Azra Dervish",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/27/13/14/Capture-J.jpeg?width=1200&auto=webp&trim=40%2C0%2C167%2C114",
+      "imageCredit": "INSTAGRAM",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-27T15:17:30.387Z"
+    },
     "https://www.limerickpost.ie/?p=362473": {
       "id": "https://www.limerickpost.ie/?p=362473",
       "title": "Zero gravity machine hitting heights in biodiversity",
@@ -833,6 +857,86 @@
       "author": "Bernie English",
       "source": "limerickpost",
       "scrapedAt": "2026-10-27T10:27:19.490Z"
+    },
+    "https://www.limerickpost.ie/?p=362514": {
+      "id": "https://www.limerickpost.ie/?p=362514",
+      "title": "Shannon hotel ordered to pay €25,000 to worker who claimed discrimination on age grounds",
+      "link": "https://www.limerickpost.ie/2026/10/27/shannon-hotel-ordered-to-pay-e25000-to-worker-who-claimed-discrimination-on-age-grounds/",
+      "description": "THE OPERATOR of a Shannon airport based hotel has been ordered to pay a long serving worker €25,000 compensation after discriminating against him on the grounds of age when dismissing the worker on him reaching his 66th birthday. At the Workplace Relations Commission (WRC), Adjudicator, Ewa Sobanska has ordered CG Hotels Limited T/A Park Inn [&#8230;]\nThe post Shannon hotel ordered to pay €25,000 to worker who claimed discrimination on age grounds appeared first on Limerick Post.",
+      "pubDate": "Tue, 27 Oct 2026 15:00:10 +0000",
+      "author": "Gordon Deegan",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-27T15:17:29.980Z"
+    },
+    "https://www.limerickpost.ie/?p=362510": {
+      "id": "https://www.limerickpost.ie/?p=362510",
+      "title": "All ends well for bus shelter that arrives at the wrong destination",
+      "link": "https://www.limerickpost.ie/2026/10/27/all-ends-well-for-bus-shelter-that-arrives-at-the-wrong-destination/",
+      "description": "IT was a case of all&#8217;s well that ends well this week as the promise of one bus shelter turned into two at Mungret Community College. Students, teachers and local representatives were left scratching their heads after an eagerly-awaited bus shelter appeared to have taken the scenic route to its end destination. Local Fine Gael [&#8230;]\nThe post All ends well for bus shelter that arrives at the wrong destination appeared first on Limerick Post.",
+      "pubDate": "Tue, 27 Oct 2026 12:00:45 +0000",
+      "author": "Alan Jacques",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-27T15:17:29.980Z"
+    },
+    "https://www.limerickpost.ie/?p=362524": {
+      "id": "https://www.limerickpost.ie/?p=362524",
+      "title": "Rising costs and reduced pupil numbers cited as main reasons for shock announcement of closure of Glenstal Abbey school",
+      "link": "https://www.limerickpost.ie/2026/10/27/rising-costs-and-reduced-pupil-numbers-cited-as-main-reasons-for-shock-announcement-of-closure-of-glenstal-abbey-school/",
+      "description": "THE formerly best ranked secondary school in the State, Glenstal Abbey private school, announced it is to close after almost 100 years service, citing rising costs and falling boarding pupil numbers among its main challenges to remaining open. In 2015, Glenstal was oversubscribed for first-year students a whole year in advance. A year previously it [&#8230;]\nThe post Rising costs and reduced pupil numbers cited as main reasons for shock announcement of closure of Glenstal Abbey school appeared first on Limerick Post.",
+      "pubDate": "Tue, 27 Oct 2026 10:47:27 +0000",
+      "author": "David Raleigh",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-27T15:17:29.980Z"
+    },
+    "https://www.limerickpost.ie/?p=362508": {
+      "id": "https://www.limerickpost.ie/?p=362508",
+      "title": "Firm which operates Treaty United has losses of €1m",
+      "link": "https://www.limerickpost.ie/2026/10/27/firm-which-operates-treaty-united-has-losses-of-e1m/",
+      "description": "THE FIRM which operates the Limerick City based League of Ireland team, Treaty United, recorded losses of €1m last year. Recently filed accounts lodged by Treaty Utd Ltd to the Companies Office show that the post tax losses of €998,603 for 2025 follow losses of €839,258 for 2024. At the end of December last, the [&#8230;]\nThe post Firm which operates Treaty United has losses of €1m appeared first on Limerick Post.",
+      "pubDate": "Tue, 27 Oct 2026 10:30:02 +0000",
+      "author": "Gordon Deegan",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-27T15:17:29.980Z"
+    },
+    "https://limerickvoice.com/?p=53199": {
+      "id": "https://limerickvoice.com/?p=53199",
+      "title": "Limerick Eason celebrate long-awaited fantasy book release",
+      "link": "https://limerickvoice.com/news/eason-limerick-hosts-breakfast-event-for-fantasy-book-release/",
+      "description": "Fans of Sarah J. Maas’s fantasy series gathered at Eason’s in the Crescent Shopping Centre for a breakfast event celebrating the anticipated release.  EASON Crescent Shopping Centre celebrated the long-awaited release of A Court of Splintered Harmony by Sarah J. Maas with an early opening and breakfast event on Tuesday, October 27.  The event offered [&#8230;]\nThe post Limerick Eason celebrate long-awaited fantasy book release appeared first on .",
+      "pubDate": "Tue, 27 Oct 2026 14:45:03 +0000",
+      "author": "Leah Kirwan",
+      "source": "limerickvoice",
+      "scrapedAt": "2026-10-27T15:17:30.823Z"
+    },
+    "https://limerickvoice.com/?p=53192": {
+      "id": "https://limerickvoice.com/?p=53192",
+      "title": "Hermitage Green’s Limerick homecoming",
+      "link": "https://limerickvoice.com/features/hermitage-greens-limerick-homecoming/",
+      "description": "The band are gearing up for one of their biggest performances yet, sharing the stage with Robbie Williams.  HERMITAGE Green’s journey to Thomond Park began in a Limerick pub, long before playing in front of thousands of people became their reality.  Now, 16 years after the band’s first live performance in the Curragower Bar, the [&#8230;]\nThe post Hermitage Green’s Limerick homecoming appeared first on .",
+      "pubDate": "Tue, 27 Oct 2026 11:30:43 +0000",
+      "author": "Kerry Sheehan",
+      "source": "limerickvoice",
+      "scrapedAt": "2026-10-27T15:17:30.823Z"
+    },
+    "https://limerickgaa.ie/?p=142759": {
+      "id": "https://limerickgaa.ie/?p=142759",
+      "title": "A look back at some of the names on the roll of honour:",
+      "link": "https://limerickgaa.ie/a-look-back-at-some-of-the-names-on-the-roll-of-honour/",
+      "description": "A look back at some of the names on the roll of honour 📜⭐️ Who will take home the honours this year? 👀",
+      "pubDate": "Tue, 27 Oct 2026 14:44:46 +0000",
+      "author": "PRO",
+      "source": "limerickgaa",
+      "scrapedAt": "2026-10-27T15:17:34.637Z"
+    },
+    "https://limerickgaa.ie/?p=142749": {
+      "id": "https://limerickgaa.ie/?p=142749",
+      "title": "Action shots from last Sundays Lyons of Limerick, Premier Intermediate Hurling Championship Final between Bruff and Dromin/Athlacca:",
+      "link": "https://limerickgaa.ie/action-shots-from-last-sundays-lyons-of-limerick-premier-intermediate-hurling-championship-final-between-bruff-and-dromin-athlacca/",
+      "description": "Action shots from last Sundays Lyons of Limerick, Premier Intermediate Hurling Championship Final between Bruff and Dromin/Athlacca at the TUS Gaelic Grounds, Dromin/Athlacca 2-18 to Bruff 3-11. Referee Kieran Guina (Feohanagh/Castlemahon)",
+      "pubDate": "Tue, 27 Oct 2026 14:39:54 +0000",
+      "author": "PRO",
+      "source": "limerickgaa",
+      "scrapedAt": "2026-10-27T15:17:34.637Z"
     }
   },
   "rewritten": {
@@ -1030,6 +1134,22 @@
       "section": "News",
       "importance": 3,
       "positivity": 2
+    },
+    "9303669": {
+      "headline": "Boots adds eight new beauty brands to its product range",
+      "summary": "Boots has expanded its beauty offering by introducing eight new industry-known brands, featuring luxury skincare, premium haircare and affordable make-up options.",
+      "story": "High street retailer Boots has expanded its beauty product offering with the addition of eight new arrivals. The new lineup features a mix of luxury skincare, premium haircare, and affordable make-up options.\n\nThe latest brands to land at the retailer include well-known industry names such as Olaplex, Sunday Riley, and By Terry. The new additions are aimed at broadening the choices available to customers looking for high-end beauty treatments alongside everyday cosmetics.\n\nShoppers can now find the expanded product ranges in stores, bringing several major international beauty labels into the retailer's existing catalogue.",
+      "localAngle": "Shoppers in Limerick can now access these eight new beauty brands following the retailer's nationwide product expansion.",
+      "section": "Business",
+      "importance": 3,
+      "positivity": 4,
+      "originalTitle": "Eight new beauty brands land at Boots including Olaplex, Sunday Riley and By Terry",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/recommended/boots-boots-beauty-boots-new-beauty-brands-olaplex-sunday-riley-kate-somerville-by-terry-rochelle-humes-eulah-laura-geller-kopari-edit-by-boots-launches-2026-9311793",
+      "publishedAt": "Tue, 27 Oct 2026 12:18:25 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/22/11/53/Luxury-Beauty-Product-Editorial-Display.png?width=1200&auto=webp&trim=0%2C187%2C0%2C186",
+      "imageCredit": "Boots",
+      "rewrittenAt": "2026-10-27T15:22:31.532Z"
     },
     "9305835": {
       "headline": "M9 Crash Survivors Ella, Niamh and Alma Share Heartfelt Message of Gratitude",
@@ -1409,6 +1529,22 @@
       "skipped": true,
       "duplicateOf": "https://limerickvoice.com/?p=53174",
       "rewrittenAt": "2026-10-27T10:27:59.656Z"
+    },
+    "9312039": {
+      "headline": "Limerick rugby legend's wife shares bank holiday mix-up on social media",
+      "summary": "An influencer and model connected to Limerick rugby has opened up about her organisational struggles after completely losing track of a recent bank holiday.",
+      "story": "The realities of day-to-day organisation caught up with one well-known figure this week, as the wife of a Limerick rugby legend admitted to a total calendar mishap over the long weekend.\n\nTaking to social media, the influencer and model shared her frank admission with followers, confessing that she completely failed to realise that the previous day was a bank holiday until after the fact.\n\nThe candid post struck a chord with followers regarding the common struggle of keeping track of schedules amidst busy family and professional lives.\n\nWhile the mix-up caused a brief moment of confusion, it highlighted the relatable everyday blunders that happen even to high-profile households on Leeside.",
+      "localAngle": "The story involves the wife of a prominent Limerick rugby figure, connecting local sports life to wider social media trends.",
+      "section": "Arts & Culture",
+      "importance": 2,
+      "positivity": 3,
+      "originalTitle": "'I fail': Wife of Limerick rugby legend shares bank holiday mishap",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/whats-on/celebrity/i-fail-wife-of-limerick-rugby-legend-shares-bank-holiday-mishap-9312039",
+      "publishedAt": "Tue, 27 Oct 2026 14:15:44 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/27/13/14/Capture-J.jpeg?width=1200&auto=webp&trim=40%2C0%2C167%2C114",
+      "imageCredit": "INSTAGRAM",
+      "rewrittenAt": "2026-10-27T15:21:48.500Z"
     },
     "https://limerickvoice.com/?p=53125": {
       "skipped": true,
@@ -1845,6 +1981,101 @@
       "rewrittenAt": "2026-10-27T10:28:15.057Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2025/01/Sergeant-Michelle-OHalloran-e1737364232610.jpg",
       "imageCheckedAt": "2026-10-27T10:28:41.812Z"
+    },
+    "https://limerickgaa.ie/?p=142759": {
+      "skipped": true,
+      "duplicateOf": "9308453",
+      "rewrittenAt": "2026-10-27T15:19:59.708Z"
+    },
+    "https://limerickgaa.ie/?p=142749": {
+      "skipped": true,
+      "duplicateOf": "9302767",
+      "rewrittenAt": "2026-10-27T15:19:59.708Z"
+    },
+    "https://www.limerickpost.ie/?p=362524": {
+      "skipped": true,
+      "duplicateOf": "https://limerickvoice.com/?p=53149",
+      "rewrittenAt": "2026-10-27T15:19:59.708Z"
+    },
+    "https://www.limerickpost.ie/?p=362514": {
+      "headline": "Shannon Airport hotel ordered to pay €25,000 for age discrimination",
+      "summary": "The Workplace Relations Commission has ordered CG Hotels Limited to pay a long-serving food and beverage assistant €25,000 after he was dismissed upon turning 66.",
+      "story": "The operator of a Shannon Airport-based hotel has been ordered to pay a long-serving worker €25,000 in compensation after he was unlawfully discriminated against on the grounds of age.\n\nRajamohan Pillay, who worked as a Food and Beverage Assistant at the Park Inn by Radisson Shannon Airport since 2011, brought his case to the Workplace Relations Commission (WRC). Adjudicator Ewa Sobanska ruled that Mr Pillay was dismissed from his employment on January 12, 2025, when CG Hotels Limited refused to extend his contract past his 66th birthday. Representing himself at the hearing, Mr Pillay stated he had a mortgage to pay for another five years, felt fit and healthy, and did not want to retire.\n\nIn its defence, CG Hotels Ltd argued that Mr Pillay had reached the firm’s normal contractual retirement age of 65 in January 2024, maintaining that his subsequent dismissal was without foundation. However, Ms Sobanska found that there was no cogent evidence put forward to show that the mandatory retirement age had been clearly communicated to the employee.\n\nWhile noting that employers can stipulate a fixed retirement age or offer fixed-term contracts to older workers, Ms Sobanska ruled that such measures must be objectively and reasonably justified by a legitimate aim. Under Section 77 of the Employment Equality Act 1998, she ordered the hotel operator to pay Mr Pillay the equivalent of one year’s net wages.",
+      "localAngle": "The ruling impacts employment practices at a major hotel operating at Shannon Airport in the Mid-West region.",
+      "section": "Business",
+      "importance": 4,
+      "positivity": 3,
+      "originalTitle": "Shannon hotel ordered to pay €25,000 to worker who claimed discrimination on age grounds",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/27/shannon-hotel-ordered-to-pay-e25000-to-worker-who-claimed-discrimination-on-age-grounds/",
+      "publishedAt": "Tue, 27 Oct 2026 15:00:10 +0000",
+      "rewrittenAt": "2026-10-27T15:20:38.226Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2022/09/Workplace-Relational-Commission-WRC.jpg",
+      "imageCheckedAt": "2026-10-27T15:24:10.420Z"
+    },
+    "https://limerickvoice.com/?p=53199": {
+      "headline": "Eason at Crescent Shopping Centre Hosts Early Breakfast for Sarah J. Maas Release",
+      "summary": "Limerick fantasy fans gathered at the Crescent Shopping Centre on Tuesday for an early morning breakfast event celebrating the release of Sarah J. Maas's latest novel, A Court of Splintered Harmony.",
+      "story": "Book enthusiasts turned out in force at Eason in the Crescent Shopping Centre on Tuesday, October 27, for a special early opening and breakfast event marking the release of Sarah J. Maas’s highly anticipated fantasy novel, A Court of Splintered Harmony.\n\nThe event welcomed fans with free pastries, juice, and merchandise themed around the fictional world of Prythian. Store manager Olivia De Loughrey said the gathering was organised to channel the significant local excitement surrounding the book and to engage younger readers.\n\n\"The main idea was that there was so much excitement around the whole book and people were interested in it, so we said, why not have a bit of fun with it?\" Ms De Loughrey said, adding that the customer reaction was overwhelmingly positive, with many pleasantly surprised by the complimentary food and merchandise.\n\nKatie McNamara, trainee manager at the store, said the initiative was also designed to thank regular shoppers and the wider local reading community. Copies of 'A Court of Splintered Harmony' are now available across all Eason stores in Limerick.",
+      "localAngle": "Local fantasy fans in Limerick gathered at the Crescent Shopping Centre for a special early-morning book release event.",
+      "section": "Arts & Culture",
+      "importance": 2,
+      "positivity": 4,
+      "originalTitle": "Limerick Eason celebrate long-awaited fantasy book release",
+      "originalSource": "limerickvoice",
+      "originalLink": "https://limerickvoice.com/news/eason-limerick-hosts-breakfast-event-for-fantasy-book-release/",
+      "publishedAt": "Tue, 27 Oct 2026 14:45:03 +0000",
+      "rewrittenAt": "2026-10-27T15:21:19.804Z",
+      "imageUrl": "https://limerickvoice.com/wp-content/uploads/2026/10/image0.jpeg",
+      "imageCheckedAt": "2026-10-27T15:24:10.918Z"
+    },
+    "https://www.limerickpost.ie/?p=362510": {
+      "headline": "Mungret Community College secures second bus shelter after initial mix-up",
+      "summary": "Students and teachers at Mungret Community College will now get two bus shelters instead of one after an initial structure was mistakenly installed on the wrong side of the road.",
+      "story": "Students, teachers, and local representatives at Mungret Community College were left scratching their heads this week after an eagerly-awaited bus shelter appeared on the outbound side of the road rather than the inbound side.\n\nLocal Fine Gael councillor Daniel Butler highlighted the mix-up on social media, noting the curious plot twist. However, the City West representative quickly worked to find a practical solution, securing a commitment from authorities that a second shelter will now be installed.\n\n\"There was, understandably, some confusion when the first shelter appeared on the outbound side rather than the inbound side,\" Cllr Butler said. \"However, rather than simply highlighting the problem, I wanted to work towards a practical solution. The commitment to a second shelter is welcome news.\"\n\nBeyond the shelters, Cllr Butler is pursuing further improvements to local transport. Discussions are underway with Bus Éireann and private coach operators to allow the final outbound bus stop to serve as both a pick-up and drop-off point. Additionally, he is awaiting a National Transport Authority review of the morning schedule to ensure students arrive at school on time.",
+      "localAngle": "The story directly impacts students, parents, and the wider community travelling to and from Mungret Community College in Limerick.",
+      "importance": 3,
+      "positivity": 4,
+      "originalTitle": "All ends well for bus shelter that arrives at the wrong destination",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/27/all-ends-well-for-bus-shelter-that-arrives-at-the-wrong-destination/",
+      "publishedAt": "Tue, 27 Oct 2026 12:00:45 +0000",
+      "rewrittenAt": "2026-10-27T15:22:38.866Z",
+      "section": "News",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2024/05/Cllr-Daniel-Butler-1-1-scaled-e1718108117546.jpg",
+      "imageCheckedAt": "2026-10-27T15:24:11.669Z"
+    },
+    "https://limerickvoice.com/?p=53192": {
+      "headline": "Hermitage Green to Support Robbie Williams at Thomond Park in July 2027",
+      "summary": "Limerick band Hermitage Green will play two massive homecoming concerts in July 2027, opening for international pop star Robbie Williams at Thomond Park. The milestone comes 16 years after the five-piece ensemble played their very first gig at the Curragower Bar.",
+      "story": "Limerick five-piece band Hermitage Green are preparing for one of the biggest performances of their career, securing a support slot for Robbie Williams at Thomond Park for two concerts in July 2027. \n\nFor frontman Barry Murphy, the upcoming stadium shows mark a remarkable full-circle journey. Growing up across the road from the stadium, Murphy listened to gigs from his bedroom window and was a devoted fan of the British singer, receiving his album 'Life Thru a Lens' as a child. Years later, the former Munster rugby player will share the stage with his childhood idol at the very same venue where he once scored a try against the All Blacks.\n\nFormed in 2010 through casual jam sessions at the Curragower Bar just down the road from Thomond Park, the band has since built an international following, releasing charting EPs and albums like 'Save Your Soul' through Sony Music Ireland. Despite touring across Europe, North America, and the Middle East, the band maintains deep roots in Limerick.\n\nMurphy expressed his excitement for the homecoming performance, noting that playing in front of his hometown crowd alongside his childhood hero will likely top any venue they have played around the world.",
+      "localAngle": "The band formed in a Limerick pub 16 years ago and the frontman grew up across the road from Thomond Park, where they will now support Robbie Williams.",
+      "section": "Arts & Culture",
+      "importance": 3,
+      "positivity": 4,
+      "originalTitle": "Hermitage Green’s Limerick homecoming",
+      "originalSource": "limerickvoice",
+      "originalLink": "https://limerickvoice.com/features/hermitage-greens-limerick-homecoming/",
+      "publishedAt": "Tue, 27 Oct 2026 11:30:43 +0000",
+      "rewrittenAt": "2026-10-27T15:23:35.705Z",
+      "imageUrl": "https://limerickvoice.com/wp-content/uploads/2026/10/IMG_0818_Kerry-Sheehan.jpg",
+      "imageCheckedAt": "2026-10-27T15:24:12.054Z"
+    },
+    "https://www.limerickpost.ie/?p=362508": {
+      "headline": "Treaty United operator records €1m loss as club prepares for Limerick FC rebrand",
+      "summary": "The firm operating Limerick City's League of Ireland club recorded post-tax losses of nearly €1 million last year, bringing its accumulated losses to €2.13 million. The club recently finished its final campaign as Treaty United and will be renamed Limerick FC next season.",
+      "story": "Recently filed accounts lodged with the Companies Office by Treaty Utd Ltd show post-tax losses of €998,603 for 2025, following losses of €839,258 the previous year. By the end of December, the firm's accumulated losses stood at €2.13 million, while the amount owed to group undertakings increased from €1.22 million to €2.22 million.\n\nThe financial figures emerge as the club prepares for a significant transition. Treaty United played its final League of Ireland fixture at the weekend—a 2-0 victory over Cobh Ramblers—to finish second from bottom in the Men’s First Division. The club is set to be officially renamed Limerick FC ahead of the upcoming season.\n\nA note attached to the accounts, signed off by Harold (Scott) Fraser and Charles (Chuck) Cosman, indicates that the company remains loss-making in 2026. The filing notes that the business relies on existing cash facilities, investor loans, and ongoing financial backing from key shareholder Treaty Football Holdings Inc. The shareholder has confirmed it will not seek loan repayments for at least 12 months and will continue to provide necessary operational support while new management implements its business plan.\n\nFounded in 2020, Treaty United saw its women's team enter the Premier Division that year before the men's team secured a First Division licence in 2021. The club was subsequently acquired by former Ireland international Ciara McCormack in partnership with a Canadian-based investment group led by Tricor Pacific Capital Inc. A spokesman for Treaty Utd declined to comment when contacted regarding the accounts.",
+      "localAngle": "The financial update impacts Limerick City's primary League of Ireland soccer club as it prepares to rebrand as Limerick FC for the upcoming season.",
+      "section": "Business",
+      "importance": 4,
+      "positivity": 2,
+      "originalTitle": "Firm which operates Treaty United has losses of €1m",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/27/firm-which-operates-treaty-united-has-losses-of-e1m/",
+      "publishedAt": "Tue, 27 Oct 2026 10:30:02 +0000",
+      "rewrittenAt": "2026-10-27T15:23:43.939Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2023/10/Treaty-United-stock-scaled.jpg",
+      "imageCheckedAt": "2026-10-27T15:24:12.253Z"
     }
   }
 }
