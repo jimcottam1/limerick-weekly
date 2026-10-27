@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastScrape": "2026-10-27T15:17:43.216Z",
-    "totalArticles": 27
+    "lastScrape": "2026-10-27T18:39:50.339Z",
+    "totalArticles": 29
   },
   "articles": {
     "9290418": {
@@ -526,6 +526,18 @@
       "source": "limerickleader",
       "scrapedAt": "2026-10-27T10:27:19.789Z"
     },
+    "9311853": {
+      "id": "9311853",
+      "title": "Gardai issue update following the discovery of a female body in a residence in Dublin",
+      "link": "https://www.limerickleader.ie/national/gardai-issue-update-following-the-discovery-of-a-female-body-in-a-residence-in-dublin-9311853",
+      "description": "A man has been arrested in connection with the discovery of a body found at a residence in Finglas, Dublin",
+      "pubDate": "Tue, 27 Oct 2026 17:10:06 GMT",
+      "author": "By The Newsroom",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/27/12/54/NATIONAL-NEWS-BANNER-TEMPLATE-(53).png?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageCredit": "File photo",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-27T18:39:34.698Z"
+    },
     "9312039": {
       "id": "9312039",
       "title": "'I fail': Wife of Limerick rugby legend shares bank holiday mishap",
@@ -537,6 +549,18 @@
       "imageCredit": "INSTAGRAM",
       "source": "limerickleader",
       "scrapedAt": "2026-10-27T15:17:30.387Z"
+    },
+    "9312786": {
+      "id": "9312786",
+      "title": "Limerick man sentenced for his role in ‘dodgy box’ operation",
+      "link": "https://www.limerickleader.ie/news/crime-courts/limerick-man-sentenced-for-his-role-in-dodgy-box-operation-9312786",
+      "description": "It was heard that Aidan Galvin was ‘not the principal operator of the business’ but was a ‘money mule’",
+      "pubDate": "Tue, 27 Oct 2026 17:17:14 GMT",
+      "author": "Limerick Live Reporter",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/22/15/46/Limerick-Courthouse.jpeg?width=1200&auto=webp&trim=0%2C3%2C0%2C3",
+      "imageCredit": "LL",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-27T18:39:34.698Z"
     },
     "https://www.limerickpost.ie/?p=362473": {
       "id": "https://www.limerickpost.ie/?p=362473",
@@ -937,6 +961,56 @@
       "author": "PRO",
       "source": "limerickgaa",
       "scrapedAt": "2026-10-27T15:17:34.637Z"
+    },
+    "https://www.limerickpost.ie/?p=362512": {
+      "id": "https://www.limerickpost.ie/?p=362512",
+      "title": "Record breaking profits recorded for Shannon Foynes Port Company",
+      "link": "https://www.limerickpost.ie/2026/10/27/record-breaking-profits-recorded-for-shannon-foynes-port-company/",
+      "description": "SHANNON Foynes Port Company (SFPC) has recorded a record-breaking profit of 12 per cent to just over €17.5m. The company recorded EBITDA of more than €8 m for ​the first ​time, ​alongside record operating profit ​of ​€5.71m, ​up from ​€4.81 m​ in 2024. The result stems from performance across the Port&#8217;s operations, including revenue growth at directly managed and privately owned terminals. Ship and ​cargo [&#8230;]\nThe post Record breaking profits recorded for Shannon Foynes Port Company appeared first on Limerick Post.",
+      "pubDate": "Tue, 27 Oct 2026 18:00:17 +0000",
+      "author": "Sarah Coleman",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-27T18:39:34.395Z"
+    },
+    "https://www.limerickpost.ie/?p=362517": {
+      "id": "https://www.limerickpost.ie/?p=362517",
+      "title": "Up the Balbec",
+      "link": "https://www.limerickpost.ie/2026/10/27/up-the-balbec/",
+      "description": "KILMALLOCK dethroned Na Piarsaigh to win a 13th Limerick Senior Hurling Championship at the Gaelic Grounds over the Bank Holiday Weekend. At the end of a brilliant contest, James Hickey’s side came through 3-19 to 1-22. After a shaky start, Kilmallock &#8211; favoured by a massive breeze &#8211; were five points to nil in arrears [&#8230;]\nThe post Up the Balbec appeared first on Limerick Post.",
+      "pubDate": "Tue, 27 Oct 2026 16:30:46 +0000",
+      "author": "Mal Keaveney",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-27T18:39:34.395Z"
+    },
+    "https://limerickvoice.com/?p=53190": {
+      "id": "https://limerickvoice.com/?p=53190",
+      "title": "Templeglantine defeat Na Piarsaigh in injury time comeback in camogie final",
+      "link": "https://limerickvoice.com/sport/templeglantine-na-piarsaigh-limerick-intermediate-camogie-final/",
+      "description": "Templeglantine came from eight points behind to claim the Limerick intermediate camogie title in dramatic fashion.  TEMPLEGLANTINE left Na Piarsaigh stunned after a late flurry cut an eight-point deficit in a matter of minutes.  Na Piarsaigh were ahead on the scoreboard from the first point of the game up until injury time when a Noelle Curtin [&#8230;]\nThe post Templeglantine defeat Na Piarsaigh in injury time comeback in camogie final appeared first on .",
+      "pubDate": "Tue, 27 Oct 2026 18:39:02 +0000",
+      "author": "Stephen Kelly",
+      "source": "limerickvoice",
+      "scrapedAt": "2026-10-27T18:39:37.336Z"
+    },
+    "https://limerickvoice.com/?p=53211": {
+      "id": "https://limerickvoice.com/?p=53211",
+      "title": "Halloween Screams film competition returns to Limerick",
+      "link": "https://limerickvoice.com/arts-and-culture/halloween-screams-film-competition-returns-to-limerick/",
+      "description": "Big Shots Limerick celebrate with another year of its seasonal filmmaking competition. BIG SHOTS Limerick commemorate the horror season once more with its Halloween Screams filmmaking competition, taking place at 7.30pm, October 31 in the Belltable.  The competition will screen films made by 13 creative teams across Ireland, who have been writing, shooting and editing [&#8230;]\nThe post Halloween Screams film competition returns to Limerick appeared first on .",
+      "pubDate": "Tue, 27 Oct 2026 17:25:16 +0000",
+      "author": "Rohan Coleman",
+      "source": "limerickvoice",
+      "scrapedAt": "2026-10-27T18:39:37.337Z"
+    },
+    "https://limerickgaa.ie/?p=142763": {
+      "id": "https://limerickgaa.ie/?p=142763",
+      "title": "Jonathan Hayes receives his County Referees Medal from County Board Officers Ger Corkery & Jimmy Feane :",
+      "link": "https://limerickgaa.ie/jonathan-hayes-receives-his-county-referees-medal-from-county-board-officers-ger-corkery-jimmy-feane/",
+      "description": "Jonathan Hayes receives his County Referees Medal from County Board Officers Ger Corkery &amp; Jimmy Feane before Saturdays afternoon Woodlands House Hotel Adare, Intermediate Hurling Championship Final at Mick Neville Park Rathkeale.",
+      "pubDate": "Tue, 27 Oct 2026 17:41:24 +0000",
+      "author": "PRO",
+      "source": "limerickgaa",
+      "scrapedAt": "2026-10-27T18:39:42.065Z"
     }
   },
   "rewritten": {
@@ -1530,6 +1604,22 @@
       "duplicateOf": "https://limerickvoice.com/?p=53174",
       "rewrittenAt": "2026-10-27T10:27:59.656Z"
     },
+    "9311853": {
+      "headline": "Man Arrested in Dublin Following Discovery of Woman's Body in Finglas",
+      "summary": "Gardaí have launched an investigation and arrested a man following the discovery of a woman's body at a residential property in Finglas, Dublin. Emergency services and local authorities attended the scene on Tuesday.",
+      "story": "Gardaí in Dublin have arrested a man in connection with the discovery of the body of a woman at a residence in Finglas. \n\nAuthorities attended the scene following the grim discovery at the property. The area was immediately secured to allow for a forensic and technical examination by the Garda Technical Bureau. \n\nThe arrested man is currently being detained at a Garda station in the capital under the provisions of criminal justice legislation. Investigations into the circumstances surrounding the death are ongoing, and a post-mortem examination is expected to be arranged.",
+      "localAngle": "While this incident occurred in Dublin, major national crime developments and Garda investigations are closely followed by readers across Limerick and nationwide.",
+      "section": "News",
+      "importance": 5,
+      "positivity": 1,
+      "originalTitle": "Gardai issue update following the discovery of a female body in a residence in Dublin",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/national/gardai-issue-update-following-the-discovery-of-a-female-body-in-a-residence-in-dublin-9311853",
+      "publishedAt": "Tue, 27 Oct 2026 17:10:06 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/27/12/54/NATIONAL-NEWS-BANNER-TEMPLATE-(53).png?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageCredit": "File photo",
+      "rewrittenAt": "2026-10-27T18:41:15.715Z"
+    },
     "9312039": {
       "headline": "Limerick rugby legend's wife shares bank holiday mix-up on social media",
       "summary": "An influencer and model connected to Limerick rugby has opened up about her organisational struggles after completely losing track of a recent bank holiday.",
@@ -1545,6 +1635,22 @@
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/27/13/14/Capture-J.jpeg?width=1200&auto=webp&trim=40%2C0%2C167%2C114",
       "imageCredit": "INSTAGRAM",
       "rewrittenAt": "2026-10-27T15:21:48.500Z"
+    },
+    "9312786": {
+      "headline": "Limerick Man Sentenced for Role in Illegal 'Dodgy Box' Operation",
+      "summary": "A Limerick man has been sentenced in court for his involvement in an illegal television streaming operation. The court heard he acted as a 'money mule' rather than the principal operator of the business.",
+      "story": "A Limerick man has received a court sentence for his participation in an unauthorized 'dodgy box' streaming business. Legal proceedings revealed that while the individual was connected to the illicit operation, he was not the mastermind behind the enterprise.\n\nDuring the court hearing, it was established that the defendant served as a 'money mule' for the streaming network. The operation provided illegal access to subscription television services through modified set-top boxes, commonly known as dodgy boxes.\n\nThe case highlights ongoing efforts by authorities to crack down on copyright infringement and illegal broadcasting networks operating within the region. Further details regarding the specific sentence handed down to Aidan Galvin were disclosed during the court proceedings.",
+      "localAngle": "The case involves a Limerick resident and was processed through the local judicial system.",
+      "section": "Courts",
+      "importance": 4,
+      "positivity": 2,
+      "originalTitle": "Limerick man sentenced for his role in ‘dodgy box’ operation",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/news/crime-courts/limerick-man-sentenced-for-his-role-in-dodgy-box-operation-9312786",
+      "publishedAt": "Tue, 27 Oct 2026 17:17:14 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/22/15/46/Limerick-Courthouse.jpeg?width=1200&auto=webp&trim=0%2C3%2C0%2C3",
+      "imageCredit": "LL",
+      "rewrittenAt": "2026-10-27T18:41:06.898Z"
     },
     "https://limerickvoice.com/?p=53125": {
       "skipped": true,
@@ -2076,6 +2182,64 @@
       "rewrittenAt": "2026-10-27T15:23:43.939Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2023/10/Treaty-United-stock-scaled.jpg",
       "imageCheckedAt": "2026-10-27T15:24:12.253Z"
+    },
+    "https://limerickvoice.com/?p=53211": {
+      "skipped": true,
+      "duplicateOf": "https://www.limerickpost.ie/?p=362391",
+      "rewrittenAt": "2026-10-27T18:40:18.494Z"
+    },
+    "https://www.limerickpost.ie/?p=362517": {
+      "skipped": true,
+      "duplicateOf": "9308453",
+      "rewrittenAt": "2026-10-27T18:40:18.494Z"
+    },
+    "https://limerickvoice.com/?p=53190": {
+      "headline": "Templeglantine stun Na Piarsaigh with injury-time goal to win Limerick intermediate camogie final",
+      "summary": "Templeglantine overcame an eight-point second-half deficit in Adare, clinching the Limerick intermediate camogie title with a dramatic injury-time goal from Noelle Curtin.",
+      "story": "Templeglantine staged a remarkable comeback to claim the Limerick intermediate camogie title in Adare, erasing an eight-point deficit against Na Piarsaigh in the closing minutes of the game.\n\nNa Piarsaigh had led from the opening score and held a 1-07 to 0-04 advantage at half-time, aided by a gale-force wind. They extended their lead further when Rosie McCaul fired into the top right corner with under ten minutes remaining, leaving Pat McInerney's side trailing by eight points. However, Stephanie Woulfe kept Templeglantine in touch throughout with reliable free-taking, scoring seven frees and one from play.\n\nThe West Limerick side launched a devastating response late in the game, outscoring their opponents by two goals and five points to just one score. The decisive blow arrived in injury time when Noelle Curtin found the bottom left corner to seal the victory.\n\nManager Pat McInerney praised his side's fitness and determination after the final whistle, crediting their demanding training sessions. Player of the match Shauna Quinlivan was recognised before captain Connie Sheehan lifted the cup, with the club now advancing to Munster Championship action next weekend ahead of senior status next year.",
+      "localAngle": "The dramatic county final victory secures senior championship status for Templeglantine and sends them forward to represent Limerick in the upcoming Munster Championship.",
+      "section": "Sport",
+      "importance": 4,
+      "positivity": 4,
+      "originalTitle": "Templeglantine defeat Na Piarsaigh in injury time comeback in camogie final",
+      "originalSource": "limerickvoice",
+      "originalLink": "https://limerickvoice.com/sport/templeglantine-na-piarsaigh-limerick-intermediate-camogie-final/",
+      "publishedAt": "Tue, 27 Oct 2026 18:39:02 +0000",
+      "rewrittenAt": "2026-10-27T18:40:26.038Z",
+      "imageUrl": "https://limerickvoice.com/wp-content/uploads/2026/10/original-4E8BDF0E-478C-47BD-B48D-B35920105708_Stephen-Kelly-e1793125918854.jpeg",
+      "imageCheckedAt": "2026-10-27T18:41:16.150Z"
+    },
+    "https://www.limerickpost.ie/?p=362512": {
+      "headline": "Shannon Foynes Port Company Posts Record €17.5M Profit and Surging Tonnage",
+      "summary": "Shannon Foynes Port Company has reported a record-breaking 12 per cent profit increase to €17.5 million, driven by strong performance at its Limerick and Foynes terminals.",
+      "story": "Shannon Foynes Port Company (SFPC) has recorded a record-breaking profit of 12 per cent to just over €17.5m, bolstered by significant revenue growth across its directly managed and privately owned terminals.\n\nThe company posted an EBITDA of more than €8m for the first time, alongside a record operating profit of €5.71m, up from €4.81m in 2024. Ship and cargo revenues increased by 10.1 per cent, while total throughput across the Shannon Estuary rose 2.2 per cent to 9.35m tonnes. Foynes Port, the company's largest terminal, achieved its highest-ever annual tonnage with a 10.8 per cent year-on-year increase, ending the period with net assets of €72m.\n\nChief Executive Officer Pat Keating attributed the financial success to a focus on revenue growth, cost management, and maximizing asset capacity at the Foynes and Limerick terminals. He noted that the results underline the port's expanding role in regional and national supply chains.\n\nLooking ahead under Vision 2041, SFPC is advancing plans for the Foynes Island Deepwater Port and enhanced connectivity. The 40km Limerick to Foynes rail line is scheduled to reopen for freight services in the first quarter of 2027, which is expected to significantly boost national freight modal shift.",
+      "localAngle": "The financial milestone highlights the growing economic and logistical importance of the Limerick and Foynes port terminals to the regional supply chain.",
+      "section": "Business",
+      "importance": 4,
+      "positivity": 4,
+      "originalTitle": "Record breaking profits recorded for Shannon Foynes Port Company",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/27/record-breaking-profits-recorded-for-shannon-foynes-port-company/",
+      "publishedAt": "Tue, 27 Oct 2026 18:00:17 +0000",
+      "rewrittenAt": "2026-10-27T18:40:34.919Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2022/02/Foynes-Port-and-estuary.jpg",
+      "imageCheckedAt": "2026-10-27T18:41:16.747Z"
+    },
+    "https://limerickgaa.ie/?p=142763": {
+      "headline": "Jonathan Hayes Honoured with County Referees Medal in Rathkeale",
+      "summary": "Limerick referee Jonathan Hayes was presented with his County Referees Medal by County Board officers ahead of the Intermediate Hurling Championship final.",
+      "story": "Limerick hurling referee Jonathan Hayes has been officially recognized for his officiating work, receiving his County Referees Medal prior to a major county final.\n\nThe presentation took place at Mick Neville Park in Rathkeale ahead of the Woodlands House Hotel Adare Intermediate Hurling Championship Final on Saturday afternoon.\n\nCounty Board officers Ger Corkery and Jimmy Feane presented the medal to Hayes on the pitch before the throw-in of the closely watched club championship decider.",
+      "localAngle": "The presentation highlights the contribution of local match officials to the Limerick club hurling championship structure.",
+      "section": "Sport",
+      "importance": 2,
+      "positivity": 4,
+      "originalTitle": "Jonathan Hayes receives his County Referees Medal from County Board Officers Ger Corkery & Jimmy Feane :",
+      "originalSource": "limerickgaa",
+      "originalLink": "https://limerickgaa.ie/jonathan-hayes-receives-his-county-referees-medal-from-county-board-officers-ger-corkery-jimmy-feane/",
+      "publishedAt": "Tue, 27 Oct 2026 17:41:24 +0000",
+      "rewrittenAt": "2026-10-27T18:40:43.241Z",
+      "imageUrl": null,
+      "imageCheckedAt": "2026-10-27T18:41:17.181Z"
     }
   }
 }
