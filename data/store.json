@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastScrape": "2026-10-26T22:20:42.925Z",
-    "totalArticles": 23
+    "lastScrape": "2026-10-27T10:27:36.382Z",
+    "totalArticles": 28
   },
   "articles": {
     "9290418": {
@@ -87,6 +87,18 @@
       "scrapedAt": "2026-10-24T16:59:19.234Z",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/21/9/57/3263571.jpeg?width=1200&auto=webp&trim=0%2C0%2C94%2C0",
       "imageCredit": "SPORTSFILE"
+    },
+    "9301144": {
+      "id": "9301144",
+      "title": "Homeowners urged to take precautions after County Limerick shed break-ins ",
+      "link": "https://www.limerickleader.ie/news/crime-courts/homeowners-urged-to-take-precautions-after-county-limerick-shed-break-ins-9301144",
+      "description": "A Crime Prevention Officer at Henry Street Garda Station said these offences serve as a reminder that garden sheds need the same attention to security as the main house",
+      "pubDate": "Tue, 27 Oct 2026 09:00:37 GMT",
+      "author": "Ellie McCarthy",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/15/9/11/Gardai-Kildare-Newbridge-crime-news-criminal-damage-tyres-vehicle-car.jpeg?width=1200&auto=webp&trim=0%2C84%2C0%2C84",
+      "imageCredit": "File Photograph",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-27T10:27:19.789Z"
     },
     "9301758": {
       "id": "9301758",
@@ -178,6 +190,18 @@
       "source": "limerickleader",
       "scrapedAt": "2026-10-24T16:59:19.235Z",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/09/30/11/v2-image-production-0be94ca17543ae4c5498ac9e6e332f11Y29udGVudHNlYXJjaGFwaSwxNzkwODQ1NzEy-2.84676242.jpg?width=1200&auto=webp&crop=3%3A2"
+    },
+    "9307184": {
+      "id": "9307184",
+      "title": "‘Incredibly rewarding’: Limerick students contribute 66,000 hours of volunteer work",
+      "link": "https://www.limerickleader.ie/news/school-education/incredibly-rewarding-limerick-students-contribute-66000-hours-of-volunteer-work-9307184",
+      "description": "UL PVA recognises students who demonstrate a commitment to volunteering, both on and off campus, throughout the academic year",
+      "pubDate": "Tue, 27 Oct 2026 07:00:23 GMT",
+      "author": "Abigail Hayden",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/23/16/29/UL-PVA-Awards-015.jpeg?width=1200&auto=webp&trim=7%2C0%2C7%2C0",
+      "imageCredit": "PICTURE: ALAN PLACE",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-27T10:27:19.789Z"
     },
     "9307466": {
       "id": "9307466",
@@ -453,6 +477,42 @@
       "imageCredit": "TOM MORRISSEY INSTAGRAM",
       "source": "limerickleader",
       "scrapedAt": "2026-10-26T21:44:55.965Z"
+    },
+    "9310943": {
+      "id": "9310943",
+      "title": "How Graeme Mulcahy created history in Kilmallock's SHC win",
+      "link": "https://www.limerickleader.ie/sport/gaa/hurling/how-graeme-mulcahy-created-history-in-kilmallocks-shc-win-9310943",
+      "description": "The list of men to captain Kilmallock to a Limerick Senior Hurling Championship is an impressive one",
+      "pubDate": "Tue, 27 Oct 2026 08:23:49 GMT",
+      "author": "Joel Slattery",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/27/8/55/County-Senior-Hurling-Championships-in-Kilmallock-7.jpeg?width=1200&auto=webp&trim=99%2C0%2C167%2C0",
+      "imageCredit": "BRENDAN GLEESON",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-27T10:27:19.789Z"
+    },
+    "9311112": {
+      "id": "9311112",
+      "title": "Limerick gardai make several arrests for suspected drug driving over bank holiday weekend",
+      "link": "https://www.limerickleader.ie/news/crime-courts/limerick-gardai-make-several-arrests-for-suspected-drug-driving-over-bank-holiday-weekend-9311112",
+      "description": "During the bank holiday policing operation, Bruff and Kilmallock gardai seized six vehicles while carrying out checkpoints",
+      "pubDate": "Tue, 27 Oct 2026 10:00:18 GMT",
+      "author": "Ellie McCarthy",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/27/9/04/Limerick-gardai-make-several-arrests-for-suspected-drug-driving-over-bank-holiday-weekend.jpeg?width=1200&auto=webp&trim=78%2C0%2C79%2C0",
+      "imageCredit": "gardainsta_limerick",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-27T10:27:19.789Z"
+    },
+    "9311153": {
+      "id": "9311153",
+      "title": "RIP: Pedestrian in her 60s tragically killed in road collision near shopping centre ",
+      "link": "https://www.limerickleader.ie/national/rip-pedestrian-in-her-60s-tragically-killed-in-road-collision-near-shopping-centre-9311153",
+      "description": "Gardaí are appealing for witnesses to a fatal road traffic collision in which a pedestrian was killed",
+      "pubDate": "Tue, 27 Oct 2026 10:10:42 GMT",
+      "author": "By The Newsroom",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/27/9/17/NATIONAL-NEWS-BANNER-TEMPLATE-(51).png?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageCredit": "File photo",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-27T10:27:19.789Z"
     },
     "https://www.limerickpost.ie/?p=362473": {
       "id": "https://www.limerickpost.ie/?p=362473",
@@ -763,6 +823,16 @@
       "author": "Suzan McCreadie",
       "source": "limerickchamber",
       "scrapedAt": "2026-10-26T21:45:12.812Z"
+    },
+    "https://www.limerickpost.ie/?p=362501": {
+      "id": "https://www.limerickpost.ie/?p=362501",
+      "title": "Garda warning after woman scammed in fake call",
+      "link": "https://www.limerickpost.ie/2026/10/27/garda-warning-after-woman-scammed-in-fake-call/",
+      "description": "GARDAÍ are warning against giving bank or credit card details over the phone after one woman was scammed out of money and another had a close call. Crime Prevention Office, Sergeant Michelle O&#8217;Halloran said that a woman in her seventies received a phonecall claiming her Visa card had been ‘hacked’ and money had been taken [&#8230;]\nThe post Garda warning after woman scammed in fake call appeared first on Limerick Post.",
+      "pubDate": "Tue, 27 Oct 2026 09:00:49 +0000",
+      "author": "Bernie English",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-27T10:27:19.490Z"
     }
   },
   "rewritten": {
@@ -866,6 +936,22 @@
       "skipped": true,
       "duplicateOf": "9307939",
       "rewrittenAt": "2026-10-24T21:31:01.509Z"
+    },
+    "9301144": {
+      "headline": "Gardaí issue security warning following recent shed break-ins across County Limerick",
+      "summary": "Property owners in County Limerick are being urged to secure garden sheds following a spate of recent break-ins. Officers at Henry Street Garda Station advise that outbuildings require the same level of security as main residences.",
+      "story": "Property owners in County Limerick are being urged to review their security measures following a series of recent break-ins targeting garden sheds across the county.\n\nAuthorities at Henry Street Garda Station have issued a public warning in the wake of the offences. A Crime Prevention Officer stated that the recent incidents serve as a timely reminder that outbuildings and garden sheds require the exact same level of attention to security as the main residential house.\n\nLocal homeowners are being advised to ensure that all sheds and outbuildings are properly locked, monitored, and fitted with adequate security hardware to deter opportunistic thieves.",
+      "localAngle": "The security warning was issued by gardaí at Henry Street following break-ins affecting properties across County Limerick.",
+      "section": "News",
+      "importance": 3,
+      "positivity": 2,
+      "originalTitle": "Homeowners urged to take precautions after County Limerick shed break-ins ",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/news/crime-courts/homeowners-urged-to-take-precautions-after-county-limerick-shed-break-ins-9301144",
+      "publishedAt": "Tue, 27 Oct 2026 09:00:37 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/15/9/11/Gardai-Kildare-Newbridge-crime-news-criminal-damage-tyres-vehicle-car.jpeg?width=1200&auto=webp&trim=0%2C84%2C0%2C84",
+      "imageCredit": "File Photograph",
+      "rewrittenAt": "2026-10-27T10:28:23.800Z"
     },
     "9301758": {
       "headline": "Woman Convicted at Kilmallock Court for Assaulting Garda at Bruff Station",
@@ -991,6 +1077,22 @@
       "section": "Council",
       "importance": 3,
       "positivity": 4
+    },
+    "9307184": {
+      "headline": "University of Limerick Students Log 66,000 Volunteer Hours",
+      "summary": "Students at the University of Limerick contributed 66,000 hours of volunteer work across campus and the wider community over the academic year through the President's Volunteer Award.",
+      "story": "Students at the University of Limerick contributed a total of 66,000 hours of voluntary work throughout the academic year, both on and off campus.\n\nThe hours were logged through the President's Volunteer Award (PVA), which formally recognises students who commit their time and effort to community and campus volunteering initiatives.\n\nParticipants described the experience as incredibly rewarding as they balanced their academic commitments with supporting various local projects and university programmes.",
+      "localAngle": "The volunteering efforts directly benefit communities and organisations across Limerick through thousands of hours of student support.",
+      "section": "News",
+      "importance": 2,
+      "positivity": 4,
+      "originalTitle": "‘Incredibly rewarding’: Limerick students contribute 66,000 hours of volunteer work",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/news/school-education/incredibly-rewarding-limerick-students-contribute-66000-hours-of-volunteer-work-9307184",
+      "publishedAt": "Tue, 27 Oct 2026 07:00:23 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/23/16/29/UL-PVA-Awards-015.jpeg?width=1200&auto=webp&trim=7%2C0%2C7%2C0",
+      "imageCredit": "PICTURE: ALAN PLACE",
+      "rewrittenAt": "2026-10-27T10:28:41.467Z"
     },
     "9307466": {
       "headline": "West Limerick Derby Set for Junior Hurling Championship Final Clash Today",
@@ -1270,6 +1372,43 @@
       "skipped": true,
       "duplicateOf": "9307767",
       "rewrittenAt": "2026-10-26T21:45:58.808Z"
+    },
+    "9310943": {
+      "headline": "Graeme Mulcahy makes history as Kilmallock claim Limerick SHC title",
+      "summary": "Graeme Mulcahy has cemented his place in local hurling history by captaining Kilmallock to victory in the Limerick Senior Hurling Championship.",
+      "story": "Graeme Mulcahy has written his name into the history books after captaining Kilmallock to a memorable victory in the Limerick Senior Hurling Championship.\n\nMulcahy joins an illustrious and impressive list of men who have previously captained the club to county senior hurling glory, adding another chapter to Kilmallock's storied GAA tradition.\n\nThe triumph sees the club lift the silverware once again, etching the current panel into local sporting folklore following a successful campaign in the county championship.",
+      "localAngle": "The victory adds a historic new chapter to club hurling in County Limerick, celebrating one of the county's most prominent players.",
+      "section": "Sport",
+      "importance": 4,
+      "positivity": 4,
+      "originalTitle": "How Graeme Mulcahy created history in Kilmallock's SHC win",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/sport/gaa/hurling/how-graeme-mulcahy-created-history-in-kilmallocks-shc-win-9310943",
+      "publishedAt": "Tue, 27 Oct 2026 08:23:49 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/27/8/55/County-Senior-Hurling-Championships-in-Kilmallock-7.jpeg?width=1200&auto=webp&trim=99%2C0%2C167%2C0",
+      "imageCredit": "BRENDAN GLEESON",
+      "rewrittenAt": "2026-10-27T10:28:32.683Z"
+    },
+    "9311112": {
+      "headline": "Gardaí seize six vehicles and arrest drivers for suspected drug driving in Limerick",
+      "summary": "Bruff and Kilmallock Gardaí seized six vehicles and made multiple arrests for suspected drug driving during a bank holiday policing operation.",
+      "story": "Motorists across south Limerick were targeted over the bank holiday weekend as part of a targeted local policing operation. Gardaí stationed in Bruff and Kilmallock carried out a series of checkpoints aimed at detecting intoxicants behind the wheel.\n\nDuring the enforcement operation, officers arrested several individuals on suspicion of driving under the influence of drugs. In addition to the arrests, Gardaí seized six vehicles from motorists encountered during the roadside checks.\n\nThe operation formed part of high-visibility patrols mounted by local Garda units over the holiday period to promote road safety and deter dangerous driving practices on county roads.",
+      "localAngle": "The enforcement operations were carried out by Gardaí in the Bruff and Kilmallock districts over the bank holiday weekend.",
+      "section": "News",
+      "importance": 3,
+      "positivity": 2,
+      "originalTitle": "Limerick gardai make several arrests for suspected drug driving over bank holiday weekend",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/news/crime-courts/limerick-gardai-make-several-arrests-for-suspected-drug-driving-over-bank-holiday-weekend-9311112",
+      "publishedAt": "Tue, 27 Oct 2026 10:00:18 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/27/9/04/Limerick-gardai-make-several-arrests-for-suspected-drug-driving-over-bank-holiday-weekend.jpeg?width=1200&auto=webp&trim=78%2C0%2C79%2C0",
+      "imageCredit": "gardainsta_limerick",
+      "rewrittenAt": "2026-10-27T10:28:05.659Z"
+    },
+    "9311153": {
+      "skipped": true,
+      "duplicateOf": "https://limerickvoice.com/?p=53174",
+      "rewrittenAt": "2026-10-27T10:27:59.656Z"
     },
     "https://limerickvoice.com/?p=53125": {
       "skipped": true,
@@ -1690,6 +1829,22 @@
       "section": "Sport",
       "importance": 3,
       "positivity": 4
+    },
+    "https://www.limerickpost.ie/?p=362501": {
+      "headline": "Gardaí Issue Fraud Warning After Limerick Women Targetted in Phone Scams",
+      "summary": "Limerick Gardaí are urging the public to protect their financial details following two separate telephone scams, including one where a woman in her 70s was defrauded of money.",
+      "story": "Gardaí in Limerick have issued a stark warning against sharing bank or credit card details over the phone following two recent fraudulent incidents in the county.\n\nAccording to the Crime Prevention Office, a woman in her seventies received a call claiming her Visa card had been hacked and money stolen from her account. She was instructed to download an app and transfer funds, complying with the directions before growing suspicious when a further payment was demanded. In a separate incident in Caherconlish, another woman handed over her Visa debit card details and security code after receiving a call from someone falsely claiming to represent her internet service provider, resulting in unauthorized transfers from her account.\n\nSergeant Michelle O’Halloran warned that fraudsters frequently rely on creating panic and pressure to force quick decisions. “Be suspicious of unexpected calls claiming there is a problem with your bank account, card or internet service,” Sgt O’Halloran said, reminding the public never to disclose PINs, passwords, one-time passcodes, or security details to unexpected callers.\n\nGardaí emphasize that legitimate banks will never ask customers to transfer money to a supposedly safe account or direct them to download an app to protect funds. Anyone who receives a suspicious call is advised to hang up immediately and contact their bank directly using a trusted number from an official website or bank card, and to report any financial losses to Gardaí without delay.",
+      "localAngle": "Local Gardaí across Limerick are warning residents to remain vigilant against telephone fraudsters targeting bank accounts and personal details in the area.",
+      "section": "News",
+      "importance": 3,
+      "positivity": 2,
+      "originalTitle": "Garda warning after woman scammed in fake call",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/27/garda-warning-after-woman-scammed-in-fake-call/",
+      "publishedAt": "Tue, 27 Oct 2026 09:00:49 +0000",
+      "rewrittenAt": "2026-10-27T10:28:15.057Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2025/01/Sergeant-Michelle-OHalloran-e1737364232610.jpg",
+      "imageCheckedAt": "2026-10-27T10:28:41.812Z"
     }
   }
 }
