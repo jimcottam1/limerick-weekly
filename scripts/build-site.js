@@ -471,10 +471,6 @@ function buildSite() {
     const gaaFixtures = path.join(ROOT, 'data', 'gaa-fixtures.json');
     if (fs.existsSync(gaaFixtures)) fs.copyFileSync(gaaFixtures, path.join(SITE_DIR, 'data', 'gaa-fixtures.json'));
 
-    // Today's horoscope, for the Stars box (see generate-horoscope.js)
-    const horoscope = path.join(ROOT, 'data', 'horoscope.json');
-    if (fs.existsSync(horoscope)) fs.copyFileSync(horoscope, path.join(SITE_DIR, 'data', 'horoscope.json'));
-
     fs.writeFileSync(path.join(SITE_DIR, '404.html'), NOT_FOUND_HTML);
     fs.writeFileSync(path.join(SITE_DIR, '.nojekyll'), '');
 

@@ -468,49 +468,6 @@ a:hover { color: var(--accent); }
     .fixtures { grid-template-columns: minmax(0, 1fr); gap: 16px; }
 }
 
-/* ---------- Stars (horoscope) ---------- */
-
-.stars-grid {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 0 28px;
-}
-
-.star {
-    padding: 12px 0;
-    border-bottom: 1px solid var(--rule-light);
-    scroll-margin-top: 12px;
-}
-
-.star:target { background: var(--paper-edge); outline: 6px solid var(--paper-edge); }
-.star-head { display: flex; align-items: center; gap: 10px; margin-bottom: 4px; }
-
-.star-symbol {
-    /* Text-style symbols (not emoji), so they take the paper's colour */
-    font-family: 'Segoe UI Symbol', 'Noto Sans Symbols 2', 'Apple Symbols', 'DejaVu Sans', serif;
-    font-variant-emoji: text;
-    font-size: 26px;
-    line-height: 1;
-    color: var(--accent);
-    width: 30px;
-    text-align: center;
-}
-
-.star h3 { font-family: var(--display); font-weight: 700; font-size: 18px; line-height: 1.1; }
-.star-dates { font-family: var(--label); font-size: 10.5px; letter-spacing: 0.06em; color: var(--ink-faint); text-transform: uppercase; }
-.star p { font-size: 14.5px; line-height: 1.5; }
-
-.stars-note {
-    font-family: var(--label);
-    font-size: 11px;
-    color: var(--ink-faint);
-    text-align: right;
-    margin-top: 8px;
-}
-
-@media (max-width: 900px) { .stars-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-@media (max-width: 560px) { .stars-grid { grid-template-columns: minmax(0, 1fr); } }
-
 /* ---------- Section navigation ---------- */
 
 .section-nav {
