@@ -416,9 +416,35 @@
                 </section>`;
         }
 
+        // ---------- Stars (daily horoscope) ----------
+
+        let stars = null;
+
+        function starsHtml() {
+            if (!stars?.signs?.length) return '';
+            const day = new Date(`${stars.date}T12:00:00`).toLocaleDateString('en-IE', { weekday: 'long', day: 'numeric', month: 'long' });
+            return `
+                <section class="paper-section stars" id="stars">
+                    <header class="section-head">
+                        <h2>Stars</h2>
+                        <span>${esc(day)}</span>
+                    </header>
+                    <div class="stars-grid">
+                        ${stars.signs.map(s => `
+                            <article class="star" id="stars-${esc(s.id)}">
+                                <div class="star-head"><span class="star-symbol" aria-hidden="true">${esc(s.symbol)}</span>
+                                    <div><h3>${esc(s.name)}</h3><span class="star-dates">${esc(s.dates)}</span></div></div>
+                                <p>${esc(s.reading)}</p>
+                            </article>`).join('')}
+                    </div>
+                    <p class="stars-note">Written each morning by AI, just for fun.</p>
+                </section>`;
+        }
+
         function renderSectionNav(sections) {
             const links = [`<a href="#top">Front Page</a>`]
                 .concat(sections.map(s => `<a href="#${sectionId(s.name)}">${esc(s.name)}</a>`))
+                .concat(stars?.signs?.length ? [`<a href="#stars">Stars</a>`] : [])
                 .concat(`<a href="sections/all.html">Archive</a>`);
             document.getElementById('sectionNav').innerHTML = links.join('');
         }
@@ -483,6 +509,7 @@
             }
             html += '</div>';
             html += sections.map(sectionHtml).join('');
+            html += starsHtml();
             document.getElementById('front').innerHTML = html;
             renderSectionNav(sections);
         }
@@ -531,6 +558,7 @@
                 const data = await response.json();
                 // Optional: the GAA box just doesn't appear if this is missing
                 gaa = await fetch('data/gaa-fixtures.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).catch(() => null);
+                stars = await fetch('data/horoscope.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).catch(() => null);
                 // Newest first by the original publication date (undated stories last)
                 const time = a => new Date(a.publishedAt).getTime() || 0;
                 const articles = (data.articles || []).slice().sort((a, b) => time(b) - time(a));

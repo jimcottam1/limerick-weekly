@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T21:22:18.745Z",
+  "signs": [
+    {
+      "id": "aries",
+      "name": "Aries",
+      "symbol": "♈",
+      "dates": "21 Mar – 19 Apr",
+      "reading": "Your boundless energy could rival a Munster rugby victory at Thomond Park today, setting you up for pure greatness!"
+    },
+    {
+      "id": "taurus",
+      "name": "Taurus",
+      "symbol": "♉",
+      "dates": "20 Apr – 20 May",
+      "reading": "Treat yourself to a little something extra sweet from the Milk Market this morning; you’ve totally earned it, bai."
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "symbol": "♊",
+      "dates": "21 May – 20 Jun",
+      "reading": "Your brilliant chat will outshine the autumn sun gleaming off the majestic Shannon River all afternoon long."
+    },
+    {
+      "id": "cancer",
+      "name": "Cancer",
+      "symbol": "♋",
+      "dates": "21 Jun – 22 Jul",
+      "reading": "Find your cozy sanctuary today, perhaps as snug as a book lover nestled inside the historic walls of the Granary."
+    },
+    {
+      "id": "leo",
+      "name": "Leo",
+      "symbol": "♌",
+      "dates": "23 Jul – 22 Aug",
+      "reading": "You’re standing as tall and proud as King John’s Castle today, radiating warmth and unbeatable charm to everyone you meet."
+    },
+    {
+      "id": "virgo",
+      "name": "Virgo",
+      "symbol": "♍",
+      "dates": "23 Aug – 22 Sep",
+      "reading": "Your clever organizing skills will have everything running smoother than a stroll down the beautiful paths of People’s Park."
+    },
+    {
+      "id": "libra",
+      "name": "Libra",
+      "symbol": "♎",
+      "dates": "23 Sep – 22 Oct",
+      "reading": "Harmony is your superpower today, making every moment feel as gracefully balanced as the famous Treaty Stone."
+    },
+    {
+      "id": "scorpio",
+      "name": "Scorpio",
+      "symbol": "♏",
+      "dates": "23 Oct – 21 Nov",
+      "reading": "Your sharp mind is uncovering wonderful new treasures today, worthy of a special exhibition right inside the Hunt Museum."
+    },
+    {
+      "id": "sagittarius",
+      "name": "Sagittarius",
+      "symbol": "♐",
+      "dates": "22 Nov – 21 Dec",
+      "reading": "Adventure calls right to your doorstep, bringing campus-level excitement that would make the folks at UL proud."
+    },
+    {
+      "id": "capricorn",
+      "name": "Capricorn",
+      "symbol": "♑",
+      "dates": "22 Dec – 19 Jan",
+      "reading": "Your steady ambition is building a fantastic future, solid and brilliant like the lovely Georgian bricks of O'Connell Street."
+    },
+    {
+      "id": "aquarius",
+      "name": "Aquarius",
+      "symbol": "♒",
+      "dates": "20 Jan – 18 Feb",
+      "reading": "Fresh, creative ideas are bubbling up in your mind faster than morning shoppers browsing the bustling Castletroy corridors."
+    },
+    {
+      "id": "pisces",
+      "name": "Pisces",
+      "symbol": "♓",
+      "dates": "19 Feb – 20 Mar",
+      "reading": "Your imagination is flowing as freely and peacefully as the morning tide gently kissing the banks of Adare."
+    }
+  ]
+}
