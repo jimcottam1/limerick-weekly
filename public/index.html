@@ -28,6 +28,7 @@
                 <span class="motto">All the news of the Treaty City</span>
                 <span id="storyCount">&nbsp;</span>
             </div>
+            <div class="today-strip" id="today" aria-label="Limerick right now" hidden></div>
             <nav class="section-nav" id="sectionNav" aria-label="Sections"></nav>
         </header>
 
@@ -139,6 +140,96 @@
             { name: 'Limerick GAA', home: 'https://www.limerickgaa.ie/', file: 'limerick-gaa' },
             { name: 'Limerick Chamber', home: 'https://www.limerickchamber.ie/', file: 'limerick-chamber' }
         ];
+
+        // ---------- Limerick GAA club results and fixtures (Sport section) ----------
+
+        let gaa = null;
+
+        /** "Blackrock 1-20 Belville Gaels 1-14" -> both sides, with the winner in bold. */
+        function resultHtml(line) {
+            const m = line.match(/^(.*?)\s+(\d+)-(\d+)\s+(.*?)\s+(\d+)-(\d+)$/);
+            if (!m) return esc(line);
+            const [, a, ag, ap, b, bg, bp] = m;
+            const total = (g, p) => Number(g) * 3 + Number(p);
+            const diff = total(ag, ap) - total(bg, bp);
+            const side = (team, g, p, won) => `<span class="${won ? 'won' : ''}">${esc(team)} <span class="score">${g}-${p}</span></span>`;
+            return `${side(a, ag, ap, diff > 0)} <span class="muted">·</span> ${side(b, bg, bp, diff < 0)}`;
+        }
+
+        /** "Patrickswell v Athea in Mick Neville Park at 6.45pm" -> teams, then venue and time. */
+        function fixtureHtml(line) {
+            const m = line.match(/^(.*?)\s+in\s+(.*?)(?:\s+at\s+(.+))?$/i);
+            if (!m) return esc(line);
+            return `${esc(m[1])}<span class="where">${esc(m[2])}${m[3] ? ` · ${esc(m[3])}` : ''}</span>`;
+        }
+
+        function fixturePost(post, format) {
+            return `
+                <div class="fx-post">
+                    <div class="fx-day">${esc(post.day)}</div>
+                    ${post.competitions.map(c => `
+                        <div class="fx-comp">${esc(c.name)}</div>
+                        <ul>${c.matches.map(m => `<li>${format(m)}</li>`).join('')}</ul>`).join('')}
+                    <a class="source-link" href="${esc(post.link)}" target="_blank" rel="noopener">Limerick GAA</a>
+                </div>`;
+        }
+
+        function fixturesHtml() {
+            if (!gaa || (!gaa.results?.length && !gaa.fixtures?.length)) return '';
+            const column = (title, posts, format, empty) => `
+                <div class="fx-col">
+                    <h3 class="fx-title">${title}</h3>
+                    ${posts?.length ? posts.map(p => fixturePost(p, format)).join('') : `<p class="muted">${empty}</p>`}
+                </div>`;
+            return `
+                <section class="fixtures" aria-label="Limerick GAA club results and fixtures">
+                    ${column('Club results', gaa.results, resultHtml, 'No results this week yet.')}
+                    ${column('Coming up', gaa.fixtures, fixtureHtml, 'No fixtures posted in the last few days.')}
+                </section>`;
+        }
+
+        // ---------- "Limerick today" strip, from Ireland Now's live data (same site, so no keys) ----------
+
+        async function renderToday() {
+            const base = '/ireland-now/data/';
+            const get = name => fetch(`${base}${name}.json`, { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).catch(() => null);
+            const [warnings, weather, rivers, water, buses] = await Promise.all(['warnings', 'weather', 'rivers', 'water', 'buses'].map(get));
+            const parts = [];
+
+            const w = weather?.counties?.limerick;
+            if (w) parts.push(`<strong>${Math.round(w.temperature)}°C</strong> ${esc(w.description.toLowerCase())}, ${Math.round(w.todayMin)}–${Math.round(w.todayMax)}° today`);
+
+            if (warnings) {
+                const here = (warnings.warnings || []).filter(x => x.counties.includes('limerick'));
+                const top = ['red', 'orange', 'yellow'].find(l => here.some(x => x.level === l));
+                parts.push(top
+                    ? `<span class="warn ${top}">${esc(top[0].toUpperCase() + top.slice(1))} ${esc(here.find(x => x.level === top).type.toLowerCase())} warning</span>`
+                    : 'No weather warnings');
+            }
+
+            if (rivers) {
+                const gauges = rivers.stations.filter(s => s.county === 'limerick' && s.trend !== 'unknown');
+                const rising = gauges.filter(s => s.trend.startsWith('rising')).length;
+                if (gauges.length) parts.push(rising ? `<strong>${rising}</strong> river gauge${rising === 1 ? '' : 's'} rising` : 'Rivers steady');
+            }
+
+            if (water) {
+                const active = (water.notices || []).filter(n => n.county === 'limerick' && n.active).length;
+                parts.push(active ? `<strong>${active}</strong> water notice${active === 1 ? '' : 's'}` : 'No water notices');
+            }
+
+            if (buses) {
+                const here = (buses.buses || []).filter(b => b.county === 'limerick');
+                const late = here.filter(b => b.minutesLate >= 5).length;
+                if (here.length) parts.push(`<strong>${here.length}</strong> buses running${late ? `, ${late} late` : ''}`);
+            }
+
+            if (!parts.length) return; // Ireland Now unavailable: leave the strip hidden
+            const el = document.getElementById('today');
+            el.innerHTML = `<span class="today-label">Limerick now</span>${parts.map(p => `<span class="today-item">${p}</span>`).join('')}
+                <a class="today-more" href="/ireland-now/#county=limerick&show=water,buses">Live map &rarr;</a>`;
+            el.hidden = false;
+        }
 
         function renderSources(articles) {
             const promos = PROMOS.map(p => `
@@ -303,6 +394,7 @@
                         ${sectionLeadHtml(lead, name)}
                         ${briefs.length ? `<div class="briefs">${briefs.map(a => briefHtml(a, name)).join('')}</div>` : ''}
                     </div>
+                    ${name === 'Sport' ? fixturesHtml() : ''}
                     ${moreHtml(more, name)}
                 </section>`;
         }
@@ -420,6 +512,8 @@
                 }
 
                 const data = await response.json();
+                // Optional: the GAA box just doesn't appear if this is missing
+                gaa = await fetch('data/gaa-fixtures.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).catch(() => null);
                 // Newest first by the original publication date (undated stories last)
                 const time = a => new Date(a.publishedAt).getTime() || 0;
                 const articles = (data.articles || []).slice().sort((a, b) => time(b) - time(a));
@@ -432,6 +526,7 @@
 
                 layout(articles);
                 renderSources(articles);
+                renderToday();
                 // Sections are drawn after load, so the browser can't jump to a #section link by itself
                 const jumpToHash = () => document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView();
                 if (location.hash) jumpToHash();

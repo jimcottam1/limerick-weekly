@@ -1,0 +1,49 @@
+{
+  "updatedAt": "2026-10-27T20:55:03.909Z",
+  "source": {
+    "name": "Limerick GAA",
+    "url": "https://limerickgaa.ie/"
+  },
+  "results": [
+    {
+      "kind": "results",
+      "title": "Limerick GAA Monday Club Results",
+      "day": "Monday 26th October",
+      "published": "2026-10-26T17:36:29.000Z",
+      "link": "https://limerickgaa.ie/limerick-gaa-monday-club-results-23/",
+      "competitions": [
+        {
+          "name": "U21 B Hurling Championship Group 2 Round 3",
+          "matches": [
+            "Croagh/Kilfinny 0-13 Ballybricken/Bohermore/South Liberties 0-13",
+            "Blackrock 1-20 Belville Gaels 1-14"
+          ]
+        },
+        {
+          "name": "U21 C Hurling Championship Group 2 Round 2",
+          "matches": [
+            "Granagh/Ballingarry/Rathkeale 1-20 Newcastle West 2-17"
+          ]
+        }
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "kind": "fixtures",
+      "title": "Limerick GAA Tuesday Cub Fixtures",
+      "day": "Tuesday 27th October",
+      "published": "2026-10-27T14:12:50.000Z",
+      "link": "https://limerickgaa.ie/limerick-gaa-tuesday-cub-fixtures/",
+      "competitions": [
+        {
+          "name": "Junior C Football Championship Semi-Finals",
+          "matches": [
+            "Patrickswell v Dromcollogher/Broadford in Mick Neville Park at 6.45pm",
+            "Athea v Murroe/Boher in Mick Neville Park at 8.15pm"
+          ]
+        }
+      ]
+    }
+  ]
+}

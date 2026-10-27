@@ -70,6 +70,26 @@ function collectArticles() {
     return articles;
 }
 
+// Public address of the site, for link previews (they need absolute URLs)
+const SITE_URL = (process.env.SITE_URL || 'https://jimcottam1.github.io/the-061/').replace(/\/?$/, '/');
+const SHARE_IMAGE = `${SITE_URL}share.png`;
+
+/** Open Graph and Twitter tags, so shared links show a headline, summary and picture in WhatsApp etc. */
+function shareTags({ title, description, url, image, type = 'website' }) {
+    const tags = {
+        'og:site_name': 'The 061',
+        'og:type': type,
+        'og:title': title,
+        'og:description': description,
+        'og:url': url,
+        'og:image': image || SHARE_IMAGE,
+        'og:locale': 'en_IE'
+    };
+    return Object.entries(tags).map(([p, c]) => `<meta property="${p}" content="${escapeHtml(c)}">`).join('\n    ')
+        + `\n    <meta name="twitter:card" content="summary_large_image">`
+        + `\n    <link rel="canonical" href="${escapeHtml(url)}">`;
+}
+
 const FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Playfair+Display:ital,wght@0,700;0,900;1,400&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">`;
@@ -148,6 +168,13 @@ function articleHtml(article) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${escapeHtml(article.headline)} - The 061</title>
     <meta name="description" content="${escapeHtml(article.summary || article.subheadline || article.headline)}">
+    ${shareTags({
+        title: article.headline,
+        description: article.summary || article.subheadline || article.headline,
+        url: `${SITE_URL}articles/${article.slug}.html`,
+        image: image,
+        type: 'article'
+    })}
     ${FONTS}
     <link rel="stylesheet" href="../styles.css?v=${STYLE_VERSION}">
 </head>
@@ -262,6 +289,11 @@ function archiveHtml(title, currentId, articles, sections) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${escapeHtml(title)} - The 061</title>
     <meta name="description" content="${escapeHtml(title)} from the last 30 days in The 061, local news for Limerick.">
+    ${shareTags({
+        title: `${title} - The 061`,
+        description: `${title} from the last 30 days in The 061, local news for Limerick.`,
+        url: `${SITE_URL}sections/${currentId}.html`
+    })}
     ${FONTS}
     <link rel="stylesheet" href="../styles.css?v=${STYLE_VERSION}">
 </head>
@@ -333,7 +365,14 @@ function buildSite() {
 
     fs.cpSync(PUBLIC_DIR, SITE_DIR, { recursive: true });
     const indexPath = path.join(SITE_DIR, 'index.html');
-    fs.writeFileSync(indexPath, fs.readFileSync(indexPath, 'utf8').replace('href="styles.css"', `href="styles.css?v=${STYLE_VERSION}"`));
+    const frontTags = shareTags({
+        title: 'The 061 - Local News for Limerick',
+        description: 'All the news of the Treaty City: local news from Limerick city and county, updated every morning.',
+        url: SITE_URL
+    });
+    fs.writeFileSync(indexPath, fs.readFileSync(indexPath, 'utf8')
+        .replace('href="styles.css"', `href="styles.css?v=${STYLE_VERSION}"`)
+        .replace('</title>', `</title>\n    ${frontTags}`));
 
     const articles = collectArticles();
 
@@ -384,6 +423,10 @@ function buildSite() {
             articles: listing
         })
     );
+
+    // Limerick GAA club results and fixtures, for the box in the Sport section (see fetch-gaa-fixtures.js)
+    const gaaFixtures = path.join(ROOT, 'data', 'gaa-fixtures.json');
+    if (fs.existsSync(gaaFixtures)) fs.copyFileSync(gaaFixtures, path.join(SITE_DIR, 'data', 'gaa-fixtures.json'));
 
     fs.writeFileSync(path.join(SITE_DIR, '404.html'), NOT_FOUND_HTML);
     fs.writeFileSync(path.join(SITE_DIR, '.nojekyll'), '');

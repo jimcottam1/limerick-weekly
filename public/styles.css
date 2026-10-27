@@ -387,6 +387,87 @@ a:hover { color: var(--accent); }
 
 /* ---------- Footer ---------- */
 
+/* ---------- Limerick now strip ---------- */
+
+.today-strip {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    gap: 4px 0;
+    padding: 6px 0;
+    border-bottom: 1px solid var(--rule);
+    font-family: var(--label);
+    font-size: 12.5px;
+    color: var(--ink-soft);
+}
+
+.today-strip[hidden] { display: none; }
+
+.today-label {
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-right: 12px;
+}
+
+.today-item + .today-item::before { content: '·'; margin: 0 10px; color: var(--ink-faint); }
+.today-item strong { color: var(--ink); }
+
+.today-strip .warn { font-weight: 700; padding: 0 5px; }
+.today-strip .warn.yellow { background: #f2c418; color: #1c1a17; }
+.today-strip .warn.orange { background: #ef8a1f; color: #1c1a17; }
+.today-strip .warn.red { background: #c62828; color: #fff; }
+
+.today-more {
+    margin-left: 14px;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+}
+
+/* ---------- GAA results and fixtures box ---------- */
+
+.fixtures {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0 44px;
+    margin-top: 18px;
+    padding: 14px 18px;
+    background: var(--paper-edge);
+    border-top: 3px solid var(--rule);
+}
+
+.fx-title {
+    font-family: var(--label);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+}
+
+.fx-day { font-family: var(--display); font-style: italic; font-size: 16px; margin-bottom: 4px; }
+.fx-comp { font-family: var(--label); font-size: 11.5px; font-weight: 700; color: var(--accent); margin: 8px 0 2px; }
+.fx-post ul { list-style: none; font-size: 14.5px; }
+.fx-post li { padding: 3px 0; border-bottom: 1px dotted var(--rule-light); }
+.fx-post li:last-child { border-bottom: none; }
+.fx-post .score { font-family: var(--label); font-weight: 700; font-size: 13px; }
+.fx-post .won { font-weight: 700; }
+.fx-post .where { display: block; font-size: 12.5px; color: var(--ink-faint); }
+.fx-post > .source-link { display: inline-block; margin-top: 6px; font-family: var(--label); font-size: 11px; color: var(--ink-faint); }
+.fx-post + .fx-post { margin-top: 12px; }
+
+@media (max-width: 700px) {
+    .fixtures { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+}
+
 /* ---------- Section navigation ---------- */
 
 .section-nav {
