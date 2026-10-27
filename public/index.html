@@ -432,7 +432,7 @@
                     <div class="stars-grid">
                         ${stars.signs.map(s => `
                             <article class="star" id="stars-${esc(s.id)}">
-                                <div class="star-head"><span class="star-symbol" aria-hidden="true">${esc(s.symbol)}</span>
+                                <div class="star-head"><span class="star-symbol" aria-hidden="true">${esc(s.symbol)}&#xFE0E;</span>
                                     <div><h3>${esc(s.name)}</h3><span class="star-dates">${esc(s.dates)}</span></div></div>
                                 <p>${esc(s.reading)}</p>
                             </article>`).join('')}

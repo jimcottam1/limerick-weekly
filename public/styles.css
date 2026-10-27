@@ -486,6 +486,9 @@ a:hover { color: var(--accent); }
 .star-head { display: flex; align-items: center; gap: 10px; margin-bottom: 4px; }
 
 .star-symbol {
+    /* Text-style symbols (not emoji), so they take the paper's colour */
+    font-family: 'Segoe UI Symbol', 'Noto Sans Symbols 2', 'Apple Symbols', 'DejaVu Sans', serif;
+    font-variant-emoji: text;
     font-size: 26px;
     line-height: 1;
     color: var(--accent);
