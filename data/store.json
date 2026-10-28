@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastScrape": "2026-10-27T18:39:50.339Z",
-    "totalArticles": 29
+    "lastScrape": "2026-10-28T11:16:57.233Z",
+    "totalArticles": 35
   },
   "articles": {
     "9290418": {
@@ -27,6 +27,18 @@
       "scrapedAt": "2026-10-24T16:59:19.235Z",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/19/15/57/ilim-Christ-the-King-Caherdavin-cheering-on-Na-Piarsaigh-19-10-26-11-30a8a693.jpeg?width=1200&auto=webp&trim=85%2C0%2C85%2C0",
       "imageCredit": "Adrian Butler"
+    },
+    "9297988": {
+      "id": "9297988",
+      "title": "PICTURES: Online safety for children information evening in Limerick",
+      "link": "https://www.limerickleader.ie/news/video-and-photogallery/pictures-online-safety-for-children-information-evening-in-limerick-9297988",
+      "description": "How Safe Are Your Kids ? Public information evening at Patrickswell Community Centre, exploring the reality of children’s lives online",
+      "pubDate": "Tue, 27 Oct 2026 21:00:41 GMT",
+      "author": "Adrian Butler",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/19/20/05/ilim-How-Safe-are-Your-Kids-public-information-evening-in-Patrickswell-19-10-26-1-393695db.jpeg?width=1200&auto=webp&trim=63%2C0%2C63%2C0",
+      "imageCredit": "Adrian Butler",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-28T11:16:40.619Z"
     },
     "9298211": {
       "id": "9298211",
@@ -100,6 +112,18 @@
       "source": "limerickleader",
       "scrapedAt": "2026-10-27T10:27:19.789Z"
     },
+    "9301329": {
+      "id": "9301329",
+      "title": "Limerick gardai urge people to report illegal use of fireworks as Halloween approaches",
+      "link": "https://www.limerickleader.ie/news/crime-courts/limerick-gardai-urge-people-to-report-illegal-use-of-fireworks-as-halloween-approaches-9301329",
+      "description": "Limerick communities are urged to report the sale or use of illegal fireworks and any associated anti-social behaviour to gardai",
+      "pubDate": "Tue, 27 Oct 2026 20:00:27 GMT",
+      "author": "Ellie McCarthy",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/15/15/41/AdobeStock_542798317.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageCredit": "InfinitumProdux - stock.adobe.com",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-28T11:16:40.619Z"
+    },
     "9301758": {
       "id": "9301758",
       "title": "Conviction for woman who assaulted a garda in Limerick station",
@@ -156,6 +180,18 @@
       "imageCredit": "Doras",
       "source": "limerickleader",
       "scrapedAt": "2026-10-26T21:44:55.965Z"
+    },
+    "9303649": {
+      "id": "9303649",
+      "title": "Passenger 'stuck in lift' for over an hour misses Limerick train",
+      "link": "https://www.limerickleader.ie/news/passenger-stuck-in-lift-for-over-an-hour-misses-limerick-train-9303649",
+      "description": "Other complaints stemming from Limerick transport lines included a report of a passenger wielding a hatchet, as well as 112 reports of unhelpful, rude, or aggressive members of staff",
+      "pubDate": "Wed, 28 Oct 2026 10:09:20 GMT",
+      "author": "Conor Curran",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/04/27/21/iconic-upload-ilim-stock-Colbert_Station.jpg-1645799828755.JPG?width=1200&auto=webp&crop=3%3A2",
+      "imageCredit": "PICTURE: Adrian Butler",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-28T11:16:40.619Z"
     },
     "9303669": {
       "id": "9303669",
@@ -538,6 +574,18 @@
       "source": "limerickleader",
       "scrapedAt": "2026-10-27T18:39:34.698Z"
     },
+    "9312014": {
+      "id": "9312014",
+      "title": "Learning Limerick presents on international stage in Switzerland",
+      "link": "https://www.limerickleader.ie/community/learning-limerick-presents-on-international-stage-in-switzerland-9312014",
+      "description": "The forum of European and North American UNESCO Learning Cities is a joint initiative of Évry-Courcouronnes and Cork",
+      "pubDate": "Wed, 28 Oct 2026 08:00:01 GMT",
+      "author": "Claire Noonan",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/27/13/13/Group-Pic-2.jpeg?width=1200&auto=webp&trim=66%2C0%2C67%2C0",
+      "imageCredit": "LL",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-28T11:16:40.619Z"
+    },
     "9312039": {
       "id": "9312039",
       "title": "'I fail': Wife of Limerick rugby legend shares bank holiday mishap",
@@ -561,6 +609,109 @@
       "imageCredit": "LL",
       "source": "limerickleader",
       "scrapedAt": "2026-10-27T18:39:34.698Z"
+    },
+    "9313088": {
+      "id": "9313088",
+      "title": "Former Limerick hurler wins fourth county medal - 30 years after first",
+      "link": "https://www.limerickleader.ie/sport/hurling/former-limerick-hurler-wins-fourth-county-medal-30-years-after-first-9313088",
+      "description": "Garryspillane were 3-10 to 0-15 winners against St Kieran’s in the Premier Junior ‘C’ decider in Rhebogue",
+      "pubDate": "Wed, 28 Oct 2026 08:30:26 GMT",
+      "author": "Joel Slattery",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/27/20/34/BouncersCs.png?width=1200&auto=webp&trim=0%2C9%2C0%2C9",
+      "imageCredit": "FACEBOOK / GARRYSPILLANE GAA",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-28T11:16:40.619Z"
+    },
+    "9313090": {
+      "id": "9313090",
+      "title": "Young guns key to bringing Munster to the next level - McMillan",
+      "link": "https://www.limerickleader.ie/sport/rugby/munster-rugby/young-guns-key-to-bringing-munster-to-the-next-level-mcmillan-9313090",
+      "description": "Munster face a month long break after the Sharks game due to Ireland’s Autumn International fixtures",
+      "pubDate": "Wed, 28 Oct 2026 08:30:08 GMT",
+      "author": "John Keogh",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/27/20/10/3600659.jpeg?width=1200&auto=webp&trim=0%2C33%2C0%2C32",
+      "imageCredit": "SPORTSFILE",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-28T11:16:40.619Z"
+    },
+    "9313329": {
+      "id": "9313329",
+      "title": "Macklemore: Free Palestine show was ‘one of most beautiful moments’ of my life",
+      "link": "https://www.limerickleader.ie/national/macklemore-free-palestine-show-was-one-of-most-beautiful-moments-of-my-life-9313329",
+      "description": "The 43-year-old – real name Benjamin Haggerty – said he had ‘tears in my eyes’ for the entirety of Monday night’s sold-out show at the 3Arena.",
+      "pubDate": "Tue, 27 Oct 2026 22:56:59 GMT",
+      "author": "Carla Feric and Lauren Del Fabbro and  Press Association",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/08/cs-f72214bc-575f-4d9f-a2f9-d8753331908b.jpg?width=1200&auto=webp&crop=3%3A2",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-28T11:16:40.619Z"
+    },
+    "9313472": {
+      "id": "9313472",
+      "title": "Man appears in court charged with murder of woman in Dublin suburb",
+      "link": "https://www.limerickleader.ie/national/man-appears-in-court-charged-with-murder-of-woman-in-dublin-suburb-9313472",
+      "description": "Loredana Morosanu was found dead at a property in Melville Terrace, Finglas, shortly after 4.30am on Monday.",
+      "pubDate": "Tue, 27 Oct 2026 20:46:49 GMT",
+      "author": "Cillian Sherlock and  Press Association",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/09/cs-1667475e-f64b-429d-8c66-1a54e1ef3ad5.jpg?width=1200&auto=webp&crop=3%3A2",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-28T11:16:40.619Z"
+    },
+    "9313546": {
+      "id": "9313546",
+      "title": "Criminal legal aid dispute ‘can be resolved’, Taoiseach says",
+      "link": "https://www.limerickleader.ie/national/criminal-legal-aid-dispute-can-be-resolved-taoiseach-says-9313546",
+      "description": "Minister Jim O’Callaghan is due to meet with the Law Society this week amid a row over how criminal defence solicitors are paid under legal aid.",
+      "pubDate": "Tue, 27 Oct 2026 18:15:56 GMT",
+      "author": "Cillian Sherlock and  Press Association",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/09/cs-4609f18b-d3ca-4edd-9773-353a5e2d595e.jpg?width=1200&auto=webp&crop=3%3A2",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-28T11:16:40.619Z"
+    },
+    "9313581": {
+      "id": "9313581",
+      "title": "Former president’s comments on neutrality ‘unfair’, Taoiseach says",
+      "link": "https://www.limerickleader.ie/national/former-presidents-comments-on-neutrality-unfair-taoiseach-says-9313581",
+      "description": "It was ‘unfair’ for former president Michael D Higgins to warn Ireland was sliding into military alliances, Micheál Martin said.",
+      "pubDate": "Tue, 27 Oct 2026 18:13:44 GMT",
+      "author": "Cillian Sherlock and  Press Association",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/09/cs-a296ac20-406c-4845-ae16-2cc2e4e1237b.jpg?width=1200&auto=webp&crop=3%3A2",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-28T11:16:40.619Z"
+    },
+    "9313665": {
+      "id": "9313665",
+      "title": "‘A new low’ – Thomas Byrne hits out at former president and opposition TDs",
+      "link": "https://www.limerickleader.ie/national/a-new-low-thomas-byrne-hits-out-at-former-president-and-opposition-tds-9313665",
+      "description": "The Minister of State for European Affairs and Defence was speaking ahead of a Ireland-Belarus conference.",
+      "pubDate": "Tue, 27 Oct 2026 16:27:52 GMT",
+      "author": "Mícheál Ó Scannáil and  Press Association",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/09/cs-2df164c1-0731-485d-a282-5b7d7c657320.jpeg?width=1200&auto=webp&crop=3%3A2",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-28T11:16:40.619Z"
+    },
+    "9314013": {
+      "id": "9314013",
+      "title": "Fedamore honour hurling heroes with night of celebration and new book",
+      "link": "https://www.limerickleader.ie/sport/gaa/fedamore-honour-hurling-heroes-with-night-of-celebration-and-new-book-9314013",
+      "description": "It is nearly 50 years since Fedamore earned victory over Glenroe in the Limerick Intermediate Hurling final",
+      "pubDate": "Wed, 28 Oct 2026 10:24:32 GMT",
+      "author": "Liam O'Brien",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/10/29/Screenshot-2026-10-08-at-17-05-43-(2).png?width=1200&auto=webp&trim=8%2C0%2C8%2C0",
+      "imageCredit": "Fedamore GAA Club",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-28T11:16:40.619Z"
+    },
+    "9314189": {
+      "id": "9314189",
+      "title": "This unusual VPN has slashed its subscription price by 75% (aff)",
+      "link": "https://www.limerickleader.ie/recommended/vpn-privacy-security-savings-broadband-9314189",
+      "description": "Scientists who met at CERN helped create it, and some of its servers sit on a former military base. But it’s the 75% discount that might first catch your attention",
+      "pubDate": "Wed, 28 Oct 2026 10:52:50 GMT",
+      "author": "Gareth Butterfield",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/10/17/windows-refresh-pr-3-no-logo.webp?width=1200&auto=webp&trim=0%2C113%2C0%2C112",
+      "imageCredit": "Proton VPN",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-28T11:16:40.619Z"
     },
     "https://www.limerickpost.ie/?p=362473": {
       "id": "https://www.limerickpost.ie/?p=362473",
@@ -1011,6 +1162,76 @@
       "author": "PRO",
       "source": "limerickgaa",
       "scrapedAt": "2026-10-27T18:39:42.065Z"
+    },
+    "https://www.limerickpost.ie/?p=362563": {
+      "id": "https://www.limerickpost.ie/?p=362563",
+      "title": "Things to Do in Limerick: Halloween Events & Live Music, 29 October–4 November",
+      "link": "https://www.limerickpost.ie/2026/10/28/things-to-do-in-limerick-halloween-events-live-music-29-october-4-november/",
+      "description": "Looking for things to do in Limerick this Halloween weekend and beyond? From live music, comedy and theatre to Halloween tours, spooky family events, film screenings and traditional Irish music, there’s plenty happening across the city and county from Thursday 29 October to Wednesday 4 November. Explore the latest gigs, cultural events, festivals and entertainment, [&#8230;]\nThe post Things to Do in Limerick: Halloween Events &#038; Live Music, 29 October–4 November appeared first on Limerick Post.",
+      "pubDate": "Wed, 28 Oct 2026 10:35:11 +0000",
+      "author": "Eric Fitzgerald",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-28T11:16:40.055Z"
+    },
+    "https://www.limerickpost.ie/?p=362532": {
+      "id": "https://www.limerickpost.ie/?p=362532",
+      "title": "New Limerick Poetry Mag will support vital work of local mental health charity",
+      "link": "https://www.limerickpost.ie/2026/10/28/new-limerick-poetry-mag-will-support-vital-work-of-local-mental-health-charity/",
+      "description": "A GROUP of Limerick creatives will come together this week for the launch of a new poetry book to support a local mental health charity. The Blue Flame Poetry Club will release The Limerick Poetry Mag in support of Limerick Mental Health Association (LMHA) and Solace Café this Thursday, October 29. The group who meet [&#8230;]\nThe post New Limerick Poetry Mag will support vital work of local mental health charity appeared first on Limerick Post.",
+      "pubDate": "Wed, 28 Oct 2026 10:30:45 +0000",
+      "author": "Sarah Coleman",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-28T11:16:40.055Z"
+    },
+    "https://www.limerickpost.ie/?p=362529": {
+      "id": "https://www.limerickpost.ie/?p=362529",
+      "title": "Bruff Tidy Towns crowned winners of Limerick Going for Gold 2026",
+      "link": "https://www.limerickpost.ie/2026/10/28/bruff-tidy-towns-crowned-winners-of-limerick-going-for-gold-2026/",
+      "description": "BRUFF Tidy Towns were crowned as Limerick Going for Gold Overall Champions 2026 winning the top prize of €10,000. They topped a field of 32 finalist communities recognised for their commitment to sustainability, biodiversity, environmental stewardship and community pride. Limerick Going for Gold is a community-based competition with €74,500 in prize funding, celebrating the volunteers, [&#8230;]\nThe post Bruff Tidy Towns crowned winners of Limerick Going for Gold 2026 appeared first on Limerick Post.",
+      "pubDate": "Wed, 28 Oct 2026 09:00:39 +0000",
+      "author": "Sarah Coleman",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-28T11:16:40.055Z"
+    },
+    "https://limerickvoice.com/?p=53234": {
+      "id": "https://limerickvoice.com/?p=53234",
+      "title": "Black market fireworks: Gardaí issue appeal to public ahead of Halloween",
+      "link": "https://limerickvoice.com/news/black-market-fireworks-gardai-issue-appeal-to-public-ahead-of-halloween/",
+      "description": "Gardaí have issued a public safety appeal ahead of Halloween following the discovery of powerful new fireworks on the black market.  THE WARNING comes as Operation Tombola, An Garda Síochána&#8217;s annual campaign aimed at preventing the importation, sale and use of illegal fireworks, continues across the country.  The warning comes as Operation Tombola, An Garda [&#8230;]\nThe post Black market fireworks: Gardaí issue appeal to public ahead of Halloween appeared first on .",
+      "pubDate": "Wed, 28 Oct 2026 10:00:59 +0000",
+      "author": "Kayleigh Downey",
+      "source": "limerickvoice",
+      "scrapedAt": "2026-10-28T11:16:41.413Z"
+    },
+    "https://limerickvoice.com/?p=53229": {
+      "id": "https://limerickvoice.com/?p=53229",
+      "title": "UL’s SHAG Week will provide a more inclusive sexual health platform for students",
+      "link": "https://limerickvoice.com/features/uls-shag-week-will-provide-a-more-inclusive-sexual-health-platform-for-students/",
+      "description": "The University of Limerick&#8217;s Sexual Health and Guidance (SHAG) Week returns once again. RUNNING from today until Thursday, October 29, UL&#8217;s Student Life will offer students opportunities to learn more about sex and relationships in an open and inclusive environment.   Speaking to the Limerick Voice, Vice President for Diversity and Inclusion in UL Student Life [&#8230;]\nThe post UL&#8217;s SHAG Week will provide a more inclusive sexual health platform for students appeared first on .",
+      "pubDate": "Wed, 28 Oct 2026 08:00:05 +0000",
+      "author": "Anna Kissane",
+      "source": "limerickvoice",
+      "scrapedAt": "2026-10-28T11:16:41.413Z"
+    },
+    "https://limerickvoice.com/?p=53201": {
+      "id": "https://limerickvoice.com/?p=53201",
+      "title": "Caherline’s claim to Ballon D’or: Harry Kane’s unlikely Limerick link",
+      "link": "https://limerickvoice.com/features/caherlines-claim-to-ballon-dor-harry-kanes-unlikely-limerick-link/",
+      "description": "Harry Kane’s Irish roots run deeper than you might think. ENGLAND&#8217;S all-time top goalscorer&#8217;s Irish roots are no secret, but did you know how close to home they actually are?  There were huge celebrations in London last night as Harry Kane was awarded football’s greatest individual honour, but people in the Treaty County can also share [&#8230;]\nThe post Caherline&#8217;s claim to Ballon D&#8217;or: Harry Kane&#8217;s unlikely Limerick link appeared first on .",
+      "pubDate": "Tue, 27 Oct 2026 19:30:41 +0000",
+      "author": "Greg King",
+      "source": "limerickvoice",
+      "scrapedAt": "2026-10-28T11:16:41.413Z"
+    },
+    "https://limerickgaa.ie/?p=142779": {
+      "id": "https://limerickgaa.ie/?p=142779",
+      "title": "More action shots from last Sundays Whitebox Property Developments Ltd, Senior Hurling Championship Final between Kilmallock and Na Piarsaigh:",
+      "link": "https://limerickgaa.ie/more-action-shots-from-last-sundays-whitebox-property-developments-ltd-senior-hurling-championship-final-between-kilmallock-and-na-piarsaigh/",
+      "description": "More action shots from last Sundays Whitebox Property Developments Ltd, Senior Hurling Championship Final between Kilmallock and Na Piarsaigh, Kilmallock came out on top by 3-19 to Na Piarsaigh 1-22, Referee John O Halloran (Bruree).",
+      "pubDate": "Wed, 28 Oct 2026 10:36:00 +0000",
+      "author": "PRO",
+      "source": "limerickgaa",
+      "scrapedAt": "2026-10-28T11:16:46.151Z"
     }
   },
   "rewritten": {
@@ -1045,6 +1266,22 @@
       "section": "Sport",
       "importance": 4,
       "positivity": 4
+    },
+    "9297988": {
+      "headline": "Patrickswell Community Centre hosts public information evening on children's online safety",
+      "summary": "Parents and guardians gathered at Patrickswell Community Centre for a public information evening examining the reality of children's lives online.",
+      "story": "Parents and guardians from across the area attended a public information evening at Patrickswell Community Centre to explore the realities of children's lives online.\n\nThe event, titled 'How Safe Are Your Kids?', focused on addressing the challenges and risks associated with children and young people navigating the digital world.\n\nOrganisers provided guidance and practical information for families looking to better understand online safety and digital wellbeing.",
+      "localAngle": "The public information event took place locally at Patrickswell Community Centre in County Limerick.",
+      "section": "News",
+      "importance": 2,
+      "positivity": 3,
+      "originalTitle": "PICTURES: Online safety for children information evening in Limerick",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/news/video-and-photogallery/pictures-online-safety-for-children-information-evening-in-limerick-9297988",
+      "publishedAt": "Tue, 27 Oct 2026 21:00:41 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/19/20/05/ilim-How-Safe-are-Your-Kids-public-information-evening-in-Patrickswell-19-10-26-1-393695db.jpeg?width=1200&auto=webp&trim=63%2C0%2C63%2C0",
+      "imageCredit": "Adrian Butler",
+      "rewrittenAt": "2026-10-28T11:20:08.815Z"
     },
     "9298211": {
       "headline": "Limerick Artist Shortlisted for RDS Visual Art Awards",
@@ -1131,6 +1368,11 @@
       "imageCredit": "File Photograph",
       "rewrittenAt": "2026-10-27T10:28:23.800Z"
     },
+    "9301329": {
+      "skipped": true,
+      "duplicateOf": "https://limerickvoice.com/?p=53234",
+      "rewrittenAt": "2026-10-28T11:18:23.773Z"
+    },
     "9301758": {
       "headline": "Woman Convicted at Kilmallock Court for Assaulting Garda at Bruff Station",
       "summary": "A woman has been convicted at Kilmallock District Court for assaulting a member of An Garda Síochána. The incident took place at Bruff garda station in County Limerick.",
@@ -1208,6 +1450,22 @@
       "section": "News",
       "importance": 3,
       "positivity": 2
+    },
+    "9303649": {
+      "headline": "Limerick Passenger Misses Train After Being Trapped in Lift for Over an Hour",
+      "summary": "A Limerick rail passenger missed their train after getting stuck in a station lift for more than an hour. The incident was recorded alongside numerous other complaints regarding local transport services.",
+      "story": "A rail commuter in Limerick missed their scheduled departure after spending more than an hour trapped inside a station lift. The incident was documented as part of a series of transport complaints logged across local transit lines.\n\nAlongside the prolonged lift entrapment, transport records revealed a separate alarming incident involving a passenger wielding a hatchet on the network. Commuters also lodged a total of 112 complaints concerning staff members described as unhelpful, rude, or aggressive.\n\nThe transport issues highlight ongoing concerns for commuters navigating the local rail and transit infrastructure, ranging from equipment failures to passenger safety and customer service standards.",
+      "localAngle": "The incident directly impacts Limerick commuters relying on local rail transport and station facilities.",
+      "section": "News",
+      "importance": 3,
+      "positivity": 2,
+      "originalTitle": "Passenger 'stuck in lift' for over an hour misses Limerick train",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/news/passenger-stuck-in-lift-for-over-an-hour-misses-limerick-train-9303649",
+      "publishedAt": "Wed, 28 Oct 2026 10:09:20 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/04/27/21/iconic-upload-ilim-stock-Colbert_Station.jpg-1645799828755.JPG?width=1200&auto=webp&crop=3%3A2",
+      "imageCredit": "PICTURE: Adrian Butler",
+      "rewrittenAt": "2026-10-28T11:19:05.892Z"
     },
     "9303669": {
       "headline": "Boots adds eight new beauty brands to its product range",
@@ -1620,6 +1878,22 @@
       "imageCredit": "File photo",
       "rewrittenAt": "2026-10-27T18:41:15.715Z"
     },
+    "9312014": {
+      "headline": "Learning Limerick showcased at international UNESCO forum in Switzerland",
+      "summary": "Limerick presented its educational initiatives on the international stage at a forum of European and North American UNESCO Learning Cities in Switzerland. The event was a joint initiative hosted by Évry-Courcouronnes and Cork.",
+      "story": "Limerick took its educational achievements to an international audience this week, presenting at a gathering of European and North American UNESCO Learning Cities in Switzerland.\n\nThe international forum serves as a collaborative platform for cities dedicated to promoting lifelong learning. The event itself is a joint initiative organised by Évry-Courcouronnes and Cork.\n\nParticipation in the Swiss event allows Limerick to share its local learning strategies alongside other international cities while engaging with broader European and North American networks involved in the UNESCO initiative.",
+      "localAngle": "Limerick's education initiatives were presented on the international stage at the UNESCO Learning Cities forum in Switzerland.",
+      "section": "News",
+      "importance": 3,
+      "positivity": 4,
+      "originalTitle": "Learning Limerick presents on international stage in Switzerland",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/community/learning-limerick-presents-on-international-stage-in-switzerland-9312014",
+      "publishedAt": "Wed, 28 Oct 2026 08:00:01 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/27/13/13/Group-Pic-2.jpeg?width=1200&auto=webp&trim=66%2C0%2C67%2C0",
+      "imageCredit": "LL",
+      "rewrittenAt": "2026-10-28T11:19:50.750Z"
+    },
     "9312039": {
       "headline": "Limerick rugby legend's wife shares bank holiday mix-up on social media",
       "summary": "An influencer and model connected to Limerick rugby has opened up about her organisational struggles after completely losing track of a recent bank holiday.",
@@ -1651,6 +1925,114 @@
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/22/15/46/Limerick-Courthouse.jpeg?width=1200&auto=webp&trim=0%2C3%2C0%2C3",
       "imageCredit": "LL",
       "rewrittenAt": "2026-10-27T18:41:06.898Z"
+    },
+    "9313088": {
+      "headline": "Garryspillane claim Premier Junior C title as veteran wins fourth county medal",
+      "summary": "Garryspillane defeated St Kieran's 3-10 to 0-15 in the Premier Junior 'C' final in Rhebogue, securing the championship and marking a fourth county medal for a veteran player three decades after his first.",
+      "story": "Garryspillane are county champions after a 3-10 to 0-15 victory over St Kieran's in the Premier Junior 'C' decider.\n\nThe final, played in Rhebogue, saw Garryspillane seal the three-point win to claim the silverware.\n\nThe victory holds a special personal milestone for one member of the Garryspillane side, who secured his fourth county medal exactly 30 years after winning his first.",
+      "localAngle": "The match took place in Rhebogue and involved two Limerick hurling clubs contesting the county Premier Junior 'C' final.",
+      "section": "Sport",
+      "importance": 3,
+      "positivity": 4,
+      "originalTitle": "Former Limerick hurler wins fourth county medal - 30 years after first",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/sport/hurling/former-limerick-hurler-wins-fourth-county-medal-30-years-after-first-9313088",
+      "publishedAt": "Wed, 28 Oct 2026 08:30:26 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/27/20/34/BouncersCs.png?width=1200&auto=webp&trim=0%2C9%2C0%2C9",
+      "imageCredit": "FACEBOOK / GARRYSPILLANE GAA",
+      "rewrittenAt": "2026-10-28T11:19:33.792Z"
+    },
+    "9313090": {
+      "skipped": true,
+      "duplicateOf": "9307939",
+      "rewrittenAt": "2026-10-28T11:18:23.773Z"
+    },
+    "9313329": {
+      "headline": "Macklemore calls sold-out Dublin 3Arena Palestine benefit gig a career highlight",
+      "summary": "American rapper Macklemore described his sold-out Monday night show at the 3Arena as one of the most beautiful moments of his life. The 43-year-old artist admitted he had tears in his eyes throughout the entire performance.",
+      "story": "US rapper Macklemore has revealed that his recent sold-out concert in Dublin was one of the most profound experiences of his career. \n\nThe 43-year-old performer, whose real name is Benjamin Haggerty, took to the stage at the 3Arena on Monday night for a dedicated Free Palestine show.\n\nSpeaking about the event, Haggerty shared that he was deeply moved by the atmosphere in the capital. The artist admitted he had \"tears in my eyes\" for the entirety of the packed arena performance.",
+      "localAngle": "Many music fans from Limerick and across the country travelled to the capital to attend the high-profile sold-out concert at the 3Arena.",
+      "section": "Arts & Culture",
+      "importance": 2,
+      "positivity": 4,
+      "originalTitle": "Macklemore: Free Palestine show was ‘one of most beautiful moments’ of my life",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/national/macklemore-free-palestine-show-was-one-of-most-beautiful-moments-of-my-life-9313329",
+      "publishedAt": "Tue, 27 Oct 2026 22:56:59 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/08/cs-f72214bc-575f-4d9f-a2f9-d8753331908b.jpg?width=1200&auto=webp&crop=3%3A2",
+      "rewrittenAt": "2026-10-28T11:19:59.960Z"
+    },
+    "9313472": {
+      "skipped": true,
+      "duplicateOf": "9311853",
+      "rewrittenAt": "2026-10-28T11:18:23.773Z"
+    },
+    "9313546": {
+      "headline": "Taoiseach Expresses Confidence in Resolving Criminal Legal Aid Dispute",
+      "summary": "Taoiseach insists a resolution can be found in the ongoing payment dispute between criminal defence solicitors and the State. Minister Jim O’Callaghan is scheduled to meet with the Law Society this week.",
+      "story": "A resolution to the ongoing dispute over criminal legal aid payments is achievable, according to the Taoiseach. The remarks come as tensions continue between criminal defence solicitors and the government regarding the current remuneration structure under the legal aid system.\n\nMinister Jim O’Callaghan is set to hold discussions with the Law Society this week in an effort to address the concerns raised by legal professionals. The outcome of these upcoming talks could prove pivotal in averting further escalation within the sector.\n\nThe ongoing row directly impacts the administration of criminal justice across the country, affecting legal representation in courts nationwide, including local proceedings here on Leeside and throughout the region.",
+      "localAngle": "The nationwide dispute over criminal legal aid directly impacts the operation of courts and the availability of defence representation for cases heard in Limerick.",
+      "section": "Courts",
+      "importance": 4,
+      "positivity": 3,
+      "originalTitle": "Criminal legal aid dispute ‘can be resolved’, Taoiseach says",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/national/criminal-legal-aid-dispute-can-be-resolved-taoiseach-says-9313546",
+      "publishedAt": "Tue, 27 Oct 2026 18:15:56 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/09/cs-4609f18b-d3ca-4edd-9773-353a5e2d595e.jpg?width=1200&auto=webp&crop=3%3A2",
+      "rewrittenAt": "2026-10-28T11:20:27.128Z"
+    },
+    "9313581": {
+      "headline": "Micheál Martin criticises Michael D Higgins' warning over Irish military neutrality",
+      "summary": "Taoiseach Micheál Martin has stated it was 'unfair' for former president Michael D Higgins to warn that Ireland is sliding into military alliances.",
+      "story": "Taoiseach Micheál Martin has rejected comments made by former president Michael D Higgins regarding the nation's stance on military neutrality.\n\nMr Higgins had previously warned that Ireland was sliding into military alliances. Speaking in response to the remarks, Mr Martin described the former president's assessment as 'unfair'.\n\nThe exchange brings national debate over defence policy and neutrality back into the spotlight as political figures clash over the future direction of the state's international standing.",
+      "localAngle": "This national political debate over Irish neutrality and foreign policy is of direct interest to voters and communities across Limerick.",
+      "section": "Council",
+      "importance": 4,
+      "positivity": 3,
+      "originalTitle": "Former president’s comments on neutrality ‘unfair’, Taoiseach says",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/national/former-presidents-comments-on-neutrality-unfair-taoiseach-says-9313581",
+      "publishedAt": "Tue, 27 Oct 2026 18:13:44 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/09/cs-a296ac20-406c-4845-ae16-2cc2e4e1237b.jpg?width=1200&auto=webp&crop=3%3A2",
+      "rewrittenAt": "2026-10-28T11:20:36.133Z"
+    },
+    "9313665": {
+      "skipped": true,
+      "duplicateOf": "9313581",
+      "rewrittenAt": "2026-10-28T11:18:23.773Z"
+    },
+    "9314013": {
+      "headline": "Fedamore marks 50th anniversary of historic intermediate hurling victory over Glenroe",
+      "summary": "Fedamore GAA club celebrated nearly 50 years since its famous intermediate hurling final win against Glenroe with a special night of events and the launch of a new book.",
+      "story": "The parish of Fedamore came together to mark a golden milestone in its local hurling history, looking back almost five decades since the club claimed victory over Glenroe in the Limerick Intermediate Hurling final.\n\nSupporters, players and club members gathered for a special night of celebration to honour the team that secured the historic title. The anniversary event also featured the official launch of a new book chronicling the famous campaign and the players who brought glory to the area.\n\nThe retrospective looks back at the journey to the final nearly 50 years ago, capturing a defining era for the south Limerick club and preserving the memory of the victory for current and future generations of hurlers in the parish.",
+      "localAngle": "The story celebrates a historic local GAA milestone in south County Limerick, recalling the 1970s intermediate hurling rivalry between Fedamore and Glenroe.",
+      "section": "Sport",
+      "importance": 2,
+      "positivity": 4,
+      "originalTitle": "Fedamore honour hurling heroes with night of celebration and new book",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/sport/gaa/fedamore-honour-hurling-heroes-with-night-of-celebration-and-new-book-9314013",
+      "publishedAt": "Wed, 28 Oct 2026 10:24:32 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/10/29/Screenshot-2026-10-08-at-17-05-43-(2).png?width=1200&auto=webp&trim=8%2C0%2C8%2C0",
+      "imageCredit": "Fedamore GAA Club",
+      "rewrittenAt": "2026-10-28T11:18:57.097Z"
+    },
+    "9314189": {
+      "headline": "CERN-backed VPN provider slashes subscription prices by 75 percent",
+      "summary": "A virtual private network developed by scientists who met at CERN has reduced its subscription price by 75%. Some of the service's servers are housed on a former military base.",
+      "story": "A virtual private network (VPN) created by a team of scientists who originally met at CERN has announced a 75% price cut on its subscription plans. \n\nThe security service, which features infrastructure including servers stationed on a former military base, is offering the substantial discount to new subscribers. \n\nWhile the network's high-profile origins and unusual server locations have drawn attention from tech users, the steep reduction in cost marks the primary change for consumers looking to secure their online browsing.",
+      "localAngle": "Limerick internet users looking to upgrade their online security can now access the CERN-backed VPN at a fraction of its usual cost.",
+      "section": "Business",
+      "importance": 2,
+      "positivity": 4,
+      "originalTitle": "This unusual VPN has slashed its subscription price by 75% (aff)",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/recommended/vpn-privacy-security-savings-broadband-9314189",
+      "publishedAt": "Wed, 28 Oct 2026 10:52:50 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/10/17/windows-refresh-pr-3-no-logo.webp?width=1200&auto=webp&trim=0%2C113%2C0%2C112",
+      "imageCredit": "Proton VPN",
+      "rewrittenAt": "2026-10-28T11:18:30.025Z"
     },
     "https://limerickvoice.com/?p=53125": {
       "skipped": true,
@@ -2240,6 +2622,107 @@
       "rewrittenAt": "2026-10-27T18:40:43.241Z",
       "imageUrl": null,
       "imageCheckedAt": "2026-10-27T18:41:17.181Z"
+    },
+    "https://limerickgaa.ie/?p=142779": {
+      "skipped": true,
+      "duplicateOf": "9308453",
+      "rewrittenAt": "2026-10-28T11:18:23.773Z"
+    },
+    "https://www.limerickpost.ie/?p=362563": {
+      "headline": "Limerick Kicks Off Spooky Season With Packed Lineup of Live Music and Events",
+      "summary": "A packed schedule of Halloween tours, comedy, theatre, and live music kicks off across Limerick city and county from Thursday 29 October to Wednesday 4 November.",
+      "story": "Limerick is gearing up for a bustling week of entertainment as a packed schedule of Halloween events, live music, and cultural performances kicks off across the city and county.\n\nThe festivities begin on Thursday 29 October with a range of activities, including a Halloween Fancy Dress 5km run at King John’s Castle Plaza, Tommy Tiernan performing at the Lime Tree Theatre, and the ongoing Scare Factory at the Cleeves Factory. Music fans can also catch REBOOT Presents: Clouds at Dolans, alongside various traditional music sessions and open mic comedy nights.\n\nVenues across Limerick, including Dolans, Belltable, Lime Tree Theatre, and the University Concert Hall, will host events running through Wednesday 4 November. The lineup features theatrical shows, film screenings, and live music acts such as Pink Floyd tribute Breathe at the Lime Tree Theatre and the Sibin Soundsystem presenting Disrupt at Pharmacia on Friday.",
+      "localAngle": "The events span multiple prominent venues and locations across Limerick city and county, offering local entertainment throughout the Halloween weekend.",
+      "section": "Arts & Culture",
+      "importance": 2,
+      "positivity": 4,
+      "originalTitle": "Things to Do in Limerick: Halloween Events & Live Music, 29 October–4 November",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/28/things-to-do-in-limerick-halloween-events-live-music-29-october-4-november/",
+      "publishedAt": "Wed, 28 Oct 2026 10:35:11 +0000",
+      "rewrittenAt": "2026-10-28T11:18:39.185Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/10/twilight-thursday-run-1032-810-x-456px.png",
+      "imageCheckedAt": "2026-10-28T11:20:36.593Z"
+    },
+    "https://www.limerickpost.ie/?p=362532": {
+      "headline": "Blue Flame Poetry Club launches new Limerick magazine for mental health charity",
+      "summary": "Local creatives are releasing The Limerick Poetry Mag this Thursday to raise funds for the Limerick Mental Health Association and Solace Café. The publication will be on sale for €5 at various city locations with quarterly editions planned.",
+      "story": "A new poetry publication aiming to support vital local mental health services is set to launch in Limerick this Thursday, October 29. Produced by the Blue Flame Poetry Club, *The Limerick Poetry Mag* will raise funds for the Limerick Mental Health Association (LMHA) and the Solace Café, with a large portion of the proceeds donated directly to LMHA.\n\nThe magazine provides a publishing platform for local poets of all ages. Regular meetings are held by the group at the Solace Café on Sarsfield Street during their 'Twilight Thursday' gatherings, and organizers are welcoming new members to join as they plan to release a new poetry book every quarter.\n\nThe launch event takes place at the Sarsfield Street café from 7pm to 9pm with refreshments provided. Copies of the magazine will be available to purchase for €5 at the launch, as well as through LMHA, the Celtic Book Store, The Commercial, and Quay Books.\n\nSolace Café, located in the Old Pier One Hotel building, operates a free, non-clinical, walk-in service for anyone over 18 experiencing mental health struggles. The facility relies on peer support from individuals with lived experience to provide a safe, non-judgmental environment.",
+      "localAngle": "The publication and launch events directly involve Limerick creatives and raise funds for local mental health services on Sarsfield Street.",
+      "section": "Arts & Culture",
+      "importance": 2,
+      "positivity": 4,
+      "originalTitle": "New Limerick Poetry Mag will support vital work of local mental health charity",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/28/new-limerick-poetry-mag-will-support-vital-work-of-local-mental-health-charity/",
+      "publishedAt": "Wed, 28 Oct 2026 10:30:45 +0000",
+      "rewrittenAt": "2026-10-28T11:18:48.430Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/10/Jean-Flannery-and-Philip-of-Blue-Flame-Poetry-Club-with-Poetry-Mag.jpeg",
+      "imageCheckedAt": "2026-10-28T11:20:37.575Z"
+    },
+    "https://limerickvoice.com/?p=53234": {
+      "headline": "Gardaí issue Limerick Halloween warning after powerful new fireworks seized on black market",
+      "summary": "An Garda Síochána has issued a public safety appeal across Limerick and nationwide ahead of Halloween following the discovery of powerful new illegal fireworks. Authorities have seized 575 fireworks worth over €235,000 under Operation Tombola between 2023 and 2026.",
+      "story": "Gardaí have issued a public safety appeal ahead of Halloween following the discovery of powerful new fireworks on the black market. The warning comes as Operation Tombola, An Garda Síochána’s annual campaign aimed at preventing the importation, sale and use of illegal fireworks, continues across the country.\n\nAccording to Gardaí, 575 fireworks worth an estimated €235,163 have been seized under Operation Tombola between 2023 and 2026, with seizures increasing by 7% in 2026 compared to the previous year. The operation seeks to raise awareness of legislation prohibiting the import, sale, and possession of fireworks, while highlighting the dangers of burns, injuries, fires, and distress caused to vulnerable community members and animals.\n\nFigures released by Gardaí indicate that over 98% of recorded incidents were categorized as firework offences. Of those incidents involving a suspected offender, 95% were male, 5% were female, and 71% were under the age of 18. Authorities are urging the public to enjoy Halloween responsibly, advising parents to supervise children near bonfires and to only attend organized public events.\n\nGardaí also reminded the public to consider older residents, individuals with sensory issues, and animals who can experience severe stress and anxiety from fireworks. Officials advised people never to handle or throw fireworks, and never to consume intoxicants near bonfires.",
+      "localAngle": "The nationwide Garda safety campaign and crackdown on illegal fireworks directly impacts local communities across Limerick ahead of Halloween celebrations.",
+      "section": "News",
+      "importance": 4,
+      "positivity": 2,
+      "originalTitle": "Black market fireworks: Gardaí issue appeal to public ahead of Halloween",
+      "originalSource": "limerickvoice",
+      "originalLink": "https://limerickvoice.com/news/black-market-fireworks-gardai-issue-appeal-to-public-ahead-of-halloween/",
+      "publishedAt": "Wed, 28 Oct 2026 10:00:59 +0000",
+      "rewrittenAt": "2026-10-28T11:19:15.431Z",
+      "imageUrl": "https://limerickvoice.com/wp-content/uploads/2026/10/jez-timms-_Ch_onWf38o-unsplash_Kayleigh-Downey-scaled.jpg",
+      "imageCheckedAt": "2026-10-28T11:20:37.833Z"
+    },
+    "https://www.limerickpost.ie/?p=362529": {
+      "headline": "Bruff Tidy Towns takes €10,000 top prize at Limerick Going for Gold 2026",
+      "summary": "Bruff Tidy Towns has been crowned the overall champion of the 2026 Limerick Going for Gold competition, claiming the €10,000 top prize at a ceremony at the Greenhills Hotel.",
+      "story": "Bruff Tidy Towns has taken the overall title at the Limerick Going for Gold 2026 awards, beating out a field of 32 finalist communities to secure the €10,000 top prize. The winners were announced at a ceremony held at the Greenhills Hotel, attended by representatives from communities across Limerick City and County.\n\nA total of 82 groups applied to take part in the 2026 initiative, which aims to celebrate volunteers, residents' groups, and community organisations working to improve local areas. The competition focuses on sustainability, biodiversity, environmental stewardship, and community pride, and features €74,500 in total prize funding.\n\nAdare Tidy Towns finished second in the overall category, taking home €7,000. They were followed by Patrickswell Tidy Towns in third place with €5,000, Castleconnell receiving €3,000, and Kilmallock securing €2,000. Additional category winners were also named across various areas including residential spaces, the new youth involvement category, and judge's awards.\n\nThe Limerick Going for Gold initiative is funded and coordinated by Limerick City and County Council in partnership with the JP McManus Charitable Foundation. The judging process for the finalists included visits from retired council judges Pat Shearin and Michael Griffin, alongside public voting for selected Tidy Towns finalists via Live95.",
+      "localAngle": "The competition celebrates community groups and volunteers working to improve towns and villages across Limerick City and County.",
+      "section": "News",
+      "importance": 3,
+      "positivity": 5,
+      "originalTitle": "Bruff Tidy Towns crowned winners of Limerick Going for Gold 2026",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/28/bruff-tidy-towns-crowned-winners-of-limerick-going-for-gold-2026/",
+      "publishedAt": "Wed, 28 Oct 2026 09:00:39 +0000",
+      "rewrittenAt": "2026-10-28T11:19:24.392Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/10/limk-going-for-gold-081.jpg",
+      "imageCheckedAt": "2026-10-28T11:20:38.705Z"
+    },
+    "https://limerickvoice.com/?p=53229": {
+      "headline": "UL Student Life Launches Inclusive SHAG Week Promoting Safe Sex and Wellbeing",
+      "summary": "The University of Limerick has kicked off its annual Sexual Health and Guidance Week, featuring queer-inclusive events, STI testing, and wellness workshops running until Thursday.",
+      "story": "The University of Limerick’s Student Life has launched its annual Sexual Health and Guidance (SHAG) Week, running until Thursday, October 29. The programme aims to provide students with an open and inclusive platform to learn about sex, relationships, and wellbeing as they navigate new experiences on campus.\n\nCuán Hayes, Vice President for Diversity and Inclusion in UL Student Life, noted that college is often the first space where young people freely explore their sexual identities. \"There’s a lot of people having sex, and it’s nice to see they’re using protection, but SHAG Week is about elevating that message of safety, because students are going to have sex no matter what,\" Hayes said. Events include a Sex Fair at the Student Centre featuring games and prizes, alongside an information seminar hosted by Sex Siopa.\n\nOrganisers have this year shifted away from gender-segregated programming, such as previous sections titled 'Viva la Vulva' and 'Penis Power', bringing all activities under a single, queer- and trans-inclusive umbrella. Collaborations with local organisations include on-campus STI testing provided by GOSHH (Gender, Orientation, Sexual Health and HIV) and resources on gender-affirming care from the Trans Limerick Community (TLC).\n\nStudents seeking information or resources can access pamphlets and events on campus or view details via the UL Student Life Instagram page. Hayes encouraged all students to participate, noting that confidential resources and support are available for those who prefer to browse independently.",
+      "localAngle": "The event is hosted on campus by University of Limerick Student Life in partnership with local Limerick organisations GOSHH and the Trans Limerick Community.",
+      "section": "News",
+      "importance": 3,
+      "positivity": 4,
+      "originalTitle": "UL’s SHAG Week will provide a more inclusive sexual health platform for students",
+      "originalSource": "limerickvoice",
+      "originalLink": "https://limerickvoice.com/features/uls-shag-week-will-provide-a-more-inclusive-sexual-health-platform-for-students/",
+      "publishedAt": "Wed, 28 Oct 2026 08:00:05 +0000",
+      "rewrittenAt": "2026-10-28T11:19:42.950Z",
+      "imageUrl": "https://limerickvoice.com/wp-content/uploads/2026/10/Shag-Week-Anna-Kissane-Article.png",
+      "imageCheckedAt": "2026-10-28T11:20:39.079Z"
+    },
+    "https://limerickvoice.com/?p=53201": {
+      "headline": "England striker Harry Kane wins Ballon d’Or with roots in Caherline",
+      "summary": "England captain Harry Kane has won football's prestigious Ballon d'Or award. The striker's paternal grandmother was born in Caherline, County Limerick, and he is also a descendant of a 1897 All-Ireland winning hurler.",
+      "story": "England and Bayern Munich striker Harry Kane has been awarded the Ballon d’Or following a stellar career that has seen him score 543 goals to date. While celebrations took place in London, supporters in the Treaty County can also claim a connection to football's highest individual honour.\n\nKane's paternal grandmother, Teresa Fitzgerald, was born in Caherline, just outside Caherconlish, before she emigrated to Britain during the 1950s. His grandfather, Mike Kane, originally hailed from County Galway.\n\nThe 33-year-old's Limerick lineage extends further into sporting history. Kane is a descendant of Jim Flood, a member of the Limerick team that defeated Kilkenny to secure the county's first All-Ireland Senior Hurling Championship in 1897.\n\nHaving netted 156 goals in 159 appearances for Bayern Munich alongside his record-breaking spells for Tottenham Hotspur and England, Kane's family history provides Treaty County fans with a unique local link to a global football star.",
+      "localAngle": "Harry Kane's paternal grandmother was born in Caherline and he is a descendant of 1897 All-Ireland hurling winner Jim Flood.",
+      "section": "Sport",
+      "importance": 3,
+      "positivity": 4,
+      "originalTitle": "Caherline’s claim to Ballon D’or: Harry Kane’s unlikely Limerick link",
+      "originalSource": "limerickvoice",
+      "originalLink": "https://limerickvoice.com/features/caherlines-claim-to-ballon-dor-harry-kanes-unlikely-limerick-link/",
+      "publishedAt": "Tue, 27 Oct 2026 19:30:41 +0000",
+      "rewrittenAt": "2026-10-28T11:20:18.657Z",
+      "imageUrl": "https://limerickvoice.com/wp-content/uploads/2026/10/51860334802_2684104531_b_Greg-King.jpg",
+      "imageCheckedAt": "2026-10-28T11:20:39.400Z"
     }
   }
 }
