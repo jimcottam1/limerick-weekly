@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastScrape": "2026-10-28T11:16:57.233Z",
-    "totalArticles": 35
+    "lastScrape": "2026-10-28T15:54:49.559Z",
+    "totalArticles": 32
   },
   "articles": {
     "9290418": {
@@ -502,6 +502,18 @@
       "source": "limerickleader",
       "scrapedAt": "2026-10-26T11:54:51.842Z"
     },
+    "9308583": {
+      "id": "9308583",
+      "title": "'I try to be myself as much as possible' - Simon Zebo on new book ",
+      "link": "https://www.limerickleader.ie/sport/rugby/munster-rugby/simon-zebo-on-his-new-book-life-after-rugby-and-the-world-of-punditry-9308583",
+      "description": "The former Munster and Ireland international will be signing copies of his new book ‘Zeebs’ in O’Mahony’s Bookstore on O’Connell Street this Saturday, October 31 at 1pm",
+      "pubDate": "Wed, 28 Oct 2026 14:30:06 GMT",
+      "author": "Oisín Nolan",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/25/18/28/2851187.jpeg?width=1200&auto=webp&trim=0%2C198%2C110%2C198",
+      "imageCredit": "SPORTSFILE",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-28T15:54:37.383Z"
+    },
     "9309556": {
       "id": "9309556",
       "title": "Eagles see off Celtics in Basketball Super League Limerick derby",
@@ -634,6 +646,18 @@
       "source": "limerickleader",
       "scrapedAt": "2026-10-28T11:16:40.619Z"
     },
+    "9313286": {
+      "id": "9313286",
+      "title": "Why Na Piarsaigh are far from finished despite final heartbreak",
+      "link": "https://www.limerickleader.ie/sport/hurling/why-na-piarsaigh-are-far-from-finished-after-final-heartbreak-9313286",
+      "description": "When William O’Donoghue powered through for an incredible goal it almost seemed inevitable that the champions would retain their crown",
+      "pubDate": "Wed, 28 Oct 2026 11:30:54 GMT",
+      "author": "Joel Slattery",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/8/39/3602437.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageCredit": "SPORTSFILE",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-28T15:54:37.383Z"
+    },
     "9313329": {
       "id": "9313329",
       "title": "Macklemore: Free Palestine show was ‘one of most beautiful moments’ of my life",
@@ -712,6 +736,28 @@
       "imageCredit": "Proton VPN",
       "source": "limerickleader",
       "scrapedAt": "2026-10-28T11:16:40.619Z"
+    },
+    "9314966": {
+      "id": "9314966",
+      "title": "Tánaiste confirms he made ‘routine’ call to Patrick O’Donovan on day he fell ill",
+      "link": "https://www.limerickleader.ie/national/tanaiste-confirms-he-made-routine-call-to-patrick-odonovan-on-day-he-fell-ill-9314966",
+      "description": "Simon Harris rejected a suggestion he had asked the Culture Minister to consider his position in the phone call.",
+      "pubDate": "Wed, 28 Oct 2026 10:56:35 GMT",
+      "author": "Cate McCurry and David Young and  Press Association",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/11/cs-0c27fb93-be34-47ec-8566-7a3d7ff851a7.jpg?width=1200&auto=webp&crop=3%3A2",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-28T15:54:37.383Z"
+    },
+    "9316213": {
+      "id": "9316213",
+      "title": "Sinn Fein TD backs Ó Snodaigh who chairs charity in money laundering probe",
+      "link": "https://www.limerickleader.ie/national/sinn-fein-td-backs-o-snodaigh-who-chairs-charity-in-money-laundering-probe-9316213",
+      "description": "There is no suggestion of wrongdoing on Aengus Ó Snodaigh’s behalf and the Dublin TD is not under criminal investigation.",
+      "pubDate": "Wed, 28 Oct 2026 15:17:08 GMT",
+      "author": "Cate McCurry and  Press Association",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/15/cs-79f49915-1c2d-4cb5-bafc-93649fdd60f6.jpg?width=1200&auto=webp&crop=3%3A2",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-28T15:54:37.383Z"
     },
     "https://www.limerickpost.ie/?p=362473": {
       "id": "https://www.limerickpost.ie/?p=362473",
@@ -1232,6 +1278,36 @@
       "author": "PRO",
       "source": "limerickgaa",
       "scrapedAt": "2026-10-28T11:16:46.151Z"
+    },
+    "https://www.limerickpost.ie/?p=362543": {
+      "id": "https://www.limerickpost.ie/?p=362543",
+      "title": "Update sought on communication boards in Limerick council ran spaces",
+      "link": "https://www.limerickpost.ie/2026/10/28/update-sought-on-communication-boards-in-limerick-council-ran-spaces/",
+      "description": "SOCIAL Democrats councillor Shane Hickey-O&#8217;Mara has asked Limerick Council for an update on the procurement and roll-out of communication boards in local authority run spaces as well as the time line for their installation. Cllr Hickey-O&#8217;Mara was informed that the charity organisations who promote this service were consulted and the product samples were received and [&#8230;]\nThe post Update sought on communication boards in Limerick council ran spaces appeared first on Limerick Post.",
+      "pubDate": "Wed, 28 Oct 2026 15:00:36 +0000",
+      "author": "Alan Jacques",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-28T15:54:36.645Z"
+    },
+    "https://www.limerickpost.ie/?p=362541": {
+      "id": "https://www.limerickpost.ie/?p=362541",
+      "title": "Another horse seized by Limerick council",
+      "link": "https://www.limerickpost.ie/2026/10/28/another-horse-seized-by-limerick-council/",
+      "description": "A HORSE was seized by Limerick City and County Council in a busy residential area in Limerick City. A statement from Limerick Council said that the local authority seized a 1.5-year-old brown and while male horse on October 6 at Collivet Court in John Carew Park, Limerick City. According to the Council, the owners or [&#8230;]\nThe post Another horse seized by Limerick council appeared first on Limerick Post.",
+      "pubDate": "Wed, 28 Oct 2026 13:30:44 +0000",
+      "author": "Adam Leahy",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-28T15:54:36.645Z"
+    },
+    "https://www.limerickpost.ie/?p=362539": {
+      "id": "https://www.limerickpost.ie/?p=362539",
+      "title": "Dedicated Bus Éireann communication office on Cllr wishlist",
+      "link": "https://www.limerickpost.ie/2026/10/28/dedicated-bus-eireann-communication-office-on-cllr-wishlist/",
+      "description": "THE establishment of a dedicated Bus Éireann communication office in Limerick is on the wish-list of Independent councillor Elena Secas. The need for a direct contact in Limerick, the City East representative explained, comes following ongoing difficulties experienced by parents in contacting and obtaining responses to school transport queries. &#8220;Currently, one must contact the Bus [&#8230;]\nThe post Dedicated Bus Éireann communication office on Cllr wishlist appeared first on Limerick Post.",
+      "pubDate": "Wed, 28 Oct 2026 12:00:42 +0000",
+      "author": "Alan Jacques",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-28T15:54:36.645Z"
     }
   },
   "rewritten": {
@@ -1804,6 +1880,22 @@
       "importance": 4,
       "positivity": 4
     },
+    "9308583": {
+      "headline": "Simon Zebo to sign copies of new book at O'Mahony's Bookstore",
+      "summary": "Former Munster and Ireland rugby star Simon Zebo will appear at O'Mahony's Bookstore on O'Connell Street this Saturday to sign copies of his autobiography, 'Zeebs'.",
+      "story": "Former Munster and Ireland international rugby player Simon Zebo is returning to Limerick this weekend to meet fans and sign copies of his new autobiography, titled 'Zeebs'.\n\nThe public signing will take place at O'Mahony's Bookstore on O'Connell Street this Saturday, October 31, starting at 1pm.\n\nThe book offers a candid look into the player's life and career, with Zebo noting of the project: \"I try to be myself as much as possible.\"\n\nFans and readers are expected to turn out in numbers for the city centre event to meet one of Munster's most popular modern players.",
+      "localAngle": "The event takes place at O'Mahony's Bookstore on O'Connell Street, celebrating the career of a former Munster rugby favorite.",
+      "section": "Arts & Culture",
+      "importance": 2,
+      "positivity": 4,
+      "originalTitle": "'I try to be myself as much as possible' - Simon Zebo on new book ",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/sport/rugby/munster-rugby/simon-zebo-on-his-new-book-life-after-rugby-and-the-world-of-punditry-9308583",
+      "publishedAt": "Wed, 28 Oct 2026 14:30:06 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/25/18/28/2851187.jpeg?width=1200&auto=webp&trim=0%2C198%2C110%2C198",
+      "imageCredit": "SPORTSFILE",
+      "rewrittenAt": "2026-10-28T15:57:44.033Z"
+    },
     "9309556": {
       "headline": "Limerick Eagles Upset Table-Toppers Celtics in Super League Derby at UL Arena",
       "summary": "Limerick Eagles pulled off a major upset against league leaders Limerick Celtics in their Men’s Super League clash. The dramatic local derby took place at the UL Arena.",
@@ -1947,6 +2039,11 @@
       "duplicateOf": "9307939",
       "rewrittenAt": "2026-10-28T11:18:23.773Z"
     },
+    "9313286": {
+      "skipped": true,
+      "duplicateOf": "9308453",
+      "rewrittenAt": "2026-10-28T15:56:02.409Z"
+    },
     "9313329": {
       "headline": "Macklemore calls sold-out Dublin 3Arena Palestine benefit gig a career highlight",
       "summary": "American rapper Macklemore described his sold-out Monday night show at the 3Arena as one of the most beautiful moments of his life. The 43-year-old artist admitted he had tears in his eyes throughout the entire performance.",
@@ -2033,6 +2130,36 @@
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/10/17/windows-refresh-pr-3-no-logo.webp?width=1200&auto=webp&trim=0%2C113%2C0%2C112",
       "imageCredit": "Proton VPN",
       "rewrittenAt": "2026-10-28T11:18:30.025Z"
+    },
+    "9314966": {
+      "headline": "Simon Harris denies asking Limerick Minister Patrick O'Donovan to resign",
+      "summary": "Tánaiste Simon Harris has confirmed he called Limerick TD and Culture Minister Patrick O'Donovan on the day the Minister fell ill, but firmly rejected suggestions he asked him to consider his position.",
+      "story": "Tánaiste Simon Harris has addressed a phone call made to Limerick Minister Patrick O'Donovan on the day the local TD fell ill, describing the exchange as entirely routine.\n\nMr Harris explicitly rejected any suggestion that he used the conversation to ask the Culture Minister to consider his position in Government.\n\nThe clarification comes following scrutiny over the timing of the call, which coincided with the day the Fine Gael Minister became unwell.",
+      "localAngle": "The story directly involves Limerick County TD and Cabinet Minister Patrick O'Donovan.",
+      "section": "Council",
+      "importance": 4,
+      "positivity": 3,
+      "originalTitle": "Tánaiste confirms he made ‘routine’ call to Patrick O’Donovan on day he fell ill",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/national/tanaiste-confirms-he-made-routine-call-to-patrick-odonovan-on-day-he-fell-ill-9314966",
+      "publishedAt": "Wed, 28 Oct 2026 10:56:35 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/11/cs-0c27fb93-be34-47ec-8566-7a3d7ff851a7.jpg?width=1200&auto=webp&crop=3%3A2",
+      "rewrittenAt": "2026-10-28T15:59:16.517Z"
+    },
+    "9316213": {
+      "headline": "Sinn Féin TD Aengus Ó Snodaigh Backed Amid Charity Money Laundering Probe",
+      "summary": "A Sinn Féin TD has publicly backed party colleague Aengus Ó Snodaigh, who chairs a charity currently facing a money laundering investigation. Officials have confirmed that Ó Snodaigh is not under criminal investigation and faces no suggestion of wrongdoing.",
+      "story": "A senior Sinn Féin figure has thrown support behind Dublin TD Aengus Ó Snodaigh as he faces scrutiny over his role as chair of a charity currently subjected to a money laundering probe.\n\nDespite the ongoing investigation into the organization, authorities have confirmed there is no suggestion of any wrongdoing on Ó Snodaigh’s behalf. The Dublin representative is not currently under any criminal investigation in connection with the case.\n\nThe development has drawn national attention as political figures navigate the unfolding investigation surrounding the charity's financial operations and governance.",
+      "localAngle": "National political developments involving Oireachtas members and charitable organizations are closely monitored by voters and public representatives across Limerick and the wider Mid-West region.",
+      "section": "Council",
+      "importance": 3,
+      "positivity": 3,
+      "originalTitle": "Sinn Fein TD backs Ó Snodaigh who chairs charity in money laundering probe",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/national/sinn-fein-td-backs-o-snodaigh-who-chairs-charity-in-money-laundering-probe-9316213",
+      "publishedAt": "Wed, 28 Oct 2026 15:17:08 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/15/cs-79f49915-1c2d-4cb5-bafc-93649fdd60f6.jpg?width=1200&auto=webp&crop=3%3A2",
+      "rewrittenAt": "2026-10-28T15:56:19.545Z"
     },
     "https://limerickvoice.com/?p=53125": {
       "skipped": true,
@@ -2723,6 +2850,54 @@
       "rewrittenAt": "2026-10-28T11:20:18.657Z",
       "imageUrl": "https://limerickvoice.com/wp-content/uploads/2026/10/51860334802_2684104531_b_Greg-King.jpg",
       "imageCheckedAt": "2026-10-28T11:20:39.400Z"
+    },
+    "https://www.limerickpost.ie/?p=362543": {
+      "headline": "Limerick Council Rolls Out Communication Boards Across 16 County Libraries",
+      "summary": "Following a query from Social Democrats Councillor Shane Hickey-O'Mara, Limerick City and County Council confirmed that new communication boards have been delivered, wall-mounted, and distributed to all 16 library branches across the county.",
+      "story": "New communication boards have been successfully rolled out across all 16 library branches in Limerick city and county, local authority officials have confirmed.\n\nThe update was provided following a query from Social Democrats councillor Shane Hickey-O’Mara, who had asked the Council for details regarding the procurement, timeline, and rollout of the accessibility tools in local authority-run spaces.\n\nIn response, the Council revealed that relevant charity organisations were consulted during the process. Product samples were subsequently reviewed, leading to an order being placed to meet the anticipated needs of the library service.\n\nThe selected communication boards have now been delivered and distributed across all 16 branches. The local authority confirmed that wall-mounted signs have been installed, alongside A4 laminated boards designed for individuals of different abilities to use.",
+      "localAngle": "The new accessibility boards have been installed in all 16 library branches across Limerick city and county.",
+      "section": "Council",
+      "importance": 3,
+      "positivity": 4,
+      "originalTitle": "Update sought on communication boards in Limerick council ran spaces",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/28/update-sought-on-communication-boards-in-limerick-council-ran-spaces/",
+      "publishedAt": "Wed, 28 Oct 2026 15:00:36 +0000",
+      "rewrittenAt": "2026-10-28T15:57:12.937Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2024/08/Cllr-Shane-Hickey-OMara-5-scaled-e1723196424541.jpg",
+      "imageCheckedAt": "2026-10-28T15:59:16.814Z"
+    },
+    "https://www.limerickpost.ie/?p=362541": {
+      "headline": "Limerick City and County Council seizes abandoned horse in John Carew Park",
+      "summary": "Limerick City and County Council has seized an abandoned 1.5-year-old horse in the John Carew Park area of the city. The animal will be re-homed outside of Limerick if not claimed within five days.",
+      "story": "Limerick City and County Council has removed an abandoned horse from a busy residential area in Limerick City.\n\nAccording to a statement from the local authority, the 1.5-year-old brown and white male horse was seized on October 6 at Collivet Court in John Carew Park. \n\nThe Council confirmed that the owners or keepers of the animal are currently unknown. Under local procedures, seized horses that remain unclaimed after a five-day period are re-homed to shelters outside of Limerick.",
+      "localAngle": "The incident involves the removal of an abandoned animal from a residential neighbourhood in Limerick City by the local authority.",
+      "section": "Council",
+      "importance": 3,
+      "positivity": 3,
+      "originalTitle": "Another horse seized by Limerick council",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/28/another-horse-seized-by-limerick-council/",
+      "publishedAt": "Wed, 28 Oct 2026 13:30:44 +0000",
+      "rewrittenAt": "2026-10-28T15:58:03.269Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/03/horse-Irina-Beletskaya-unsplash-irina-beletskaya-P5vrA1pQ5xg-unsplash.jpg",
+      "imageCheckedAt": "2026-10-28T15:59:17.515Z"
+    },
+    "https://www.limerickpost.ie/?p=362539": {
+      "headline": "Cllr Elena Secas calls for dedicated Bus Éireann office in Limerick",
+      "summary": "Independent Councillor Elena Secas is pushing for a dedicated Bus Éireann communication office in Limerick to resolve ongoing delays faced by parents dealing with school transport queries.",
+      "story": "Independent Councillor Elena Secas has called for the establishment of a dedicated Bus Éireann communication office in Limerick. The City East representative raised the issue following persistent difficulties experienced by local parents trying to contact the transport provider regarding school transport queries.\n\nAccording to Cllr Secas, families are currently forced to deal exclusively with the main Bus Éireann office in Dublin, with no direct contact route available for the Limerick branch. She stated that repeated phone calls, emails, and online forms are frequently left unanswered for weeks at a time.\n\n\"This lack of communication makes it extremely difficult to support families and resolve problems in a timely manner,\" Cllr Secas said, adding that the delays carry serious consequences for local households and cause widespread frustration.",
+      "localAngle": "The proposed communication office would directly benefit Limerick families struggling to resolve school transport issues with the national provider.",
+      "section": "Council",
+      "importance": 3,
+      "positivity": 2,
+      "originalTitle": "Dedicated Bus Éireann communication office on Cllr wishlist",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/28/dedicated-bus-eireann-communication-office-on-cllr-wishlist/",
+      "publishedAt": "Wed, 28 Oct 2026 12:00:42 +0000",
+      "rewrittenAt": "2026-10-28T15:58:38.820Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2025/10/Elena-secas-Last-ful-Co-Meeting-scaled.webp",
+      "imageCheckedAt": "2026-10-28T15:59:17.780Z"
     }
   }
 }
