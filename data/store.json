@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastScrape": "2026-10-28T15:54:49.559Z",
-    "totalArticles": 32
+    "lastScrape": "2026-10-28T18:47:50.874Z",
+    "totalArticles": 31
   },
   "articles": {
     "9290418": {
@@ -702,6 +702,18 @@
       "source": "limerickleader",
       "scrapedAt": "2026-10-28T11:16:40.619Z"
     },
+    "9313655": {
+      "id": "9313655",
+      "title": "Hiring in the Mid-West: free careers fair comes to Limerick this November",
+      "link": "https://www.limerickleader.ie/sponsored-content/hiring-in-the-mid-west-free-careers-fair-comes-to-limerick-this-november-9316697",
+      "description": "Jobs Expo Limerick returns to The Greenhills Hotel on Saturday 7th November, with employers recruiting across healthcare, engineering, technology, hospitality and the public sector. Entry is free.",
+      "pubDate": "Wed, 28 Oct 2026 16:37:00 GMT",
+      "author": "Jayde Maher",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/9/48/Jos-expo.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageCredit": "Jos expo",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-28T18:47:39.259Z"
+    },
     "9313665": {
       "id": "9313665",
       "title": "‘A new low’ – Thomas Byrne hits out at former president and opposition TDs",
@@ -747,6 +759,42 @@
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/11/cs-0c27fb93-be34-47ec-8566-7a3d7ff851a7.jpg?width=1200&auto=webp&crop=3%3A2",
       "source": "limerickleader",
       "scrapedAt": "2026-10-28T15:54:37.383Z"
+    },
+    "9315631": {
+      "id": "9315631",
+      "title": "PICTURES: Spooky fun at Limerick's Halloween festivities",
+      "link": "https://www.limerickleader.ie/news/video-and-photogallery/pictures-spooky-fun-at-limericks-halloween-festivities-9315631",
+      "description": "With events for all the family, Home of Halloween and Limerick Harvest Festival certainly got Limerick in the Halloween spirit",
+      "pubDate": "Wed, 28 Oct 2026 18:00:11 GMT",
+      "author": "Photographer Kieran Ryan-Benson",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/10/52/KRB-25-10-2026-LCCC-Home-of-Halloween-502-926be7e0.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageCredit": "PICTURE: KIERAN RYAN-BENSON",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-28T18:47:39.258Z"
+    },
+    "9315676": {
+      "id": "9315676",
+      "title": "Then and now: Kilmallock duo celebrate glory 12 years apart",
+      "link": "https://www.limerickleader.ie/sport/hurling/then-and-now-kilmallock-duo-celebrate-glory-12-years-apart-9315676",
+      "description": "Jackie Dwane, along with the likes of Shane O’Brien, Pierce Connery and Gearoid Enright won their first SHC title on Sunday while the experienced Mulcahy picked up a fifth winners’ medal at the weekend",
+      "pubDate": "Wed, 28 Oct 2026 17:30:17 GMT",
+      "author": "Joel Slattery",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/12/25/Graeme-and-Jackie.jpeg?width=1200&auto=webp&trim=326%2C0%2C474%2C0",
+      "imageCredit": "FACEBOOK / KILMALLOCK GAA",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-28T18:47:39.259Z"
+    },
+    "9315927": {
+      "id": "9315927",
+      "title": "Limerick woman's accomplice wrote letter 'taking the hit' for crimes, court hears",
+      "link": "https://www.limerickleader.ie/news/crime-courts/limerick-womans-accomplice-wrote-letter-taking-the-hit-for-crimes-court-hears-9315927",
+      "description": "Defence Barrister Erin O’Hagan said these offences “tell a tale” of a woman who was struggling with addiction",
+      "pubDate": "Wed, 28 Oct 2026 18:30:36 GMT",
+      "author": "Ellie McCarthy",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/07/13/14/43/Screenshot-2026-07-13-154552.png?width=1200&auto=webp&trim=0%2C1%2C0%2C1",
+      "imageCredit": "Iconic",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-28T18:47:39.258Z"
     },
     "9316213": {
       "id": "9316213",
@@ -1308,6 +1356,46 @@
       "author": "Alan Jacques",
       "source": "limerickpost",
       "scrapedAt": "2026-10-28T15:54:36.645Z"
+    },
+    "https://www.limerickpost.ie/?p=362547": {
+      "id": "https://www.limerickpost.ie/?p=362547",
+      "title": "Winning start for Limerick in Oscar Traynor",
+      "link": "https://www.limerickpost.ie/2026/10/28/winning-start-for-limerick-in-oscar-traynor/",
+      "description": "LIMERICK District League scored a merited 5-2 away win over the Desmond League in the Oscar Traynor Trophy at Mick Hanly Park, Askeaton mid-week. In the group phase, there is also involvement from Cork and North Tipperary. On Wednesday, the goals for John Lysaght’s team came from Joel Coustrain (2, Aisling Annacotty), Filip Mostowy (Regional [&#8230;]\nThe post Winning start for Limerick in Oscar Traynor appeared first on Limerick Post.",
+      "pubDate": "Wed, 28 Oct 2026 18:00:10 +0000",
+      "author": "Mal Keaveney",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-28T18:47:38.624Z"
+    },
+    "https://www.limerickpost.ie/?p=362590": {
+      "id": "https://www.limerickpost.ie/?p=362590",
+      "title": "Dead pensioner had broken bones in her neck and almost 50 bruises on her body",
+      "link": "https://www.limerickpost.ie/2026/10/28/dead-pensioner-had-broken-bones-in-her-neck-and-almost-50-bruises-on-her-body/",
+      "description": "A PENSIONER allegedly strangled and smothered in her home, suffered two broken bones in her neck and almost 50 bruises to her body in the attack, a court heard Wednesday. Josephine “Josie” Ray, (89), was found dead in her bed, at her home, at St Joseph’s Park, Nenagh, Co Tipperary, on August 4, 2024. The [&#8230;]\nThe post Dead pensioner had broken bones in her neck and almost 50 bruises on her body appeared first on Limerick Post.",
+      "pubDate": "Wed, 28 Oct 2026 16:51:51 +0000",
+      "author": "David Raleigh",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-28T18:47:38.624Z"
+    },
+    "https://www.limerickpost.ie/?p=362545": {
+      "id": "https://www.limerickpost.ie/?p=362545",
+      "title": "Limerick Gardaí warn of theft of home heating oil as colder months set in",
+      "link": "https://www.limerickpost.ie/2026/10/28/limerick-gardai-warn-of-theft-of-home-heating-oil-as-colder-months-set-in/",
+      "description": "GARDAÍ in Abbeyfeale are investigating the theft of home heating oil from a property which had been vacant for two weeks. When the homeowners returned, they discovered oil was siphoned from the tank. Crime Prevention Officer Sergeant Michelle O&#8217;Halloran said: &#8220;This is a good reminder, particularly as we approach the winter months, to make sure [&#8230;]\nThe post Limerick Gardaí warn of theft of home heating oil as colder months set in appeared first on Limerick Post.",
+      "pubDate": "Wed, 28 Oct 2026 16:30:36 +0000",
+      "author": "Bernie English",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-28T18:47:38.624Z"
+    },
+    "https://limerickvoice.com/?p=53246": {
+      "id": "https://limerickvoice.com/?p=53246",
+      "title": "Music and community at the heart of Limerick Dementia Social Club this season",
+      "link": "https://limerickvoice.com/news/music-and-community-at-the-heart-of-limerick-dementia-social-club-this-season/",
+      "description": "The Limerick Dementia Social Club has announced a programme of activities for the next several weeks.  ON the first Wednesday of each month, Limerick Dementia Social Club meets at Our Lady of Lourdes Community Centre, Childers Road, from 6.30pm to 8.45pm.  The social club provides an opportunity for people with dementia and their carers to [&#8230;]\nThe post Music and community at the heart of Limerick Dementia Social Club this season appeared first on .",
+      "pubDate": "Wed, 28 Oct 2026 16:00:02 +0000",
+      "author": "Anna Kissane",
+      "source": "limerickvoice",
+      "scrapedAt": "2026-10-28T18:47:39.931Z"
     }
   },
   "rewritten": {
@@ -2094,6 +2182,22 @@
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/09/cs-a296ac20-406c-4845-ae16-2cc2e4e1237b.jpg?width=1200&auto=webp&crop=3%3A2",
       "rewrittenAt": "2026-10-28T11:20:36.133Z"
     },
+    "9313655": {
+      "headline": "Jobs Expo Limerick Returns to Greenhills Hotel with Free Entry on November 7",
+      "summary": "Jobseekers in the Mid-West can attend a free careers fair at The Greenhills Hotel on Saturday, November 7, featuring employers recruiting across multiple sectors.",
+      "story": "Jobseekers across the Mid-West will have a major opportunity to connect with potential employers next month as the Jobs Expo Limerick returns to the city.\n\nThe event takes place on Saturday, 7th November, at The Greenhills Hotel. Admission to the careers fair is entirely free for attendees.\n\nOrganisers confirmed that employers from a wide range of industries will be present on the day, actively recruiting for open positions. Participating sectors include healthcare, engineering, technology, hospitality, and the public sector.\n\nThe expo aims to bridge the gap between local jobseekers and companies looking to fill vacancies across these key employment areas.",
+      "localAngle": "The event provides a direct recruitment boost for the Limerick region, bringing multiple employers and local jobseekers together under one roof at the Greenhills Hotel.",
+      "section": "Business",
+      "importance": 4,
+      "positivity": 4,
+      "originalTitle": "Hiring in the Mid-West: free careers fair comes to Limerick this November",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/sponsored-content/hiring-in-the-mid-west-free-careers-fair-comes-to-limerick-this-november-9316697",
+      "publishedAt": "Wed, 28 Oct 2026 16:37:00 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/9/48/Jos-expo.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageCredit": "Jos expo",
+      "rewrittenAt": "2026-10-28T18:49:42.912Z"
+    },
     "9313665": {
       "skipped": true,
       "duplicateOf": "9313581",
@@ -2145,6 +2249,32 @@
       "publishedAt": "Wed, 28 Oct 2026 10:56:35 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/11/cs-0c27fb93-be34-47ec-8566-7a3d7ff851a7.jpg?width=1200&auto=webp&crop=3%3A2",
       "rewrittenAt": "2026-10-28T15:59:16.517Z"
+    },
+    "9315631": {
+      "skipped": true,
+      "duplicateOf": "https://www.limerickpost.ie/?p=362563",
+      "rewrittenAt": "2026-10-28T18:49:09.685Z"
+    },
+    "9315676": {
+      "skipped": true,
+      "duplicateOf": "9310943",
+      "rewrittenAt": "2026-10-28T18:49:09.686Z"
+    },
+    "9315927": {
+      "headline": "Accomplice wrote letter taking blame for crimes, Limerick court hears",
+      "summary": "A Limerick court heard that a woman's accomplice wrote a letter attempting to take the blame for offences committed while she struggled with addiction.",
+      "story": "Details of the case emerged during a court hearing where defence barrister Erin O’Hagan addressed the background to the charges. Ms O’Hagan told the court that the offences \"tell a tale\" of a woman who was struggling with addiction at the time.\n\nDuring the proceedings, it was revealed that an accomplice of the Limerick woman had written a letter attempting to \"take the hit\" for the crimes. The court heard submissions regarding the circumstances surrounding the offences and the nature of the relationship between the co-accused.\n\nLegal representatives outlined the context of the offending behavior as the case proceeded through the court system. Further details of the matter were presented before the court as the legal arguments continued.",
+      "localAngle": "The case was heard before the courts system dealing with matters involving Limerick individuals.",
+      "section": "Courts",
+      "importance": 3,
+      "positivity": 2,
+      "originalTitle": "Limerick woman's accomplice wrote letter 'taking the hit' for crimes, court hears",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/news/crime-courts/limerick-womans-accomplice-wrote-letter-taking-the-hit-for-crimes-court-hears-9315927",
+      "publishedAt": "Wed, 28 Oct 2026 18:30:36 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/07/13/14/43/Screenshot-2026-07-13-154552.png?width=1200&auto=webp&trim=0%2C1%2C0%2C1",
+      "imageCredit": "Iconic",
+      "rewrittenAt": "2026-10-28T18:49:19.712Z"
     },
     "9316213": {
       "headline": "Sinn Féin TD Aengus Ó Snodaigh Backed Amid Charity Money Laundering Probe",
@@ -2898,6 +3028,59 @@
       "rewrittenAt": "2026-10-28T15:58:38.820Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2025/10/Elena-secas-Last-ful-Co-Meeting-scaled.webp",
       "imageCheckedAt": "2026-10-28T15:59:17.780Z"
+    },
+    "https://www.limerickpost.ie/?p=362590": {
+      "skipped": true,
+      "duplicateOf": "9311853",
+      "rewrittenAt": "2026-10-28T18:49:09.686Z"
+    },
+    "https://www.limerickpost.ie/?p=362547": {
+      "headline": "Limerick District League kick off Oscar Traynor campaign with 5-2 win over Desmond League",
+      "summary": "John Lysaght's Limerick side secured a 5-2 away victory against the Desmond League at Mick Hanly Park in Askeaton on Wednesday. Goals from Joel Coustrain, Filip Mostowy, Vinny Ryan, and James Fitzgerald got the campaign off to a winning start.",
+      "story": "The Limerick District League made a winning start to their Oscar Traynor Trophy campaign this week, securing a 5-2 away victory over the Desmond League at Mick Hanly Park in Askeaton.\n\nManaged by John Lysaght, the Limerick team found the net five times mid-week to claim the opening points in a group phase that also features Cork and North Tipperary.\n\nThe goals came courtesy of a brace from Aisling Annacotty's Joel Coustrain, alongside strikes from Filip Mostowy of Regional United, Ballynanty Rovers player Vinny Ryan, and James Fitzgerald of Geraldines.\n\nLimerick will be looking to build on this strong opening performance as they aim to capture the competition outright for the first time since 2019.",
+      "localAngle": "The Limerick District League side represents local soccer clubs in the region as they compete in the inter-league Oscar Traynor Trophy.",
+      "section": "Sport",
+      "importance": 3,
+      "positivity": 4,
+      "originalTitle": "Winning start for Limerick in Oscar Traynor",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/28/winning-start-for-limerick-in-oscar-traynor/",
+      "publishedAt": "Wed, 28 Oct 2026 18:00:10 +0000",
+      "rewrittenAt": "2026-10-28T18:49:30.919Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/10/LDL.jpg",
+      "imageCheckedAt": "2026-10-28T18:50:09.295Z"
+    },
+    "https://www.limerickpost.ie/?p=362545": {
+      "headline": "Abbeyfeale Homeowners Targeted as Thieves Siphon Heating Oil From Vacant Property",
+      "summary": "Gardaí in Abbeyfeale have launched an investigation after thieves siphoned home heating oil from a property left vacant for two weeks. Authorities have issued a security warning to homeowners across Limerick as colder weather arrives.",
+      "story": "Gardaí in Abbeyfeale are investigating the theft of home heating oil from a local property after thieves targeted a house that had been vacant for just two weeks. When the homeowners returned to the premises, they discovered that the oil had been siphoned directly from their tank.\n\nIn response to the incident, Crime Prevention Officer Sergeant Michelle O’Halloran has issued a timely warning to residents across Limerick as temperatures begin to drop. She urged homeowners to ensure their oil tanks are properly secured ahead of the winter months.\n\n\"If possible, consider installing a lockable tank cover or security cage, and make sure the tank is positioned in a secure and well-lit area,\" Sergeant O’Halloran said. She added that external lighting, CCTV systems, and house alarms can also serve as effective deterrents against fuel theft.\n\nAuthorities have also advised residents who plan on leaving their homes vacant for any period of time to ask a trusted neighbour to keep a watchful eye on the property and immediately report any suspicious activity to local Gardaí.",
+      "localAngle": "The incident occurred at a property in Abbeyfeale, prompting local Gardaí to issue a winter security warning for homeowners across Limerick.",
+      "section": "News",
+      "importance": 3,
+      "positivity": 2,
+      "originalTitle": "Limerick Gardaí warn of theft of home heating oil as colder months set in",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/28/limerick-gardai-warn-of-theft-of-home-heating-oil-as-colder-months-set-in/",
+      "publishedAt": "Wed, 28 Oct 2026 16:30:36 +0000",
+      "rewrittenAt": "2026-10-28T18:49:53.325Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2022/05/IMG_3-4iE-Underfloor-Heating-operated-by-phone-World-of-Tiles-scaled.jpg",
+      "imageCheckedAt": "2026-10-28T18:50:09.901Z"
+    },
+    "https://limerickvoice.com/?p=53246": {
+      "headline": "Limerick Dementia Social Club Announces Autumn and Winter Programme of Activities",
+      "summary": "The Limerick Dementia Social Club has released its upcoming schedule of events at Our Lady of Lourdes Community Centre on Childers Road, offering music, choirs, and support sessions for people living with dementia and their carers.",
+      "story": "The Limerick Dementia Social Club has announced its new schedule of activities for the coming months, offering a regular meeting space for people living with dementia and their carers on the first Wednesday of every month.\n\nHeld at Our Lady of Lourdes Community Centre on Childers Road from 6.30pm to 8.45pm, the club aims to provide a non-judgemental space to socialise and combat isolation. Established in 2018 by Mags O’Sullivan and her co-workers, the initiative connects members with local performers, including a planned ‘Fleming Ball’ and a ‘Craic agus Ceol’ session on Wednesday, November 4. Professional music therapist Cathy McGlynn also leads the ‘Melodies Memory Choir’ every third Wednesday.\n\nMs O’Sullivan noted the profound impact of music on attendees, particularly those experiencing communication difficulties. \"We have people in the club that have difficulty with communication and expressive language, yet when we sing together, they may remember a whole verse of a song,\" she said. In addition to music, monthly gatherings feature guest speakers providing practical advice on nutrition, mobility, and care strategies for carers.\n\nThe club will host a Christmas Festive Evening and fundraiser with a raffle and spot prizes on Wednesday, December 2. Anyone seeking further information on the upcoming schedule can contact Mags O’Sullivan via email at limerickdementiasc@gmail.com.",
+      "localAngle": "The club provides vital social and support services for dementia patients and their carers at Our Lady of Lourdes Community Centre on Childers Road.",
+      "section": "News",
+      "importance": 3,
+      "positivity": 4,
+      "originalTitle": "Music and community at the heart of Limerick Dementia Social Club this season",
+      "originalSource": "limerickvoice",
+      "originalLink": "https://limerickvoice.com/news/music-and-community-at-the-heart-of-limerick-dementia-social-club-this-season/",
+      "publishedAt": "Wed, 28 Oct 2026 16:00:02 +0000",
+      "rewrittenAt": "2026-10-28T18:50:08.971Z",
+      "imageUrl": "https://limerickvoice.com/wp-content/uploads/2026/10/Limerick-Dementia-Social-Club-Killaloe-Trip_Anna-Kissane.jpg",
+      "imageCheckedAt": "2026-10-28T18:50:10.146Z"
     }
   }
 }
