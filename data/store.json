@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastScrape": "2026-10-28T18:47:50.874Z",
-    "totalArticles": 31
+    "lastScrape": "2026-10-29T11:28:09.575Z",
+    "totalArticles": 27
   },
   "articles": {
     "9290418": {
@@ -227,6 +227,18 @@
       "source": "limerickleader",
       "scrapedAt": "2026-10-24T16:59:19.235Z",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/23/13/54/Untitled-design-(87).jpeg?width=1200&auto=webp&trim=0%2C0%2C161%2C0"
+    },
+    "9306943": {
+      "id": "9306943",
+      "title": "Crime gang with Limerick links plotted daring museum heists",
+      "link": "https://www.limerickleader.ie/news/crime-courts/crime-gang-with-limerick-links-plotted-daring-museum-heists-9306943",
+      "description": "14 members of the organised crime group were charged and received combined sentences of 71 years’ imprisonment for their involvement in the burglaries",
+      "pubDate": "Wed, 28 Oct 2026 19:00:54 GMT",
+      "author": "Ellie McCarthy",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/23/15/03/Rathkeale-rovers-The-gang-linked-to-international-rhino-horns-thefts.png?width=1200&auto=webp&trim=386%2C0%2C1550%2C0",
+      "imageCredit": "RTE",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-29T11:27:59.423Z"
     },
     "9307165": {
       "id": "9307165",
@@ -796,6 +808,18 @@
       "source": "limerickleader",
       "scrapedAt": "2026-10-28T18:47:39.258Z"
     },
+    "9316083": {
+      "id": "9316083",
+      "title": "O'Donoghue looking to finish opening URC block in positive fashion",
+      "link": "https://www.limerickleader.ie/sport/rugby/munster-rugby/odonoghue-looking-to-finish-opening-urc-block-in-positive-fashion-9316083",
+      "description": "Munster play the Sharks in their last URC fixture before the Autumn Internationals halt the competition until early December",
+      "pubDate": "Thu, 29 Oct 2026 08:30:56 GMT",
+      "author": "John Keogh",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/14/24/3598722.jpeg?width=1200&auto=webp&trim=136%2C0%2C1680%2C0",
+      "imageCredit": "SPORTSFILE",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-29T11:27:59.423Z"
+    },
     "9316213": {
       "id": "9316213",
       "title": "Sinn Fein TD backs Ó Snodaigh who chairs charity in money laundering probe",
@@ -806,6 +830,64 @@
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/15/cs-79f49915-1c2d-4cb5-bafc-93649fdd60f6.jpg?width=1200&auto=webp&crop=3%3A2",
       "source": "limerickleader",
       "scrapedAt": "2026-10-28T15:54:37.383Z"
+    },
+    "9316641": {
+      "id": "9316641",
+      "title": "Final programme confirmed for Limerick winter festival 'unlike any other'",
+      "link": "https://www.limerickleader.ie/whats-on/arts-and-entertainment/final-programme-confirmed-for-limerick-winter-festival-unlike-any-other-9316641",
+      "description": "The programme brings together some of Ireland's most celebrated performers alongside international favourites and emerging talent",
+      "pubDate": "Thu, 29 Oct 2026 10:00:26 GMT",
+      "author": "Abigail Hayden",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/07/09/14/36/The-Stunning-jpg-Clifden-Arts-Festival-2026-returns-to-Connemara-from-1727-September-2026-with-a-pro.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageCredit": "LL",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-29T11:27:59.422Z"
+    },
+    "9317045": {
+      "id": "9317045",
+      "title": "'Slow down': Limerick driver caught speeding during major garda roads operation",
+      "link": "https://www.limerickleader.ie/news/crime-courts/slow-down-limerick-driver-caught-speeding-during-major-garda-roads-operation-9317045",
+      "description": "An Garda Síochána and the Road Safety Authority are continuing to urge all road users to support their efforts in keeping people safe",
+      "pubDate": "Wed, 28 Oct 2026 21:30:55 GMT",
+      "author": "Ellie McCarthy",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/27/15/57/Iconicstockimage_gardai-light-in-front-of-trees-(autumn).jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageCredit": "FILE PHOTO",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-29T11:27:59.423Z"
+    },
+    "9317250": {
+      "id": "9317250",
+      "title": "More than a quarter of adults have experienced sexual violence – report",
+      "link": "https://www.limerickleader.ie/national/more-than-a-quarter-of-adults-have-experienced-sexual-violence-report-9317250",
+      "description": "Women, younger adults, bisexual individuals and gay men face significantly higher risks, while most perpetrators are known to victims, it found.",
+      "pubDate": "Thu, 29 Oct 2026 00:01:00 GMT",
+      "author": "Cate McCurry and  Press Association",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/00/cs-a617d0ce-b501-4759-b941-9ca79debf6da.jpg?width=1200&auto=webp&crop=3%3A2",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-29T11:27:59.423Z"
+    },
+    "9317612": {
+      "id": "9317612",
+      "title": "New Limerick train service nears completion as live testing begins",
+      "link": "https://www.limerickleader.ie/news/new-limerick-train-service-nears-completion-as-live-testing-begins-9317612",
+      "description": "The test unit will return to the line regularly over the coming weeks to support driver route training",
+      "pubDate": "Thu, 29 Oct 2026 10:15:26 GMT",
+      "author": "Abigail Hayden",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/10/58/Limerick-Foynes-Commissioning-1.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageCredit": "PICTURE: IARNRÓD ÉIREANN",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-29T11:27:59.422Z"
+    },
+    "9317698": {
+      "id": "9317698",
+      "title": "Simon Harris rejects ‘characterisation’ of phone call with Patrick O’Donovan",
+      "link": "https://www.limerickleader.ie/national/simon-harris-rejects-characterisation-of-phone-call-with-patrick-odonovan-9317698",
+      "description": "The Tánaiste confirmed he spoke to the culture minister shortly before Mr O’Donovan fell ill at a conference in Limerick and was taken to hospital.",
+      "pubDate": "Thu, 29 Oct 2026 10:30:44 GMT",
+      "author": "Cate McCurry and  Press Association",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/10/cs-bc93014c-3f0a-4c74-8152-c04ef99a60cb.jpg?width=1200&auto=webp&crop=3%3A2",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-29T11:27:59.422Z"
     },
     "https://www.limerickpost.ie/?p=362473": {
       "id": "https://www.limerickpost.ie/?p=362473",
@@ -1396,6 +1478,76 @@
       "author": "Anna Kissane",
       "source": "limerickvoice",
       "scrapedAt": "2026-10-28T18:47:39.931Z"
+    },
+    "https://www.limerickpost.ie/?p=362602": {
+      "id": "https://www.limerickpost.ie/?p=362602",
+      "title": "Cocaine and heroin valued €644,000 seized in Limerick",
+      "link": "https://www.limerickpost.ie/2026/10/29/cocaine-and-heroin-valued-e644000-seized-in-limerick/",
+      "description": "GARDAI attached to the Limerick Divisional Drug Unit have seized cocaine and heroin with an estimated street value of approximately €644,000 in Limerick. The seizure was made on Wednesday 28th October 2026 as part of an operation targeting the distribution of controlled drugs in the Mid-West region. A search was conducted under warrant at a [&#8230;]\nThe post Cocaine and heroin valued €644,000 seized in Limerick appeared first on Limerick Post.",
+      "pubDate": "Thu, 29 Oct 2026 10:54:21 +0000",
+      "author": "Bernie English",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-29T11:27:59.114Z"
+    },
+    "https://www.limerickpost.ie/?p=362585": {
+      "id": "https://www.limerickpost.ie/?p=362585",
+      "title": "Jail sentence for dodgy box conviction",
+      "link": "https://www.limerickpost.ie/2026/10/29/jail-sentence-for-dodgy-box-conviction/",
+      "description": "A LIMERICK man who admitted laundering money for an international criminal enterprise behind so-called illegal ‘dodgy box’ streaming services, has received a fully suspended two-year jail sentence. Aidan Galvin, (53), Galvone Road, Kennedy Park, pleaded guilty at Limerick Circuit Criminal Court to laundering €28,000, through his bank account, to criminals involved in a €750,000 illegal [&#8230;]\nThe post Jail sentence for dodgy box conviction appeared first on Limerick Post.",
+      "pubDate": "Thu, 29 Oct 2026 10:30:35 +0000",
+      "author": "Editor",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-29T11:27:59.114Z"
+    },
+    "https://www.limerickpost.ie/?p=362571": {
+      "id": "https://www.limerickpost.ie/?p=362571",
+      "title": "Spiegeltent Pavilion to bring winter of live music and entertainment to the city centre",
+      "link": "https://www.limerickpost.ie/2026/10/29/spiegeltent-pavilion-to-bring-winter-of-live-music-and-entertainment-to-the-city-centre/",
+      "description": "The Proclaimers, Paul Brady and Sharon Shannon among acts lined up for new city centre venue from Dolans DOLANS will bring the Spiegeltent Pavilion to the North Circular Road this winter, with a programme of concerts, comedy, magic and wrestling running from mid-November into December. Live at the Spiegeltent Pavilion, opposite the Cleeves Factory, is [&#8230;]\nThe post Spiegeltent Pavilion to bring winter of live music and entertainment to the city centre appeared first on Limerick Post.",
+      "pubDate": "Thu, 29 Oct 2026 10:20:43 +0000",
+      "author": "Eric Fitzgerald",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-29T11:27:59.114Z"
+    },
+    "https://www.limerickpost.ie/?p=362583": {
+      "id": "https://www.limerickpost.ie/?p=362583",
+      "title": "Limerick bus drivers “terrorised” in run up to Halloween",
+      "link": "https://www.limerickpost.ie/2026/10/29/limerick-bus-drivers-terrorised-in-run-up-to-halloween/",
+      "description": "BUS drivers in parts of Limerick are being &#8220;terrorised&#8221; in the run up to Halloween with gangs of young people throwing fireworks into their vehicles. Some services have been temporarily suspended as a result, mainly impacting the 303 Route serving Pineview to Kilmallock Road and Expressway Route 13 (Limerick-Tralee). Aontú Cllr Sarah Beasley said a [&#8230;]\nThe post Limerick bus drivers &#8220;terrorised&#8221; in run up to Halloween appeared first on Limerick Post.",
+      "pubDate": "Thu, 29 Oct 2026 09:00:00 +0000",
+      "author": "Sarah Coleman",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-29T11:27:59.114Z"
+    },
+    "https://www.limerickpost.ie/?p=362567": {
+      "id": "https://www.limerickpost.ie/?p=362567",
+      "title": "Halloween takes over Twilight Thursday with fancy-dress 5km and late-night openings",
+      "link": "https://www.limerickpost.ie/2026/10/29/halloween-takes-over-twilight-thursday-with-fancy-dress-5km-and-late-night-openings/",
+      "description": "Limerick city centre will go into full Halloween mode on Thursday October 29, when Twilight Thursday returns with a packed programme of family events, culture, live music, food offers and late-night openings. Twilight Thursdays take place on the last Thursday of every month, bringing together cultural events, live entertainment and late-night business openings. Family fun [&#8230;]\nThe post Halloween takes over Twilight Thursday with fancy-dress 5km and late-night openings appeared first on Limerick Post.",
+      "pubDate": "Thu, 29 Oct 2026 08:25:32 +0000",
+      "author": "Eric Fitzgerald",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-29T11:27:59.114Z"
+    },
+    "https://www.limerickpost.ie/?p=362551": {
+      "id": "https://www.limerickpost.ie/?p=362551",
+      "title": "IN PHOTOS: Catherine McAuley School Halloween party",
+      "link": "https://www.limerickpost.ie/2026/10/28/in-photos-catherine-mcauley-school-halloween-party/",
+      "description": "THIS years Halloween Party at Catherine McAuley School was full of trick or treating, spooky costumes and lots of fun.\nThe post IN PHOTOS: Catherine McAuley School Halloween party appeared first on Limerick Post.",
+      "pubDate": "Wed, 28 Oct 2026 19:30:45 +0000",
+      "author": "Sarah Coleman",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-29T11:27:59.114Z"
+    },
+    "https://limerickvoice.com/?p=53250": {
+      "id": "https://limerickvoice.com/?p=53250",
+      "title": "Limerick striker stars in shock Carabao Cup upset over Arsenal",
+      "link": "https://limerickvoice.com/sport/ronan-coughlan-fleetwood-town-arsenal-carabao-cup/",
+      "description": "The Limerick-born striker scored in the penalty shootout as Fleetwood Town dumped Premier League champions Arsenal out of the Carabao Cup. RONAN Coughlan’s football career has taken him from Mungret Regional to English Football, and on Tuesday night he aided his team in a memorable result against Arsenal. The 30-year-old scored a penalty as Fleetwood [&#8230;]\nThe post Limerick striker stars in shock Carabao Cup upset over Arsenal appeared first on .",
+      "pubDate": "Wed, 28 Oct 2026 20:21:49 +0000",
+      "author": "Kerry Sheehan",
+      "source": "limerickvoice",
+      "scrapedAt": "2026-10-29T11:28:00.062Z"
     }
   },
   "rewritten": {
@@ -1678,6 +1830,22 @@
       "section": "News",
       "importance": 2,
       "positivity": 4
+    },
+    "9306943": {
+      "headline": "Fourteen Organised Crime Group Members Jailed for 71 Years Over Museum Heists",
+      "summary": "Fourteen members of an organised crime gang with Limerick connections have been jailed for a combined total of 71 years following a series of museum burglaries.",
+      "story": "An international organised crime network with established links to Limerick has been dismantled after 14 of its members were sentenced to a combined total of 71 years in prison for a series of high-stakes museum heists.\n\nThe gang members were prosecuted following an extensive investigation into sophisticated burglaries targeting museums and cultural institutions. Law enforcement officials confirmed that the group plotted and executed daring raids to steal valuable artifacts.\n\nIn total, 14 individuals involved in the criminal conspiracy faced charges in connection with the thefts. The judicial process concluded with the group receiving significant custodial sentences totaling 71 years behind bars.",
+      "localAngle": "The dismantled crime group had direct operational and personal links to Limerick.",
+      "section": "Courts",
+      "importance": 5,
+      "positivity": 1,
+      "originalTitle": "Crime gang with Limerick links plotted daring museum heists",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/news/crime-courts/crime-gang-with-limerick-links-plotted-daring-museum-heists-9306943",
+      "publishedAt": "Wed, 28 Oct 2026 19:00:54 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/23/15/03/Rathkeale-rovers-The-gang-linked-to-international-rhino-horns-thefts.png?width=1200&auto=webp&trim=386%2C0%2C1550%2C0",
+      "imageCredit": "RTE",
+      "rewrittenAt": "2026-10-29T11:30:36.483Z"
     },
     "9307165": {
       "headline": "Minister Patrick O'Donovan Speaks Out on Representation for People with Disabilities",
@@ -2276,6 +2444,22 @@
       "imageCredit": "Iconic",
       "rewrittenAt": "2026-10-28T18:49:19.712Z"
     },
+    "9316083": {
+      "headline": "Munster face the Sharks in final URC match before autumn break",
+      "summary": "Munster take on the Sharks in their final United Rugby Championship fixture before the competition pauses for the Autumn Internationals until December.",
+      "story": "Munster are aiming to finish their opening block of United Rugby Championship fixtures on a high note as they prepare to face the Sharks. Gavin O'Donoghue and the squad are looking to secure a positive result before the tournament pauses.\n\nThe fixture marks Munster's final outing in the competition before the Autumn Internationals bring a temporary halt to the URC season. Play in the championship will not resume until early December following the international window.\n\nFans across Limerick will be watching closely to see if the province can wrap up this initial block of matches with a crucial win on the road before the extended break.",
+      "localAngle": "Munster Rugby is a major sporting focal point for supporters across Limerick, who follow the province's domestic and international campaigns closely.",
+      "section": "Sport",
+      "importance": 3,
+      "positivity": 3,
+      "originalTitle": "O'Donoghue looking to finish opening URC block in positive fashion",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/sport/rugby/munster-rugby/odonoghue-looking-to-finish-opening-urc-block-in-positive-fashion-9316083",
+      "publishedAt": "Thu, 29 Oct 2026 08:30:56 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/14/24/3598722.jpeg?width=1200&auto=webp&trim=136%2C0%2C1680%2C0",
+      "imageCredit": "SPORTSFILE",
+      "rewrittenAt": "2026-10-29T11:29:54.287Z"
+    },
     "9316213": {
       "headline": "Sinn Féin TD Aengus Ó Snodaigh Backed Amid Charity Money Laundering Probe",
       "summary": "A Sinn Féin TD has publicly backed party colleague Aengus Ó Snodaigh, who chairs a charity currently facing a money laundering investigation. Officials have confirmed that Ó Snodaigh is not under criminal investigation and faces no suggestion of wrongdoing.",
@@ -2290,6 +2474,63 @@
       "publishedAt": "Wed, 28 Oct 2026 15:17:08 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/15/cs-79f49915-1c2d-4cb5-bafc-93649fdd60f6.jpg?width=1200&auto=webp&crop=3%3A2",
       "rewrittenAt": "2026-10-28T15:56:19.545Z"
+    },
+    "9316641": {
+      "headline": "Full programme unveiled for Limerick's upcoming winter festival",
+      "summary": "Organisers have released the final schedule for Limerick's winter festival, featuring a mix of Irish performers, international acts, and emerging talent. The event promises a unique lineup for festival-goers in the city.",
+      "story": "The final programme has been officially confirmed for Limerick's winter festival, bringing together a diverse lineup of performers for the seasonal event.\n\nThe schedule features a combination of some of Ireland's most celebrated artists alongside international favourites and up-and-coming talent, offering a varied selection of performances for audiences across the city.\n\nOrganisers have positioned the gathering as a winter festival unlike any other, with events designed to showcase the breadth of musical and artistic ability taking part this season.",
+      "localAngle": "The festival brings major international and national acts to Limerick for the winter season.",
+      "section": "Arts & Culture",
+      "importance": 2,
+      "positivity": 4,
+      "originalTitle": "Final programme confirmed for Limerick winter festival 'unlike any other'",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/whats-on/arts-and-entertainment/final-programme-confirmed-for-limerick-winter-festival-unlike-any-other-9316641",
+      "publishedAt": "Thu, 29 Oct 2026 10:00:26 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/07/09/14/36/The-Stunning-jpg-Clifden-Arts-Festival-2026-returns-to-Connemara-from-1727-September-2026-with-a-pro.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageCredit": "LL",
+      "rewrittenAt": "2026-10-29T11:29:33.848Z"
+    },
+    "9317045": {
+      "skipped": true,
+      "duplicateOf": "https://limerickvoice.com/?p=53174",
+      "rewrittenAt": "2026-10-29T11:29:09.022Z"
+    },
+    "9317250": {
+      "headline": "Over 25% of adults have experienced sexual violence, new findings show",
+      "summary": "A new report reveals that more than a quarter of adults have experienced sexual violence. Women, younger adults, bisexual individuals, and gay men face the highest risks, with most perpetrators known to the victims.",
+      "story": "More than a quarter of all adults have experienced sexual violence, according to the findings of a new report released this week. The data highlights that certain demographics face a significantly higher risk than others.\n\nAccording to the study, women, younger adults, bisexual individuals, and gay men are among the most vulnerable groups. Furthermore, the report establishes that in the majority of cases, the perpetrators are already known to the victims rather than being strangers.\n\nThe findings underscore the pervasive nature of sexual violence across society, prompting renewed attention on safety, support services, and preventative measures available to vulnerable populations both nationally and locally.",
+      "localAngle": "This national study reflects the scale of sexual violence impacting communities across Limerick and the wider region.",
+      "section": "News",
+      "importance": 4,
+      "positivity": 1,
+      "originalTitle": "More than a quarter of adults have experienced sexual violence – report",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/national/more-than-a-quarter-of-adults-have-experienced-sexual-violence-report-9317250",
+      "publishedAt": "Thu, 29 Oct 2026 00:01:00 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/00/cs-a617d0ce-b501-4759-b941-9ca79debf6da.jpg?width=1200&auto=webp&crop=3%3A2",
+      "rewrittenAt": "2026-10-29T11:30:05.097Z"
+    },
+    "9317612": {
+      "headline": "Live testing begins as new Limerick train service nears completion",
+      "summary": "Live testing has begun on Limerick's new train service as the project nears completion. A test unit will return to the line regularly over the coming weeks for driver route training.",
+      "story": "Live testing has officially kicked off on the railway line for Limerick's new train service, marking a major milestone as the project nears completion.\n\nA test unit was deployed to the tracks this week and will continue to operate on the line regularly over the coming weeks. The primary focus of these ongoing runs is to support essential driver route training ahead of the service's full launch.\n\nThe introduction of the test unit brings the new transport link a step closer to welcoming passengers, with further updates on the official timetable expected once training milestones are met.",
+      "localAngle": "The new train service and testing phase directly impact local transport connectivity and commuter routes across Limerick.",
+      "section": "News",
+      "importance": 4,
+      "positivity": 4,
+      "originalTitle": "New Limerick train service nears completion as live testing begins",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/news/new-limerick-train-service-nears-completion-as-live-testing-begins-9317612",
+      "publishedAt": "Thu, 29 Oct 2026 10:15:26 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/10/58/Limerick-Foynes-Commissioning-1.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageCredit": "PICTURE: IARNRÓD ÉIREANN",
+      "rewrittenAt": "2026-10-29T11:29:27.338Z"
+    },
+    "9317698": {
+      "skipped": true,
+      "duplicateOf": "9314966",
+      "rewrittenAt": "2026-10-29T11:29:09.021Z"
     },
     "https://limerickvoice.com/?p=53125": {
       "skipped": true,
@@ -3081,6 +3322,85 @@
       "rewrittenAt": "2026-10-28T18:50:08.971Z",
       "imageUrl": "https://limerickvoice.com/wp-content/uploads/2026/10/Limerick-Dementia-Social-Club-Killaloe-Trip_Anna-Kissane.jpg",
       "imageCheckedAt": "2026-10-28T18:50:10.146Z"
+    },
+    "https://www.limerickpost.ie/?p=362585": {
+      "skipped": true,
+      "duplicateOf": "9312786",
+      "rewrittenAt": "2026-10-29T11:29:09.022Z"
+    },
+    "https://www.limerickpost.ie/?p=362571": {
+      "skipped": true,
+      "duplicateOf": "https://www.limerickpost.ie/?p=362563",
+      "rewrittenAt": "2026-10-29T11:29:09.022Z"
+    },
+    "https://www.limerickpost.ie/?p=362567": {
+      "skipped": true,
+      "duplicateOf": "https://www.limerickpost.ie/?p=362563",
+      "rewrittenAt": "2026-10-29T11:29:09.022Z"
+    },
+    "https://www.limerickpost.ie/?p=362602": {
+      "headline": "Gardaí seize €644,000 of cocaine and heroin during Old Singland Road search",
+      "summary": "Limerick Gardaí arrested a woman in her 40s after uncovering €490,000 of cocaine and €154,000 of heroin at a residential property on Wednesday.",
+      "story": "Gardaí in Limerick have seized a significant quantity of illegal drugs with an estimated street value of €644,000 following a search on the city's east side.\n\nOfficers attached to the Limerick Divisional Drug Unit carried out the search under warrant at a residential property on Old Singland Road on Wednesday, October 28. During the operation, which formed part of an ongoing targeted campaign against drug distribution in the Mid-West region, officers uncovered €490,000 worth of cocaine alongside €154,000 of heroin.\n\nA woman aged in her 40s was arrested at the scene in connection with the intelligence-led seizure. She is currently being held in Garda custody in the Limerick area under the provisions of Section 2 of the Criminal Justice Act 1996.\n\nGardaí have confirmed that the investigation remains ongoing as officers continue to target the supply of controlled substances across the region.",
+      "localAngle": "The major drugs seizure took place at a residential property on Old Singland Road as part of an operation targeting criminal networks across the Mid-West.",
+      "section": "News",
+      "importance": 5,
+      "positivity": 2,
+      "originalTitle": "Cocaine and heroin valued €644,000 seized in Limerick",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/29/cocaine-and-heroin-valued-e644000-seized-in-limerick/",
+      "publishedAt": "Thu, 29 Oct 2026 10:54:21 +0000",
+      "rewrittenAt": "2026-10-29T11:29:18.731Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/10/LIMERICK-SEIZURE.jpg",
+      "imageCheckedAt": "2026-10-29T11:30:36.943Z"
+    },
+    "https://www.limerickpost.ie/?p=362583": {
+      "headline": "Limerick Bus Drivers Targeted as Fireworks Thrown into Vehicles Ahead of Halloween",
+      "summary": "Bus services in Limerick, including the 303 and Expressway Route 13, have faced temporary suspensions after gangs threw fireworks into vehicles, terrifying passengers and drivers.",
+      "story": "Bus drivers operating in parts of Limerick are facing dangerous conditions in the run-up to Halloween, with gangs of youths throwing fireworks directly into vehicles. The disruption has forced the temporary suspension of certain services, predominantly impacting the 303 route between Pineview and Kilmallock Road, as well as Expressway Route 13 connecting Limerick and Tralee.\n\nAontú Councillor Sarah Beasley said drivers have contacted her at their wits' end. One driver reported that a firework exploded inside a bus, leaving an elderly passenger terrified. Cllr Beasley noted that drivers are naturally reluctant to enter certain estates after dark, resulting in significant inconvenience for regular public transport users who rely on the services.\n\nBus Éireann confirmed that services have experienced recent anti-social behaviour and will be curtailed wherever there is a risk to safety. Additional security has been arranged across Limerick for the Halloween period, and the company is liaising closely with An Garda Síochána. Officials have also reiterated that the possession, sale, or use of unlicensed fireworks is illegal, carrying penalties of up to €10,000 in fines and five years in prison.\n\nThe recent transport incidents follow an earlier occurrence this month on the 303 route, where child vandals concealed Stanley-type blades in bus seats, causing extensive damage to the upholstery and putting passengers at serious risk.",
+      "localAngle": "Public transport routes across Limerick City and surrounding areas are experiencing severe disruptions and safety hazards due to anti-social behaviour ahead of Halloween.",
+      "section": "News",
+      "importance": 4,
+      "positivity": 1,
+      "originalTitle": "Limerick bus drivers “terrorised” in run up to Halloween",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/29/limerick-bus-drivers-terrorised-in-run-up-to-halloween/",
+      "publishedAt": "Thu, 29 Oct 2026 09:00:00 +0000",
+      "rewrittenAt": "2026-10-29T11:29:45.975Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2025/04/Bus-Eireann-Limerick-City-bus-service_2.jpg",
+      "imageCheckedAt": "2026-10-29T11:30:37.428Z"
+    },
+    "https://limerickvoice.com/?p=53250": {
+      "headline": "Limerick striker Ronan Coughlan helps Fleetwood Town knock Arsenal out of Carabao Cup",
+      "summary": "Limerick-born Ronan Coughlan scored in a penalty shootout as League Two side Fleetwood Town pulled off a shock Carabao Cup win against Premier League champions Arsenal.",
+      "story": "Limerick native Ronan Coughlan played a pivotal role on Tuesday night as Fleetwood Town pulled off a major upset, eliminating Premier League champions Arsenal from the Carabao Cup at Highbury Stadium.\n\nThe 30-year-old striker stepped up to score the first penalty in a 5-3 shootout victory after the match ended 1-1 following 120 minutes of play. Aaron Loupalo-Bi had opened the scoring for Fleetwood in the 21st minute before Viktor Gyökeres equalised for Arsenal. The Premier League side was reduced to ten players in the 85th minute when 16-year-old Max Dowman received a red card. Belfast-born teenager Conor Haughey scored the decisive penalty to secure the quarter-final spot for the League Two club.\n\nCoughlan's football journey began locally with Mungret Regional before he progressed to Limerick FC and subsequently moved to English side Huddersfield Town. After spells with Bray Wanderers, Cork City, Sligo Rovers, St Patrick’s Athletic—where he won the 2021 FAI Cup—and Waterford, he joined Fleetwood Town in 2024.",
+      "localAngle": "Limerick-born striker Ronan Coughlan helped secure Fleetwood Town's shock Carabao Cup victory over Arsenal, bringing national attention back to his footballing roots in Mungret Regional.",
+      "section": "Sport",
+      "importance": 4,
+      "positivity": 4,
+      "originalTitle": "Limerick striker stars in shock Carabao Cup upset over Arsenal",
+      "originalSource": "limerickvoice",
+      "originalLink": "https://limerickvoice.com/sport/ronan-coughlan-fleetwood-town-arsenal-carabao-cup/",
+      "publishedAt": "Wed, 28 Oct 2026 20:21:49 +0000",
+      "rewrittenAt": "2026-10-29T11:30:12.554Z",
+      "imageUrl": "https://limerickvoice.com/wp-content/uploads/2026/10/IMG_0550-e1793217146490.jpeg",
+      "imageCheckedAt": "2026-10-29T11:30:37.628Z"
+    },
+    "https://www.limerickpost.ie/?p=362551": {
+      "headline": "Students at Catherine McAuley School celebrate Halloween with fancy dress",
+      "summary": "Students and staff at the Catherine McAuley School marked the mid-term season with a Halloween party featuring costumes and trick-or-treating.",
+      "story": "Students and staff at the Catherine McAuley School recently marked the Halloween season with a festive school party filled with traditional celebrations.\n\nThe event featured a range of spooky costumes worn by students, alongside activities including trick-or-treating.\n\nPhotographs from the day captured the celebrations as the school community gathered to mark the occasion ahead of the mid-term break.",
+      "localAngle": "The event brought together students and staff at the local Limerick school for annual Halloween celebrations.",
+      "section": "News",
+      "importance": 2,
+      "positivity": 4,
+      "originalTitle": "IN PHOTOS: Catherine McAuley School Halloween party",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/28/in-photos-catherine-mcauley-school-halloween-party/",
+      "publishedAt": "Wed, 28 Oct 2026 19:30:45 +0000",
+      "rewrittenAt": "2026-10-29T11:30:23.755Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/10/IMG_20261023_190509.jpg",
+      "imageCheckedAt": "2026-10-29T11:30:38.298Z"
     }
   }
 }
