@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastScrape": "2026-10-29T11:28:09.575Z",
-    "totalArticles": 27
+    "lastScrape": "2026-10-29T15:59:55.751Z",
+    "totalArticles": 31
   },
   "articles": {
     "9290418": {
@@ -866,6 +866,30 @@
       "source": "limerickleader",
       "scrapedAt": "2026-10-29T11:27:59.423Z"
     },
+    "9317345": {
+      "id": "9317345",
+      "title": "Kildimo-Pallaskenry enjoying the calm before the county final storm",
+      "link": "https://www.limerickleader.ie/sport/gaelic-football/kildimo-pallaskenry-enjoying-the-calm-before-the-county-final-storm-9317345",
+      "description": "The quick-as-lightning rise through the grades of Limerick football have led to this occasion where they come up against the traditional powerhouse that is Fr Caseys",
+      "pubDate": "Thu, 29 Oct 2026 11:30:52 GMT",
+      "author": "Joel Slattery",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/8/53/DSC_5644.jpeg?width=1200&auto=webp&trim=125%2C0%2C177%2C0",
+      "imageCredit": "Pat O'Leary",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-29T15:59:44.057Z"
+    },
+    "9317386": {
+      "id": "9317386",
+      "title": "Referees confirmed for Limerick county football finals",
+      "link": "https://www.limerickleader.ie/sport/gaelic-football/referees-confirmed-for-limerick-county-football-finals-9317386",
+      "description": "On Sunday in Mick Neville Park, the showpiece match - the Irish Wire Products Senior Football Championship final takes place at 3.30pm with debutants Kildimo-Pallaskenry taking on a Fr Caseys side playing in a record 26th decider",
+      "pubDate": "Thu, 29 Oct 2026 14:30:41 GMT",
+      "author": "Joel Slattery",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/20/6/07/2307590.jpeg?width=1200&auto=webp&trim=0%2C519%2C127%2C87",
+      "imageCredit": "SPORTSFILE",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-29T15:59:44.057Z"
+    },
     "9317612": {
       "id": "9317612",
       "title": "New Limerick train service nears completion as live testing begins",
@@ -888,6 +912,64 @@
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/10/cs-bc93014c-3f0a-4c74-8152-c04ef99a60cb.jpg?width=1200&auto=webp&crop=3%3A2",
       "source": "limerickleader",
       "scrapedAt": "2026-10-29T11:27:59.422Z"
+    },
+    "9317996": {
+      "id": "9317996",
+      "title": "Ireland is capable and prepared to protect EU leaders at Dublin summits – Harris",
+      "link": "https://www.limerickleader.ie/national/ireland-is-capable-and-prepared-to-protect-eu-leaders-at-dublin-summits-harris-9317996",
+      "description": "The city will host two major events in two days next month as part of Ireland’s ongoing presidency of the EU Council.",
+      "pubDate": "Thu, 29 Oct 2026 11:43:56 GMT",
+      "author": "David Young and  Press Association",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/11/cs-52d514db-6515-4542-b06c-916293a05136.jpg?width=1200&auto=webp&crop=3%3A2",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-29T15:59:44.057Z"
+    },
+    "9318168": {
+      "id": "9318168",
+      "title": "Selection process for Junior Ryder Cup in Limerick revealed",
+      "link": "https://www.limerickleader.ie/sport/ryder-cup/selection-process-for-junior-ryder-cup-in-limerick-revealed-9318168",
+      "description": "Rory McIlroy, Denmark’s Nicolai Højgaard, Belgian Nicolas Colsaerts and Ireland’s Leona Maguire are among the players stars to have played in the competition in their youth",
+      "pubDate": "Thu, 29 Oct 2026 12:31:55 GMT",
+      "author": "By The Newsroom",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/06/24/15/11/15874418-library.jpeg?width=1200&auto=webp&trim=6%2C0%2C7%2C0",
+      "imageCredit": "*",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-29T15:59:44.057Z"
+    },
+    "9318590": {
+      "id": "9318590",
+      "title": "Two debuts as Munster Rugby name team for URC clash with Sharks",
+      "link": "https://www.limerickleader.ie/sport/rugby/two-debuts-as-munster-rugby-name-team-for-urc-clash-with-sharks-9318590",
+      "description": "Academy centre Gordon Wood makes his first start for Munster on his fourth appearance for the province",
+      "pubDate": "Thu, 29 Oct 2026 15:00:12 GMT",
+      "author": "By The Newsroom",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/14/00/3603450.jpeg?width=1200&auto=webp&trim=14%2C0%2C14%2C0",
+      "imageCredit": "SPORTSFILE",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-29T15:59:44.057Z"
+    },
+    "9318776": {
+      "id": "9318776",
+      "title": "Limerick Hotel announces its new general manager",
+      "link": "https://www.limerickleader.ie/business/limerick-hotel-announces-its-new-general-manager-9318776",
+      "description": "Donnacha Hurley joins The Limerick Strand Hotel following a period of transition for the business and succeeds the late Stephen O’Connor",
+      "pubDate": "Thu, 29 Oct 2026 15:21:30 GMT",
+      "author": "Newsroom",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/04/27/04/iconic-upload-2022_07_04-limerick-strand-hotel-1656929872044.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageCredit": "LL",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-29T15:59:44.057Z"
+    },
+    "9318866": {
+      "id": "9318866",
+      "title": "Gardaí ‘dealing with more mental health interventions than ever’",
+      "link": "https://www.limerickleader.ie/national/gardai-dealing-with-more-mental-health-interventions-than-ever-9318866",
+      "description": "Commissioner Justin Kelly said mental health interventions are taking gardaí away from frontline policing.",
+      "pubDate": "Thu, 29 Oct 2026 15:40:55 GMT",
+      "author": "Cillian Sherlock and  Press Association",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/15/cs-3474ef46-64f9-4856-9b35-d423722125c6.jpg?width=1200&auto=webp&crop=3%3A2",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-29T15:59:44.057Z"
     },
     "https://www.limerickpost.ie/?p=362473": {
       "id": "https://www.limerickpost.ie/?p=362473",
@@ -1548,6 +1630,66 @@
       "author": "Kerry Sheehan",
       "source": "limerickvoice",
       "scrapedAt": "2026-10-29T11:28:00.062Z"
+    },
+    "https://www.limerickpost.ie/?p=362612": {
+      "id": "https://www.limerickpost.ie/?p=362612",
+      "title": "New reading initiative launched in Limerick",
+      "link": "https://www.limerickpost.ie/2026/10/29/new-reading-initiative-launched-in-limerick/",
+      "description": "A NEW initiative is encouraging Limerick bookworms to read, discuss and share the same book. One Limerick, One Book, from Limerick Libraries supported by Creative Ireland based on the successful One County, One Book model aims to connect communities through a shared reading experience. And thriller novel, Tell The Truth, by Limerick author Karen Fitzgibbon [&#8230;]\nThe post New reading initiative launched in Limerick appeared first on Limerick Post.",
+      "pubDate": "Thu, 29 Oct 2026 15:00:28 +0000",
+      "author": "Sarah Coleman",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-29T15:59:43.610Z"
+    },
+    "https://www.limerickpost.ie/?p=362608": {
+      "id": "https://www.limerickpost.ie/?p=362608",
+      "title": "Limerick mum celebrates over one year smoke-free thanks to QUIT Mid West",
+      "link": "https://www.limerickpost.ie/2026/10/29/limerick-mum-celebrates-over-one-year-smoke-free-thanks-to-quit-mid-west/",
+      "description": "A LIMERICK mum is celebrating almost 18 months smoke-free thanks to QUIT Mid West. 29-year-old Claire Crawford from Rhebogue had smoked since her teens and was referred to QUIT Mid West through University Maternity Hospital Limerick (UMHL) during her fourth pregnancy. With support from Niamh Keating, Stop Smoking Advisor, QUIT Mid West, Claire stopped smoking [&#8230;]\nThe post Limerick mum celebrates over one year smoke-free thanks to QUIT Mid West appeared first on Limerick Post.",
+      "pubDate": "Thu, 29 Oct 2026 13:30:18 +0000",
+      "author": "Editor",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-29T15:59:43.610Z"
+    },
+    "https://www.limerickpost.ie/?p=362605": {
+      "id": "https://www.limerickpost.ie/?p=362605",
+      "title": "Council told murder victim that accused was illegal tenant",
+      "link": "https://www.limerickpost.ie/2026/10/29/council-told-murder-victim-that-accused-was-illegal-tenant/",
+      "description": "THE COUNCIL had flagged concerns that a man was living illegally in a pensioner’s home when he allegedly murdered her, a trial heard this week. The deceased, Josephine “Josie” Ray, (89), of St Joseph’s Park, Nenagh, was found allegedly strangled and smothered in her bed, on August 4, 2024. The accused, Hasan Ali Gori, (52), [&#8230;]\nThe post Council told murder victim that accused was illegal tenant appeared first on Limerick Post.",
+      "pubDate": "Thu, 29 Oct 2026 12:23:00 +0000",
+      "author": "Editor",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-29T15:59:43.610Z"
+    },
+    "https://www.limerickpost.ie/?p=362593": {
+      "id": "https://www.limerickpost.ie/?p=362593",
+      "title": "Santa’s Magical Cabin– Bringing Christmas Magic to Families for 17 Years",
+      "link": "https://www.limerickpost.ie/2026/10/29/santas-magical-cabin-bringing-christmas-magic-to-families-for-17-years/",
+      "description": "Celebrating 17 years of spreading Christmas magic, Santa’s Magical Cabin continues to lead the way in delivering unforgettable festive memories for families across Ireland. Proudly Limerick family-owned and operated, this nationally recognised event company has grown from strength to strength, partnering with Dunnes Stores and operating across six locations nationwide. This Christmas, the company is [&#8230;]\nThe post Santa’s Magical Cabin– Bringing Christmas Magic to Families for 17 Years appeared first on Limerick Post.",
+      "pubDate": "Thu, 29 Oct 2026 11:57:44 +0000",
+      "author": "Staff Reporter",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-29T15:59:43.610Z"
+    },
+    "https://limerickvoice.com/?p=53266": {
+      "id": "https://limerickvoice.com/?p=53266",
+      "title": "BREAKING: Woman arrested as Gardaí seize €644,000 worth of cocaine and heroin in Limerick",
+      "link": "https://limerickvoice.com/news/breaking-woman-arrested-as-gardai-seize-e644000-worth-of-cocaine-and-heroin-in-limerick/",
+      "description": "A woman in her 40s has been arrested following a search of a residential property on Old Singland Road as part of ‘Operation Tara’.  GARDAÍ have seized cocaine and heroin, with an estimated street value of €644,000, following a search of a residential property in Limerick City.  The seizure was made on Wednesday, October 28, [&#8230;]\nThe post BREAKING: Woman arrested as Gardaí seize €644,000 worth of cocaine and heroin in Limerick appeared first on .",
+      "pubDate": "Thu, 29 Oct 2026 12:49:33 +0000",
+      "author": "Kerry Sheehan",
+      "source": "limerickvoice",
+      "scrapedAt": "2026-10-29T15:59:44.569Z"
+    },
+    "https://limerickvoice.com/?p=53263": {
+      "id": "https://limerickvoice.com/?p=53263",
+      "title": "Last chance to catch I’m Grand Mam’s ‘Happy Campers’ in Limerick",
+      "link": "https://limerickvoice.com/arts-and-culture/last-chance-to-catch-im-grand-mams-happy-campers-in-limerick/",
+      "description": "The Cork comedy duo will bring their hit live show to University Concert Hall next February, with tickets going on sale this Saturday.  LIMERICK fans of I’m Grand Mam will finally get their chance to see beloved podcast hosts PJ Kirby and Kevin Twomey live, as the duo bring their show ‘Happy Campers’ to University [&#8230;]\nThe post Last chance to catch I’m Grand Mam’s ‘Happy Campers’ in Limerick appeared first on .",
+      "pubDate": "Thu, 29 Oct 2026 12:36:23 +0000",
+      "author": "Christina O&#039;Mahony",
+      "source": "limerickvoice",
+      "scrapedAt": "2026-10-29T15:59:44.569Z"
     }
   },
   "rewritten": {
@@ -2511,6 +2653,27 @@
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/00/cs-a617d0ce-b501-4759-b941-9ca79debf6da.jpg?width=1200&auto=webp&crop=3%3A2",
       "rewrittenAt": "2026-10-29T11:30:05.097Z"
     },
+    "9317345": {
+      "skipped": true,
+      "duplicateOf": "9317386",
+      "rewrittenAt": "2026-10-29T16:07:49.216Z"
+    },
+    "9317386": {
+      "headline": "Match Officials Named for Limerick Senior Football Final at Mick Neville Park",
+      "summary": "Match officials have been confirmed for Sunday's senior football final. Debutants Kildimo-Pallaskenry will face Fr Caseys at 3.30pm in Mick Neville Park.",
+      "story": "The referee and match officials have been officially confirmed ahead of this weekend's county football decider at Mick Neville Park.\n\nThe showpiece fixture in the Irish Wire Products Senior Football Championship is set for this Sunday, with throw-in scheduled for 3.30pm.\n\nA historic encounter awaits supporters as debutants Kildimo-Pallaskenry prepare to take on a seasoned Fr Caseys side, who are making a record 26th appearance in the county final.",
+      "localAngle": "The match decides the senior football championship title for county Limerick.",
+      "section": "Sport",
+      "importance": 4,
+      "positivity": 4,
+      "originalTitle": "Referees confirmed for Limerick county football finals",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/sport/gaelic-football/referees-confirmed-for-limerick-county-football-finals-9317386",
+      "publishedAt": "Thu, 29 Oct 2026 14:30:41 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/20/6/07/2307590.jpeg?width=1200&auto=webp&trim=0%2C519%2C127%2C87",
+      "imageCredit": "SPORTSFILE",
+      "rewrittenAt": "2026-10-29T16:11:23.601Z"
+    },
     "9317612": {
       "headline": "Live testing begins as new Limerick train service nears completion",
       "summary": "Live testing has begun on Limerick's new train service as the project nears completion. A test unit will return to the line regularly over the coming weeks for driver route training.",
@@ -2531,6 +2694,73 @@
       "skipped": true,
       "duplicateOf": "9314966",
       "rewrittenAt": "2026-10-29T11:29:09.021Z"
+    },
+    "9317996": {
+      "headline": "Harris Confirms Ireland Ready to Protect EU Leaders at Dublin Summits",
+      "summary": "Taoiseach Simon Harris has stated that Ireland is fully capable and prepared to secure upcoming high-profile EU summits in Dublin next month.",
+      "story": "Taoiseach Simon Harris has insisted that the state is fully capable and prepared to protect visiting EU leaders during two major high-profile events scheduled for Dublin next month.\n\nThe back-to-back summits are taking place as part of Ireland’s ongoing presidency of the EU Council, bringing significant international political figures to the capital.\n\nSecurity preparations have been a major focus for authorities ahead of the high-level meetings, with the government expressing confidence in the nation's security apparatus to manage the events safely and effectively.",
+      "localAngle": "While the summits take place in Dublin, the security preparations and EU Council presidency matters directly to readers across Limerick and the wider country.",
+      "section": "News",
+      "importance": 3,
+      "positivity": 3,
+      "originalTitle": "Ireland is capable and prepared to protect EU leaders at Dublin summits – Harris",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/national/ireland-is-capable-and-prepared-to-protect-eu-leaders-at-dublin-summits-harris-9317996",
+      "publishedAt": "Thu, 29 Oct 2026 11:43:56 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/11/cs-52d514db-6515-4542-b06c-916293a05136.jpg?width=1200&auto=webp&crop=3%3A2",
+      "rewrittenAt": "2026-10-29T16:14:24.859Z"
+    },
+    "9318168": {
+      "headline": "Junior Ryder Cup selection criteria unveiled as tournament path cleared",
+      "summary": "Golf authorities have announced the official selection process for the upcoming Junior Ryder Cup. The youth tournament has previously featured major golf stars including Rory McIlroy and Leona Maguire.",
+      "story": "The selection process for the Junior Ryder Cup has been officially revealed, outlining the pathway for young golfers aiming to compete in the prestigious international youth tournament.\n\nThe competition has a strong track record of showcasing future professional talent. Among the notable players who have featured in the tournament in their youth are men's major winner Rory McIlroy, Denmark’s Nicolai Højgaard, Belgian Nicolas Colsaerts, and Ireland’s Leona Maguire.\n\nOrganizers hope the newly revealed qualification pathway will provide clear guidelines for hopefuls aiming to represent their continent on the global junior stage.",
+      "localAngle": "The announcement outlines the qualification pathway for young golfers aspiring to reach the elite international junior tournament.",
+      "section": "Sport",
+      "importance": 3,
+      "positivity": 4,
+      "originalTitle": "Selection process for Junior Ryder Cup in Limerick revealed",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/sport/ryder-cup/selection-process-for-junior-ryder-cup-in-limerick-revealed-9318168",
+      "publishedAt": "Thu, 29 Oct 2026 12:31:55 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/06/24/15/11/15874418-library.jpeg?width=1200&auto=webp&trim=6%2C0%2C7%2C0",
+      "imageCredit": "*",
+      "rewrittenAt": "2026-10-29T16:12:39.148Z"
+    },
+    "9318590": {
+      "skipped": true,
+      "duplicateOf": "9316083",
+      "rewrittenAt": "2026-10-29T16:07:49.216Z"
+    },
+    "9318776": {
+      "headline": "Donnacha Hurley appointed as general manager of The Limerick Strand Hotel",
+      "summary": "Donnacha Hurley has taken over as the new general manager of The Limerick Strand Hotel. He succeeds the late Stephen O’Connor following a period of transition for the business.",
+      "story": "The Limerick Strand Hotel has announced Donnacha Hurley as its new general manager. Hurley takes up the leadership role at the prominent local hotel following a period of transition for the business.\n\nHe steps into the position succeeding the late Stephen O’Connor. Further details regarding his appointment were confirmed following the announcement by the hotel.\n\nThe appointment marks a new chapter for the establishment, which remains a key fixture in the local hospitality sector.",
+      "localAngle": "The appointment directly affects operations at The Limerick Strand Hotel, a major hospitality provider in the city.",
+      "section": "Business",
+      "importance": 3,
+      "positivity": 3,
+      "originalTitle": "Limerick Hotel announces its new general manager",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/business/limerick-hotel-announces-its-new-general-manager-9318776",
+      "publishedAt": "Thu, 29 Oct 2026 15:21:30 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/04/27/04/iconic-upload-2022_07_04-limerick-strand-hotel-1656929872044.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageCredit": "LL",
+      "rewrittenAt": "2026-10-29T16:09:47.959Z"
+    },
+    "9318866": {
+      "headline": "Gardaí in Limerick facing unprecedented rise in mental health callouts",
+      "summary": "An increase in mental health interventions is pulling gardaí away from frontline policing duties across the region. Commissioner Justin Kelly confirmed the rising demand on resources.",
+      "story": "Gardaí are dealing with more mental health interventions than ever before, according to Commissioner Justin Kelly. The rising number of callouts is increasingly pulling officers away from traditional frontline policing duties.\n\nThe comments highlight the growing overlap between emergency services and mental health support, as gardaí frequently act as first responders to individuals in crisis across communities.\n\nWhile emergency services continue to respond to these calls, the Commissioner's remarks underline the strain such interventions place on daily police operations and local resources.",
+      "localAngle": "The rising demand for mental health interventions directly impacts local policing resources and frontline operations across Limerick.",
+      "section": "News",
+      "importance": 4,
+      "positivity": 2,
+      "originalTitle": "Gardaí ‘dealing with more mental health interventions than ever’",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/national/gardai-dealing-with-more-mental-health-interventions-than-ever-9318866",
+      "publishedAt": "Thu, 29 Oct 2026 15:40:55 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/15/cs-3474ef46-64f9-4856-9b35-d423722125c6.jpg?width=1200&auto=webp&crop=3%3A2",
+      "rewrittenAt": "2026-10-29T16:08:51.652Z"
     },
     "https://limerickvoice.com/?p=53125": {
       "skipped": true,
@@ -3401,6 +3631,80 @@
       "rewrittenAt": "2026-10-29T11:30:23.755Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/10/IMG_20261023_190509.jpg",
       "imageCheckedAt": "2026-10-29T11:30:38.298Z"
+    },
+    "https://limerickvoice.com/?p=53266": {
+      "skipped": true,
+      "duplicateOf": "https://www.limerickpost.ie/?p=362602",
+      "rewrittenAt": "2026-10-29T16:07:49.216Z"
+    },
+    "https://limerickvoice.com/?p=53263": {
+      "skipped": true,
+      "duplicateOf": "https://www.limerickpost.ie/?p=362563",
+      "rewrittenAt": "2026-10-29T16:07:49.216Z"
+    },
+    "https://www.limerickpost.ie/?p=362612": {
+      "headline": "Limerick Libraries launch county-wide 'One Limerick, One Book' reading initiative",
+      "summary": "Limerick Libraries and Creative Ireland have launched a new community reading initiative, selecting local author Karen Fitzgibbon's thriller 'Tell The Truth' as its inaugural title.",
+      "story": "Bookworms across Limerick are being encouraged to read, discuss, and share the same novel under a newly launched county-wide reading initiative. \n\n'One Limerick, One Book' has been introduced by Limerick Libraries with support from the Creative Ireland Programme. Based on the successful 'One County, One Book' model, the scheme aims to connect communities throughout the city and county through a shared reading experience.\n\nThriller novel *Tell The Truth*, written by local author Karen Fitzgibbon, has been chosen as the very first title for the programme. Organisers based the selection on criteria including a strong local connection through the author, setting, or subject matter, broad appeal for general readers and book clubs, and sufficient availability of copies for a county-wide rollout.\n\nAuthor Karen Fitzgibbon welcomed the announcement, describing her inclusion as a real honour. \"A strong sense of place is incredibly important to me when I’m writing, and *Tell The Truth* is very much a Limerick story,\" she said.",
+      "localAngle": "The initiative connects readers across Limerick city and county through a shared reading experience featuring a local author and setting.",
+      "section": "Arts & Culture",
+      "importance": 2,
+      "positivity": 4,
+      "originalTitle": "New reading initiative launched in Limerick",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/29/new-reading-initiative-launched-in-limerick/",
+      "publishedAt": "Thu, 29 Oct 2026 15:00:28 +0000",
+      "rewrittenAt": "2026-10-29T16:10:42.994Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/10/one-limerick-one-book-initiative-013.jpeg",
+      "imageCheckedAt": "2026-10-29T16:14:25.307Z"
+    },
+    "https://www.limerickpost.ie/?p=362608": {
+      "headline": "Rhebogue Mum Celebrates 18 Months Smoke-Free After QUIT Mid West Support",
+      "summary": "Claire Crawford, 29, from Rhebogue has marked 18 months as a non-smoker after receiving support from QUIT Mid West during her fourth pregnancy at University Maternity Hospital Limerick.",
+      "story": "A Limerick mother is celebrating nearly a year and a half free of cigarettes after getting support from the HSE’s QUIT Mid West service. 29-year-old Claire Crawford from Rhebogue had smoked since her teenage years and successfully kicked the habit after being referred through University Maternity Hospital Limerick (UMHL) during her fourth pregnancy.\n\nWorking with Stop Smoking Advisor Niamh Keating, Ms Crawford stopped smoking immediately upon referral and was completely nicotine-free within 20 weeks. She noted that previous attempts to quit during earlier pregnancies had failed because she could never last more than a few hours, but the regular advice and structure provided by the service made the crucial difference.\n\nAs well as health improvements, including better recovery after a caesarean section and the ability to breastfeed her youngest baby for the first time, Ms Crawford highlighted the financial impact. She previously spent around €150 a week on smoking, funds that are now redirected toward family activities and maintaining a smoke-free household for her children, coinciding with the national 'Stoptober' campaign.\n\nThose looking for further information on quitting smoking can visit the HSE website at HSE.ie/QuitSmoking.",
+      "localAngle": "The story highlights a local mother from Rhebogue and her journey with the University Maternity Hospital Limerick-linked QUIT Mid West service.",
+      "section": "News",
+      "importance": 3,
+      "positivity": 4,
+      "originalTitle": "Limerick mum celebrates over one year smoke-free thanks to QUIT Mid West",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/29/limerick-mum-celebrates-over-one-year-smoke-free-thanks-to-quit-mid-west/",
+      "publishedAt": "Thu, 29 Oct 2026 13:30:18 +0000",
+      "rewrittenAt": "2026-10-29T16:11:59.642Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/10/Claire-Crawford-QUIT-Stoptober.jpg",
+      "imageCheckedAt": "2026-10-29T16:14:26.046Z"
+    },
+    "https://www.limerickpost.ie/?p=362605": {
+      "headline": "Council Warned Murdered Pensioner Over Illegal Tenant Living in Home",
+      "summary": "The Central Criminal Court heard that Tipperary County Council flagged concerns to 89-year-old Josie Ray about an unauthorized occupant in her home months before she was allegedly murdered. The trial of Hasan Ali Gori, who has pleaded not guilty to the murder, is currently underway in Limerick.",
+      "story": "The Central Criminal Court heard this week that Tipperary County Council had contacted 89-year-old Josephine “Josie” Ray regarding concerns that a man was living illegally in her home prior to her alleged murder. Ms Ray, of St Joseph’s Park, Nenagh, was found strangled and smothered in her bed on August 4, 2024. The accused, 52-year-old Hasan Ali Gori, originally from Chad and with an address at St Joseph’s Park, has pleaded not guilty to the murder before Mr Justice Sean Gillane and a jury.\n\nAt the time of the alleged killing, Ali Gori was in a relationship with Ms Ray’s daughter, Mary Ray, who lived with an intellectual disability. Relatives and neighbours testified that the household was marked by constant arguments and fighting among the three residents. Seamus O’Brien, a community liaison officer with the council, gave evidence that he visited Ms Ray in April 2024 to inform her that, under her tenancy terms, no occupants other than her daughter were permitted in the property. A subsequent letter regarding anti-social behaviour and unauthorized occupancy was also sent to Ms Ray, warning that her tenancy was at risk.\n\nGardai told the court they responded to a domestic disturbance at the home on the night before Ms Ray was found dead. Garda Aoife Shine stated that Mary Ray was upset and claimed her partner was talking to prostitutes on his phone, while Ali Gori appeared frustrated. Another neighbour testified that he overheard the accused telling Mary Ray that either he had to go or Josie had to leave the house. The prosecution's case is that Ali Gori strangled and smothered the pensioner during the ongoing domestic friction.",
+      "localAngle": "The high-profile murder trial is taking place before the Central Criminal Court sitting in Limerick.",
+      "section": "Courts",
+      "importance": 5,
+      "positivity": 1,
+      "originalTitle": "Council told murder victim that accused was illegal tenant",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/29/council-told-murder-victim-that-accused-was-illegal-tenant/",
+      "publishedAt": "Thu, 29 Oct 2026 12:23:00 +0000",
+      "rewrittenAt": "2026-10-29T16:13:18.586Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2025/04/Josephine-Josie-Ray-e1723104368174-1.png",
+      "imageCheckedAt": "2026-10-29T16:14:26.280Z"
+    },
+    "https://www.limerickpost.ie/?p=362593": {
+      "headline": "Limerick family-run Santa’s Magical Cabin marks 17 years and 700,000th customer",
+      "summary": "The Limerick-operated festive attraction is celebrating its 17th year with six nationwide locations in partnership with Dunnes Stores, on track to welcome its 700,000th customer this Christmas.",
+      "story": "Santa’s Magical Cabin is marking its 17th year of operation, with the Limerick family-run business on track to welcome its 700,000th customer across its six nationwide locations this Christmas. \n\nOperating in partnership with Dunnes Stores, the nationally recognised festive event employs 100 local people at its Limerick base during the Christmas season. The attraction features professional photography and has built a strong reputation for inclusivity, catering specifically to families with children who have additional needs, disabilities, and Autism Spectrum Disorder (ASD).\n\nAs part of its ongoing charity efforts, the company has partnered with the Jack & Jill Foundation for the third consecutive year, gifting 130 family visits across its six sites to Jack & Jill families. The attraction also offers corporate packages with bespoke booking codes for employee visits.\n\nSanta will officially arrive at the Jetland Shopping Centre on Sunday, November 15, with pre-arrival entertainment including face painters, balloon artists, and festive characters beginning at 12:30pm ahead of his arrival at 1:30pm.",
+      "localAngle": "The nationally successful festive attraction is proudly Limerick family-owned and operated, employing 100 local staff each Christmas season at the Jetland Shopping Centre.",
+      "section": "Business",
+      "importance": 2,
+      "positivity": 4,
+      "originalTitle": "Santa’s Magical Cabin– Bringing Christmas Magic to Families for 17 Years",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/29/santas-magical-cabin-bringing-christmas-magic-to-families-for-17-years/",
+      "publishedAt": "Thu, 29 Oct 2026 11:57:44 +0000",
+      "rewrittenAt": "2026-10-29T16:13:53.398Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/10/Screenshot-2026-10-23-at-15.39.29.png",
+      "imageCheckedAt": "2026-10-29T16:14:26.528Z"
     }
   }
 }
