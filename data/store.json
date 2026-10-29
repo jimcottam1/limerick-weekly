@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastScrape": "2026-10-29T15:59:55.751Z",
+    "lastScrape": "2026-10-29T18:55:41.293Z",
     "totalArticles": 31
   },
   "articles": {
@@ -936,6 +936,18 @@
       "source": "limerickleader",
       "scrapedAt": "2026-10-29T15:59:44.057Z"
     },
+    "9318340": {
+      "id": "9318340",
+      "title": "PICTURES: Limerick village welcomes spooky new arrivals this Halloween",
+      "link": "https://www.limerickleader.ie/whats-on/arts-and-entertainment/pictures-limerick-village-welcomes-spooky-new-arrivals-this-halloween-9318340",
+      "description": "The village of Ballyorgan, Limerick, has been transformed into a Halloween haven, with over 50 handmade scarecrow creations decorating streets and houses",
+      "pubDate": "Thu, 29 Oct 2026 16:00:21 GMT",
+      "author": "Azra Dervish",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/11/14/WhatsApp-Image-2026-10-29-at-11-14-213.jpeg?width=1200&auto=webp&trim=443%2C0%2C757%2C0",
+      "imageCredit": "3rd Party Image",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-29T18:55:30.935Z"
+    },
     "9318590": {
       "id": "9318590",
       "title": "Two debuts as Munster Rugby name team for URC clash with Sharks",
@@ -970,6 +982,39 @@
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/15/cs-3474ef46-64f9-4856-9b35-d423722125c6.jpg?width=1200&auto=webp&crop=3%3A2",
       "source": "limerickleader",
       "scrapedAt": "2026-10-29T15:59:44.057Z"
+    },
+    "9318972": {
+      "id": "9318972",
+      "title": "‘Dead wedding’ Halloween theme transforms Dublin home",
+      "link": "https://www.limerickleader.ie/national/dead-wedding-halloween-theme-transforms-dublin-home-9318972",
+      "description": "The display draws scores of people to the area including schoolchildren and this year is in aid of Breast Cancer Ireland.",
+      "pubDate": "Thu, 29 Oct 2026 16:14:09 GMT",
+      "author": "Cate McCurry and  Press Association",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/16/cs-5462080b-90d9-48c9-b497-cd2511363aa5.jpg?width=1200&auto=webp&crop=3%3A2",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-29T18:55:30.935Z"
+    },
+    "9319032": {
+      "id": "9319032",
+      "title": "Gardaí say reported drug-related intimidation just ‘tip of the iceberg’",
+      "link": "https://www.limerickleader.ie/national/gardai-say-reported-drug-related-intimidation-just-tip-of-the-iceberg-9319032",
+      "description": "Commissioner Justin Kelly said drug-related intimidation has ‘been around for a long time’ and has led to death.",
+      "pubDate": "Thu, 29 Oct 2026 16:57:51 GMT",
+      "author": "Cillian Sherlock and  Press Association",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/17/cs-801d095c-c1de-4188-8ae8-7676970e6fe0.jpg?width=1200&auto=webp&crop=3%3A2",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-29T18:55:30.935Z"
+    },
+    "9319206": {
+      "id": "9319206",
+      "title": "Sinn Féin TDs interviewed by police over Garvaghy Road protest",
+      "link": "https://www.limerickleader.ie/national/sinn-fein-tds-interviewed-by-police-over-garvaghy-road-protest-9319206",
+      "description": "Pearse Doherty and Matt Carthy attended a police station in Belfast for interview on Thursday afternoon.",
+      "pubDate": "Thu, 29 Oct 2026 17:06:21 GMT",
+      "author": "David Young and  Press Association",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/17/cs-31e967b7-fa6c-4b9a-a5d8-40d285ed58cd.jpg?width=1200&auto=webp&crop=3%3A2",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-29T18:55:30.935Z"
     },
     "https://www.limerickpost.ie/?p=362473": {
       "id": "https://www.limerickpost.ie/?p=362473",
@@ -1690,6 +1735,36 @@
       "author": "Christina O&#039;Mahony",
       "source": "limerickvoice",
       "scrapedAt": "2026-10-29T15:59:44.569Z"
+    },
+    "https://www.limerickpost.ie/?p=362620": {
+      "id": "https://www.limerickpost.ie/?p=362620",
+      "title": "Update on plans for Sheehy site in Abbeyfeale",
+      "link": "https://www.limerickpost.ie/2026/10/29/update-on-plans-for-sheehy-site-in-abbeyfeale/",
+      "description": "FINE Gael councillor Liam Galvin has been informed by the Council that a number of assessments are currently being finalised in relation to the Sheehy site in Abbeyfeale. According to Senior Council Planner Maria Woods, these assessments include a review of the previous An Coimisiún Pleanála refusal, the relevant retail strategy context and the Department&#8217;s [&#8230;]\nThe post Update on plans for Sheehy site in Abbeyfeale appeared first on Limerick Post.",
+      "pubDate": "Thu, 29 Oct 2026 18:00:10 +0000",
+      "author": "Alan Jacques",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-29T18:55:30.494Z"
+    },
+    "https://www.limerickpost.ie/?p=362618": {
+      "id": "https://www.limerickpost.ie/?p=362618",
+      "title": "Thousands of prospective students visit Limerick for open days",
+      "link": "https://www.limerickpost.ie/2026/10/29/thousands-of-prospective-students-visit-limerick-for-open-days/",
+      "description": "MORE than 4,000 students from the Mid West and beyond visited the Technological University of the Shannon (TUS) for the annual open days. The two-day event from Friday, October 15 and Saturday, October 16 gave prospective students an opportunity to explore the wide range of programmes at TUS, meet lecturers and current students, and learn [&#8230;]\nThe post Thousands of prospective students visit Limerick for open days appeared first on Limerick Post.",
+      "pubDate": "Thu, 29 Oct 2026 16:30:44 +0000",
+      "author": "Sarah Coleman",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-29T18:55:30.495Z"
+    },
+    "https://www.limerickpost.ie/?p=362645": {
+      "id": "https://www.limerickpost.ie/?p=362645",
+      "title": "Frightfully good Halloween awaits for Limerick",
+      "link": "https://www.limerickpost.ie/2026/10/29/frightfully-good-halloween-awaits-for-limerick/",
+      "description": "THERE is plenty happening for a frightfully good Halloween in Limerick this weekend. With the countdown officially on, there will be family adventures and ancient folklore to atmospheric storytelling, community celebrations and after-dark thrills, there are plenty of reasons to get into the Halloween spirit during the midterm break. Running until 1 November, Halloween in Limerick [&#8230;]\nThe post Frightfully good Halloween awaits for Limerick appeared first on Limerick Post.",
+      "pubDate": "Thu, 29 Oct 2026 16:10:25 +0000",
+      "author": "Sarah Coleman",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-29T18:55:30.495Z"
     }
   },
   "rewritten": {
@@ -2726,6 +2801,22 @@
       "imageCredit": "*",
       "rewrittenAt": "2026-10-29T16:12:39.148Z"
     },
+    "9318340": {
+      "headline": "Ballyorgan transforms into Halloween haven with over 50 handmade scarecrows",
+      "summary": "The south Limerick village has been decorated with more than 50 handmade scarecrow creations lining the streets and houses ahead of Halloween.",
+      "story": "The village of Ballyorgan has undergone a major seasonal transformation, welcoming over 50 spooky new arrivals to its streets and houses for Halloween.\n\nLocal residents and creators have placed more than 50 handmade scarecrow displays across the area, turning the village into a dedicated Halloween haven.\n\nThe large-scale display features a wide variety of distinct characters decorating homes and public thoroughfares throughout the south Limerick locality.\n\nVisitors and locals passing through the village can view the dozens of handcrafted figures as the community marks the Halloween season.",
+      "localAngle": "The Halloween display brings a unique seasonal attraction to the south Limerick village of Ballyorgan.",
+      "section": "News",
+      "importance": 2,
+      "positivity": 4,
+      "originalTitle": "PICTURES: Limerick village welcomes spooky new arrivals this Halloween",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/whats-on/arts-and-entertainment/pictures-limerick-village-welcomes-spooky-new-arrivals-this-halloween-9318340",
+      "publishedAt": "Thu, 29 Oct 2026 16:00:21 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/11/14/WhatsApp-Image-2026-10-29-at-11-14-213.jpeg?width=1200&auto=webp&trim=443%2C0%2C757%2C0",
+      "imageCredit": "3rd Party Image",
+      "rewrittenAt": "2026-10-29T18:57:01.164Z"
+    },
     "9318590": {
       "skipped": true,
       "duplicateOf": "9316083",
@@ -2761,6 +2852,51 @@
       "publishedAt": "Thu, 29 Oct 2026 15:40:55 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/15/cs-3474ef46-64f9-4856-9b35-d423722125c6.jpg?width=1200&auto=webp&crop=3%3A2",
       "rewrittenAt": "2026-10-29T16:08:51.652Z"
+    },
+    "9318972": {
+      "headline": "Dublin home transformed with 'Dead wedding' Halloween display for charity",
+      "summary": "A Dublin residence has been transformed with a 'Dead wedding' Halloween theme, drawing large crowds including schoolchildren. This year's display is raising funds for Breast Cancer Ireland.",
+      "story": "A striking Halloween display themed around a 'dead wedding' has transformed a Dublin home, attracting large crowds of visitors to the area.\n\nThe elaborate seasonal setup has drawn scores of people to the neighbourhood, including local schoolchildren who have come to view the decorations.\n\nBeyond the seasonal attraction, this year's display is being used to raise funds for Breast Cancer Ireland.",
+      "localAngle": "While located in Dublin, the display has proven popular with visitors and offers inspiration for seasonal community fundraising efforts closer to home in Limerick.",
+      "section": "News",
+      "importance": 2,
+      "positivity": 4,
+      "originalTitle": "‘Dead wedding’ Halloween theme transforms Dublin home",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/national/dead-wedding-halloween-theme-transforms-dublin-home-9318972",
+      "publishedAt": "Thu, 29 Oct 2026 16:14:09 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/16/cs-5462080b-90d9-48c9-b497-cd2511363aa5.jpg?width=1200&auto=webp&crop=3%3A2",
+      "rewrittenAt": "2026-10-29T18:56:52.315Z"
+    },
+    "9319032": {
+      "headline": "Gardaí Warn Reported Limerick Drug Intimidation Is Only the 'Tip of the Iceberg'",
+      "summary": "Commissioner Justin Kelly has stated that drug-related intimidation in the region has persisted for a long time and resulted in fatalities, with many more cases going unreported.",
+      "story": "Senior Gardaí have warned that reported cases of drug-related intimidation represent merely the 'tip of the iceberg' regarding the true scale of the issue affecting local communities.\n\nCommissioner Justin Kelly addressed the ongoing crisis, noting that drug-related intimidation has 'been around for a long time' across the region. He confirmed that the criminal practice has previously led to death.\n\nAuthorities continue to urge anyone affected by drug-related threats or violence to come forward and report incidents to Gardaí, as tackling underreporting remains a central challenge for law enforcement.",
+      "localAngle": "The warning highlights the persistent and severe impact of the illegal drug trade on local communities across Limerick.",
+      "section": "News",
+      "importance": 5,
+      "positivity": 1,
+      "originalTitle": "Gardaí say reported drug-related intimidation just ‘tip of the iceberg’",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/national/gardai-say-reported-drug-related-intimidation-just-tip-of-the-iceberg-9319032",
+      "publishedAt": "Thu, 29 Oct 2026 16:57:51 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/17/cs-801d095c-c1de-4188-8ae8-7676970e6fe0.jpg?width=1200&auto=webp&crop=3%3A2",
+      "rewrittenAt": "2026-10-29T18:56:34.259Z"
+    },
+    "9319206": {
+      "headline": "Sinn Féin TDs Pearse Doherty and Matt Carthy Interviewed by Police Over Garvaghy Road Protest",
+      "summary": "Two high-profile Sinn Féin TDs attended a Belfast police station on Thursday afternoon for questioning regarding a Garvaghy Road protest. Pearse Doherty and Matt Carthy participated in the voluntary interviews.",
+      "story": "Sinn Féin TDs Pearse Doherty and Matt Carthy attended a police station in Belfast on Thursday afternoon to be interviewed by police officers.\n\nThe questioning of the two senior party figures relates to a protest held at the Garvaghy Road. Both TDs presented themselves to police in Belfast during the afternoon session.\n\nFurther details regarding the specific nature of the police inquiries or any potential subsequent actions have not yet been released by authorities following Thursday's interviews.",
+      "localAngle": "While this is a national political news story involving high-profile TDs, it is of interest to Limerick readers following national political developments and Sinn Féin representatives.",
+      "section": "Council",
+      "importance": 3,
+      "positivity": 3,
+      "originalTitle": "Sinn Féin TDs interviewed by police over Garvaghy Road protest",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/national/sinn-fein-tds-interviewed-by-police-over-garvaghy-road-protest-9319206",
+      "publishedAt": "Thu, 29 Oct 2026 17:06:21 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/17/cs-31e967b7-fa6c-4b9a-a5d8-40d285ed58cd.jpg?width=1200&auto=webp&crop=3%3A2",
+      "rewrittenAt": "2026-10-29T18:56:27.637Z"
     },
     "https://limerickvoice.com/?p=53125": {
       "skipped": true,
@@ -3705,6 +3841,43 @@
       "rewrittenAt": "2026-10-29T16:13:53.398Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/10/Screenshot-2026-10-23-at-15.39.29.png",
       "imageCheckedAt": "2026-10-29T16:14:26.528Z"
+    },
+    "https://www.limerickpost.ie/?p=362645": {
+      "skipped": true,
+      "duplicateOf": "https://www.limerickpost.ie/?p=362563",
+      "rewrittenAt": "2026-10-29T18:56:09.619Z"
+    },
+    "https://www.limerickpost.ie/?p=362620": {
+      "headline": "Council reviews planning history and retail guidelines for Abbeyfeale's Sheehy site",
+      "summary": "Limerick City and County Council is finalising a series of assessments regarding the Sheehy site in Abbeyfeale. The review includes examining a previous An Coimisiún Pleanála refusal and national retail planning guidelines.",
+      "story": "Plans for the Sheehy site in Abbeyfeale have moved forward as Limerick City and County Council works to finalise a series of key assessments. Fine Gael councillor Liam Galvin was informed of the ongoing review following inquiries into the potential future of the West Limerick location.\n\nAccording to Senior Council Planner Maria Woods, the local authority's current work involves reviewing the grounds behind a previous planning refusal from An Coimisiún Pleanála. Officials are also examining the relevant retail strategy context alongside the Department’s Retail Planning Guidelines as part of the process.\n\nMs Woods noted that any future proposal to rezone the Abbeyfeale property would require a substantial case to be made. “Should the Sheehy site be considered for rezoning, a robust planning argument and justification will be required to support any proposed change,” she stated.",
+      "localAngle": "The updates directly impact future development and planning strategy in the West Limerick town of Abbeyfeale.",
+      "section": "Council",
+      "importance": 3,
+      "positivity": 3,
+      "originalTitle": "Update on plans for Sheehy site in Abbeyfeale",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/29/update-on-plans-for-sheehy-site-in-abbeyfeale/",
+      "publishedAt": "Thu, 29 Oct 2026 18:00:10 +0000",
+      "rewrittenAt": "2026-10-29T18:56:16.841Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2024/10/School-safety-liam-galvin.jpg",
+      "imageCheckedAt": "2026-10-29T18:57:01.637Z"
+    },
+    "https://www.limerickpost.ie/?p=362618": {
+      "headline": "Over 4,000 Prospective Students Attend TUS Moylish Campus Open Days",
+      "summary": "More than 4,000 students from across the Mid West and beyond visited the Technological University of the Shannon in Limerick for the annual two-day open event.",
+      "story": "More than 4,000 prospective students descended on the Technological University of the Shannon (TUS) Moylish campus for the university's annual two-day open event.\n\nHeld across Friday, October 15, and Saturday, October 16, the event welcomed visitors from the Mid West and further afield. Attendees were given the opportunity to explore the wide range of academic programmes available at the university and learn more about student life.\n\nDuring the two-day event, prospective students had the chance to meet with current students and lecturers, as well as attend a packed schedule of course talks covering numerous disciplines. Visitors also engaged directly with representatives from Student Support, Access, Erasmus, and the Sports Office to gather information on campus resources and opportunities.",
+      "localAngle": "The event drew thousands of visitors to Limerick's TUS Moylish campus to explore higher education opportunities in the region.",
+      "section": "News",
+      "importance": 2,
+      "positivity": 4,
+      "originalTitle": "Thousands of prospective students visit Limerick for open days",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/29/thousands-of-prospective-students-visit-limerick-for-open-days/",
+      "publishedAt": "Thu, 29 Oct 2026 16:30:44 +0000",
+      "rewrittenAt": "2026-10-29T18:56:44.171Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2022/10/TUS-Moylish-campus-scaled.jpg",
+      "imageCheckedAt": "2026-10-29T18:57:02.136Z"
     }
   }
 }
