@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastScrape": "2026-10-30T15:48:20.595Z",
+    "lastScrape": "2026-10-30T18:32:58.283Z",
     "totalArticles": 30
   },
   "articles": {
@@ -622,6 +622,18 @@
       "source": "limerickleader",
       "scrapedAt": "2026-10-27T15:17:30.387Z"
     },
+    "9312577": {
+      "id": "9312577",
+      "title": " ‘Come on KP!’: Supporters rally behind Kildimo-Pallaskenry ahead of Limerick Senior Football Championship",
+      "link": "https://www.limerickleader.ie/sport/come-on-kp-supporters-rally-behind-kildimo-pallaskenry-ahead-of-limerick-senior-football-championship-9312577",
+      "description": "Excitement is reaching fever pitch among school children across Kildimo and Pallaskenry as the community counts down to one of the biggest days in the club’s history",
+      "pubDate": "Fri, 30 Oct 2026 16:00:53 GMT",
+      "author": "Claire Noonan",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/27/16/25/download-(6).png?width=1200&auto=webp&trim=3%2C0%2C4%2C0",
+      "imageCredit": "PICTURE: EVAN ARTHUR",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-30T18:32:44.956Z"
+    },
     "9312786": {
       "id": "9312786",
       "title": "Limerick man sentenced for his role in ‘dodgy box’ operation",
@@ -772,6 +784,18 @@
       "imageCredit": "Proton VPN",
       "source": "limerickleader",
       "scrapedAt": "2026-10-28T11:16:40.619Z"
+    },
+    "9314861": {
+      "id": "9314861",
+      "title": "PICTURES: Students show support for Fr Casey's ahead of Limerick football final",
+      "link": "https://www.limerickleader.ie/sport/gaelic-football/pictures-students-show-support-for-fr-caseys-ahead-of-limerick-football-final-9314861",
+      "description": "Students at St Mary’s Boys’ National School in Abbeyfeale are hoping Fr Casey’s can land their first title since 2006",
+      "pubDate": "Fri, 30 Oct 2026 18:00:58 GMT",
+      "author": "Limerick Live Reporters",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/11/12/WhatsApp-Image-2026-10-23-at-14-09-50.jpeg?width=1200&auto=webp&trim=0%2C221%2C0%2C0",
+      "imageCredit": "LL",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-30T18:32:44.956Z"
     },
     "9314966": {
       "id": "9314966",
@@ -1152,6 +1176,28 @@
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/30/14/cs-24b2af62-e8e3-4654-9585-e0bc452940a7.jpg?width=1200&auto=webp&crop=3%3A2",
       "source": "limerickleader",
       "scrapedAt": "2026-10-30T15:48:10.072Z"
+    },
+    "9321327": {
+      "id": "9321327",
+      "title": "‘Very significant’ increase in CUH workforce has to be ‘tempered’",
+      "link": "https://www.limerickleader.ie/national/very-significant-increase-in-cuh-workforce-has-to-be-tempered-9321327",
+      "description": "Clinical directors at Cork University Hospital urged Micheál Martin to order an independent assessment of its staffing needs.",
+      "pubDate": "Fri, 30 Oct 2026 16:37:22 GMT",
+      "author": "Cate McCurry and  Press Association",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/30/16/cs-8ee7163d-5c7b-43a9-aadb-e25488243d6a.jpg?width=1200&auto=webp&crop=3%3A2",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-30T18:32:44.956Z"
+    },
+    "9321394": {
+      "id": "9321394",
+      "title": "Not ‘going to be easy’ for Ireland to return to Eurovision, RTÉ boss says",
+      "link": "https://www.limerickleader.ie/national/not-going-to-be-easy-for-ireland-to-return-to-eurovision-rte-boss-says-9321394",
+      "description": "RTÉ boss Kevin Bakhurst also said he does not believe it will be possible for organisers to remove Israel from the competition.",
+      "pubDate": "Fri, 30 Oct 2026 17:21:18 GMT",
+      "author": "Cillian Sherlock and  Press Association",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/30/17/cs-352d26f6-e1b3-47df-b60f-44a2df7721ac.jpg?width=1200&auto=webp&crop=3%3A2",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-30T18:32:44.956Z"
     },
     "https://www.limerickpost.ie/?p=362473": {
       "id": "https://www.limerickpost.ie/?p=362473",
@@ -1992,6 +2038,16 @@
       "author": "Shauna Hart",
       "source": "limerickvoice",
       "scrapedAt": "2026-10-30T15:48:10.720Z"
+    },
+    "https://www.limerickpost.ie/?p=362642": {
+      "id": "https://www.limerickpost.ie/?p=362642",
+      "title": "Over 850 new dwellings completed in Limerick in 2025",
+      "link": "https://www.limerickpost.ie/2026/10/30/over-850-new-dwellings-completed-in-limerick-in-2025/",
+      "description": "A TOTAL of 866 new dwelling completions were recorded in Limerick in 2025, according to the Central Statistics Office (CSO). In response to a question from Fine Gael councillor Peter Doyle, Limerick City and County Council explained that this figure included 283 single houses, 500 scheme houses, and 83 apartments. The breakdown of total new [&#8230;]\nThe post Over 850 new dwellings completed in Limerick in 2025 appeared first on Limerick Post.",
+      "pubDate": "Fri, 30 Oct 2026 18:00:30 +0000",
+      "author": "Alan Jacques",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-30T18:32:44.078Z"
     }
   },
   "rewritten": {
@@ -2702,6 +2758,22 @@
       "imageCredit": "INSTAGRAM",
       "rewrittenAt": "2026-10-27T15:21:48.500Z"
     },
+    "9312577": {
+      "headline": "Kildimo-Pallaskenry prepares for historic Limerick Senior Football Championship appearance",
+      "summary": "Excitement reaches fever pitch across Kildimo and Pallaskenry as local school children and supporters rally behind the club ahead of one of the biggest days in its history in the Limerick Senior Football Championship.",
+      "story": "Excitement has reached fever pitch across Kildimo and Pallaskenry as the community counts down to one of the biggest days in the club’s history.\n\nSchool children across the area are rallying behind the team with banners, jerseys, and messages of support as preparations ramp up for the upcoming Limerick Senior Football Championship fixture.\n\nThe local GAA club is preparing to contest the major fixture, capturing the attention of young fans and residents alike throughout the parishes as anticipation builds for the weekend ahead.",
+      "localAngle": "The buildup captures local excitement across the Kildimo and Pallaskenry parishes ahead of a major Limerick club football milestone.",
+      "section": "Sport",
+      "importance": 3,
+      "positivity": 4,
+      "originalTitle": " ‘Come on KP!’: Supporters rally behind Kildimo-Pallaskenry ahead of Limerick Senior Football Championship",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/sport/come-on-kp-supporters-rally-behind-kildimo-pallaskenry-ahead-of-limerick-senior-football-championship-9312577",
+      "publishedAt": "Fri, 30 Oct 2026 16:00:53 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/27/16/25/download-(6).png?width=1200&auto=webp&trim=3%2C0%2C4%2C0",
+      "imageCredit": "PICTURE: EVAN ARTHUR",
+      "rewrittenAt": "2026-10-30T18:34:01.148Z"
+    },
     "9312786": {
       "headline": "Limerick Man Sentenced for Role in Illegal 'Dodgy Box' Operation",
       "summary": "A Limerick man has been sentenced in court for his involvement in an illegal television streaming operation. The court heard he acted as a 'money mule' rather than the principal operator of the business.",
@@ -2862,6 +2934,22 @@
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/10/17/windows-refresh-pr-3-no-logo.webp?width=1200&auto=webp&trim=0%2C113%2C0%2C112",
       "imageCredit": "Proton VPN",
       "rewrittenAt": "2026-10-28T11:18:30.025Z"
+    },
+    "9314861": {
+      "headline": "Abbeyfeale students rally behind Fr Casey's ahead of Limerick final",
+      "summary": "Pupils at St Mary’s Boys’ National School have shown their support for the Fr Casey's team as they prepare for the Limerick football final, targeting their first title since 2006.",
+      "story": "Students and staff at St Mary’s Boys’ National School in Abbeyfeale have thrown their backing behind the local club as Fr Casey's prepares for the county football final.\n\nExcitement has been building across the parish as the team looks to secure the title for the first time in two decades. The last time Fr Casey's lifted the cup was back in 2006, and supporters of all ages are hoping this will be the year they end the wait.\n\nThe school community dressed in club colours to showcase their support ahead of the fixture. Photographs from the County Limerick school capture the pupils displaying club flags and banners in anticipation of the weekend's game.",
+      "localAngle": "The story highlights local GAA preparations in Abbeyfeale ahead of a major county football final.",
+      "section": "Sport",
+      "importance": 4,
+      "positivity": 4,
+      "originalTitle": "PICTURES: Students show support for Fr Casey's ahead of Limerick football final",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/sport/gaelic-football/pictures-students-show-support-for-fr-caseys-ahead-of-limerick-football-final-9314861",
+      "publishedAt": "Fri, 30 Oct 2026 18:00:58 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/11/12/WhatsApp-Image-2026-10-23-at-14-09-50.jpeg?width=1200&auto=webp&trim=0%2C221%2C0%2C0",
+      "imageCredit": "LL",
+      "rewrittenAt": "2026-10-30T18:33:23.661Z"
     },
     "9314966": {
       "headline": "Simon Harris denies asking Limerick Minister Patrick O'Donovan to resign",
@@ -3278,6 +3366,36 @@
       "publishedAt": "Fri, 30 Oct 2026 14:06:55 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/30/14/cs-24b2af62-e8e3-4654-9585-e0bc452940a7.jpg?width=1200&auto=webp&crop=3%3A2",
       "rewrittenAt": "2026-10-30T15:49:23.910Z"
+    },
+    "9321327": {
+      "headline": "Cork University Hospital Clinical Directors Urge Micheál Martin For Independent Staffing Review",
+      "summary": "Clinical directors at Cork University Hospital have called on Micheál Martin to order an independent assessment of hospital staffing. They stated that recent workforce increases must be tempered.",
+      "story": "Clinical directors at Cork University Hospital have urged Micheál Martin to order an independent assessment of the facility's staffing needs. The call comes as experts argue that a recent, very significant increase in the hospital's workforce still needs to be tempered.\n\nThe request places fresh pressure on national leadership to evaluate how hospital resources are managed and distributed. Clinical leaders emphasized the need for an independent review to properly understand and address the ongoing operational demands at the major regional hospital.\n\nWhile workforce numbers have risen significantly in recent times, the clinical directors maintain that further outside scrutiny is essential to ensure staffing levels align appropriately with actual medical requirements.",
+      "localAngle": "As a major regional healthcare hub in the south, Cork University Hospital's staffing policies and resource allocation are closely watched by patients and health advocates across the wider region, including Limerick.",
+      "section": "News",
+      "importance": 4,
+      "positivity": 3,
+      "originalTitle": "‘Very significant’ increase in CUH workforce has to be ‘tempered’",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/national/very-significant-increase-in-cuh-workforce-has-to-be-tempered-9321327",
+      "publishedAt": "Fri, 30 Oct 2026 16:37:22 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/30/16/cs-8ee7163d-5c7b-43a9-aadb-e25488243d6a.jpg?width=1200&auto=webp&crop=3%3A2",
+      "rewrittenAt": "2026-10-30T18:33:50.563Z"
+    },
+    "9321394": {
+      "headline": "RTÉ Director General Kevin Bakhurst admits Eurovision return will be a challenge",
+      "summary": "RTÉ boss Kevin Bakhurst has stated that Ireland faces an uphill battle to return to Eurovision success and believes removing Israel from the contest is not feasible.",
+      "story": "Returning to Eurovision glory will not be an easy task for Ireland, according to RTÉ Director General Kevin Bakhurst. Speaking on the challenges facing the national broadcaster regarding the annual song contest, Bakhurst addressed both the competitive hurdles and the ongoing international controversies surrounding the event.\n\nIn addition to the difficulties Ireland faces in improving its performance and standing in the competition, Bakhurst addressed calls from various quarters regarding participant nations. He stated that he does not believe it will be possible for the event's organisers to remove Israel from the competition.\n\nThe comments highlight the complex pressures facing RTÉ as it plans for future Eurovision participation, balancing performance expectations with broader geopolitical discussions surrounding the contest.",
+      "localAngle": "As loyal Eurovision viewers across Limerick and the rest of the country look ahead to the next contest, RTÉ leadership has tempered expectations about Ireland's prospects.",
+      "section": "Arts & Culture",
+      "importance": 3,
+      "positivity": 3,
+      "originalTitle": "Not ‘going to be easy’ for Ireland to return to Eurovision, RTÉ boss says",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/national/not-going-to-be-easy-for-ireland-to-return-to-eurovision-rte-boss-says-9321394",
+      "publishedAt": "Fri, 30 Oct 2026 17:21:18 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/30/17/cs-352d26f6-e1b3-47df-b60f-44a2df7721ac.jpg?width=1200&auto=webp&crop=3%3A2",
+      "rewrittenAt": "2026-10-30T18:33:41.349Z"
     },
     "https://limerickvoice.com/?p=53125": {
       "skipped": true,
@@ -4370,6 +4488,22 @@
       "rewrittenAt": "2026-10-30T15:49:34.529Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/10/Untitled-design-30.avif",
       "imageCheckedAt": "2026-10-30T15:49:41.861Z"
+    },
+    "https://www.limerickpost.ie/?p=362642": {
+      "headline": "CSO figures reveal 866 new homes completed across Limerick in 2025",
+      "summary": "Central Statistics Office data shows that 866 new dwellings were finished in Limerick last year, including 500 scheme houses and 283 single houses. City West recorded the highest number of completions among local electoral areas.",
+      "story": "A total of 866 new dwelling completions were recorded across Limerick in 2025, according to figures released by the Central Statistics Office (CSO).\n\nDetails of the housing output were provided to Fine Gael councillor Peter Doyle following a query to Limerick City and County Council. The local authority confirmed that the 2025 total comprised 500 scheme houses, 283 single houses, and 83 apartments.\n\nA breakdown of the figures across Limerick's local electoral areas shows varied delivery rates. City West led the county with 251 completions, followed by City East with 193, and Adare-Rathkeale with 140. Further completions included 128 in Cappamore-Kilmallock, 108 in Newcastle West, and 46 in City North.",
+      "localAngle": "The figures provide a detailed breakdown of residential construction and housing delivery across Limerick's city and county electoral areas.",
+      "section": "Council",
+      "importance": 4,
+      "positivity": 4,
+      "originalTitle": "Over 850 new dwellings completed in Limerick in 2025",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/30/over-850-new-dwellings-completed-in-limerick-in-2025/",
+      "publishedAt": "Fri, 30 Oct 2026 18:00:30 +0000",
+      "rewrittenAt": "2026-10-30T18:33:32.253Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/03/rent-housing-jakub-zerdzicki-GQn9GnMkVQg-unsplash.jpg",
+      "imageCheckedAt": "2026-10-30T18:34:01.574Z"
     }
   }
 }
