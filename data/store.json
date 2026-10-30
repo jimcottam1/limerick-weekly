@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastScrape": "2026-10-29T18:55:41.293Z",
-    "totalArticles": 31
+    "lastScrape": "2026-10-30T11:20:41.361Z",
+    "totalArticles": 32
   },
   "articles": {
     "9290418": {
@@ -658,6 +658,18 @@
       "source": "limerickleader",
       "scrapedAt": "2026-10-28T11:16:40.619Z"
     },
+    "9313135": {
+      "id": "9313135",
+      "title": "IF WALLS COULD TALK: Business, benevolence and the Quaker legacy",
+      "link": "https://www.limerickleader.ie/news/opinion/if-walls-could-talk-paul-obrien/if-walls-could-talk-business-benevolence-and-the-quaker-legacy-in-limerick-9313135",
+      "description": "Columnist Dr Paul O’Brien reflects on a small but significant group that shaped life for generations",
+      "pubDate": "Fri, 30 Oct 2026 07:00:33 GMT",
+      "author": "Dr Paul O'Brien",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/27/23/22/Untitled.png?width=1200&auto=webp&trim=735%2C0%2C139%2C0",
+      "imageCredit": "freelance",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-30T11:20:30.346Z"
+    },
     "9313286": {
       "id": "9313286",
       "title": "Why Na Piarsaigh are far from finished despite final heartbreak",
@@ -972,6 +984,18 @@
       "source": "limerickleader",
       "scrapedAt": "2026-10-29T15:59:44.057Z"
     },
+    "9318843": {
+      "id": "9318843",
+      "title": "Limerick duo looking to guide Cork club to back-to-back promotions",
+      "link": "https://www.limerickleader.ie/sport/gaelic-football/limerick-duo-looking-to-guide-cork-club-to-back-to-back-promotions-9318843",
+      "description": "Former Limerick footballer and current selector Ian Ryan is part of the backroom team in Buttevant put together by his fellow St Senans clubman Jody O’Hanlon",
+      "pubDate": "Fri, 30 Oct 2026 08:30:45 GMT",
+      "author": "Joel Slattery",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/15/33/1185584.jpeg?width=1200&auto=webp&trim=57%2C0%2C148%2C0",
+      "imageCredit": "SPORTSFILE",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-30T11:20:30.346Z"
+    },
     "9318866": {
       "id": "9318866",
       "title": "Gardaí ‘dealing with more mental health interventions than ever’",
@@ -1015,6 +1039,73 @@
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/17/cs-31e967b7-fa6c-4b9a-a5d8-40d285ed58cd.jpg?width=1200&auto=webp&crop=3%3A2",
       "source": "limerickleader",
       "scrapedAt": "2026-10-29T18:55:30.935Z"
+    },
+    "9319218": {
+      "id": "9319218",
+      "title": "A Limerick lady to her fingertips:  ‘Kay will be forever in our hearts and minds’",
+      "link": "https://www.limerickleader.ie/deaths/a-limerick-lady-to-her-fingertips-kay-will-be-forever-in-our-hearts-and-minds-9319218",
+      "description": "The late Kay O’Dowd leaves a legacy of community spirit and kindness  in Kildimo-Pallaskenry and across County Limerick",
+      "pubDate": "Fri, 30 Oct 2026 09:00:40 GMT",
+      "author": "Donal O'Regan",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/17/02/Untitled-design-(90).jpeg?width=1200&auto=webp&trim=16%2C0%2C145%2C0",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-30T11:20:30.346Z"
+    },
+    "9319370": {
+      "id": "9319370",
+      "title": "Garda work-to-rule directed for major EU Presidency events",
+      "link": "https://www.limerickleader.ie/national/garda-work-to-rule-directed-for-major-eu-presidency-events-9319370",
+      "description": "Rank-and-file gardaí are to engage in a work-to-rule action during the biggest days of the EU Presidency.",
+      "pubDate": "Thu, 29 Oct 2026 22:05:11 GMT",
+      "author": "Cillian Sherlock and  Press Association",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/22/cs-b6e906aa-af8f-4926-b48b-b7333613cc39.jpg?width=1200&auto=webp&crop=3%3A2",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-30T11:20:30.346Z"
+    },
+    "9319379": {
+      "id": "9319379",
+      "title": "Commissioner to meet Horkan family",
+      "link": "https://www.limerickleader.ie/national/commissioner-to-meet-horkan-family-9319379",
+      "description": "Commissioner Justin Kelly has committed to meeting the family of murdered Detective Garda Colm Horkan.",
+      "pubDate": "Thu, 29 Oct 2026 19:13:02 GMT",
+      "author": "Cillian Sherlock and  Press Association",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/19/cs-e4f76a98-bc7c-4b0a-86e2-bb120bb1b675.jpg?width=1200&auto=webp&crop=3%3A2",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-30T11:20:30.346Z"
+    },
+    "9319472": {
+      "id": "9319472",
+      "title": "Shoe insole could ease pain for those living with skin condition",
+      "link": "https://www.limerickleader.ie/national/shoe-insole-could-ease-pain-for-those-living-with-skin-condition-9319472",
+      "description": "People with the most common variant of epidermolysis bullosa endure severe blisters on their feet, even after short walks.",
+      "pubDate": "Fri, 30 Oct 2026 00:01:00 GMT",
+      "author": "Cate McCurry and  Press Association",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/30/00/cs-81ea26d5-9cf1-4256-a1f3-27ea70f1d57b.jpg?width=1200&auto=webp&crop=3%3A2",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-30T11:20:30.346Z"
+    },
+    "9319781": {
+      "id": "9319781",
+      "title": "Pensioner pleads guilty to causing death of Limerick woman (72)",
+      "link": "https://www.limerickleader.ie/news/crime-courts/pensioner-pleads-guilty-to-causing-death-of-limerick-woman-72-9319781",
+      "description": "A victim impact statement was read into the record on behalf of Mary Fehilly’s family, who said: ‘Our mother was the sun and we were the planets revolving around her’",
+      "pubDate": "Fri, 30 Oct 2026 09:45:35 GMT",
+      "author": "Olivia Kelleher",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/30/9/47/Pensioner-pleads-guilty-to-causing-death-of-Limerick-woman-(72).jpeg?width=1200&auto=webp&trim=363%2C0%2C441%2C0",
+      "imageCredit": "-",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-30T11:20:30.346Z"
+    },
+    "9319940": {
+      "id": "9319940",
+      "title": "'Absolute lady’: Tributes as mother and grandmother of Limerick hurling stars passes away",
+      "link": "https://www.limerickleader.ie/deaths/absolute-lady-tributes-as-mother-and-grandmother-of-limerick-hurling-stars-passes-away-9319940",
+      "description": "Grandmother of Barry Nash and mum of Mike and Declan Nash passes away peacefully at home in Ballysheedy",
+      "pubDate": "Fri, 30 Oct 2026 10:29:34 GMT",
+      "author": "Donal O'Regan",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/30/10/17/Untitled-design-(91).jpeg?width=1200&auto=webp&trim=9%2C0%2C152%2C0",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-30T11:20:30.346Z"
     },
     "https://www.limerickpost.ie/?p=362473": {
       "id": "https://www.limerickpost.ie/?p=362473",
@@ -1765,6 +1856,66 @@
       "author": "Sarah Coleman",
       "source": "limerickpost",
       "scrapedAt": "2026-10-29T18:55:30.495Z"
+    },
+    "https://www.limerickpost.ie/?p=362633": {
+      "id": "https://www.limerickpost.ie/?p=362633",
+      "title": "Former takeaway unit at Limerick Milk Market given new lease of life",
+      "link": "https://www.limerickpost.ie/2026/10/30/former-takeaway-unit-at-limerick-milk-market-given-new-lease-of-life/",
+      "description": "A FORMER takeaway unit at the Limerick Milk Market has been given a new lease of life to provide a training centre offering pathways to employment for adults with intellectual disabilities. The new centre is funded by The Michael Guinee Charitable Foundation (MGCF) and is home to the new team at the Rising Together Training [&#8230;]\nThe post Former takeaway unit at Limerick Milk Market given new lease of life appeared first on Limerick Post.",
+      "pubDate": "Fri, 30 Oct 2026 10:30:57 +0000",
+      "author": "Sarah Coleman",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-30T11:20:29.411Z"
+    },
+    "https://www.limerickpost.ie/?p=362631": {
+      "id": "https://www.limerickpost.ie/?p=362631",
+      "title": "Only one prison nurse for 755 people on night Limerick man died",
+      "link": "https://www.limerickpost.ie/2026/10/30/only-one-prison-nurse-for-755-people-on-night-limerick-man-died/",
+      "description": "A PRISON watchdog has stated that it is unacceptable that only one nurse was on duty at Mountjoy Prison to provide a medical emergency response for 755 prisoners on the night a well known Limerick gangland figure died in his prison cell. A new report by the Office of the Inspector of Prisons (OIP) records [&#8230;]\nThe post Only one prison nurse for 755 people on night Limerick man died appeared first on Limerick Post.",
+      "pubDate": "Fri, 30 Oct 2026 09:00:05 +0000",
+      "author": "Gordon Deegan",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-30T11:20:29.411Z"
+    },
+    "https://www.limerickpost.ie/?p=362574": {
+      "id": "https://www.limerickpost.ie/?p=362574",
+      "title": "Shirley Callaghan releases haunting new single ‘House of Love’ on the legacy of Ireland’s institutions",
+      "link": "https://www.limerickpost.ie/2026/10/30/shirley-callaghan-releases-haunting-new-single-house-of-love-on-the-legacy-of-irelands-institutions/",
+      "description": "SINGER-songwriter Shirley Callaghan has released a new single, ‘House of Love’, a dark folk song that reflects on the treatment of women and children in Ireland’s institutions and the legacy that outlasted their closure. Known for exploring the darker side of human nature through raw, emotive vocals, haunting melodies and atmospheric dark folk and alternative [&#8230;]\nThe post Shirley Callaghan releases haunting new single ‘House of Love’ on the legacy of Ireland’s institutions appeared first on Limerick Post.",
+      "pubDate": "Fri, 30 Oct 2026 08:50:01 +0000",
+      "author": "Eric Fitzgerald",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-30T11:20:29.411Z"
+    },
+    "https://www.limerickpost.ie/?p=362625": {
+      "id": "https://www.limerickpost.ie/?p=362625",
+      "title": "Coughlan nets for Fleetwood in famous win over Arsenal",
+      "link": "https://www.limerickpost.ie/2026/10/29/coughlan-nets-for-fleetwood-in-famous-win-over-arsenal/",
+      "description": "LIMERICK’S Ronan Coughlan struck a huge goal for Division Two side Fleetwood Town in their shock elimination of Premier League Champions Arsenal in the last 16 of the Carabao Cup at Highbury Stadium on Tuesday night. After a lavishly entertaining affair, the teams were tied 1-1 after normal time. In the subsequent penalty shoot-out at [&#8230;]\nThe post Coughlan nets for Fleetwood in famous win over Arsenal appeared first on Limerick Post.",
+      "pubDate": "Thu, 29 Oct 2026 21:00:12 +0000",
+      "author": "Mal Keaveney",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-30T11:20:29.411Z"
+    },
+    "https://www.limerickpost.ie/?p=362649": {
+      "id": "https://www.limerickpost.ie/?p=362649",
+      "title": "Pensioner became anxious and nervous when man accused of her murder was mentioned",
+      "link": "https://www.limerickpost.ie/2026/10/29/pensioner-became-anxious-and-nervous-when-man-accused-of-her-murder-was-mentioned/",
+      "description": "&#160; A SOCIAL worker told a court, Thursday, that an 89-year old woman, allegedly murdered by her daughter&#8217;s boyfriend, would appear anxious and nervous when the accused&#8217;s name came up in conversation in the months prior to her death. Josephine &#8220;Josie&#8221; Ray, (89), was found allegedly strangled and smothered and with over 40 bruises to [&#8230;]\nThe post Pensioner became anxious and nervous when man accused of her murder was mentioned appeared first on Limerick Post.",
+      "pubDate": "Thu, 29 Oct 2026 19:48:55 +0000",
+      "author": "David Raleigh",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-30T11:20:29.411Z"
+    },
+    "https://www.limerickpost.ie/?p=362622": {
+      "id": "https://www.limerickpost.ie/?p=362622",
+      "title": "Council Affairs – 31/10/26",
+      "link": "https://www.limerickpost.ie/2026/10/29/council-affairs-31-10-26/",
+      "description": "BUT in all seriousness, what is the Mayor&#8217;s &#8220;obsession&#8221; with closing The Crescent? John Moran wasn&#8217;t in the door of Merchants Quay and he was lording it up with his very own version of The Last Supper, all while closing off this main artery into the city. Councillors still can&#8217;t make head nor tail what [&#8230;]\nThe post Council Affairs &#8211; 31/10/26 appeared first on Limerick Post.",
+      "pubDate": "Thu, 29 Oct 2026 19:30:46 +0000",
+      "author": "Alan Jacques",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-30T11:20:29.411Z"
     }
   },
   "rewritten": {
@@ -2512,6 +2663,22 @@
       "duplicateOf": "9307939",
       "rewrittenAt": "2026-10-28T11:18:23.773Z"
     },
+    "9313135": {
+      "headline": "Dr Paul O’Brien explores the historical Quaker legacy in Limerick",
+      "summary": "Columnist Dr Paul O’Brien examines the profound impact of the Quaker community on Limerick life, looking back at generations of business and benevolence.",
+      "story": "Local historian and columnist Dr Paul O’Brien has turned his focus to a small but influential group that helped shape generations of life in Limerick.\n\nIn his latest historical reflection, Dr O’Brien explores the enduring legacy left behind by the Quaker community in the city, examining their significant contributions to local commerce and philanthropy.\n\nThe insights offer a detailed look at how the religious group integrated into Limerick society, leaving a mark on the region's historical landscape through business enterprise and charitable work.",
+      "localAngle": "The column explores the historical impact of the Quaker community on the development and social fabric of Limerick.",
+      "section": "Arts & Culture",
+      "importance": 2,
+      "positivity": 3,
+      "originalTitle": "IF WALLS COULD TALK: Business, benevolence and the Quaker legacy",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/news/opinion/if-walls-could-talk-paul-obrien/if-walls-could-talk-business-benevolence-and-the-quaker-legacy-in-limerick-9313135",
+      "publishedAt": "Fri, 30 Oct 2026 07:00:33 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/27/23/22/Untitled.png?width=1200&auto=webp&trim=735%2C0%2C139%2C0",
+      "imageCredit": "freelance",
+      "rewrittenAt": "2026-10-30T11:22:32.589Z"
+    },
     "9313286": {
       "skipped": true,
       "duplicateOf": "9308453",
@@ -2838,6 +3005,22 @@
       "imageCredit": "LL",
       "rewrittenAt": "2026-10-29T16:09:47.959Z"
     },
+    "9318843": {
+      "headline": "Limerick duo Ian Ryan and Jody O'Hanlon target back-to-back promotions in Cork",
+      "summary": "Former Limerick footballer Ian Ryan has joined the backroom team at Cork club Buttevant, assembled by fellow St Senans clubman Jody O'Hanlon.",
+      "story": "Two well-known figures from the Limerick club scene have taken on a new coaching challenge across the county bounds. Former Limerick footballer Ian Ryan has joined the backroom team at Cork club Buttevant as a selector.\n\nThe coaching ticket was put together by fellow St Senans clubman Jody O’Hanlon, as the Limerick duo look to guide the Cork outfit to back-to-back promotions.\n\nRyan brings extensive experience from his playing days with the Treaty County to the sideline role, teaming up with O'Hanlon in their latest venture outside of Limerick GAA.",
+      "localAngle": "St Senans clubmen Ian Ryan and Jody O'Hanlon are bringing their Limerick football experience to a coaching challenge in Cork.",
+      "section": "Sport",
+      "importance": 3,
+      "positivity": 4,
+      "originalTitle": "Limerick duo looking to guide Cork club to back-to-back promotions",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/sport/gaelic-football/limerick-duo-looking-to-guide-cork-club-to-back-to-back-promotions-9318843",
+      "publishedAt": "Fri, 30 Oct 2026 08:30:45 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/15/33/1185584.jpeg?width=1200&auto=webp&trim=57%2C0%2C148%2C0",
+      "imageCredit": "SPORTSFILE",
+      "rewrittenAt": "2026-10-30T11:22:23.818Z"
+    },
     "9318866": {
       "headline": "Gardaí in Limerick facing unprecedented rise in mental health callouts",
       "summary": "An increase in mental health interventions is pulling gardaí away from frontline policing duties across the region. Commissioner Justin Kelly confirmed the rising demand on resources.",
@@ -2897,6 +3080,66 @@
       "publishedAt": "Thu, 29 Oct 2026 17:06:21 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/17/cs-31e967b7-fa6c-4b9a-a5d8-40d285ed58cd.jpg?width=1200&auto=webp&crop=3%3A2",
       "rewrittenAt": "2026-10-29T18:56:27.637Z"
+    },
+    "9319218": {
+      "skipped": true,
+      "duplicateOf": "9319940",
+      "rewrittenAt": "2026-10-30T11:21:40.872Z"
+    },
+    "9319370": {
+      "skipped": true,
+      "duplicateOf": "9317996",
+      "rewrittenAt": "2026-10-30T11:21:40.872Z"
+    },
+    "9319379": {
+      "headline": "Commissioner Justin Kelly agrees to meet family of Detective Garda Colm Horkan",
+      "summary": "Commissioner Justin Kelly has committed to meeting the family of murdered Detective Garda Colm Horkan. The meeting follows ongoing efforts by the family regarding the tragic case.",
+      "story": "Commissioner Justin Kelly has officially committed to meeting the family of the late Detective Garda Colm Horkan, who was murdered in the line of duty.\n\nThe scheduled meeting marks a significant development for the Horkan family as they continue to engage with Garda leadership regarding the circumstances surrounding the tragic incident.\n\nWhile further details of the upcoming discussion have not yet been publicly released, the commitment ensures direct dialogue between the Commissioner and the detective's relatives.",
+      "localAngle": "This national policing development carries significant weight for readers across the region who follow Garda matters and justice issues.",
+      "section": "News",
+      "importance": 5,
+      "positivity": 1,
+      "originalTitle": "Commissioner to meet Horkan family",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/national/commissioner-to-meet-horkan-family-9319379",
+      "publishedAt": "Thu, 29 Oct 2026 19:13:02 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/29/19/cs-e4f76a98-bc7c-4b0a-86e2-bb120bb1b675.jpg?width=1200&auto=webp&crop=3%3A2",
+      "rewrittenAt": "2026-10-30T11:22:59.633Z"
+    },
+    "9319472": {
+      "headline": "New Shoe Insole Developed to Ease Severe Foot Pain Caused by Epidermolysis Bullosa",
+      "summary": "People living with the most common variant of epidermolysis bullosa suffer severe foot blisters from even short walks, but a new shoe insole offers potential relief.",
+      "story": "A new shoe insole could provide significant relief for individuals living with epidermolysis bullosa, a condition that causes severe blistering on the feet even after brief periods of walking.\n\nThe development aims to address the challenges faced by those with the most common variant of the skin condition, who endure painful blisters that severely impact daily mobility and movement.\n\nMedical and support communities have continually sought practical solutions to improve the day-to-day quality of life for patients managing the condition's painful physical effects.",
+      "localAngle": "This medical development offers potential relief for individuals and families across Limerick dealing with the debilitating impacts of epidermolysis bullosa.",
+      "section": "News",
+      "importance": 4,
+      "positivity": 3,
+      "originalTitle": "Shoe insole could ease pain for those living with skin condition",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/national/shoe-insole-could-ease-pain-for-those-living-with-skin-condition-9319472",
+      "publishedAt": "Fri, 30 Oct 2026 00:01:00 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/30/00/cs-81ea26d5-9cf1-4256-a1f3-27ea70f1d57b.jpg?width=1200&auto=webp&crop=3%3A2",
+      "rewrittenAt": "2026-10-30T11:22:41.742Z"
+    },
+    "9319781": {
+      "skipped": true,
+      "duplicateOf": "https://www.limerickpost.ie/?p=362605",
+      "rewrittenAt": "2026-10-30T11:21:40.872Z"
+    },
+    "9319940": {
+      "headline": "Tributes paid following the passing of Limerick hurling matriarch in Ballysheedy",
+      "summary": "Tributes have been paid following the peaceful passing at home in Ballysheedy of the mother and grandmother of several Limerick hurling figures. She was the mother of Mike and Declan Nash and grandmother of Barry Nash.",
+      "story": "Tributes have been paid across Limerick following the peaceful passing of a much-loved local mother and grandmother at her home in Ballysheedy.\n\nThe deceased is deeply connected to the county's hurling community as the mother of former players Mike and Declan Nash, and the grandmother of current star Barry Nash.\n\nFamily, friends and supporters have shared warm remembrances of her following her death on Friday, October 30, 2026.",
+      "localAngle": "The family has deep ties to the Limerick senior hurling team through current star Barry Nash and former players Mike and Declan Nash.",
+      "section": "News",
+      "importance": 5,
+      "positivity": 1,
+      "originalTitle": "'Absolute lady’: Tributes as mother and grandmother of Limerick hurling stars passes away",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/deaths/absolute-lady-tributes-as-mother-and-grandmother-of-limerick-hurling-stars-passes-away-9319940",
+      "publishedAt": "Fri, 30 Oct 2026 10:29:34 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/30/10/17/Untitled-design-(91).jpeg?width=1200&auto=webp&trim=9%2C0%2C152%2C0",
+      "rewrittenAt": "2026-10-30T11:21:56.638Z"
     },
     "https://limerickvoice.com/?p=53125": {
       "skipped": true,
@@ -3878,6 +4121,80 @@
       "rewrittenAt": "2026-10-29T18:56:44.171Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2022/10/TUS-Moylish-campus-scaled.jpg",
       "imageCheckedAt": "2026-10-29T18:57:02.136Z"
+    },
+    "https://www.limerickpost.ie/?p=362625": {
+      "skipped": true,
+      "duplicateOf": "https://limerickvoice.com/?p=53250",
+      "rewrittenAt": "2026-10-30T11:21:40.872Z"
+    },
+    "https://www.limerickpost.ie/?p=362649": {
+      "skipped": true,
+      "duplicateOf": "https://www.limerickpost.ie/?p=362605",
+      "rewrittenAt": "2026-10-30T11:21:40.872Z"
+    },
+    "https://www.limerickpost.ie/?p=362633": {
+      "headline": "Former Milk Market takeaway transformed into training centre for adults with intellectual disabilities",
+      "summary": "A disused takeaway unit at the Limerick Milk Market has been converted into a new training hub funded by The Michael Guinee Charitable Foundation. The Rising Together Training Centre will provide adults with intellectual disabilities pathways into employment through practical food and hospitality skills.",
+      "story": "A disused takeaway unit at the heart of the Limerick Milk Market has been given a new lease of life as a fully equipped training facility for adults with intellectual disabilities. Funded by The Michael Guinee Charitable Foundation (MGCF), the new home of the Rising Together Training Centre (RTTC) aims to provide practical, vocational pathways into employment for its participants.\n\nOpen Monday to Friday, the centre offers training in baking, cooking, barista skills, catering, and hospitality. Alongside the educational programmes, the team will offer takeaway options including sandwiches, soups, treats, pizza slices, and pastries, as well as off-site catering services. \n\nDavid Fitzgerald, General Manager of the Limerick Milk Market, said the project delivers on a long-held ambition to establish a food training centre within Limerick's food community. Derek Barrett, Chief Executive of MGCF, noted that the project focuses on creating genuine opportunities for people with intellectual disabilities to participate more fully in employment and community life.\n\nLaura Holland, Founder and CEO of Rising Together Training Programmes, highlighted the positive impact the initiative has had on participants' confidence and skill development. Meanwhile, Liam Flannery, Chairman of the Limerick Market Trustees, added that the centre will also benefit the wider local hospitality industry by supplying trained personnel ready to enter the workforce.",
+      "localAngle": "The initiative transforms a vacant unit inside the iconic Limerick Milk Market into an inclusive food training hub for the local community.",
+      "section": "News",
+      "importance": 3,
+      "positivity": 4,
+      "originalTitle": "Former takeaway unit at Limerick Milk Market given new lease of life",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/30/former-takeaway-unit-at-limerick-milk-market-given-new-lease-of-life/",
+      "publishedAt": "Fri, 30 Oct 2026 10:30:57 +0000",
+      "rewrittenAt": "2026-10-30T11:21:47.917Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/10/d210538a-7a82-45b3-b219-a626386a1f59.jpg",
+      "imageCheckedAt": "2026-10-30T11:23:00.046Z"
+    },
+    "https://www.limerickpost.ie/?p=362631": {
+      "headline": "Prison watchdog slams single nurse on duty for 755 inmates when Limerick gang figure died",
+      "summary": "A damning report reveals just one nurse was on duty at Mountjoy Prison to handle medical emergencies for 755 inmates on the night Limerick native David Stanners died in his cell in 2023.",
+      "story": "A prison watchdog has branded it \"unacceptable\" that only a single nurse was on duty to provide emergency medical responses for 755 prisoners on the night well-known Limerick gangland figure David Stanners died in his cell.\n\nMr Stanners, 51, originally from Pineview Gardens in Moyross, was serving a life sentence for the 2003 murder of rival gang member Kieran Keane. According to a new report from the Office of the Inspector of Prisons (OIP), prison staff entered his cell just before midnight on October 25, 2023, after an officer noticed they could not see him in his bed. The sole nurse on duty attempted CPR before an Advanced Paramedic later pronounced him dead at 00:30am. A postmortem later concluded he died from ischemic cardiomyopathy, alongside severe coronary artery disease and recent consumption of cocaine.\n\nDuring a Critical Incident Review Meeting, the nurse who attempted resuscitation described how difficult it was for one staff member to perform prolonged CPR, a sentiment backed by the Chief Nurse Officer. Despite the OIP repeatedly recommending that prison officers be trained in CPR, the service continues to refuse. The watchdog noted that while the prison population has since surged to well over 1,000, a follow-up inspection in 2025 found that staffing levels at night remained unchanged at just one nurse.\n\nIn addition to the staffing concerns, the OIP recommended that doctors conduct clinical reviews when nursing staff raise alarms over the repeated requests and potential overuse of prescription medication by specific prisoners. The report highlighted that prior to his death, a nurse had noted Mr Stanners attended every drug round requesting paracetamol and required a GP review.",
+      "localAngle": "David Stanners was a 51-year-old Limerick native from Moyross who was serving a life sentence for his involvement in the city's notorious gang feud.",
+      "section": "News",
+      "importance": 5,
+      "positivity": 1,
+      "originalTitle": "Only one prison nurse for 755 people on night Limerick man died",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/30/only-one-prison-nurse-for-755-people-on-night-limerick-man-died/",
+      "publishedAt": "Fri, 30 Oct 2026 09:00:05 +0000",
+      "rewrittenAt": "2026-10-30T11:22:06.394Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2023/10/David-Stanners.jpg",
+      "imageCheckedAt": "2026-10-30T11:23:00.660Z"
+    },
+    "https://www.limerickpost.ie/?p=362574": {
+      "headline": "Singer-songwriter Shirley Callaghan releases dark folk single exploring Ireland's institutional legacy",
+      "summary": "Limerick-connected singer-songwriter Shirley Callaghan has released 'House of Love', a dark folk track reflecting on the treatment of women and children in Ireland's institutions.",
+      "story": "Singer-songwriter Shirley Callaghan has released her new single, 'House of Love', a dark folk track that examines the treatment of women and children within Ireland’s institutional system and the lasting legacy of those facilities after their closure.\n\nKnown for atmospheric songwriting and emotive vocals, Callaghan says the song looks beyond the walls of those institutions to focus on the psychological and emotional scars carried by survivors and their families. Though first asked to write the track years ago, the artist struggled to find an approach until a collaborative writing session in Málaga with fellow musicians Paul and Sandra.\n\n“This is a song I was first asked to write a number of years ago. The subject stayed with me, and I made many attempts over the years to find a way into the song,” Callaghan said. “When Paul, Sandra and I eventually came together for a writing session in Málaga, the song finally found its voice.”\n\n“House of Love comes from a very difficult part of recent Irish history, but for many people its consequences are not simply history,” she added. “I wanted the song to reflect something of that experience and to honour stories that needed to be told.” The single is currently available to stream and support on Bandcamp.",
+      "localAngle": "The release comes from Limerick-connected singer-songwriter Shirley Callaghan, bringing local creative talent to a song exploring a significant chapter of Irish social history.",
+      "section": "Arts & Culture",
+      "importance": 2,
+      "positivity": 3,
+      "originalTitle": "Shirley Callaghan releases haunting new single ‘House of Love’ on the legacy of Ireland’s institutions",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/30/shirley-callaghan-releases-haunting-new-single-house-of-love-on-the-legacy-of-irelands-institutions/",
+      "publishedAt": "Fri, 30 Oct 2026 08:50:01 +0000",
+      "rewrittenAt": "2026-10-30T11:22:15.062Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2025/07/shirley-callaghan-1_0022_E2-scaled.jpg",
+      "imageCheckedAt": "2026-10-30T11:23:00.889Z"
+    },
+    "https://www.limerickpost.ie/?p=362622": {
+      "headline": "Limerick Councillors Clash with Mayor Moran Over Proposed Crescent Road Closure",
+      "summary": "Elected representatives at the Metropolitan District meeting criticized Mayor John Moran’s plans to close The Crescent for six weeks over the Christmas period, arguing it disrupts traffic and impacts local businesses during peak trading.",
+      "story": "Limerick councillors have voiced strong opposition to Mayor John Moran’s plans to close The Crescent during the busy Christmas shopping period. During the latest Metropolitan District meeting, local representatives questioned the necessity of the six-week road closure, arguing it disrupts traffic on a main artery into the city.\n\nElected members raised concerns that the closure would negatively impact traders and businesses in what they described as a core commercial district. Councillors suggested alternative locations for festive markets and events, such as Bedford Row, Thomas Street, or Cruises Street, to avoid causing disruption to shoppers and local businesses during peak retail weeks.\n\nCllr Joe Leddin called on Mayor Moran to reconsider the move and show leadership, noting that the area functions primarily as a business district rather than a retail hub. Cllr Catherine Slattery also criticized the decision to block off the road, stating she is standing up for local voices affected by the traffic restrictions, while other members questioned the ongoing rationale behind the recurring closures.",
+      "localAngle": "The proposed road closure directly affects traffic flow, retail trade, and shoppers navigating Limerick city centre during the Christmas period.",
+      "section": "Council",
+      "importance": 4,
+      "positivity": 2,
+      "originalTitle": "Council Affairs – 31/10/26",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/29/council-affairs-31-10-26/",
+      "publishedAt": "Thu, 29 Oct 2026 19:30:46 +0000",
+      "rewrittenAt": "2026-10-30T11:22:51.043Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2022/09/Limerick-County-Council-Offices-696x464-1.jpg",
+      "imageCheckedAt": "2026-10-30T11:23:01.122Z"
     }
   }
 }
