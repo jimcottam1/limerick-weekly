@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastScrape": "2026-10-30T18:32:58.283Z",
-    "totalArticles": 30
+    "lastScrape": "2026-10-31T10:52:33.302Z",
+    "totalArticles": 24
   },
   "articles": {
     "9290418": {
@@ -1144,6 +1144,18 @@
       "source": "limerickleader",
       "scrapedAt": "2026-10-30T11:20:30.346Z"
     },
+    "9319879": {
+      "id": "9319879",
+      "title": "Limerick star wins hurling's top individual prize for the second time",
+      "link": "https://www.limerickleader.ie/sport/hurling/limerick-star-wins-hurlings-top-individual-prize-for-the-second-time-9319879",
+      "description": "Six years after first claiming the gong, the St Patrick’s clubman took the sport’s highest individual honour for the second time at the All-Stars ceremony",
+      "pubDate": "Fri, 30 Oct 2026 20:47:46 GMT",
+      "author": "Joel Slattery",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/30/20/46/3521212.jpeg?width=1200&auto=webp&trim=0%2C0%2C453%2C0",
+      "imageCredit": "SPORTSFILE",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-31T10:52:23.979Z"
+    },
     "9319940": {
       "id": "9319940",
       "title": "'Absolute lady’: Tributes as mother and grandmother of Limerick hurling stars passes away",
@@ -1154,6 +1166,18 @@
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/30/10/17/Untitled-design-(91).jpeg?width=1200&auto=webp&trim=9%2C0%2C152%2C0",
       "source": "limerickleader",
       "scrapedAt": "2026-10-30T11:20:30.346Z"
+    },
+    "9320072": {
+      "id": "9320072",
+      "title": "'Fantastic time to be around': Excitement builds ahead of SFC final",
+      "link": "https://www.limerickleader.ie/sport/gaelic-football/fantastic-time-to-be-around-excitement-builds-ahead-of-sfc-final-9320072",
+      "description": "For manager Declan Nash he has guided the club further than they have ever gone in this championship as their scarcely believable rise from being a Junior ‘B’ club as recently as 2014 has more one step until they reach the summit of Limerick football",
+      "pubDate": "Fri, 30 Oct 2026 19:00:28 GMT",
+      "author": "Joel Slattery",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/30/11/30/DSC_5644.jpeg?width=1200&auto=webp&trim=151%2C0%2C151%2C0",
+      "imageCredit": "PAT O'LEARY",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-31T10:52:23.979Z"
     },
     "9320262": {
       "id": "9320262",
@@ -1176,6 +1200,18 @@
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/30/14/cs-24b2af62-e8e3-4654-9585-e0bc452940a7.jpg?width=1200&auto=webp&crop=3%3A2",
       "source": "limerickleader",
       "scrapedAt": "2026-10-30T15:48:10.072Z"
+    },
+    "9321219": {
+      "id": "9321219",
+      "title": "EDITORIAL: Going the extra mile for Limerick",
+      "link": "https://www.limerickleader.ie/community/editorial-going-the-extra-mile-for-limerick-9321219",
+      "description": "Bruff Tidy Towns were crowned overall champions at the Limerick Going for Gold awards, topping 32 finalist communities.",
+      "pubDate": "Fri, 30 Oct 2026 21:30:47 GMT",
+      "author": "Áine Fitzgerald",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/30/16/41/Limk-Going-For-Gold-068.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageCredit": "PICTURE: BRIAN ARTHUR",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-31T10:52:23.979Z"
     },
     "9321327": {
       "id": "9321327",
@@ -2048,6 +2084,56 @@
       "author": "Alan Jacques",
       "source": "limerickpost",
       "scrapedAt": "2026-10-30T18:32:44.078Z"
+    },
+    "https://www.limerickpost.ie/?p=362700": {
+      "id": "https://www.limerickpost.ie/?p=362700",
+      "title": "Man accused in death of pensioner denies telling her daughter to murder her",
+      "link": "https://www.limerickpost.ie/2026/10/31/man-accused-in-death-of-pensioner-denies-telling-her-daughter-to-murder-her/",
+      "description": "A MAN accused of murdering a mid west pensioner, denied choking her and telling her daughter to &#8220;murder her&#8221;, his trial heard Friday. The alleged &#8220;murder her&#8221; comment was captured on an audio file recorded on the accused&#8217;s mobile phone, on the night before the alleged killing, it was heard. African native, Hasan Ali Gori, [&#8230;]\nThe post Man accused in death of pensioner denies telling her daughter to murder her appeared first on Limerick Post.",
+      "pubDate": "Sat, 31 Oct 2026 09:53:11 +0000",
+      "author": "David Raleigh",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-31T10:52:23.484Z"
+    },
+    "https://www.limerickpost.ie/?p=362697": {
+      "id": "https://www.limerickpost.ie/?p=362697",
+      "title": "Mother of three wept in court after being refused bail",
+      "link": "https://www.limerickpost.ie/2026/10/31/mother-of-three-wept-in-court-after-being-refused-bail/",
+      "description": "&#160; A LIMERICK mother of three wept in court as she was refused bail charged with having over half a million euro worth of drugs at her home. Karen McGarry, (48), Glendale Lawn, Old Singland Road, Limerick, cried out: &#8220;Oh no, please, I beg of you&#8221; as she was remanded in custody to Limerick Prison [&#8230;]\nThe post Mother of three wept in court after being refused bail appeared first on Limerick Post.",
+      "pubDate": "Sat, 31 Oct 2026 09:40:43 +0000",
+      "author": "David Raleigh",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-31T10:52:23.484Z"
+    },
+    "https://www.limerickpost.ie/?p=362653": {
+      "id": "https://www.limerickpost.ie/?p=362653",
+      "title": "Keanes Jewellers crowned Jewellery Store of the Year",
+      "link": "https://www.limerickpost.ie/2026/10/31/keanes-jewellers-crowned-jewellery-store-of-the-year/",
+      "description": "KEANES Jewellers Limerick has been named Jewellery Store of the Year 2026 at the Elavon Retail Excellence Ireland Awards, one of the most prestigious honours in Irish retail. The awards recognise retailers across the country that set the standard for customer experience, innovation and excellence. Keanes Jewellers Limerick was chosen as the best in its [&#8230;]\nThe post Keanes Jewellers crowned Jewellery Store of the Year appeared first on Limerick Post.",
+      "pubDate": "Sat, 31 Oct 2026 09:00:42 +0000",
+      "author": "Bernie English",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-31T10:52:23.485Z"
+    },
+    "https://www.limerickpost.ie/?p=362628": {
+      "id": "https://www.limerickpost.ie/?p=362628",
+      "title": "Spooky happenings at Thomond Park",
+      "link": "https://www.limerickpost.ie/2026/10/30/spooky-happenings-at-thomond-park/",
+      "description": "Rugby: IN the final fixture before a break for the inaugural Nations Championship (Ireland v Fiji, Argentina and South Africa all in Dublin ) in November, Munster entertain The Sharks in the URC at Thomond Park this Halloween Saturday, kick-off 5.30pm. Clayton McMillan’s side will be without internationals Tadhg Beirne (captain) and Craig Casey at [&#8230;]\nThe post Spooky happenings at Thomond Park appeared first on Limerick Post.",
+      "pubDate": "Fri, 30 Oct 2026 19:30:19 +0000",
+      "author": "Mal Keaveney",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-31T10:52:23.485Z"
+    },
+    "https://limerickvoice.com/?p=53291": {
+      "id": "https://limerickvoice.com/?p=53291",
+      "title": "Limerick dominate All-Star awards as Gearoid Hegarty crowned Hurler of The Year",
+      "link": "https://limerickvoice.com/sport/limerick-hurling-all-stars-gearoid-hegarty-gaa/",
+      "description": "Limerick were the biggest winners in the PwC GAA All-Star Awards night with nine players named in the Hurling Team of the Year and Gearóid Hegarty crowned Hurler of the Year.  LIMERICK&#8217;S remarkable 2026 season was recognised at the PwC GAA All-Star Awards and this comes as no surprise following a spectacular comeback for the [&#8230;]\nThe post Limerick dominate All-Star awards as Gearoid Hegarty crowned Hurler of The Year appeared first on .",
+      "pubDate": "Fri, 30 Oct 2026 22:25:09 +0000",
+      "author": "Kayleigh Downey",
+      "source": "limerickvoice",
+      "scrapedAt": "2026-10-31T10:52:24.524Z"
     }
   },
   "rewritten": {
@@ -3322,6 +3408,11 @@
       "duplicateOf": "https://www.limerickpost.ie/?p=362605",
       "rewrittenAt": "2026-10-30T11:21:40.872Z"
     },
+    "9319879": {
+      "skipped": true,
+      "duplicateOf": "https://limerickvoice.com/?p=53291",
+      "rewrittenAt": "2026-10-31T10:53:05.635Z"
+    },
     "9319940": {
       "headline": "Tributes paid following the passing of Limerick hurling matriarch in Ballysheedy",
       "summary": "Tributes have been paid following the peaceful passing at home in Ballysheedy of the mother and grandmother of several Limerick hurling figures. She was the mother of Mike and Declan Nash and grandmother of Barry Nash.",
@@ -3336,6 +3427,22 @@
       "publishedAt": "Fri, 30 Oct 2026 10:29:34 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/30/10/17/Untitled-design-(91).jpeg?width=1200&auto=webp&trim=9%2C0%2C152%2C0",
       "rewrittenAt": "2026-10-30T11:21:56.638Z"
+    },
+    "9320072": {
+      "headline": "Declan Nash guides club to historic Limerick SFC final appearance",
+      "summary": "Manager Declan Nash has led his club to their first-ever Limerick Senior Football Championship final, completing a remarkable climb from Junior B status in 2014.",
+      "story": "Excitement is building across the county as the club prepares for the upcoming Limerick Senior Football Championship final under the guidance of manager Declan Nash.\n\nThe side has reached the final for the first time in their history, marking the culmination of a remarkable rise through the ranks. Just twelve years ago in 2014, the club was competing at the Junior 'B' grade.\n\nNow, with only one step remaining, the team stands on the verge of reaching the ultimate summit of Limerick club football as preparations ramp up for the decider.",
+      "localAngle": "The club's historic journey from Junior B in 2014 to the Limerick Senior Football Championship final captures the attention of local sports fans.",
+      "section": "Sport",
+      "importance": 4,
+      "positivity": 4,
+      "originalTitle": "'Fantastic time to be around': Excitement builds ahead of SFC final",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/sport/gaelic-football/fantastic-time-to-be-around-excitement-builds-ahead-of-sfc-final-9320072",
+      "publishedAt": "Fri, 30 Oct 2026 19:00:28 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/30/11/30/DSC_5644.jpeg?width=1200&auto=webp&trim=151%2C0%2C151%2C0",
+      "imageCredit": "PAT O'LEARY",
+      "rewrittenAt": "2026-10-31T10:53:30.194Z"
     },
     "9320262": {
       "headline": "Department Withholds Monthly Homeless Figures Due to Ongoing Public Sector Industrial Action",
@@ -3366,6 +3473,11 @@
       "publishedAt": "Fri, 30 Oct 2026 14:06:55 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/30/14/cs-24b2af62-e8e3-4654-9585-e0bc452940a7.jpg?width=1200&auto=webp&crop=3%3A2",
       "rewrittenAt": "2026-10-30T15:49:23.910Z"
+    },
+    "9321219": {
+      "skipped": true,
+      "duplicateOf": "https://www.limerickpost.ie/?p=362529",
+      "rewrittenAt": "2026-10-31T10:53:05.635Z"
     },
     "9321327": {
       "headline": "Cork University Hospital Clinical Directors Urge Micheál Martin For Independent Staffing Review",
@@ -4504,6 +4616,53 @@
       "rewrittenAt": "2026-10-30T18:33:32.253Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/03/rent-housing-jakub-zerdzicki-GQn9GnMkVQg-unsplash.jpg",
       "imageCheckedAt": "2026-10-30T18:34:01.574Z"
+    },
+    "https://www.limerickpost.ie/?p=362700": {
+      "skipped": true,
+      "duplicateOf": "https://www.limerickpost.ie/?p=362605",
+      "rewrittenAt": "2026-10-31T10:53:05.635Z"
+    },
+    "https://www.limerickpost.ie/?p=362697": {
+      "skipped": true,
+      "duplicateOf": "https://www.limerickpost.ie/?p=362602",
+      "rewrittenAt": "2026-10-31T10:53:05.635Z"
+    },
+    "https://www.limerickpost.ie/?p=362628": {
+      "skipped": true,
+      "duplicateOf": "9316083",
+      "rewrittenAt": "2026-10-31T10:53:05.635Z"
+    },
+    "https://www.limerickpost.ie/?p=362653": {
+      "headline": "Keanes Jewellers Limerick Named Jewellery Store of the Year 2026",
+      "summary": "Keanes Jewellers in Limerick has won the Jewellery Store of the Year title at the Elavon Retail Excellence Ireland Awards following a rigorous judging process.",
+      "story": "Keanes Jewellers Limerick has taken home the title of Jewellery Store of the Year 2026 at the Elavon Retail Excellence Ireland Awards, marking a major national honour for the local business. The accolade follows an extensive judging process that included mystery shopping visits and an on-site evaluation by retail experts, including Matthew Brown from Echochamber and representatives from Retail Excellence Ireland.\n\n“We are absolutely thrilled and honoured to receive this award,” said Patrick Keane, Director. “This is a tribute to our wonderful team in Limerick, who go above and beyond for every customer who walks through our doors. To be recognised by our industry on a national stage means the world to us.”\n\nThe award comes as the Limerick store prepares to celebrate its 25th anniversary in 2027, ahead of the wider company's 80th anniversary in 2028. The local branch recently underwent a major expansion and refurbishment in 2025 after acquiring the neighbouring former H. Samuel Jewellers building.\n\nMr Keane noted that the redesigned space was created to offer a modern, immersive luxury environment for local shoppers. “The city has been incredibly supportive of Keanes, and this renovation is both a thank you and a promise – we’re here for the long haul,” he added.",
+      "localAngle": "A prominent Limerick city centre jeweller has been recognised on the national stage for retail excellence.",
+      "section": "Business",
+      "importance": 3,
+      "positivity": 4,
+      "originalTitle": "Keanes Jewellers crowned Jewellery Store of the Year",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/31/keanes-jewellers-crowned-jewellery-store-of-the-year/",
+      "publishedAt": "Sat, 31 Oct 2026 09:00:42 +0000",
+      "rewrittenAt": "2026-10-31T10:53:12.256Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/10/73eac169-d304-fe9d-d7da-7eabc19cbbbf.jpg",
+      "imageCheckedAt": "2026-10-31T10:53:30.647Z"
+    },
+    "https://limerickvoice.com/?p=53291": {
+      "headline": "Limerick claims nine spots on All-Star hurling team as Hegarty wins top award",
+      "summary": "Limerick dominated the 2026 PwC GAA All-Star Awards with nine players named to the Hurling Team of the Year and Gearóid Hegarty crowned Hurler of the Year following their All-Ireland championship victory.",
+      "story": "Limerick emerged as the dominant force at the PwC GAA All-Star Awards, securing nine places on the Hurling Team of the Year and seeing St Patrick’s clubman Gearóid Hegarty named Hurler of the Year.\n\nThe accolade marks Hegarty's fifth All-Star and his second Hurler of the Year title, having previously won both in 2020. He is joined in an all-Limerick half-forward line by teammates Cathal O’Neill and Aidan O’Connor. Meanwhile, Kyle Hayes claimed his sixth All-Star award, making him the first Limerick player to reach the milestone since legendary hurler Joe McKenna.\n\nGoalkeeper Nickie Quaid secured his fourth All-Star, and Diarmaid Byrnes picked up his fifth. Barry Nash, William O’Donoghue, and midfielder Adam English also earned spots on the 2026 team. Despite missing out on several positions—with captain Cian Lynch, Sean Finn, Shane O’Brien, and Peter Casey among those bypassed—Limerick's total of nine representatives dwarfs the rest of the country, leaving Galway with three, Cork with two, and Clare with one.\n\nThe awards cap a remarkable turnaround for the Shannonsiders, who reclaimed the Liam MacCarthy Cup following the disappointment of their 2025 All-Ireland semi-final defeat to Cork.",
+      "localAngle": "The county's hurling success was celebrated with a dominant nine-player representation on the national All-Star team and the Hurler of the Year accolade for Gearóid Hegarty.",
+      "section": "Sport",
+      "importance": 5,
+      "positivity": 4,
+      "originalTitle": "Limerick dominate All-Star awards as Gearoid Hegarty crowned Hurler of The Year",
+      "originalSource": "limerickvoice",
+      "originalLink": "https://limerickvoice.com/sport/limerick-hurling-all-stars-gearoid-hegarty-gaa/",
+      "publishedAt": "Fri, 30 Oct 2026 22:25:09 +0000",
+      "rewrittenAt": "2026-10-31T10:53:21.592Z",
+      "imageUrl": "https://limerickvoice.com/wp-content/uploads/2026/10/hurl-and-sliotar-scaled.jpg",
+      "imageCheckedAt": "2026-10-31T10:53:31.475Z"
     }
   }
 }
