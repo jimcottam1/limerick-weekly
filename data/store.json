@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastScrape": "2026-10-31T10:52:33.302Z",
-    "totalArticles": 24
+    "lastScrape": "2026-10-31T15:15:28.492Z",
+    "totalArticles": 26
   },
   "articles": {
     "9290418": {
@@ -844,6 +844,18 @@
       "source": "limerickleader",
       "scrapedAt": "2026-10-28T18:47:39.259Z"
     },
+    "9315796": {
+      "id": "9315796",
+      "title": "Munster must match promise with results as Sharks visit Thomond Park",
+      "link": "https://www.limerickleader.ie/sport/rugby/munster-rugby/munster-must-match-promise-with-results-as-sharks-visit-thomond-park-9315796",
+      "description": "Munster have a break of over a month from games after the fixture against the Sharks at Thomond Park",
+      "pubDate": "Sat, 31 Oct 2026 11:30:24 GMT",
+      "author": "John Keogh",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/28/12/46/3602170.jpeg?width=1200&auto=webp&trim=16%2C0%2C16%2C0",
+      "imageCredit": "SPORTSFILE",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-31T15:15:17.795Z"
+    },
     "9315927": {
       "id": "9315927",
       "title": "Limerick woman's accomplice wrote letter 'taking the hit' for crimes, court hears",
@@ -1234,6 +1246,51 @@
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/30/17/cs-352d26f6-e1b3-47df-b60f-44a2df7721ac.jpg?width=1200&auto=webp&crop=3%3A2",
       "source": "limerickleader",
       "scrapedAt": "2026-10-30T18:32:44.956Z"
+    },
+    "9321991": {
+      "id": "9321991",
+      "title": "Man dies after attack at centre housing migrants in Ireland",
+      "link": "https://www.limerickleader.ie/national/man-dies-after-attack-at-centre-housing-migrants-in-ireland-9321991",
+      "description": "A second man was also injured during the incident in Tralee, Co Kerry, while a man in his 40s has been arrested.",
+      "pubDate": "Sat, 31 Oct 2026 11:30:23 GMT",
+      "author": "Rebecca Black and  Press Association",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/31/11/cs-794fefb2-e4cd-4887-9fda-cdafe9ce1fc7.jpg?width=1200&auto=webp&crop=3%3A2",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-31T15:15:17.795Z"
+    },
+    "9322041": {
+      "id": "9322041",
+      "title": "Call for independent group for pay talks after impasse reached",
+      "link": "https://www.limerickleader.ie/national/call-for-independent-group-for-pay-talks-after-impasse-reached-9322041",
+      "description": "It comes after 10 days of intensive talks on public sector pay, and threats of further strike action.",
+      "pubDate": "Sat, 31 Oct 2026 12:58:32 GMT",
+      "author": "Cillian Sherlock and Rebecca Black and  Press Association",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/31/13/cs-04461036-02f0-4df6-a919-b94f030ff4e9.jpg?width=1200&auto=webp&crop=3%3A2",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-31T15:15:17.795Z"
+    },
+    "9322091": {
+      "id": "9322091",
+      "title": "‘Firearm’ aimed at gardai in Dublin",
+      "link": "https://www.limerickleader.ie/national/firearm-aimed-at-gardai-in-dublin-9322091",
+      "description": "It came as a cyclist was being pursued by two gardai in Dublin city centre in the early hours of Saturday.",
+      "pubDate": "Sat, 31 Oct 2026 13:45:13 GMT",
+      "author": "Rebecca Black and  Press Association",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/31/13/cs-0e2476cd-80f0-4454-acc7-3b6163ed6356.jpg?width=1200&auto=webp&crop=3%3A2",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-31T15:15:17.795Z"
+    },
+    "9322130": {
+      "id": "9322130",
+      "title": "Baby news, sweet moments and somersaults! Inside Limerick hurlers' big night",
+      "link": "https://www.limerickleader.ie/news/baby-news-sweet-moments-and-somersaults-inside-limerick-hurlers-big-night-9322130",
+      "description": "And while the conversation on stage was largely about his brilliance with a hurley in hand, Marty couldn't resist asking the schoolteacher a question that has long fascinated hurling supporters",
+      "pubDate": "Sat, 31 Oct 2026 14:41:41 GMT",
+      "author": "Reporter",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/31/14/13/Limericks-hurlers-celebrate-at-the-2026-PwC-GAAGPA-All-Star-Awards-at-the-RDS-in-Dublin.jpeg?width=1200&auto=webp&trim=310%2C0%2C370%2C0",
+      "imageCredit": "INSTAGRAM",
+      "source": "limerickleader",
+      "scrapedAt": "2026-10-31T15:15:17.795Z"
     },
     "https://www.limerickpost.ie/?p=362473": {
       "id": "https://www.limerickpost.ie/?p=362473",
@@ -2134,6 +2191,36 @@
       "author": "Kayleigh Downey",
       "source": "limerickvoice",
       "scrapedAt": "2026-10-31T10:52:24.524Z"
+    },
+    "https://www.limerickpost.ie/?p=362659": {
+      "id": "https://www.limerickpost.ie/?p=362659",
+      "title": "Calls for out-of-hours animal welfare officer",
+      "link": "https://www.limerickpost.ie/2026/10/31/calls-for-out-of-hours-animal-welfare-officer/",
+      "description": "FIANNA Fáil councillor Catherine Slattery has highlighted the need for an out-of-hours animal welfare officer to be put in place. Responding to Cllr Slattery at a recent full Council meeting, the local authority said that it does not currently have an authorised officer appointed under the Animal Health and Welfare Act 2013. The Council also [&#8230;]\nThe post Calls for out-of-hours animal welfare officer appeared first on Limerick Post.",
+      "pubDate": "Sat, 31 Oct 2026 15:00:32 +0000",
+      "author": "Sarah Coleman",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-31T15:15:17.180Z"
+    },
+    "https://www.limerickpost.ie/?p=362657": {
+      "id": "https://www.limerickpost.ie/?p=362657",
+      "title": "Limerick train driver wins excellence award",
+      "link": "https://www.limerickpost.ie/2026/10/31/limerick-train-driver-wins-excellence-award/",
+      "description": "LIMERICK-based train driver Jacqueline McMahon has won the Driver Excellence Award at the annual Iarnród Éireann Customer Experience Excellence Awards. The awards recognise those who deliver the highest level of customer experience to rail customers. Jacqueline was recognised as “combining empathy with practical help, stepping in when passengers need support most” in nominations received from [&#8230;]\nThe post Limerick train driver wins excellence award appeared first on Limerick Post.",
+      "pubDate": "Sat, 31 Oct 2026 12:00:21 +0000",
+      "author": "Sarah Coleman",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-31T15:15:17.181Z"
+    },
+    "https://www.limerickpost.ie/?p=362695": {
+      "id": "https://www.limerickpost.ie/?p=362695",
+      "title": "Academy centre makes first start for Munster",
+      "link": "https://www.limerickpost.ie/2026/10/31/academy-centre-makes-first-start-for-munster/",
+      "description": "ACADEMY centre Gordon Wood (Garryowen), 22, will make his first start for Munster in Saturday’s URC tilt with Sharks at Thomond Park, kick-off 5.30pm. “It will be a special day for Gordy making his first start for his home province as part of an exciting young backline. He is an impressive young man and we’re [&#8230;]\nThe post Academy centre makes first start for Munster appeared first on Limerick Post.",
+      "pubDate": "Sat, 31 Oct 2026 11:00:30 +0000",
+      "author": "Mal Keaveney",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-31T15:15:17.181Z"
     }
   },
   "rewritten": {
@@ -3078,6 +3165,11 @@
       "duplicateOf": "9310943",
       "rewrittenAt": "2026-10-28T18:49:09.686Z"
     },
+    "9315796": {
+      "skipped": true,
+      "duplicateOf": "9316083",
+      "rewrittenAt": "2026-10-31T15:16:00.660Z"
+    },
     "9315927": {
       "headline": "Accomplice wrote letter taking blame for crimes, Limerick court hears",
       "summary": "A Limerick court heard that a woman's accomplice wrote a letter attempting to take the blame for offences committed while she struggled with addiction.",
@@ -3508,6 +3600,67 @@
       "publishedAt": "Fri, 30 Oct 2026 17:21:18 GMT",
       "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/30/17/cs-352d26f6-e1b3-47df-b60f-44a2df7721ac.jpg?width=1200&auto=webp&crop=3%3A2",
       "rewrittenAt": "2026-10-30T18:33:41.349Z"
+    },
+    "9321991": {
+      "headline": "Man Arrested for Murder After Fatal Attack at Kerry Migrant Centre",
+      "summary": "One man died and another was injured in an attack at a center housing migrants in Tralee, County Kerry. Gardaí have arrested a man in his 40s in connection with the incident.",
+      "story": "A man has died following a violent incident at a center accommodating migrants in Tralee, County Kerry. Emergency services responded to the scene where a second man was also found injured.\n\nGardaí confirmed that a man in his 40s has been arrested in connection with the fatal attack. Investigations into the exact circumstances of the incident are currently underway by local authorities.\n\nFurther details regarding the identities of those involved have not yet been released as inquiries continue in the area.",
+      "localAngle": "As a major regional hub in the Mid-West, incidents involving the national asylum accommodation system and Garda operations in neighboring counties are closely followed by readers across Limerick.",
+      "section": "News",
+      "importance": 5,
+      "positivity": 1,
+      "originalTitle": "Man dies after attack at centre housing migrants in Ireland",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/national/man-dies-after-attack-at-centre-housing-migrants-in-ireland-9321991",
+      "publishedAt": "Sat, 31 Oct 2026 11:30:23 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/31/11/cs-794fefb2-e4cd-4887-9fda-cdafe9ce1fc7.jpg?width=1200&auto=webp&crop=3%3A2",
+      "rewrittenAt": "2026-10-31T15:16:52.346Z"
+    },
+    "9322041": {
+      "headline": "Independent Group Proposed for Public Sector Pay Talks Following Impasse",
+      "summary": "An independent group has been called for to mediate public sector pay talks following 10 days of intensive negotiations that reached an impasse. The breakdown in discussions has also brought fresh threats of further strike action.",
+      "story": "Calls are growing for an independent group to intervene in public sector pay discussions after ten days of intensive talks ended in an impasse. The breakdown in negotiations has raised fresh concerns across the country, with renewed threats of further strike action now looming.\n\nThe deadlock follows nearly two weeks of high-stakes discussions aimed at resolving ongoing disputes over public sector remuneration. With both sides failing to reach a breakthrough during the intensive ten-day period, attention has now turned toward external mediation as a potential path forward to avert further industrial unrest.\n\nFor workers and public services locally in Limerick, the stalled talks and looming threat of industrial action carry significant implications. Further strikes would directly impact local public services, schools, and healthcare facilities across the city and county as unions and authorities navigate the ongoing national pay dispute.",
+      "localAngle": "Public sector workers and services across Limerick face potential disruption if strike action proceeds following the breakdown in national talks.",
+      "section": "News",
+      "importance": 4,
+      "positivity": 2,
+      "originalTitle": "Call for independent group for pay talks after impasse reached",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/national/call-for-independent-group-for-pay-talks-after-impasse-reached-9322041",
+      "publishedAt": "Sat, 31 Oct 2026 12:58:32 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/31/13/cs-04461036-02f0-4df6-a919-b94f030ff4e9.jpg?width=1200&auto=webp&crop=3%3A2",
+      "rewrittenAt": "2026-10-31T15:16:34.502Z"
+    },
+    "9322091": {
+      "headline": "Firearm aimed at Gardaí during Dublin city centre pursuit of cyclist",
+      "summary": "A firearm was pointed at two Gardaí during a pursuit of a cyclist in Dublin city centre in the early hours of Saturday morning. The incident occurred as officers attempted to stop the cyclist.",
+      "story": "A firearm was aimed at Gardaí during an incident in Dublin city centre in the early hours of Saturday morning. Two officers were pursuing a cyclist when the weapon was pointed at them.\n\nThe incident took place during the early hours, according to reports from the capital. Gardaí were actively pursuing the individual on a bicycle when the confrontation involving the firearm occurred.\n\nNo further details regarding injuries, arrests, or the recovery of a weapon have been released at this stage as inquiries into the early morning incident continue.",
+      "localAngle": "While the incident occurred in the capital, safety issues involving firearms and police pursuits are matters of national concern closely followed by readers in Limerick.",
+      "section": "News",
+      "importance": 4,
+      "positivity": 1,
+      "originalTitle": "‘Firearm’ aimed at gardai in Dublin",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/national/firearm-aimed-at-gardai-in-dublin-9322091",
+      "publishedAt": "Sat, 31 Oct 2026 13:45:13 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/31/13/cs-0e2476cd-80f0-4454-acc7-3b6163ed6356.jpg?width=1200&auto=webp&crop=3%3A2",
+      "rewrittenAt": "2026-10-31T15:16:25.350Z"
+    },
+    "9322130": {
+      "headline": "Limerick hurlers celebrate big night with baby news, sweet moments and somersaults",
+      "summary": "Limerick hurling supporters got a rare glimpse behind the scenes during a special stage event, featuring baby news, on-stage fun and questions for the team's schoolteacher.",
+      "story": "Limerick hurling fans were treated to plenty of entertainment during a special night out as players let their hair down for a memorable stage event.\n\nWhile the focus was naturally on the team's prowess on the pitch, proceedings took a lighter turn with sweet moments, somersaults, and the sharing of some exciting baby news among the group.\n\nPresenter Marty put the spotlight on one of the team's schoolteachers, asking a question that has long fascinated hurling supporters eager to learn more about the lives of the players off the field.",
+      "localAngle": "The event celebrated the lives and achievements of the Limerick senior hurling team, capturing the local community's ongoing fascination with the players.",
+      "section": "Sport",
+      "importance": 3,
+      "positivity": 4,
+      "originalTitle": "Baby news, sweet moments and somersaults! Inside Limerick hurlers' big night",
+      "originalSource": "limerickleader",
+      "originalLink": "https://www.limerickleader.ie/news/baby-news-sweet-moments-and-somersaults-inside-limerick-hurlers-big-night-9322130",
+      "publishedAt": "Sat, 31 Oct 2026 14:41:41 GMT",
+      "imageUrl": "https://www.limerickleader.ie/jpim-static/image/2026/10/31/14/13/Limericks-hurlers-celebrate-at-the-2026-PwC-GAAGPA-All-Star-Awards-at-the-RDS-in-Dublin.jpeg?width=1200&auto=webp&trim=310%2C0%2C370%2C0",
+      "imageCredit": "INSTAGRAM",
+      "rewrittenAt": "2026-10-31T15:16:16.699Z"
     },
     "https://limerickvoice.com/?p=53125": {
       "skipped": true,
@@ -4663,6 +4816,54 @@
       "rewrittenAt": "2026-10-31T10:53:21.592Z",
       "imageUrl": "https://limerickvoice.com/wp-content/uploads/2026/10/hurl-and-sliotar-scaled.jpg",
       "imageCheckedAt": "2026-10-31T10:53:31.475Z"
+    },
+    "https://www.limerickpost.ie/?p=362659": {
+      "headline": "Limerick Council Rules Out Out-of-Hours Animal Welfare Service",
+      "summary": "Fianna Fáil Councillor Catherine Slattery has called for an out-of-hours animal welfare officer in Limerick. However, the local authority stated it has no plans to appoint one, noting it lacks the statutory authority to enforce the relevant legislation.",
+      "story": "Fianna Fáil councillor Catherine Slattery has called for the appointment of an out-of-hours animal welfare officer to handle local issues in Limerick. The proposal was raised during a recent full meeting of Limerick City and County Council.\n\nIn response to Cllr Slattery's appeal, the local authority stated that it does not currently have an authorised officer appointed under the Animal Health and Welfare Act 2013. Furthermore, the Council revealed it does not possess the statutory authority to enforce the provisions of the legislation.\n\nThe local authority confirmed that there are no current plans to appoint an authorised officer or establish an out-of-hours animal welfare service. According to the Council, responsibility for the implementation and enforcement of the Animal Health and Welfare Act 2013 rests primarily with the Department of Agriculture, Food, and the Marine.",
+      "localAngle": "The issue was raised by a local councillor at a full meeting of Limerick City and County Council regarding services within the local authority's jurisdiction.",
+      "section": "Council",
+      "importance": 3,
+      "positivity": 2,
+      "originalTitle": "Calls for out-of-hours animal welfare officer",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/31/calls-for-out-of-hours-animal-welfare-officer/",
+      "publishedAt": "Sat, 31 Oct 2026 15:00:32 +0000",
+      "rewrittenAt": "2026-10-31T15:16:07.698Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/05/dog-cage-animal-welfare-abuse-pexels-dora-nagy-352732817-14630132.jpg",
+      "imageCheckedAt": "2026-10-31T15:17:02.132Z"
+    },
+    "https://www.limerickpost.ie/?p=362657": {
+      "headline": "Limerick train driver Jacqueline McMahon wins national Driver Excellence Award",
+      "summary": "Limerick-based train driver Jacqueline McMahon has taken home the top prize at the annual Iarnród Éireann Customer Experience Excellence Awards, praised by colleagues for combining empathy with practical help.",
+      "story": "A Limerick train driver has been recognised nationally for her exceptional service to rail passengers at the annual Iarnród Éireann Customer Experience Excellence Awards.\n\nJacqueline McMahon secured the Driver Excellence Award after being nominated by colleagues who highlighted her ability to combine empathy with practical help, stepping in to support passengers when they need it most.\n\nOther Limerick staff also earned recognition at the national awards ceremony. Andressa Costa, a Customer Service Officer, was named as a finalist in the Onboard Staff category, while Kevin Maloney, Station Controller at Colbert Station, reached the finals in the Station Staff category.",
+      "localAngle": "Three Limerick-based rail workers were recognised for national excellence, including Colbert Station's station controller and an onboard customer service officer.",
+      "section": "News",
+      "importance": 2,
+      "positivity": 4,
+      "originalTitle": "Limerick train driver wins excellence award",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/31/limerick-train-driver-wins-excellence-award/",
+      "publishedAt": "Sat, 31 Oct 2026 12:00:21 +0000",
+      "rewrittenAt": "2026-10-31T15:16:43.086Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2025/02/irishrail-1200x675-1.jpg",
+      "imageCheckedAt": "2026-10-31T15:17:02.715Z"
+    },
+    "https://www.limerickpost.ie/?p=362695": {
+      "headline": "Garryowen's Gordon Wood to make first Munster start against Sharks at Thomond Park",
+      "summary": "Academy centre Gordon Wood will make his first start for Munster in Saturday's United Rugby Championship clash against the Sharks at Thomond Park. Coach Clayton McMillan has named an exciting young backline for the 5.30pm fixture.",
+      "story": "Garryowen clubman Gordon Wood is set for a milestone appearance this Saturday as he makes his first-ever start for Munster in their United Rugby Championship encounter with the Sharks. Kick-off at Thomond Park is scheduled for 5.30pm.\n\nMunster coach Clayton McMillan praised the 22-year-old academy centre ahead of the game. \"It will be a special day for Gordy making his first start for his home province as part of an exciting young backline. He is an impressive young man and we’re looking forward to seeing what he can do,\" McMillan said.\n\nAlongside Wood, former Leinster player Rob Russell is handed his Munster debut on the wing. Other changes to the starting XV see Ben O’Donovan, JJ Hanrahan, Evan O’Connell, Seán Edogbo, and Brian Gleeson all brought into the lineup.\n\nMcMillan noted the team is eager to finish the opening block of fixtures with a strong home performance after working on improvements in the scrum, maul, and attack over the summer. Munster also welcomes Edwin Edogbo and Lee Barron back to the matchday mix following injury layoffs.",
+      "localAngle": "Local Garryowen product Gordon Wood makes his first starting appearance for his home province at Thomond Park.",
+      "section": "Sport",
+      "importance": 3,
+      "positivity": 4,
+      "originalTitle": "Academy centre makes first start for Munster",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/31/academy-centre-makes-first-start-for-munster/",
+      "publishedAt": "Sat, 31 Oct 2026 11:00:30 +0000",
+      "rewrittenAt": "2026-10-31T15:17:01.774Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2024/11/Gordon-Wood.-Picture-Munster-Rugby.png",
+      "imageCheckedAt": "2026-10-31T15:17:02.955Z"
     }
   }
 }
