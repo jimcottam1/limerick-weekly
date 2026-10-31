@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastScrape": "2026-10-31T15:15:28.492Z",
-    "totalArticles": 26
+    "lastScrape": "2026-10-31T17:38:27.517Z",
+    "totalArticles": 22
   },
   "articles": {
     "9290418": {
@@ -2221,6 +2221,16 @@
       "author": "Mal Keaveney",
       "source": "limerickpost",
       "scrapedAt": "2026-10-31T15:15:17.181Z"
+    },
+    "https://www.limerickpost.ie/?p=362711": {
+      "id": "https://www.limerickpost.ie/?p=362711",
+      "title": "Jail for man who drove car into pedestrian",
+      "link": "https://www.limerickpost.ie/2026/10/31/jail-for-man-who-drove-car-into-pedestrian/",
+      "description": "A DRIVER who chased and drove into another man in a feud-related attack was jailed for more than two years at Limerick Circuit Criminal Court. Michael Shannon, (31), Lenihan Avenue, Prospect, Limerick, pleaded guilty in court to affray, and to producing an iron bar during the course of the violent episode at Hyde Avenue, Limerick [&#8230;]\nThe post Jail for man who drove car into pedestrian appeared first on Limerick Post.",
+      "pubDate": "Sat, 31 Oct 2026 16:30:25 +0000",
+      "author": "David Raleigh",
+      "source": "limerickpost",
+      "scrapedAt": "2026-10-31T17:38:13.034Z"
     }
   },
   "rewritten": {
@@ -4864,6 +4874,22 @@
       "rewrittenAt": "2026-10-31T15:17:01.774Z",
       "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2024/11/Gordon-Wood.-Picture-Munster-Rugby.png",
       "imageCheckedAt": "2026-10-31T15:17:02.955Z"
+    },
+    "https://www.limerickpost.ie/?p=362711": {
+      "headline": "Prospect man jailed for over two years after driving car into pedestrian in Hyde Avenue",
+      "summary": "Michael Shannon, 31, was sentenced to two years and three months at Limerick Circuit Criminal Court after pleading guilty to affray and producing an iron bar during a violent feud-related incident on April 4, 2025.",
+      "story": "A 31-year-old Limerick man who chased and drove a car into a pedestrian during a violent street altercation has been jailed for over two years at Limerick Circuit Criminal Court. Michael Shannon, of Lenihan Avenue, Prospect, pleaded guilty to charges of affray and producing an iron bar during the incident on Hyde Avenue on the south side of the city on April 4, 2025.\n\nCCTV footage played in court captured Shannon and his passengers encountering another group of men near a pedestrian crossing. The footage showed an altercation during which one of the other men used an iron bar to smash the windscreen of Shannon’s Nissan Qashqai. Shannon subsequently left the scene, returned shortly afterwards, and drove at speed directly into the man who had broken his window, before colliding with another car. The injured man fled on foot, while Shannon drove away on the wrong side of the road.\n\nJudge Colin Daly rejected Shannon's claim that the attack was unrelated to an ongoing local feud, noting that the accused's decision to return to the scene increased his culpability. Gardaí told the court the incident stemmed from a three-year feud between rival families in the Hyde Road area that has involved numerous violent episodes. Defence barrister Donal Cronin BL noted that Shannon had no previous convictions for violence, had apologized, accepted his behavior was wrong, and had since made peace with the other parties.\n\nJudge Daly reduced Shannon's sentence from three years to two years and three months, taking into account his guilty plea, lack of violent history, and the fact that he is a father of five who has been employed for the past two years. Shannon has over twenty previous convictions, including for road traffic offences, burglary, handling stolen property, and drug possession.",
+      "localAngle": "The violent incident occurred on Hyde Avenue and was linked by Gardaí to an ongoing local feud in the area.",
+      "section": "Courts",
+      "importance": 4,
+      "positivity": 1,
+      "originalTitle": "Jail for man who drove car into pedestrian",
+      "originalSource": "limerickpost",
+      "originalLink": "https://www.limerickpost.ie/2026/10/31/jail-for-man-who-drove-car-into-pedestrian/",
+      "publishedAt": "Sat, 31 Oct 2026 16:30:25 +0000",
+      "rewrittenAt": "2026-10-31T17:38:47.845Z",
+      "imageUrl": "https://www.limerickpost.ie/site/wp-content/uploads/2026/05/tingey-injury-law-firm-DZpc4UY8ZtY-unsplash.jpg",
+      "imageCheckedAt": "2026-10-31T17:38:48.207Z"
     }
   }
 }
